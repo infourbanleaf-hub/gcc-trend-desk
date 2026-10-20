@@ -16,12 +16,19 @@ class Graph:
         self.token = token
         self.base = f"https://graph.facebook.com/{version}/"
         self.http = session or requests.Session()
+        self.calls = 0
+        self.retries = 0
+        self.wait = 0.0
 
     def get(self, path, **params):
         params["access_token"] = self.token
         for attempt in range(3):
+            t0 = time.time()
             r = self.http.get(self.base + path.lstrip("/"), params=params, timeout=30)
+            self.calls += 1
+            self.wait += time.time() - t0
             if r.status_code in (429, 500, 502, 503) and attempt < 2:
+                self.retries += 1
                 time.sleep(5 * (attempt + 1))
                 continue
             try:

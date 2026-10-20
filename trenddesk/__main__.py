@@ -5,6 +5,7 @@
 import argparse
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -46,7 +47,11 @@ def run_pulse(cfg, dry):
     ig = cfg["instagram"]
     now = datetime.now(timezone.utc)
     print("Instagram hashtag pulse")
+    t0 = time.time()
     posts = instagram.collect_pulse(g, env("IG_USER_ID"), ig["hashtags"])
+    t1 = time.time()
+    timing = f"API: {g.calls} calls, {g.retries} retries, {g.wait:.0f}s waiting, {t1 - t0:.0f}s total"
+    print(timing)
     if dry:
         rows = instagram.merge_pulse([], posts, now, ig.get("keep_days", 14))
         print(f"{len(posts)} posts read; top 10:")
@@ -57,6 +62,9 @@ def run_pulse(cfg, dry):
     ws = sheets.tab(book, "Instagram Pulse", instagram.PULSE_HEADERS)
     rows = instagram.merge_pulse(records(ws), posts, now, ig.get("keep_days", 14))
     sheets.rewrite(ws, instagram.PULSE_HEADERS, rows)
+    timing += f"; sheet: {time.time() - t1:.0f}s"
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::notice title=Timing::{timing}")
     stamp = now.astimezone(instagram.GULF).strftime(instagram.FMT)
     sheets.set_status(book, "Q6", f"Last Instagram pulse: {stamp} Gulf time - {len(posts)} posts read, {len(rows)} tracked")
     print(f"Wrote {len(rows)} rows to Instagram Pulse")
