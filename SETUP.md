@@ -67,7 +67,7 @@ Hashtag search uses Meta's **Instagram Public Content Access** feature. Business
 3. Describe the use honestly: *"We read public posts on Gulf shopping hashtags to see which consumer
    products are trending in the UAE and Saudi Arabia, for our own product research. Data stays in
    our internal Google Sheet."*
-4. Until it is approved, the hourly Instagram pulse logs a permission error and writes nothing; the
+4. Until it is approved, the weekly Instagram pulse logs a permission error and writes nothing; the
    other two jobs still work. Run **Check setup** (step 9) to see which state you are in.
 
 ## Step 7 — Google service account so GitHub can write to the sheet (15 min)
