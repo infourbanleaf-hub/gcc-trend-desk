@@ -82,3 +82,21 @@ def test_api_errors_are_logged_not_fatal():
     seen = []
     assert instagram.collect_pulse(g, "u1", {"UAE": ["x"]}, log=seen.append) == []
     assert "token expired" in seen[0]
+
+
+def test_graph_retries_timeouts_then_raises_grapherror(monkeypatch):
+    import requests
+    from trenddesk.graph import Graph
+
+    class Boom:
+        calls = 0
+
+        def get(self, *a, **k):
+            Boom.calls += 1
+            raise requests.ReadTimeout("slow")
+
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    g = Graph("t", session=Boom())
+    with pytest.raises(GraphError):
+        g.get("x")
+    assert Boom.calls == 3 and g.retries == 2
