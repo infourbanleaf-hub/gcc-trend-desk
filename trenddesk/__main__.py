@@ -52,6 +52,8 @@ def run_pulse(cfg, dry):
     t1 = time.time()
     timing = f"API: {g.calls} calls, {g.retries} retries, {g.wait:.0f}s waiting, {t1 - t0:.0f}s total"
     print(timing)
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::notice title=API timing::{timing}")
     if dry:
         rows = instagram.merge_pulse([], posts, now, ig.get("keep_days", 14))
         print(f"{len(posts)} posts read; top 10:")
@@ -163,7 +165,16 @@ def main():
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
-    {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience}[a.job](cfg, a.dry_run)
+    try:
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience}[a.job](cfg, a.dry_run)
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(tb)
+        if os.environ.get("GITHUB_ACTIONS"):
+            where = traceback.extract_tb(e.__traceback__)[-1]
+            print(f"::error title={a.job} crashed::{type(e).__name__}: {str(e)[:400]} (at {Path(where.filename).name}:{where.lineno})")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
