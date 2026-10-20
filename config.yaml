@@ -17,8 +17,8 @@ instagram:
     Kuwait: [الكويت, kuwaitshopping, تسوق_الكويت]
     Qatar: [قطر, qatarshopping, الدوحة]
     Oman: [عمان, مسقط, omanshopping]
-  # Posts older than this are removed from the "Instagram Pulse" tab.
-  keep_days: 14
+  # Posts older than this are removed from the "Instagram Pulse" tab (3 weekly runs).
+  keep_days: 21
 
   # Gulf online shops to track with Business Discovery (public business/creator accounts only).
   # Exact Instagram usernames, without '@'. Example format:

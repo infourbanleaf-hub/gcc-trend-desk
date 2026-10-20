@@ -8,7 +8,7 @@ At the end, GitHub runs three jobs on its own servers (your PC can be off) and w
 
 | Job | When | Tab it fills |
 | --- | --- | --- |
-| Instagram pulse | Every 3 hours | Instagram Pulse |
+| Instagram pulse | Monday, 07:47 IST | Instagram Pulse |
 | Gulf shops | Daily, 09:11 IST | Gulf Shops, Gulf Shop Posts |
 | Meta audience sizes | Monday, 09:53 IST | Audience Size |
 
@@ -108,7 +108,7 @@ From then on the jobs run on their own. GitHub emails info.urbanleaf@gmail.com i
 
 - **Change hashtags, shops or interests:** edit `config.yaml` on GitHub (pencil icon → Commit). Keep hashtags at 28 or fewer.
 - **Add Gulf shops to track:** under `instagram → shops`, one line each: `- {username: shopname, country: UAE}`.
-- **Free limits:** a private repo gets 2,000 free Actions minutes a month; these jobs use roughly 500–700.
+- **Free limits:** a private repo gets 2,000 free Actions minutes a month; these jobs use under 150.
 - **If the token is ever exposed:** Business settings → System users → `trend-desk` → revoke, generate a new one, update the secret.
 
 ## What this does not do
