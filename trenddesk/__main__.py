@@ -116,10 +116,15 @@ def run_check(cfg, dry):
     def report(label, fn):
         nonlocal ok
         try:
-            print(f"OK    {label}: {fn()}")
+            msg = fn()
+            print(f"OK    {label}: {msg}")
+            if os.environ.get("GITHUB_ACTIONS"):
+                print(f"::notice title=OK {label}::{msg}")
         except Exception as e:  # report every problem in one go
             ok = False
             print(f"FAIL  {label}: {e}")
+            if os.environ.get("GITHUB_ACTIONS"):
+                print(f"::error title=FAIL {label}::{e}")
 
     def need(name, note=""):
         v = os.environ.get(name, "").strip()
