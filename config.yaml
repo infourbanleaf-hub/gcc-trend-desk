@@ -1,0 +1,40 @@
+# GCC Trend Desk configuration. Edit this file on GitHub (pencil icon) to change what is tracked.
+# Nothing secret goes here: tokens live in GitHub "Secrets" (see SETUP.md).
+
+# Google Sheet "Product Discovery Tracker" (the long ID in its URL).
+sheet_id: 12pNC_wBEwh2Wmptbve9O2fEkZbTA0gM33YQ4FkJ3sTM
+
+# Meta Graph API version used for Instagram and Marketing API calls.
+graph_version: v23.0
+
+instagram:
+  # Instagram allows 30 different hashtags per rolling 7 days per account.
+  # Keep the total below 28 so there is room for a test. No '#', no spaces.
+  # Starting list - replace freely with what your team sees working.
+  hashtags:
+    UAE: [dubaishopping, uaeshopping, تسوق_دبي, منتجات_مفيدة, دبي]
+    Saudi Arabia: [السعودية_تسوق, تسوق_اونلاين, الرياض, جدة, ksashopping]
+    Kuwait: [الكويت, kuwaitshopping, تسوق_الكويت]
+    Qatar: [قطر, qatarshopping, الدوحة]
+    Oman: [عمان, مسقط, omanshopping]
+  # Posts older than this are removed from the "Instagram Pulse" tab.
+  keep_days: 14
+
+  # Gulf online shops to track with Business Discovery (public business/creator accounts only).
+  # Exact Instagram usernames, without '@'. Example format:
+  #   - {username: someshop.ae, country: UAE}
+  shops: []
+
+meta_audience:
+  # Meta ad account number (digits only) is stored as the secret META_AD_ACCOUNT_ID.
+  # Each term is matched to Meta's closest interest; the matched name is shown in the sheet.
+  countries: {UAE: AE, Saudi Arabia: SA, Qatar: QA, Oman: OM, Kuwait: KW}
+  interests:
+    - Kitchen utensil
+    - Car accessories
+    - Travel
+    - Sunglasses
+    - Home organisation
+    - Oud
+    - Modest fashion
+    - Foot care

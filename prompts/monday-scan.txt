@@ -1,0 +1,28 @@
+Weekly GCC product-signal scan for Faizan's India-to-GCC ecommerce business (Google account info.urbanleaf@gmail.com). Read-only browsing only: never log in, like, follow, message, buy, or submit forms. Never invent numbers, names or links; record only what the page shows. Use the built-in browser; if it is unavailable, use Claude in Chrome.
+
+Countries: UAE (AE), Saudi Arabia (SA), Qatar (QA), Oman (OM), Kuwait (KW). Write country names exactly as: UAE, Saudi Arabia, Qatar, Oman, Kuwait.
+
+PART A — Ad signals (file 1)
+1. Meta Ad Library, for each country code: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=<CODE>&q=<KEYWORD>&search_type=keyword_unordered&media_type=all with keywords: الدفع عند الاستلام, توصيل مجاني, cash on delivery, free delivery. Wait for results, scroll twice. Keep product ads from online shops (skip big brands, food delivery, real estate, apps, coupons). For each kept ad record advertiser, product, "Started running on" date, days running as of today, whether it has multiple versions, Library ID. Prefer ads running 21+ days. Aim for 8-12 rows per country, de-duplicated by advertiser.
+2. TikTok Creative Center (https://ads.tiktok.com/business/creativecenter/) top ads, top products and trending hashtags, filtered to UAE and Saudi Arabia (and Kuwait/Qatar/Oman if offered), last 7 days. Record product, metric shown (CTR, likes, popularity), URL.
+3. Save to Google Drive (Google Drive connector, create_file, text/csv, disableConversionToGoogleType true) as weekly_adsignals_YYYY-MM-DD.csv with header exactly:
+Country,Platform,Keyword / Filter,Product,Advertiser,Ad Running Since,Days Running,Ad Variations,Engagement / Metric,URL,Note
+(Ad URL format: https://www.facebook.com/ads/library/?id=<LibraryID>. Ad Running Since as YYYY-MM-DD. Note = whether it passes the gates below.)
+
+PART B — Marketplace and search signals (file 2)
+4. Amazon best sellers (top 30, keep items priced roughly 25-200 AED/SAR, skip grocery): amazon.ae/gp/bestsellers/{kitchen,fashion,home,automotive,beauty} and amazon.sa/gp/bestsellers/{fashion,home,automotive}. Also try amazon.ae/gp/movers-and-shakers/ and amazon.sa/gp/movers-and-shakers/ (often empty; skip if so). Record rank, product, price, review count, URL https://www.amazon.ae/dp/<ASIN> (or .sa).
+5. Noon best sellers: https://www.noon.com/uae-en/home-kitchen-bestseller/ and https://www.noon.com/saudi-en/home-kitchen-bestseller/ (plus any other "bestseller" VIEW ALL links on the Home & Kitchen, Women's Fashion and Men's Fashion category pages). Record rank, product, price.
+6. Google Trends: compare the current top 5 shortlisted candidate products (from the Candidates tab of the "Product Discovery Tracker" sheet, status Shortlisted/New) in Arabic for geo=SA and in English for geo=AE, past 12 months (https://trends.google.com/trends/explore?date=today%2012-m&geo=SA&q=a,b,c,d,e). Scroll down to load, read the "Average" row of the comparison table. If Google shows an error or rate limit, wait 60s and try once more, then skip.
+7. Pinterest Trends (https://trends.pinterest.com/?country=EG and country=TR; no Gulf region exists): record the top growing searches that relate to products, with weekly/monthly/yearly change. Country = "Egypt (proxy)" or "Turkey (proxy)".
+8. TikTok public discover pages: https://www.tiktok.com/discover/trending-in-saudi-arabia and https://www.tiktok.com/discover/trending-in-uae — record product-related trends only.
+9. Save to Drive as weekly_market_YYYY-MM-DD.csv with header exactly:
+Country,Platform,Category / Query,Product / Keyword,Rank,Price,Rating / Reviews,Movement,URL,Note
+
+PART C — New candidates (file 3, only if any)
+10. Products that appear in 2+ independent sources above AND pass all gates go to weekly_candidates_YYYY-MM-DD-m.csv with header exactly:
+Product,Link,Source,TikTok Signal,Trends Shape,Market Price (AED),Est. Weight (g),Status,Note
+Source must be one of: TikTok, Meta Ads, Instagram, Facebook, Google Trends, Snapchat, Pinterest, YouTube, Marketplace, Team Drop. Trends Shape must be one of: Rising, Flat, Declining, Seasonal (or blank). TikTok Signal must be one of Viral, Warm, Cold (or blank). Status = New. Put the evidence in Note and say when weight is an estimate.
+
+Gates: India sourcing cost under ₹350, under 400 g, GCC retail AED 69-149 (bundles allowed), demonstrable in a 15-second video, not in every mall, no batteries, liquids, glass, supplements, medical claims or counterfeits.
+
+Finish with a short summary per country: top 3 proven ads, top 3 marketplace movers, any new candidates, and anything that failed to load.
