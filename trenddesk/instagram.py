@@ -36,32 +36,39 @@ def hashtag_budget(hashtags_by_country):
     return tags
 
 
-def collect_pulse(graph, user_id, hashtags_by_country, log=print):
-    hashtag_budget(hashtags_by_country)
-    posts = []
-    for country, tags in hashtags_by_country.items():
-        for tag in tags:
-            tag = tag.strip().lstrip("#")
-            try:
-                found = graph.get("ig_hashtag_search", user_id=user_id, q=tag).get("data", [])
-                if not found:
-                    log(f"  #{tag}: no such hashtag")
+def _one_hashtag(graph, user_id, country, tag, log):
+    out = []
+    try:
+        found = graph.get("ig_hashtag_search", user_id=user_id, q=tag).get("data", [])
+        if not found:
+            log(f"  #{tag}: no such hashtag")
+            return out
+        hid = found[0]["id"]
+        for feed in ("top_media", "recent_media"):
+            data = graph.get(f"{hid}/{feed}", user_id=user_id, fields=POST_FIELDS, limit=50).get("data", [])
+            for m in data:
+                if not m.get("permalink") or not m.get("timestamp"):
                     continue
-                hid = found[0]["id"]
-                for feed in ("top_media", "recent_media"):
-                    data = graph.get(f"{hid}/{feed}", user_id=user_id, fields=POST_FIELDS, limit=50).get("data", [])
-                    for m in data:
-                        if not m.get("permalink") or not m.get("timestamp"):
-                            continue
-                        posts.append({"link": m["permalink"], "country": country, "hashtag": "#" + tag,
-                                      "feed": "Top" if feed == "top_media" else "Recent",
-                                      "posted": _ts(m["timestamp"]), "likes": _num(m.get("like_count")),
-                                      "comments": _num(m.get("comments_count")),
-                                      "media_type": m.get("media_type", ""), "caption": _clean(m.get("caption"))})
-                log(f"  #{tag}: ok")
-            except GraphError as e:
-                log(f"  #{tag}: {e}")
-    return posts
+                out.append({"link": m["permalink"], "country": country, "hashtag": "#" + tag,
+                            "feed": "Top" if feed == "top_media" else "Recent",
+                            "posted": _ts(m["timestamp"]), "likes": _num(m.get("like_count")),
+                            "comments": _num(m.get("comments_count")),
+                            "media_type": m.get("media_type", ""), "caption": _clean(m.get("caption"))})
+        log(f"  #{tag}: ok")
+    except GraphError as e:
+        log(f"  #{tag}: {e}")
+    return out
+
+
+def collect_pulse(graph, user_id, hashtags_by_country, log=print, workers=6):
+    """Meta's hashtag endpoints answer slowly (several seconds a call), so hashtags run in parallel."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    hashtag_budget(hashtags_by_country)
+    jobs = [(c, t.strip().lstrip("#")) for c, tags in hashtags_by_country.items() for t in tags]
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(lambda j: _one_hashtag(graph, user_id, j[0], j[1], log), jobs))
+    return [p for r in results for p in r]
 
 
 def merge_pulse(existing, posts, now, keep_days=14):

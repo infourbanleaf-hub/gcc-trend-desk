@@ -5,7 +5,7 @@ signals from Meta's official APIs and write them into the **Product Discovery Tr
 
 | Workflow | Schedule | Source (official API) | Sheet tab |
 | --- | --- | --- | --- |
-| Instagram pulse | hourly | Instagram Graph API — hashtag top + recent media | Instagram Pulse |
+| Instagram pulse | every 3 hours | Instagram Graph API — hashtag top + recent media | Instagram Pulse |
 | Gulf shops | daily | Instagram Graph API — Business Discovery | Gulf Shops, Gulf Shop Posts |
 | Meta audience sizes | weekly (Mon) | Meta Marketing API — delivery estimates | Audience Size |
 | Check setup | manual | all of the above + sheet access | — |

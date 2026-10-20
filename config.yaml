@@ -28,13 +28,14 @@ instagram:
 meta_audience:
   # Meta ad account number (digits only) is stored as the secret META_AD_ACCOUNT_ID.
   # Each term is matched to Meta's closest interest; the matched name is shown in the sheet.
+  # Terms with no Meta interest are skipped (Oud, Foot care and Home organisation had none on 20 Oct 2026).
   countries: {UAE: AE, Saudi Arabia: SA, Qatar: QA, Oman: OM, Kuwait: KW}
   interests:
     - Kitchen utensil
     - Car accessories
     - Travel
     - Sunglasses
-    - Home organisation
-    - Oud
-    - Modest fashion
-    - Foot care
+    - Home improvement
+    - Perfume
+    - Hijab
+    - Shoes
