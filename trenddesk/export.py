@@ -121,6 +121,19 @@ def _amazon_image(url):
     return None
 
 
+_AMAP = None
+
+
+def _amazon_map():
+    """ASIN -> picture id saved from product pages (dashboard/amazon_images.yaml)."""
+    global _AMAP
+    if _AMAP is None:
+        import yaml
+        f = Path(__file__).resolve().parent.parent / "dashboard" / "amazon_images.yaml"
+        _AMAP = {str(k): str(v) for k, v in (yaml.safe_load(f.read_text(encoding="utf-8")) or {}).items()} if f.exists() else {}
+    return _AMAP
+
+
 def _og_image(url):
     html = requests.get(url, headers=UA, timeout=20).text
     m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', html) or \
@@ -134,6 +147,9 @@ def image_source(it):
     url = str(it.get("url", ""))
     if "amazon." in url:
         m = re.search(r"/(?:dp|gp/product)/([A-Z0-9]{10})", url)
+        known = _amazon_map().get(m.group(1)) if m else None
+        if known:
+            return "https://m.media-amazon.com/images/I/" + known
         if m:  # Amazon's ASIN image endpoint: no product page, so no captcha
             for host in ("m.media-amazon.com", "images-na.ssl-images-amazon.com"):
                 src = f"https://{host}/images/P/{m.group(1)}.01._SCLZZZZZZZ_.jpg"

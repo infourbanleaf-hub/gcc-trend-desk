@@ -1,5 +1,7 @@
 name: Dashboard export (pictures + data)
 on:
+  schedule:
+    - cron: "37 8 * * 1"   # Monday 12:37 Gulf time / 14:07 IST, after the sheet's Monday imports
   workflow_dispatch: {}
 permissions:
   contents: write
