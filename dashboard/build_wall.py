@@ -38,6 +38,26 @@ for it in items:
         it["first_seen"] = first[k]
     keep.append(it)
 items = keep
+
+# YouTube search returns many off-topic videos (phone launches, money-making, family vlogs).
+# Keep only titles about buyable products, and one card per title.
+import re
+YT_KEEP = re.compile(r"amazon|\bfinds?\b|gadget|products?\b|productos|kitchen|tools?\b|must.?have|useful|organi[sz]|accessor|temu|shein|meesho|"
+                     r"dicer|chopper|cutter|home ?essentials|homedecor|"
+                     r"منتج|أدا[ةو]|ادوات|أدوات|مطبخ|امازون|أمازون|شي ?ان|تيمو|اكسسوار|مفيد", re.I)
+YT_DROP = re.compile(r"iphone|xiaomi|samsung|vivo|realme|ps5|playstation|money|\bai\b|inteligencia|tesla|challenge|prank|squishy|needoh|"
+                     r"sephora|snack|groceries|ranking|cheating|collagen|instagram ads|celebrity|wedding|maternity|trimester|costume|"
+                     r"dreamina|cycling|smart tv|bottles|employee|mom can|stop talking|fire in toilet|who won|sister|dumpling|gastando|farmacia|crazy|ضحك|اكسبلور|نانا|شهاب|غزل|ندوشة|جوان|ليليان|هيلين|دانيال|خلودة|غفران|حمامات|البابا", re.I)
+seen_titles, kept = set(), []
+for it in items:
+    if it["type"] == "YouTube":
+        t = str(it.get("title", ""))
+        key = re.sub(r"\W+", "", t.lower())[:60]
+        if not YT_KEEP.search(t) or YT_DROP.search(t) or key in seen_titles:
+            continue
+        seen_titles.add(key)
+    kept.append(it)
+items = kept
 rows = []
 for it in items:
     img = ""
