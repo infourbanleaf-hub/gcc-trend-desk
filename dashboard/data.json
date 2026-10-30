@@ -402,8 +402,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c20",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "f875623e75c36df9.jpg"
 },
 {
 "type": "Candidate",
@@ -442,8 +441,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c22",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "a423e5d859771471.jpg"
 },
 {
 "type": "Candidate",
@@ -559,8 +557,7 @@
 "note": "",
 "date": "30/10/2026",
 "id": "c28",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "fa28b667eaaba005.jpg"
 },
 {
 "type": "Candidate",
@@ -799,7 +796,7 @@
 "note": "Electric: gate fail",
 "date": "03/10/2026",
 "id": "a40",
-"img": "91b4d03f394782aa.jpg"
+"img": "883fae8f4e6a39ff.jpg"
 },
 {
 "type": "Amazon",
@@ -818,8 +815,7 @@
 "note": "Humidity; chemical desiccant",
 "date": "03/10/2026",
 "id": "a41",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "4698c8eb21cae219.jpg"
 },
 {
 "type": "Amazon",
@@ -878,7 +874,7 @@
 "note": "Light, India-sourceable; candidate",
 "date": "03/10/2026",
 "id": "a44",
-"img": "c9bb434eebbf9268.jpg"
+"img": "f875623e75c36df9.jpg"
 },
 {
 "type": "Amazon",
@@ -977,8 +973,7 @@
 "note": "K-beauty dominates top 10; liquid",
 "date": "03/10/2026",
 "id": "a49",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "79a3d65cc2e494a7.jpg"
 },
 {
 "type": "Amazon",
@@ -997,7 +992,8 @@
 "note": "Bulky",
 "date": "03/10/2026",
 "id": "a50",
-"img": "0d153c5d39817315.jpg"
+"img": null,
+"img_error": "Amazon captcha"
 },
 {
 "type": "Amazon",
@@ -1036,7 +1032,8 @@
 "note": "Matches UAE car-ornament ad signal",
 "date": "03/10/2026",
 "id": "a52",
-"img": "33d2b1fa88410ca7.jpg"
+"img": null,
+"img_error": "Amazon captcha"
 },
 {
 "type": "Amazon",
@@ -1115,8 +1112,7 @@
 "note": "Very demo-able; candidate",
 "date": "03/10/2026",
 "id": "a56",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "a423e5d859771471.jpg"
 },
 {
 "type": "Amazon",
@@ -1135,8 +1131,7 @@
 "note": "Heavy multipack",
 "date": "03/10/2026",
 "id": "a57",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "591afd8bbf26d48e.jpg"
 },
 {
 "type": "Amazon",
@@ -1155,7 +1150,8 @@
 "note": "India textile fit",
 "date": "03/10/2026",
 "id": "a58",
-"img": "a4080ab786fd54f7.jpg"
+"img": null,
+"img_error": "Amazon captcha"
 },
 {
 "type": "Amazon",
@@ -1252,8 +1248,7 @@
 "note": "Indian brand (Godrej) top-selling in KSA",
 "date": "03/10/2026",
 "id": "a63",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "67482e1960d0336e.jpg"
 },
 {
 "type": "Amazon",
@@ -1272,8 +1267,7 @@
 "note": "Indian brand",
 "date": "03/10/2026",
 "id": "a64",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "766b782b6aaea30c.jpg"
 },
 {
 "type": "Amazon",
@@ -1292,8 +1286,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a65",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "e944604c95806c9f.jpg"
 },
 {
 "type": "Amazon",
@@ -1797,8 +1790,7 @@
 "note": "Seasonal: UAE National Day 2 Dec; India cotton fit",
 "date": "30/10/2026",
 "id": "a91",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "fa28b667eaaba005.jpg"
 },
 {
 "type": "Amazon",
@@ -1837,7 +1829,8 @@
 "note": "Light; India fit",
 "date": "30/10/2026",
 "id": "a93",
-"img": "5a0439df5b8491e0.jpg"
+"img": null,
+"img_error": "Amazon captcha"
 },
 {
 "type": "Amazon",
@@ -1876,7 +1869,7 @@
 "note": "Cooling",
 "date": "30/10/2026",
 "id": "a95",
-"img": "c9bb434eebbf9268.jpg"
+"img": "f875623e75c36df9.jpg"
 },
 {
 "type": "Amazon",
@@ -1915,7 +1908,7 @@
 "note": "Electric: gate fail",
 "date": "30/10/2026",
 "id": "a97",
-"img": "91b4d03f394782aa.jpg"
+"img": "883fae8f4e6a39ff.jpg"
 },
 {
 "type": "Amazon",
@@ -1954,8 +1947,7 @@
 "note": "",
 "date": "30/10/2026",
 "id": "a99",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "f33e5a5d7e21aa66.jpg"
 },
 {
 "type": "Amazon",
@@ -1974,8 +1966,7 @@
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
 "id": "a100",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "22e7bb87690ff1ed.jpg"
 },
 {
 "type": "Amazon",
@@ -1994,8 +1985,7 @@
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
 "id": "a101",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "64e6e25ac94587db.jpg"
 },
 {
 "type": "Amazon",
@@ -2054,8 +2044,7 @@
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
 "id": "a104",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "7dbc199a65fd0640.jpg"
 },
 {
 "type": "Amazon",
