@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import audience, instagram, sheets
+from . import audience, export, instagram, sheets
 from .graph import Graph, GraphError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -159,14 +159,18 @@ def run_check(cfg, dry):
         sys.exit(1)
 
 
+def run_export(cfg, dry):
+    export.run(sheets.open_sheet(cfg["sheet_id"]))
+
+
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
