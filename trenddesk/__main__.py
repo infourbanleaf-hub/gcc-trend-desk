@@ -169,7 +169,7 @@ def run_findshops(cfg, dry):
             bio = " ".join(str(bd.get("biography", "")).split())[:90]
             print(f"::notice title=FOUND {name}::{bd.get('name','')} | {bd.get('followers_count')} followers | {bd.get('media_count')} posts | {bio}")
         except (GraphError, KeyError) as e:
-            print(f"  {name}: not found ({str(e)[:60]})")
+            print(f"::warning title=MISS {name}::{str(e)[:120]}")
 
 
 def run_export(cfg, dry):
