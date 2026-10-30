@@ -103,9 +103,62 @@ def collect(book, yt_limit=160):
         elif r.get("Country") and r.get("Country") not in cur["countries"]:
             cur["countries"].append(r.get("Country"))
     items += sorted(best.values(), key=lambda x: -x["views"])[:yt_limit]
+    items += video_products(rows_of(book, "YouTube Products"))
     for i, it in enumerate(items):
         it["id"] = f"{it['type'][0].lower()}{i}"
     return items
+
+
+GENERIC = re.compile(r"^\(|^(amazon|shop|aliexpress|temu|link|links|india|usa|uk|argentina|buy|here|my |check it|link en bio)\b|"
+                     r"international|consultas|storefront|#shorts|\*\*$", re.I)
+
+
+def _resolve(link):
+    """Follow short links (amzn.to, a.co) without opening the product page; return the final URL."""
+    url = link
+    for _ in range(5):
+        try:
+            r = requests.head(url, headers=UA, timeout=15, allow_redirects=False)
+        except requests.RequestException:
+            return url
+        nxt = r.headers.get("Location")
+        if r.status_code not in (301, 302, 303, 307, 308) or not nxt:
+            return url
+        url = requests.compat.urljoin(url, nxt)
+    return url
+
+
+def _slug_name(url):
+    m = re.search(r"amazon\.[a-z.]+/([^/?]+)/(?:dp|gp/product)/", url)
+    if not m or m.group(1) in ("dp", "gp"):
+        return None
+    return re.sub(r"[-_]+", " ", requests.utils.unquote(m.group(1))).strip()[:90]
+
+
+def video_products(rows):
+    """Products named in product-video descriptions (sheet tab "YouTube Products")."""
+    out, seen = [], set()
+    for r in rows:
+        name, link = str(r.get("Product (from description)", "")).strip(), str(r.get("Shopping link", "")).strip()
+        name = re.sub(r"^[^\w(]+", "", name).strip(" :-")
+        if not link and (not name or name.startswith("(")):
+            continue
+        final = _resolve(link) if re.search(r"amzn\.to|a\.co/|amzn\.eu", link) else link
+        if GENERIC.search(name) or len(name) < 3 or name.lower() in str(r.get("Video Title", "")).lower():
+            name = _slug_name(final) or ""
+        if not name:
+            continue  # a shop's front page or a link we can't name: not a product
+        key = (name.lower(), final.split("?")[0])
+        if key in seen:
+            continue
+        seen.add(key)
+        vid = yt_id(r.get("Video"))
+        out.append({"type": "Video product", "title": name, "url": final or r.get("Video", ""),
+                    "countries": [c.strip() for c in str(r.get("Countries", "")).split(",") if c.strip()],
+                    "source": f'{r.get("Channel", "")} video: {str(r.get("Video Title", ""))[:70]}',
+                    "views": num(r.get("Views")), "video": r.get("Video", ""), "yt_fallback": vid,
+                    "date": str(r.get("Scan Date", ""))[:10]})
+    return out
 
 
 def _amazon_image(url):
@@ -142,6 +195,14 @@ def _og_image(url):
 
 
 def image_source(it):
+    if it.get("type") == "Video product":
+        src = None
+        if "amazon." in str(it.get("url", "")):
+            try:
+                src = image_source({"url": it["url"]})
+            except Exception:
+                src = None
+        return src or (f"https://i.ytimg.com/vi/{it['yt_fallback']}/hqdefault.jpg" if it.get("yt_fallback") else None)
     if it.get("yt"):
         return f"https://i.ytimg.com/vi/{it['yt']}/hqdefault.jpg"
     url = str(it.get("url", ""))
@@ -204,7 +265,7 @@ def run(book, out="dashboard"):
         list(ex.map(work, items))
     got = sum(1 for i in items if i.get("img"))
     print(f"pictures: {got}/{len(items)}")
-    for t in ("Candidate", "Amazon", "Meta ad", "YouTube"):
+    for t in ("Candidate", "Amazon", "Meta ad", "YouTube", "Video product"):
         sub = [i for i in items if i["type"] == t]
         print(f"  {t}: {sum(1 for i in sub if i.get('img'))}/{len(sub)} pictures;",
               "; ".join(sorted({i.get('img_error', '') for i in sub if i.get('img_error')}))[:200])
