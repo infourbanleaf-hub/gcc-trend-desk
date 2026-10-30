@@ -133,6 +133,13 @@ def image_source(it):
         return f"https://i.ytimg.com/vi/{it['yt']}/hqdefault.jpg"
     url = str(it.get("url", ""))
     if "amazon." in url:
+        m = re.search(r"/(?:dp|gp/product)/([A-Z0-9]{10})", url)
+        if m:  # Amazon's ASIN image endpoint: no product page, so no captcha
+            for host in ("m.media-amazon.com", "images-na.ssl-images-amazon.com"):
+                src = f"https://{host}/images/P/{m.group(1)}.01._SCLZZZZZZZ_.jpg"
+                r = requests.get(src, headers=UA, timeout=20)
+                if r.ok and len(r.content) > 2000:
+                    return src
         return _amazon_image(url)
     if "youtube.com" in url or "youtu.be" in url:
         vid = yt_id(url)
@@ -146,6 +153,8 @@ def save_image(src, out_dir, size=360):
     from PIL import Image
     data = requests.get(src, headers=UA, timeout=25).content
     im = Image.open(io.BytesIO(data)).convert("RGB")
+    if im.width < 40 or im.height < 40:
+        raise RuntimeError("placeholder image")
     im.thumbnail((size, size))
     name = hashlib.sha1(src.encode()).hexdigest()[:16] + ".jpg"
     im.save(out_dir / name, "JPEG", quality=78, optimize=True)
@@ -175,7 +184,7 @@ def run(book, out="dashboard"):
             it["img"] = None
             it["img_error"] = str(e)[:80]
 
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(3) as ex:
         list(ex.map(work, items))
     got = sum(1 for i in items if i.get("img"))
     print(f"pictures: {got}/{len(items)}")
