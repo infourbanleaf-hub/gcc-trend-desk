@@ -12,11 +12,12 @@ instagram:
   # Keep the total below 28 so there is room for a test. No '#', no spaces.
   # Starting list - replace freely with what your team sees working.
   hashtags:
-    UAE: [dubaishopping, uaeshopping, تسوق_دبي, منتجات_مفيدة, دبي]
-    Saudi Arabia: [السعودية_تسوق, تسوق_اونلاين, الرياض, جدة, ksashopping]
-    Kuwait: [الكويت, kuwaitshopping, تسوق_الكويت]
-    Qatar: [قطر, qatarshopping, الدوحة]
-    Oman: [عمان, مسقط, omanshopping]
+    # Shopping and offer tags only: city tags (دبي, الرياض, الكويت ...) mostly returned news and politics.
+    UAE: [dubaishopping, uaeshopping, تسوق_دبي, منتجات_مفيدة, عروض_الامارات]
+    Saudi Arabia: [السعودية_تسوق, تسوق_اونلاين, ksashopping, عروض_السعودية, الدفع_عند_الاستلام, متجر_الكتروني]
+    Kuwait: [kuwaitshopping, تسوق_الكويت, عروض_الكويت, منتجات_الكويت]
+    Qatar: [qatarshopping, عروض_قطر, تسوق_قطر]
+    Oman: [omanshopping, عروض_عمان]
   # Posts older than this are removed from the "Instagram Pulse" tab (3 weekly runs).
   keep_days: 21
 

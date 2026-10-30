@@ -159,18 +159,31 @@ def run_check(cfg, dry):
         sys.exit(1)
 
 
+def run_findshops(cfg, dry):
+    """Try candidate Instagram usernames (env SHOP_GUESSES, comma-separated) and report the ones that exist."""
+    g = Graph(env("IG_ACCESS_TOKEN"), cfg["graph_version"])
+    uid = env("IG_USER_ID")
+    for name in [n.strip().lstrip("@") for n in os.environ.get("SHOP_GUESSES", "").split(",") if n.strip()]:
+        try:
+            bd = g.get(uid, fields=f"business_discovery.username({name}){{username,name,followers_count,media_count,biography}}")["business_discovery"]
+            bio = " ".join(str(bd.get("biography", "")).split())[:90]
+            print(f"::notice title=FOUND {name}::{bd.get('name','')} | {bd.get('followers_count')} followers | {bd.get('media_count')} posts | {bio}")
+        except (GraphError, KeyError) as e:
+            print(f"  {name}: not found ({str(e)[:60]})")
+
+
 def run_export(cfg, dry):
     export.run(sheets.open_sheet(cfg["sheet_id"]))
 
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
