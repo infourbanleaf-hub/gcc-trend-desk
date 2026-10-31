@@ -16,26 +16,32 @@ TRADE_HEADERS = ["HS code", "Product group", "Country", "Year", "India exports (
 
 
 def fetch(hs_codes, years, log=print):
-    """{(hs, country, year): usd}"""
+    """{(hs, country, year): usd}. The free preview API takes one year per call, so it is called
+    once per year with all HS codes and all five Gulf partners."""
     out = {}
-    for i in range(0, len(hs_codes), 8):
-        cmds = ",".join(hs_codes[i:i + 8])
+    for year in years:
         params = {"reporterCode": INDIA, "partnerCode": ",".join(map(str, GCC)), "flowCode": "X",
-                  "period": ",".join(map(str, years)), "cmdCode": cmds, "includeDesc": "true"}
+                  "period": str(year), "cmdCode": ",".join(hs_codes)}
+        r = None
         for attempt in range(4):
-            r = requests.get(API, params=params, timeout=60)
+            r = requests.get(API, params=params, timeout=90)
             if r.status_code == 429:
-                time.sleep(10 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
-            r.raise_for_status()
             break
-        for row in r.json().get("data", []) or []:
+        if r.status_code != 200:
+            log(f"::warning title=Comtrade {year}::HTTP {r.status_code}: {r.text[:200]}")
+            continue
+        data = r.json().get("data", []) or []
+        for row in data:
             if row.get("partner2Code") not in (0, None) or row.get("customsCode") not in ("C00", None):
+                continue
+            if row.get("motCode") not in (0, None):
                 continue
             key = (str(row["cmdCode"]), GCC.get(row["partnerCode"], str(row["partnerCode"])), int(row["period"]))
             out[key] = out.get(key, 0) + float(row.get("primaryValue") or 0)
-        log(f"  HS {cmds}: ok")
-        time.sleep(2)
+        log(f"  {year}: {len(data)} records")
+        time.sleep(3)
     return out
 
 

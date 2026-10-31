@@ -105,7 +105,7 @@ def lifecycle(it, today, pdate):
         mv = str(it.get("movement", "")).lower()
         rank = num(it.get("rank"))
         was = re.search(r"(?:was|from) #(\d+)", mv)
-        if "new in top" in mv:
+        if "new in top" in mv or "new release" in mv:
             return "Emerging"
         if was and rank is not None:
             return "Growing" if rank < int(was.group(1)) else ("Declining" if rank > int(was.group(1)) + 2 else "Peak")
