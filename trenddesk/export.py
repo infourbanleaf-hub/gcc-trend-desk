@@ -203,7 +203,7 @@ def _candidate_ref(title):
     if _CMAP is None:
         import yaml
         found = {}  # fill a local dict first: worker threads must never see a half-filled map
-        for name in ("candidate_images.yaml", "meta_images.yaml"):
+        for name in ("candidate_images.yaml", "meta_images.yaml", "marketplace_images.yaml"):
             f = Path(__file__).resolve().parent.parent / "dashboard" / name
             if f.exists():
                 found.update(yaml.safe_load(f.read_text(encoding="utf-8")) or {})
@@ -279,14 +279,14 @@ def run(book, out="dashboard"):
             it["img_error"] = str(e)[:80]
 
     def work_ref(it):
-        if it["type"] not in ("Candidate", "Meta ad") or it.get("img"):
+        if it["type"] not in ("Candidate", "Meta ad", "Amazon") or it.get("img"):
             return
         ref = _candidate_ref(it["title"])
         if not ref:
             return
         try:
             it["img"] = save_image("https://m.media-amazon.com/images/I/" + ref["img"], img_dir)
-            it["ref"] = True
+            it["ref"] = ref["asin"] not in str(it.get("url", ""))  # same ASIN = the exact product
             it["ref_url"] = "https://www.amazon.ae/dp/" + ref["asin"]
         except Exception as e:
             it["img_error"] = "reference: " + str(e)[:60]
