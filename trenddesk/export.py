@@ -224,6 +224,9 @@ def image_source(it):
         return f"https://i.ytimg.com/vi/{it['yt']}/hqdefault.jpg"
     url = str(it.get("url", ""))
     if "amazon." in url:
+        noted = re.search(r"img:([\w+-]+)", str(it.get("note", "")))
+        if noted:  # picture id recorded by the Monday scan
+            return f"https://m.media-amazon.com/images/I/{noted.group(1)}._AC_SL500_.jpg"
         m = re.search(r"/(?:dp|gp/product)/([A-Z0-9]{10})", url)
         known = _amazon_map().get(m.group(1)) if m else None
         if known:
