@@ -202,8 +202,11 @@ def _candidate_ref(title):
     global _CMAP
     if _CMAP is None:
         import yaml
-        f = Path(__file__).resolve().parent.parent / "dashboard" / "candidate_images.yaml"
-        _CMAP = yaml.safe_load(f.read_text(encoding="utf-8")) or {} if f.exists() else {}
+        _CMAP = {}
+        for name in ("candidate_images.yaml", "meta_images.yaml"):
+            f = Path(__file__).resolve().parent.parent / "dashboard" / name
+            if f.exists():
+                _CMAP.update(yaml.safe_load(f.read_text(encoding="utf-8")) or {})
     return _CMAP.get(title)
 
 
@@ -275,7 +278,7 @@ def run(book, out="dashboard"):
             it["img_error"] = str(e)[:80]
 
     def work_ref(it):
-        if it["type"] != "Candidate" or it.get("img"):
+        if it["type"] not in ("Candidate", "Meta ad") or it.get("img"):
             return
         ref = _candidate_ref(it["title"])
         if not ref:
