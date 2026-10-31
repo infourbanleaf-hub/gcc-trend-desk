@@ -64,7 +64,13 @@ for it in items:
     if it.get("img"):
         f = repo / "dashboard/img" / it["img"]
         if f.exists():
-            img = "data:image/jpeg;base64," + base64.b64encode(f.read_bytes()).decode()
+            import io
+            from PIL import Image  # shrink to card size so the wall loads fast (about 2 MB in all)
+            im = Image.open(f).convert("RGB")
+            im.thumbnail((260, 260))
+            buf = io.BytesIO()
+            im.save(buf, "JPEG", quality=62, optimize=True)
+            img = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
     cs = [c for c in it.get("countries", []) if c]
     if it["type"] == "YouTube":
         fs = pdate(it.get("published"))
