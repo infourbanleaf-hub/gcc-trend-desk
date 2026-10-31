@@ -139,13 +139,13 @@ WEIGHTS = {"demand": 0.25, "proof": 0.15, "momentum": 0.15, "price": 0.15, "fit"
 
 # Product name -> HS code (4-digit customs group) used in the "India Exports to GCC" tab.
 HS_RULES = [
+    (r"corset|shaper|shapewear|compression|slimming|waist", "6212"),
     (r"socks", "6115"),
     (r"innerwear|underwear|brief|boxer|undershirt|\bvests?\b|sirwal|سروال", "6107"),
     (r"t-shirt|tee\b|\bshirt", "6109"),
     (r"kurta|palazzo|dress", "6104"),
     (r"abaya|kaftan|kimono|outer layer|thobe|عباي", "6211"),
     (r"hijab|scarf|scarves|stole|shawl|massar|turban|dupatta|حجاب", "6214"),
-    (r"corset|shaper|shapewear|compression|slimming|waist", "6212"),
     (r"posture|knee|heel|foot support|brace|drop-foot|back pain", "9021"),
     (r"sunglass|uv400|polari[sz]ed|eyewear", "9004"),
     (r"jewel|necklace|pendant|bracelet|cuff|brooch|\bring\b|charm", "7117"),
