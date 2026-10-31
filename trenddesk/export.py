@@ -202,11 +202,12 @@ def _candidate_ref(title):
     global _CMAP
     if _CMAP is None:
         import yaml
-        _CMAP = {}
+        found = {}  # fill a local dict first: worker threads must never see a half-filled map
         for name in ("candidate_images.yaml", "meta_images.yaml"):
             f = Path(__file__).resolve().parent.parent / "dashboard" / name
             if f.exists():
-                _CMAP.update(yaml.safe_load(f.read_text(encoding="utf-8")) or {})
+                found.update(yaml.safe_load(f.read_text(encoding="utf-8")) or {})
+        _CMAP = found
     return _CMAP.get(title)
 
 
@@ -292,6 +293,7 @@ def run(book, out="dashboard"):
 
     with ThreadPoolExecutor(3) as ex:
         list(ex.map(work, items))
+    _candidate_ref("")  # load the reference map before the threads start
     with ThreadPoolExecutor(3) as ex:
         list(ex.map(work_ref, items))
     got = sum(1 for i in items if i.get("img"))
