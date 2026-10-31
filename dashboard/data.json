@@ -37,7 +37,9 @@
 "note": "",
 "date": "02/10/2026",
 "id": "c1",
-"img": null
+"img": "8c6e6b74e607db27.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GGHY8WF6"
 },
 {
 "type": "Candidate",
@@ -56,7 +58,9 @@
 "note": "",
 "date": "02/10/2026",
 "id": "c2",
-"img": null
+"img": "668d52dfd4e3dc3b.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B098X46VVN"
 },
 {
 "type": "Candidate",
@@ -75,7 +79,9 @@
 "note": "TikTok ad keyword data: 8.28% CVR, 1M impressions (Printify 2026)",
 "date": "02/10/2026",
 "id": "c3",
-"img": null
+"img": "f87c2fe1dd6ad3a8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FZK867ZR"
 },
 {
 "type": "Candidate",
@@ -94,7 +100,9 @@
 "note": "TikTok ad keyword data: 9.60% CVR, 2M impressions (Printify 2026)",
 "date": "02/10/2026",
 "id": "c4",
-"img": null
+"img": "7bd59738abe89e7b.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0G2XS85SR"
 },
 {
 "type": "Candidate",
@@ -113,7 +121,9 @@
 "note": "Vendor claim: peel-and-stick decor, geometric designs +19% YoY (SellTheTrend 2026)",
 "date": "02/10/2026",
 "id": "c5",
-"img": null
+"img": "429ceeff1c3f46c5.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GVS8K472"
 },
 {
 "type": "Candidate",
@@ -132,7 +142,9 @@
 "note": "Vendor claim: rotating necklace searches +53%, 900M+ kinetic-jewelry views (SellTheTrend 2026)",
 "date": "02/10/2026",
 "id": "c6",
-"img": null
+"img": "bcce84aa776379ed.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FP1KL7ML"
 },
 {
 "type": "Candidate",
@@ -151,7 +163,9 @@
 "note": "Vendor claim: gym phone mount searches +63%, magnetic tripods 25-30%/yr (SellTheTrend 2026)",
 "date": "02/10/2026",
 "id": "c7",
-"img": null
+"img": "d8553227b153821b.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FRGFWT64"
 },
 {
 "type": "Candidate",
@@ -170,7 +184,9 @@
 "note": "",
 "date": "02/10/2026",
 "id": "c8",
-"img": null
+"img": "6f3fc38737d2a330.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BRJ5P86M"
 },
 {
 "type": "Candidate",
@@ -189,7 +205,9 @@
 "note": "",
 "date": "02/10/2026",
 "id": "c9",
-"img": null
+"img": "a9662a156cc77ccf.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DTPTD316"
 },
 {
 "type": "Candidate",
@@ -271,7 +289,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c13",
-"img": null
+"img": "3f537b34287631d0.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
 },
 {
 "type": "Candidate",
@@ -290,7 +310,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c14",
-"img": null
+"img": "2815afedc304553e.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
 },
 {
 "type": "Candidate",
@@ -309,7 +331,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c15",
-"img": null
+"img": "15e063b5b1d925f8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B081Z1TTD3"
 },
 {
 "type": "Candidate",
@@ -328,7 +352,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c16",
-"img": null
+"img": "d32f204661e318d5.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
 },
 {
 "type": "Candidate",
@@ -347,7 +373,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c17",
-"img": null
+"img": "330337bbef74eec4.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B083S8FZBH"
 },
 {
 "type": "Candidate",
@@ -366,7 +394,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c18",
-"img": null
+"img": "373f96ad6d830f75.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H4KNCZDN"
 },
 {
 "type": "Candidate",
@@ -385,7 +415,9 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c19",
-"img": null
+"img": "0cbf14c425bfe0a8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07VSQDZD1"
 },
 {
 "type": "Candidate",
@@ -461,8 +493,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "c23",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"img": "8497aa9eaf99e074.jpg",
+"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0D49T3QHT"
 },
 {
 "type": "Candidate",
@@ -500,7 +534,9 @@
 "note": "Qatar: 4,000+ active Meta ads from 100+ sellers, the highest ad count in the Qatar report (Overview Ad Intelligence, updated 22-Jul-26; Vendor claim). No sales or reach figure given.",
 "date": "30/10/2026",
 "id": "c25",
-"img": null
+"img": "b1b78ebea2ca9716.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0B5DXRKPD"
 },
 {
 "type": "Candidate",
@@ -519,7 +555,9 @@
 "note": "UAE: Gulf News (25-Oct-26) says shoppers buy diyas, rangoli colours and festive clothes at Meena Bazaar before Diwali (8 Nov), but gives no sales figure; Dubai Festival of Lights runs 2-12 Nov as part of the official Dubai retail calendar, ",
 "date": "30/10/2026",
 "id": "c26",
-"img": null
+"img": "c1dc158d8ecabb2e.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FPLY63DP"
 },
 {
 "type": "Candidate",
@@ -538,7 +576,9 @@
 "note": "",
 "date": "30/10/2026",
 "id": "c27",
-"img": null
+"img": "5da2774309c542ac.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H9T6KLDR"
 },
 {
 "type": "Candidate",
@@ -577,7 +617,9 @@
 "note": "Qatar: winter camping season opens 25-Oct-26 and runs to 20-Apr-27; there were 2,991 camps last season (QNA, Oct-26); Sealine sites were 100% booked on day 1 and 50% of sites nationwide were booked; 5,000 cabins approved at Sealine and Khor",
 "date": "30/10/2026",
 "id": "c29",
-"img": null
+"img": "12659c88f4d3f785.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H8YFXNHP"
 },
 {
 "type": "Candidate",
@@ -597,7 +639,9 @@
 "note": "Qatar: Instagram seller post on #qatarshopping for a 'Kashmiri embroidered shawl', 20-Oct-26 (Instagram Pulse; 0 likes at scan); a second Qatar reel '#Shaalkashmiri #qatarshopping' was posted the same day. UAE: Gulf News (25-Oct-26) notes t",
 "date": "30/10/2026",
 "id": "c30",
-"img": null
+"img": "dbf51546f18d6541.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GWQQF2FC"
 },
 {
 "type": "Candidate",
@@ -616,7 +660,9 @@
 "note": "Oman: Instagram 20-Oct-26: 2 seller reels tagged #مصار_كشميرية #المصار #عمان ('guess the price'), low engagement (Instagram Pulse). Kashmir Life (2016, older than 30 days): genuine handmade massars sell for OMR 50-70 and synthetic fakes for",
 "date": "30/10/2026",
 "id": "c31",
-"img": null
+"img": "de69ee99d75300bf.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0G2CG7XWC"
 },
 {
 "type": "Candidate",
@@ -635,7 +681,9 @@
 "note": "Qatar: 1,500+ active Meta ads from 2 sellers (Overview Ad Intelligence, 'Royal French Waist & Body Sculpting Corset', updated 22-Jul-26; Vendor claim). No sales figure.",
 "date": "30/10/2026",
 "id": "c32",
-"img": null
+"img": "9f4009a1bd8135c9.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09MD3V7XL"
 },
 {
 "type": "Candidate",
@@ -655,7 +703,9 @@
 "note": "Qatar: 870+ active Meta ads from 2 sellers (Overview Ad Intelligence, 'Men's Waffle Fabric Casual Loose Pants', updated 22-Jul-26; Vendor claim). Related: the tracker's own UAE Meta Ad Library scan shows men's cotton sirwal ads running 266 ",
 "date": "30/10/2026",
 "id": "c33",
-"img": null
+"img": "d087821e712e8696.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07MZPKGWB"
 },
 {
 "type": "Candidate",
@@ -675,7 +725,9 @@
 "note": "Qatar: 153 active Meta ads (Overview Ad Intelligence, 'Spring-Loaded Knee Relief & Prayer Support Brace', updated 22-Jul-26; Vendor claim; report contradicts itself on seller count). Related: knee-pain ads in the tracker's Kuwait Meta scan ",
 "date": "30/10/2026",
 "id": "c34",
-"img": null
+"img": "b2b7b0bf322c0ac8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
 },
 {
 "type": "Candidate",
@@ -695,7 +747,9 @@
 "note": "KSA: Arab News (22-Sep-26) says young Saudis add embroidered details, embroidered outer layers and regional styles to modern outfits; no figures. KSA+UAE combined: Pinterest Fall 2025 report shows 'hijabi classy outfits' searches +176% (Pin",
 "date": "30/10/2026",
 "id": "c35",
-"img": null
+"img": "b882c59818522908.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0D3LHR2CW"
 },
 {
 "type": "Candidate",
@@ -776,7 +830,9 @@
 "note": "KSA: 'Men's Cloud Cushion Casual Sandals' has 272 active Meta ads, 100+ sellers, low saturation (Overviewdata ad-intel, updated 22-Jul-26). Vendor claim; the page contradicts itself on the seller count",
 "date": "30/10/2026",
 "id": "c39",
-"img": null
+"img": "599e63a0c4883b7b.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FMQXJC78"
 },
 {
 "type": "Amazon",
@@ -1273,7 +1329,8 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a65",
-"img": "e944604c95806c9f.jpg"
+"img": null,
+"img_error": "Amazon captcha"
 },
 {
 "type": "Amazon",
@@ -2117,7 +2174,9 @@
 "note": "Gate pass: light, cheap",
 "date": "03/10/2026",
 "id": "m109",
-"img": null
+"img": "1e84340492955b24.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GSW8XB2T"
 },
 {
 "type": "Meta ad",
@@ -2133,7 +2192,9 @@
 "note": "Likely glass liner + heavy: gate fail",
 "date": "03/10/2026",
 "id": "m110",
-"img": null
+"img": "c36b1461c407ae74.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DDJ8L2MS"
 },
 {
 "type": "Meta ad",
@@ -2149,7 +2210,9 @@
 "note": "India cotton sourcing strength; gate pass",
 "date": "03/10/2026",
 "id": "m111",
-"img": null
+"img": "b8d414b96dfc5e13.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0G8V53XVK"
 },
 {
 "type": "Meta ad",
@@ -2165,7 +2228,9 @@
 "note": "Cream/medical claim: gate fail",
 "date": "03/10/2026",
 "id": "m112",
-"img": null
+"img": "087ea19f24818098.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GXN6Y8BS"
 },
 {
 "type": "Meta ad",
@@ -2197,7 +2262,9 @@
 "note": "Food: gate fail",
 "date": "03/10/2026",
 "id": "m114",
-"img": null
+"img": "93d40141abf8b236.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
 },
 {
 "type": "Meta ad",
@@ -2213,7 +2280,9 @@
 "note": "Longest-running in scan; manual mini chopper is the India-sourceable version",
 "date": "03/10/2026",
 "id": "m115",
-"img": null
+"img": "fa770ee720dfcdce.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DN1V3PHF"
 },
 {
 "type": "Meta ad",
@@ -2229,7 +2298,9 @@
 "note": "Too heavy: gate fail",
 "date": "03/10/2026",
 "id": "m116",
-"img": null
+"img": "1a91e16364644803.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GKPVHQ8C"
 },
 {
 "type": "Meta ad",
@@ -2245,7 +2316,9 @@
 "note": "Battery: gate fail; heel-care demand signal",
 "date": "03/10/2026",
 "id": "m117",
-"img": null
+"img": "ebaf10c656904c4d.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B092PL7GLM"
 },
 {
 "type": "Meta ad",
@@ -2261,7 +2334,9 @@
 "note": "Gate pass: light, cheap, demo-able",
 "date": "03/10/2026",
 "id": "m118",
-"img": null
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Meta ad",
@@ -2277,7 +2352,9 @@
 "note": "Heavy appliance: gate fail",
 "date": "03/10/2026",
 "id": "m119",
-"img": null
+"img": "6d8ab6c77345f78c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B084Q5XN6P"
 },
 {
 "type": "Meta ad",
@@ -2293,7 +2370,9 @@
 "note": "Seasonal; bulky",
 "date": "03/10/2026",
 "id": "m120",
-"img": null
+"img": "f094bea2da89c9a3.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B000SN61UC"
 },
 {
 "type": "Meta ad",
@@ -2309,7 +2388,9 @@
 "note": "Liquid: gate fail; 2 ad copies",
 "date": "03/10/2026",
 "id": "m121",
-"img": null
+"img": "6e394b1a21d1ee2c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
 },
 {
 "type": "Meta ad",
@@ -2325,7 +2406,9 @@
 "note": "Same product run by 3 advertisers in KW; liquid: gate fail",
 "date": "03/10/2026",
 "id": "m122",
-"img": null
+"img": "6e394b1a21d1ee2c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
 },
 {
 "type": "Meta ad",
@@ -2341,7 +2424,9 @@
 "note": "Same product, 3rd advertiser",
 "date": "03/10/2026",
 "id": "m123",
-"img": null
+"img": "6e394b1a21d1ee2c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
 },
 {
 "type": "Meta ad",
@@ -2357,7 +2442,9 @@
 "note": "Same product, 2nd advertiser",
 "date": "03/10/2026",
 "id": "m124",
-"img": null
+"img": "6e394b1a21d1ee2c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
 },
 {
 "type": "Meta ad",
@@ -2373,7 +2460,9 @@
 "note": "Ointment: gate fail; heel-pain demand",
 "date": "03/10/2026",
 "id": "m125",
-"img": null
+"img": "fb22a89b082078c3.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FLVP5G9Q"
 },
 {
 "type": "Meta ad",
@@ -2389,7 +2478,9 @@
 "note": "2nd advertiser on heel pain",
 "date": "03/10/2026",
 "id": "m126",
-"img": null
+"img": "f075a49333a73ca5.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
 },
 {
 "type": "Meta ad",
@@ -2405,7 +2496,9 @@
 "note": "Cream: gate fail",
 "date": "03/10/2026",
 "id": "m127",
-"img": null
+"img": "9a6c3d6c86620450.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GXMWDZM7"
 },
 {
 "type": "Meta ad",
@@ -2421,7 +2514,9 @@
 "note": "Electronics/battery: gate fail",
 "date": "03/10/2026",
 "id": "m128",
-"img": null
+"img": "d6c93d6ad5b919fb.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07F1SLX32"
 },
 {
 "type": "Meta ad",
@@ -2437,7 +2532,9 @@
 "note": "Found in UAE search, ad copy targets #Kuwait; running since 2021",
 "date": "03/10/2026",
 "id": "m129",
-"img": null
+"img": "15406f12b4b5aa02.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
 },
 {
 "type": "Meta ad",
@@ -2453,9 +2550,9 @@
 "note": "Gate pass; matches Kuwait sunglasses signal",
 "date": "03/10/2026",
 "id": "m130",
-"img": "15406f12b4b5aa02.jpg",
+"img": "2815afedc304553e.jpg",
 "ref": true,
-"ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
+"ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
 },
 {
 "type": "Meta ad",
@@ -2471,7 +2568,9 @@
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
 "id": "m131",
-"img": null
+"img": "85fb30d7513a1253.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
 },
 {
 "type": "Meta ad",
@@ -2487,7 +2586,9 @@
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
 "id": "m132",
-"img": null
+"img": "85fb30d7513a1253.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
 },
 {
 "type": "Meta ad",
@@ -2503,7 +2604,9 @@
 "note": "Electronic, heavy-ish",
 "date": "03/10/2026",
 "id": "m133",
-"img": null
+"img": "e830b49b103a888d.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0GQBM85DF"
 },
 {
 "type": "Meta ad",
@@ -2519,7 +2622,9 @@
 "note": "Watch cell battery; check courier rules",
 "date": "03/10/2026",
 "id": "m134",
-"img": null
+"img": "d39ff94761eb7585.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0D45GHRTW"
 },
 {
 "type": "Meta ad",
@@ -2535,7 +2640,9 @@
 "note": "Chemical: gate fail",
 "date": "03/10/2026",
 "id": "m135",
-"img": null
+"img": "323f1c0bc2114a2f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H9JDLK84"
 },
 {
 "type": "Meta ad",
@@ -2567,7 +2674,9 @@
 "note": "Probably over 400 g",
 "date": "03/10/2026",
 "id": "m137",
-"img": null
+"img": "0be2d150998b5cdb.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BPY1N7XC"
 },
 {
 "type": "Meta ad",
@@ -2583,7 +2692,9 @@
 "note": "Bulky: gate fail",
 "date": "03/10/2026",
 "id": "m138",
-"img": null
+"img": "731d3ae3c1fc857f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0D8FQDW2H"
 },
 {
 "type": "Meta ad",
@@ -2599,7 +2710,9 @@
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
 "id": "m139",
-"img": null
+"img": "ccedff2bebb51509.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0G63SMWP8"
 },
 {
 "type": "Meta ad",
@@ -2631,7 +2744,9 @@
 "note": "India textile fit; light; gate pass",
 "date": "30/10/2026",
 "id": "m141",
-"img": null
+"img": "a6af3c63292f11e7.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0HC4761TK"
 },
 {
 "type": "Meta ad",
@@ -2647,7 +2762,9 @@
 "note": "India cotton fit",
 "date": "30/10/2026",
 "id": "m142",
-"img": null
+"img": "3abcd27dbb43ff9a.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CWCQWWZS"
 },
 {
 "type": "Meta ad",
@@ -2679,7 +2796,9 @@
 "note": "Food: gate fail; still running",
 "date": "30/10/2026",
 "id": "m144",
-"img": null
+"img": "93d40141abf8b236.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
 },
 {
 "type": "Meta ad",
@@ -2695,7 +2814,9 @@
 "note": "Liquid/cosmetic: gate fail",
 "date": "30/10/2026",
 "id": "m145",
-"img": null
+"img": "c1dac029c026a8ac.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B082WZTJV5"
 },
 {
 "type": "Meta ad",
@@ -2711,7 +2832,9 @@
 "note": "India Tiruppur fit",
 "date": "30/10/2026",
 "id": "m146",
-"img": null
+"img": "1fbb543adc5d2c31.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07FJMHKZG"
 },
 {
 "type": "Meta ad",
@@ -2727,7 +2850,9 @@
 "note": "Price benchmark: AED 100 for 6; bundle model",
 "date": "30/10/2026",
 "id": "m147",
-"img": null
+"img": "d32f204661e318d5.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
 },
 {
 "type": "Meta ad",
@@ -2743,7 +2868,9 @@
 "note": "India cotton fit",
 "date": "30/10/2026",
 "id": "m148",
-"img": null
+"img": "9a8be6bb62a432b0.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B00W04OVJU"
 },
 {
 "type": "Meta ad",
@@ -2759,7 +2886,9 @@
 "note": "Still running since 3 Oct (was 155 days); gate pass",
 "date": "30/10/2026",
 "id": "m149",
-"img": null
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Meta ad",
@@ -2775,7 +2904,9 @@
 "note": "2nd advertiser, same product",
 "date": "30/10/2026",
 "id": "m150",
-"img": null
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Meta ad",
@@ -2791,7 +2922,9 @@
 "note": "Light; avoid medical claims",
 "date": "30/10/2026",
 "id": "m151",
-"img": null
+"img": "b2b7b0bf322c0ac8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
 },
 {
 "type": "Meta ad",
@@ -2807,7 +2940,9 @@
 "note": "Weight-loss claim: risky",
 "date": "30/10/2026",
 "id": "m152",
-"img": null
+"img": "57a5f45e6f531eb2.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B017AGGBTU"
 },
 {
 "type": "Meta ad",
@@ -2823,7 +2958,9 @@
 "note": "Likely over 400 g",
 "date": "30/10/2026",
 "id": "m153",
-"img": null
+"img": "72d2ee3a4b8cdc97.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CG19TN1Y"
 },
 {
 "type": "Meta ad",
@@ -2839,7 +2976,9 @@
 "note": "Price benchmark SAR 99",
 "date": "30/10/2026",
 "id": "m154",
-"img": null
+"img": "b11352f09fc7b498.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0F5QF82DX"
 },
 {
 "type": "Meta ad",
@@ -2855,7 +2994,9 @@
 "note": "Confirms chopper demand; 49 live chopper ads in KSA",
 "date": "30/10/2026",
 "id": "m155",
-"img": null
+"img": "7a58d1b74650732e.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B08Y8FBRF8"
 },
 {
 "type": "Meta ad",
@@ -2871,7 +3012,9 @@
 "note": "Chopper/grinder category",
 "date": "30/10/2026",
 "id": "m156",
-"img": null
+"img": "ee7eadc36d7ef2ae.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B06WWN6SQP"
 },
 {
 "type": "Meta ad",
@@ -2887,7 +3030,9 @@
 "note": "Electric: gate fail; longest in category",
 "date": "30/10/2026",
 "id": "m157",
-"img": null
+"img": "ae35004be7bb733a.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CD5YG5BF"
 },
 {
 "type": "Meta ad",
@@ -2903,7 +3048,9 @@
 "note": "43 live posture ads in KSA",
 "date": "30/10/2026",
 "id": "m158",
-"img": null
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Meta ad",
@@ -2919,7 +3066,9 @@
 "note": "Same product, 3rd advertiser",
 "date": "30/10/2026",
 "id": "m159",
-"img": null
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Meta ad",
@@ -2935,7 +3084,9 @@
 "note": "Still running since 3 Oct (was 72 days)",
 "date": "30/10/2026",
 "id": "m160",
-"img": null
+"img": "f075a49333a73ca5.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
 },
 {
 "type": "Meta ad",
@@ -2951,7 +3102,9 @@
 "note": "Liquid: gate fail; still running",
 "date": "30/10/2026",
 "id": "m161",
-"img": null
+"img": "6e394b1a21d1ee2c.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
 },
 {
 "type": "Meta ad",
@@ -2967,7 +3120,9 @@
 "note": "Also advertised in Qatar (81 days); check if battery",
 "date": "30/10/2026",
 "id": "m162",
-"img": null
+"img": "37db80af73f818f0.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
 },
 {
 "type": "Meta ad",
@@ -2983,7 +3138,9 @@
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
 "id": "m163",
-"img": null
+"img": "a5b04e85475679c1.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B07RC3GT4T"
 },
 {
 "type": "Meta ad",
@@ -2999,7 +3156,9 @@
 "note": "Bulky",
 "date": "30/10/2026",
 "id": "m164",
-"img": null
+"img": "b506d5c678e85742.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0G2W8T7B6"
 },
 {
 "type": "Meta ad",
@@ -3015,7 +3174,9 @@
 "note": "110 live heel-pain ads in Kuwait",
 "date": "30/10/2026",
 "id": "m165",
-"img": null
+"img": "3f537b34287631d0.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
 },
 {
 "type": "Meta ad",
@@ -3031,7 +3192,9 @@
 "note": "Close to heel-cup idea; check product",
 "date": "30/10/2026",
 "id": "m166",
-"img": null
+"img": "faf6cbfe4f751398.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B09NTL8146"
 },
 {
 "type": "Meta ad",
@@ -3047,7 +3210,9 @@
 "note": "Foot support category",
 "date": "30/10/2026",
 "id": "m167",
-"img": null
+"img": "eb8b97f105f19816.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CMYF53RT"
 },
 {
 "type": "Meta ad",
@@ -3063,9 +3228,9 @@
 "note": "Still running since 3 Oct (was 70 days)",
 "date": "30/10/2026",
 "id": "m168",
-"img": "15406f12b4b5aa02.jpg",
+"img": "2815afedc304553e.jpg",
 "ref": true,
-"ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
+"ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
 },
 {
 "type": "Meta ad",
@@ -6689,7 +6854,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v337",
-"img": "d341863df0a7aa60.jpg"
+"img": "5f36c317d2a699c1.jpg"
 },
 {
 "type": "Video product",
@@ -6708,7 +6873,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v338",
-"img": "625884b722601b73.jpg"
+"img": "5f36c317d2a699c1.jpg"
 },
 {
 "type": "Video product",
