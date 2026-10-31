@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import audience, export, instagram, sheets
+from . import audience, export, instagram, sheets, trade
 from .graph import Graph, GraphError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -172,18 +172,35 @@ def run_findshops(cfg, dry):
             print(f"::warning title=MISS {name}::{str(e)[:120]}")
 
 
+def run_trade(cfg, dry):
+    tc = cfg["trade"]
+    groups = {str(k): v for k, v in tc["hs"].items()}
+    print("India exports to GCC (UN Comtrade)")
+    values = trade.fetch(list(groups), tc["years"])
+    rows = trade.rows(values, groups, tc["years"])
+    print(f"::notice title=Trade data::{len(values)} values, {len(rows)} rows, years {sorted({y for (_, _, y) in values})}")
+    for r in rows[:12]:
+        print(f"::notice title=Top {r[0]} {r[2]}::{r[1][:40]} | {r[3]}: USD {r[4]:,} (prev {r[5]:,}, {r[6]}%)")
+    if dry:
+        return
+    book = sheets.open_sheet(cfg["sheet_id"])
+    ws = sheets.tab(book, "India Exports to GCC", trade.TRADE_HEADERS)
+    sheets.rewrite(ws, trade.TRADE_HEADERS, rows)
+    sheets.set_status(book, "Q10", f"Last trade-data update: {datetime.now(timezone.utc).strftime('%Y-%m-%d')} - {len(rows)} rows (UN Comtrade)")
+
+
 def run_export(cfg, dry):
     export.run(sheets.open_sheet(cfg["sheet_id"]))
 
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()

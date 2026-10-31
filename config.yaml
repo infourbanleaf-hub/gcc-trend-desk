@@ -40,3 +40,30 @@ meta_audience:
     - Perfume
     - Hijab
     - Shoes
+
+trade:
+  # HS codes (4-digit customs product groups) for the product types on the wall. India -> GCC exports.
+  years: [2023, 2024, 2025]
+  hs:
+    "6107": Men's underwear & sleepwear (knit) - briefs, vests, sirwal
+    "6109": T-shirts & vests (knit)
+    "6115": Socks & hosiery
+    "6104": Women's suits, dresses, skirts (knit) - kurta sets
+    "6204": Women's suits, dresses, skirts (woven) - kaftans, abayas
+    "6211": Track suits & other garments (woven) - abayas, kimonos
+    "6214": Shawls, scarves, stoles, hijabs
+    "6212": Corsets, braces, shapewear
+    "6217": Clothing accessories
+    "6307": Other made-up textiles - organisers, car shades
+    "6304": Furnishing articles - cushion covers
+    "4202": Bags, travel & toiletry cases
+    "7117": Imitation jewellery
+    "9004": Sunglasses & spectacles
+    "9021": Orthopaedic appliances - posture & knee supports, heel cups
+    "8215": Kitchen tools - spoons, ladles
+    "8205": Hand tools - choppers, graters
+    "3926": Other plastic articles - organisers, hangers
+    "6405": Other footwear - slides
+    "3307": Incense, bakhoor, room perfumes
+    "4421": Other wood articles - massage rollers, hangers
+    "9503": Toys
