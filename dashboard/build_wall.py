@@ -58,6 +58,33 @@ for it in items:
         seen_titles.add(key)
     kept.append(it)
 items = kept
+# Product category from the title (plus Amazon's category where given). First match wins.
+CATS = [
+    ("Car accessories", r"\bcar\b|vehicle|windshield|tyre|tire|seat cushion|headrest|backseat|anti-fog|سيار"),
+    ("Sunglasses & eyewear", r"sunglass|uv400|polari[sz]ed|eyewear|نظار"),
+    ("Innerwear & socks", r"innerwear|underwear|brief|boxer|socks|vest|sirwal|سروال|undershirt"),
+    ("Modest & traditional wear", r"abaya|hijab|scarf|scarves|kaftan|kurta|kurti|thobe|massar|turban|stole|shawl|dupatta|saree|muslim|عباي|حجاب"),
+    ("Health & body support", r"posture|knee|heel|foot|back pain|brace|support belt|slimming|compression|corset|massage|callus|pain|shaper|ركب|كعب|ظهر"),
+    ("Beauty & personal care", r"hair|lash|brow|serum|cream|oil|perfume|oud|bakhoor|incense|skin|makeup|laser|beauty|سيروم|عطر|بخور"),
+    ("Kitchen", r"kitchen|chopper|dicer|grinder|cutter|cooker|egg|spice|garlic|juicer|knife|dallah|thermos|bottle|scale|مطبخ|مفرم"),
+    ("Home & organisation", r"organi[sz]|storage|rack|hanger|laundry|cleaning|door|cushion cover|mattress|decal|wall|towel|cockroach|bug|home|majlis|kilim|pool|shoe rack|washing machine|منظم|بيت"),
+    ("Jewellery & watches", r"jewel|necklace|pendant|bracelet|cuff|brooch|ring\b|watch|tasbih|charm"),
+    ("Kids, toys & school", r"kid|toy|school|stationery|sticker|pencil|notebook|baby|girls|playing cards"),
+    ("Phones & gadgets", r"phone|iphone|cable|charger|tripod|gadget|tech|speaker|tv\b"),
+    ("Fitness & sport", r"gym|workout|leggings|resistance|band set|yoga|fitness|cycling"),
+    ("Gifts & seasonal", r"gift|eid|diwali|national day|rangoli|toran|wrap|ramadan"),
+    ("Travel", r"travel|umbrella|packing cube|luggage|toiletry"),
+    ("Food & drink", r"coffee|chocolate|food|snack|tea\b|dates\b"),
+    ("Clothing & footwear", r"shirt|t-shirt|tee|pants|dress|wear|slides|slipper|shoes|jacket|kimono|outfit|handbag|bag|belt"),
+]
+import re as _re
+def category(it):
+    text = " ".join(str(it.get(k, "")) for k in ("title", "category", "keyword"))
+    for name, pat in CATS:
+        if _re.search(pat, text, _re.I):
+            return name
+    return "Mixed product videos" if it.get("type") == "YouTube" else "Other"
+
 rows = []
 for it in items:
     img = ""
@@ -92,6 +119,7 @@ for it in items:
         "note": str(it.get("note", "") or "")[:200], "date": it.get("date", ""), "img": img,
         "video": it.get("video", "") or "",
         "ref": bool(it.get("ref")), "ref_url": it.get("ref_url", "") or "",
+        "category": category(it),
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(sum(r["new"] for r in rows), "new;", len(rows), "rows,", round(out.stat().st_size / 1e6, 2), "MB,", sum(1 for r in rows if r["img"]), "with pictures")
