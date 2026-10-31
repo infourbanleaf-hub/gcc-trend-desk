@@ -58,32 +58,31 @@ for it in items:
         seen_titles.add(key)
     kept.append(it)
 items = kept
-# Product category from the title (plus Amazon's category where given). First match wins.
-CATS = [
-    ("Car accessories", r"\bcar\b|vehicle|windshield|tyre|tire|seat cushion|headrest|backseat|anti-fog|سيار"),
-    ("Sunglasses & eyewear", r"sunglass|uv400|polari[sz]ed|eyewear|نظار"),
-    ("Innerwear & socks", r"innerwear|underwear|brief|boxer|socks|vest|sirwal|سروال|undershirt"),
-    ("Modest & traditional wear", r"abaya|hijab|scarf|scarves|kaftan|kurta|kurti|thobe|massar|turban|stole|shawl|dupatta|saree|muslim|عباي|حجاب"),
-    ("Health & body support", r"posture|knee|heel|foot|back pain|brace|support belt|slimming|compression|corset|massage|callus|pain|shaper|ركب|كعب|ظهر"),
-    ("Beauty & personal care", r"hair|lash|brow|serum|cream|oil|perfume|oud|bakhoor|incense|skin|makeup|laser|beauty|سيروم|عطر|بخور"),
-    ("Kitchen", r"kitchen|chopper|dicer|grinder|cutter|cooker|egg|spice|garlic|juicer|knife|dallah|thermos|bottle|scale|مطبخ|مفرم"),
-    ("Home & organisation", r"organi[sz]|storage|rack|hanger|laundry|cleaning|door|cushion cover|mattress|decal|wall|towel|cockroach|bug|home|majlis|kilim|pool|shoe rack|washing machine|منظم|بيت"),
-    ("Jewellery & watches", r"jewel|necklace|pendant|bracelet|cuff|brooch|ring\b|watch|tasbih|charm"),
-    ("Kids, toys & school", r"kid|toy|school|stationery|sticker|pencil|notebook|baby|girls|playing cards"),
-    ("Phones & gadgets", r"phone|iphone|cable|charger|tripod|gadget|tech|speaker|tv\b"),
-    ("Fitness & sport", r"gym|workout|leggings|resistance|band set|yoga|fitness|cycling"),
-    ("Gifts & seasonal", r"gift|eid|diwali|national day|rangoli|toran|wrap|ramadan"),
-    ("Travel", r"travel|umbrella|packing cube|luggage|toiletry"),
-    ("Food & drink", r"coffee|chocolate|food|snack|tea\b|dates\b"),
-    ("Clothing & footwear", r"shirt|t-shirt|tee|pants|dress|wear|slides|slipper|shoes|jacket|kimono|outfit|handbag|bag|belt"),
-]
-import re as _re
-def category(it):
-    text = " ".join(str(it.get(k, "")) for k in ("title", "category", "keyword"))
-    for name, pat in CATS:
-        if _re.search(pat, text, _re.I):
-            return name
-    return "Mixed product videos" if it.get("type") == "YouTube" else "Other"
+# Market-insight fields: Google Product Taxonomy, lifecycle stage, opportunity score (see insights.py).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import insights
+SRC = {"Amazon": "Marketplace", "Meta ad": "Meta ads", "YouTube": "YouTube", "Video product": "YouTube", "Candidate": "Candidates"}
+for it in items:
+    text = " ".join(str(it.get(k, "")) for k in ("title", "keyword"))
+    top, path, gid = insights.google_category(text)
+    if not path and it["type"] == "YouTube":
+        top, path, gid = "Mixed product videos", "", ""
+    it["gtop"], it["gpath"], it["gid"] = top, path, gid
+    parts = path.split(" > ") if path else [top]
+    it["gcat"] = " > ".join(parts[:2]) if len(parts) > 1 else parts[0]
+    it["gkey"] = " > ".join(parts[:3])
+    it["stage"] = insights.lifecycle(it, today, pdate)
+groups = {}
+for it in items:
+    for c in ([c for c in it.get("countries", []) if c] or ["GCC"]):
+        groups.setdefault((it["gkey"], c), set()).add(SRC.get(it["type"], it["type"]))
+for it in items:
+    cs = [c for c in it.get("countries", []) if c] or ["GCC"]
+    srcs = set().union(*[groups.get((it["gkey"], c), set()) for c in cs], groups.get((it["gkey"], "GCC"), set()))
+    if it["gkey"] in ("Mixed product videos", "Other"):
+        srcs = {SRC.get(it["type"], it["type"])}
+    it["proof_sources"] = sorted(srcs)
+    it["score"], it["score_parts"] = insights.score(it, len(srcs))
 
 rows = []
 for it in items:
@@ -119,7 +118,9 @@ for it in items:
         "note": str(it.get("note", "") or "")[:200], "date": it.get("date", ""), "img": img,
         "video": it.get("video", "") or "",
         "ref": bool(it.get("ref")), "ref_url": it.get("ref_url", "") or "",
-        "category": category(it),
+        "category": it["gcat"], "gpath": it["gpath"], "gid": it["gid"],
+        "stage": it["stage"], "score": it["score"], "score_parts": it["score_parts"],
+        "proof_sources": ", ".join(it["proof_sources"]),
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(sum(r["new"] for r in rows), "new;", len(rows), "rows,", round(out.stat().st_size / 1e6, 2), "MB,", sum(1 for r in rows if r["img"]), "with pictures")
