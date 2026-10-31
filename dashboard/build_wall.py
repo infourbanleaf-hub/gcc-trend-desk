@@ -85,6 +85,7 @@ for it in items:
         "signals": it.get("signals"), "status": it.get("status", "") or "",
         "note": str(it.get("note", "") or "")[:200], "date": it.get("date", ""), "img": img,
         "video": it.get("video", "") or "",
+        "ref": bool(it.get("ref")), "ref_url": it.get("ref_url", "") or "",
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(sum(r["new"] for r in rows), "new;", len(rows), "rows,", round(out.stat().st_size / 1e6, 2), "MB,", sum(1 for r in rows if r["img"]), "with pictures")

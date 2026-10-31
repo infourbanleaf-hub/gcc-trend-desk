@@ -194,6 +194,19 @@ def _og_image(url):
     return m.group(1).replace("&amp;", "&") if m else None
 
 
+_CMAP = None
+
+
+def _candidate_ref(title):
+    """Reference picture for a candidate with no product link (dashboard/candidate_images.yaml)."""
+    global _CMAP
+    if _CMAP is None:
+        import yaml
+        f = Path(__file__).resolve().parent.parent / "dashboard" / "candidate_images.yaml"
+        _CMAP = yaml.safe_load(f.read_text(encoding="utf-8")) or {} if f.exists() else {}
+    return _CMAP.get(title)
+
+
 def image_source(it):
     if it.get("type") == "Video product":
         src = None
@@ -261,8 +274,23 @@ def run(book, out="dashboard"):
             it["img"] = None
             it["img_error"] = str(e)[:80]
 
+    def work_ref(it):
+        if it["type"] != "Candidate" or it.get("img"):
+            return
+        ref = _candidate_ref(it["title"])
+        if not ref:
+            return
+        try:
+            it["img"] = save_image("https://m.media-amazon.com/images/I/" + ref["img"], img_dir)
+            it["ref"] = True
+            it["ref_url"] = "https://www.amazon.ae/dp/" + ref["asin"]
+        except Exception as e:
+            it["img_error"] = "reference: " + str(e)[:60]
+
     with ThreadPoolExecutor(3) as ex:
         list(ex.map(work, items))
+    with ThreadPoolExecutor(3) as ex:
+        list(ex.map(work_ref, items))
     got = sum(1 for i in items if i.get("img"))
     print(f"pictures: {got}/{len(items)}")
     for t in ("Candidate", "Amazon", "Meta ad", "YouTube", "Video product"):
