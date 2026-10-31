@@ -1213,8 +1213,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a59",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "1c69b0b4c1a73729.jpg",
+"img_error": "Amazon captcha",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DQ1TZ45D"
 },
 {
 "type": "Amazon",
@@ -1233,8 +1235,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a60",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "72bd72e76de15dc5.jpg",
+"img_error": "Amazon captcha",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H8YVHFG2"
 },
 {
 "type": "Amazon",
@@ -1329,8 +1333,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a65",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "721f15881313d3b6.jpg",
+"img_error": "Amazon captcha",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DT46M6NQ"
 },
 {
 "type": "Amazon",
@@ -1429,8 +1435,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a70",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"img": "d6cd720111ce7003.jpg",
+"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0758SGPKF"
 },
 {
 "type": "Amazon",
@@ -1529,8 +1537,10 @@
 "note": "Indian brand (Milton)",
 "date": "03/10/2026",
 "id": "a75",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"img": "e57fe8deb27be5c8.jpg",
+"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B00MIYM0VS"
 },
 {
 "type": "Amazon",
@@ -1625,7 +1635,9 @@
 "note": "Relative score, not volume",
 "date": "03/10/2026",
 "id": "a80",
-"img": null
+"img": "7ba3fd38d6e45323.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CTFFKDKJ"
 },
 {
 "type": "Amazon",
@@ -1720,7 +1732,9 @@
 "note": "Relative score, not volume",
 "date": "03/10/2026",
 "id": "a85",
-"img": null
+"img": "7dc348a5db5849e8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FLJWNZXP"
 },
 {
 "type": "Amazon",
@@ -1815,7 +1829,9 @@
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
 "id": "a90",
-"img": null
+"img": "838938edb0809952.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0F2TDWSMH"
 },
 {
 "type": "Amazon",
@@ -1929,8 +1945,10 @@
 "note": "",
 "date": "30/10/2026",
 "id": "a96",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "06c460c05a3bf3d8.jpg",
+"img_error": "Amazon captcha",
+"ref": false,
+"ref_url": "https://www.amazon.ae/dp/B07WG1DPHH"
 },
 {
 "type": "Amazon",
@@ -6854,7 +6872,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v337",
-"img": "5f36c317d2a699c1.jpg"
+"img": "d341863df0a7aa60.jpg"
 },
 {
 "type": "Video product",
@@ -6873,7 +6891,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v338",
-"img": "5f36c317d2a699c1.jpg"
+"img": "625884b722601b73.jpg"
 },
 {
 "type": "Video product",
