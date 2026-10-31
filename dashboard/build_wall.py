@@ -72,6 +72,17 @@ for it in items:
     it["gcat"] = " > ".join(parts[:2]) if len(parts) > 1 else parts[0]
     it["gkey"] = " > ".join(parts[:3])
     it["stage"] = insights.lifecycle(it, today, pdate)
+TRADE = {}
+_tf = repo / "dashboard" / "trade.json"
+if _tf.exists():
+    for t in json.loads(_tf.read_text(encoding="utf-8")):
+        if t.get("change") not in ("", None):
+            TRADE[(str(t["hs"]), t["country"])] = float(t["change"])
+for it in items:
+    it["hs"] = insights.hs_code(" ".join(str(it.get(k, "")) for k in ("title", "keyword")))
+    cs = [c for c in it.get("countries", []) if c in ("UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman")] or ["UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman"]
+    vals = [TRADE[(it["hs"], c)] for c in cs if (it["hs"], c) in TRADE]
+    it["trade_change"] = max(vals) if vals else None
 groups = {}
 for it in items:
     for c in ([c for c in it.get("countries", []) if c] or ["GCC"]):
@@ -85,7 +96,7 @@ for it in items:
     if it["type"] == "YouTube":  # a video, not one product: no score (its products are scored when named)
         it["score"], it["score_parts"] = None, {}
     else:
-        it["score"], it["score_parts"] = insights.score(it, len(srcs))
+        it["score"], it["score_parts"] = insights.score(it, len(srcs), it["trade_change"])
 
 rows = []
 for it in items:
@@ -125,7 +136,8 @@ for it in items:
         "stage": it["stage"], "score": it["score"],
         "sp_demand": it["score_parts"].get("demand"), "sp_proof": it["score_parts"].get("proof"),
         "sp_momentum": it["score_parts"].get("momentum"), "sp_price": it["score_parts"].get("price"),
-        "sp_fit": it["score_parts"].get("fit"),
+        "sp_fit": it["score_parts"].get("fit"), "sp_trade": it["score_parts"].get("trade"),
+        "hs": it["hs"], "trade_change": it["trade_change"],
         "proof_sources": ", ".join(it["proof_sources"]),
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

@@ -135,7 +135,45 @@ def lifecycle(it, today, pdate):
 GATE_FAIL = re.compile(r"gate fail|battery|liquid|electric|glass|heavy|bulky|medical|weight-loss|risky|food|over 400", re.I)
 GATE_PASS = re.compile(r"gate pass|india .*fit|light", re.I)
 STAGE_PTS = {"Emerging": 90, "Growing": 100, "Peak": 60, "Declining": 15, "": 45}
-WEIGHTS = {"demand": 0.30, "proof": 0.20, "momentum": 0.15, "price": 0.15, "fit": 0.20}
+WEIGHTS = {"demand": 0.25, "proof": 0.15, "momentum": 0.15, "price": 0.15, "fit": 0.20, "trade": 0.10}
+
+# Product name -> HS code (4-digit customs group) used in the "India Exports to GCC" tab.
+HS_RULES = [
+    (r"socks", "6115"),
+    (r"innerwear|underwear|brief|boxer|undershirt|\bvests?\b|sirwal|سروال", "6107"),
+    (r"t-shirt|tee\b|\bshirt", "6109"),
+    (r"kurta|palazzo|dress", "6104"),
+    (r"abaya|kaftan|kimono|outer layer|thobe|عباي", "6211"),
+    (r"hijab|scarf|scarves|stole|shawl|massar|turban|dupatta|حجاب", "6214"),
+    (r"corset|shaper|shapewear|compression|slimming|waist", "6212"),
+    (r"posture|knee|heel|foot support|brace|drop-foot|back pain", "9021"),
+    (r"sunglass|uv400|polari[sz]ed|eyewear", "9004"),
+    (r"jewel|necklace|pendant|bracelet|cuff|brooch|\bring\b|charm", "7117"),
+    (r"bag|organi[sz]er bag|toiletry|wallet|pouch|luggage", "4202"),
+    (r"cushion cover|sheet|bedding|pillow|kilim|majlis", "6304"),
+    (r"sun ?shade|car seat|organi[sz]|packing cube|storage", "6307"),
+    (r"hanger|plastic|rack|trash can|pegs", "3926"),
+    (r"chopper|grater|garlic|dicer|cutter|peeler", "8205"),
+    (r"spoon|ladle|kitchen tool|utensil", "8215"),
+    (r"bakhoor|incense|oud\b|room perfume|بخور", "3307"),
+    (r"wood|sheesham|massage roller", "4421"),
+    (r"slides|slipper|sandals", "6405"),
+    (r"toy|squishy|playing cards", "9503"),
+]
+
+
+def hs_code(text):
+    for pat, code in HS_RULES:
+        if re.search(pat, text, re.I):
+            return code
+    return ""
+
+
+def trade_points(change):
+    if change in ("", None):
+        return 45
+    c = float(change)
+    return 100 if c >= 25 else 75 if c >= 10 else 55 if c >= 0 else 35 if c > -15 else 10
 
 
 def num(v):
@@ -186,7 +224,7 @@ def ship_fit(it):
     return 80 if GATE_PASS.search(note) else 55
 
 
-def score(it, proof_sources):
+def score(it, proof_sources, trade_change=None):
     """proof_sources: number of different platforms (Amazon, Meta ad, YouTube, Candidate) showing
     products of the same Google category in the same country."""
     parts = {
@@ -195,6 +233,7 @@ def score(it, proof_sources):
         "momentum": STAGE_PTS.get(it.get("stage", ""), 45),
         "price": price_fit(it),
         "fit": ship_fit(it),
+        "trade": trade_points(trade_change),
     }
     total = round(sum(parts[k] * w for k, w in WEIGHTS.items()))
     return total, {k: round(v) for k, v in parts.items()}

@@ -305,5 +305,9 @@ def run(book, out="dashboard"):
         sub = [i for i in items if i["type"] == t]
         print(f"  {t}: {sum(1 for i in sub if i.get('img'))}/{len(sub)} pictures;",
               "; ".join(sorted({i.get('img_error', '') for i in sub if i.get('img_error')}))[:200])
+    trade = [{"hs": str(r.get("HS code")), "country": r.get("Country"), "change": r.get("Change %"),
+              "usd": r.get("India exports (USD)"), "group": r.get("Product group")}
+             for r in rows_of(book, "India Exports to GCC")]
+    (out / "trade.json").write_text(json.dumps(trade, ensure_ascii=False), encoding="utf-8")
     (out / "data.json").write_text(json.dumps(items, ensure_ascii=False, indent=0), encoding="utf-8")
     return items
