@@ -1213,10 +1213,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a59",
-"img": "1c69b0b4c1a73729.jpg",
-"img_error": "Amazon captcha",
-"ref": true,
-"ref_url": "https://www.amazon.ae/dp/B0DQ1TZ45D"
+"img": "a3330f3b32b18275.jpg"
 },
 {
 "type": "Amazon",
@@ -1235,10 +1232,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a60",
-"img": "72bd72e76de15dc5.jpg",
-"img_error": "Amazon captcha",
-"ref": true,
-"ref_url": "https://www.amazon.ae/dp/B0H8YVHFG2"
+"img": "ea60f8c0350e5a72.jpg"
 },
 {
 "type": "Amazon",
@@ -2179,6 +2173,804 @@
 "img": "0b69f166efc4bd97.jpg"
 },
 {
+"type": "Amazon",
+"title": "HydroJug Everyday Tumbler 14 oz, ceramic-lined straw cup",
+"url": "https://www.amazon.ae/dp/B0HKY5G7DF",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Kitchen",
+"rank": 5.0,
+"price": 102.47,
+"price_label": "AED 102.47",
+"reviews": null,
+"movement": "New release",
+"note": "Brand item; reference for tumbler demand",
+"date": "31/10/2026",
+"id": "a109",
+"img": "8d51ab4629d299ff.jpg"
+},
+{
+"type": "Amazon",
+"title": "ECVV white coffee mugs, set of 6",
+"url": "https://www.amazon.ae/dp/B0HF8KW1QS",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Kitchen",
+"rank": 7.0,
+"price": 45.0,
+"price_label": "AED 45.00",
+"reviews": null,
+"movement": "New release",
+"note": "Ceramic: breakage risk",
+"date": "31/10/2026",
+"id": "a110",
+"img": "961316fdebc08ec3.jpg"
+},
+{
+"type": "Amazon",
+"title": "Rechargeable precision coffee scale",
+"url": "https://www.amazon.ae/dp/B0HJR5BCXH",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Kitchen",
+"rank": 9.0,
+"price": 67.99,
+"price_label": "AED 67.99",
+"reviews": null,
+"movement": "New release",
+"note": "Battery: gate fail",
+"date": "31/10/2026",
+"id": "a111",
+"img": "6ad28d7f5ec5b58a.jpg"
+},
+{
+"type": "Amazon",
+"title": "2-tier foldable clothes drying rack",
+"url": "https://www.amazon.ae/dp/B0GDFCNC7P",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 1.0,
+"price": 169.99,
+"price_label": "AED 169.99",
+"reviews": null,
+"movement": "New release",
+"note": "Bulky",
+"date": "31/10/2026",
+"id": "a112",
+"img": "99c4797311ee7ee9.jpg"
+},
+{
+"type": "Amazon",
+"title": "3-tier stackable shoe rack",
+"url": "https://www.amazon.ae/dp/B0GD6J6LL7",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 2.0,
+"price": 39.99,
+"price_label": "AED 39.99",
+"reviews": null,
+"movement": "New release",
+"note": "Bulky",
+"date": "31/10/2026",
+"id": "a113",
+"img": "f730adbdb68bd0e2.jpg"
+},
+{
+"type": "Amazon",
+"title": "Printed fitted sheet with 2 pillowcases",
+"url": "https://www.amazon.ae/dp/B0HGR89ZRB",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 6.0,
+"price": 36.45,
+"price_label": "AED 36.45",
+"reviews": null,
+"movement": "New release",
+"note": "India textile fit (cotton bedding)",
+"date": "31/10/2026",
+"id": "a114",
+"img": "9b060ea6e5b2737b.jpg"
+},
+{
+"type": "Amazon",
+"title": "Heavy-duty clothes pegs, 24 pcs",
+"url": "https://www.amazon.ae/dp/B0HDPS8G8C",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 8.0,
+"price": 12.0,
+"price_label": "AED 12.00",
+"reviews": null,
+"movement": "New release",
+"note": "Below AED 69 alone",
+"date": "31/10/2026",
+"id": "a115",
+"img": "dd45c59e70426c76.jpg"
+},
+{
+"type": "Amazon",
+"title": "AGAAS reusable rangoli with tealight diyas set",
+"url": "https://www.amazon.ae/dp/B0HKF68MXP",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 9.0,
+"price": null,
+"price_label": "",
+"reviews": null,
+"movement": "New release",
+"note": "Indian festive decor; matches rangoli candidate",
+"date": "31/10/2026",
+"id": "a116",
+"img": "9cd0521dfe5d4d13.jpg"
+},
+{
+"type": "Amazon",
+"title": "XL double-wall recycled storage bags, 2-pack",
+"url": "https://www.amazon.ae/dp/B0HHWZF3WC",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Home",
+"rank": 10.0,
+"price": 39.9,
+"price_label": "AED 39.90",
+"reviews": null,
+"movement": "New release",
+"note": "Light; organiser category",
+"date": "31/10/2026",
+"id": "a117",
+"img": "bd27cf69b3271860.jpg"
+},
+{
+"type": "Amazon",
+"title": "Seat belt cover accessories (Rox 01)",
+"url": "https://www.amazon.ae/dp/B0HFS1VQ9F",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Automotive",
+"rank": 5.0,
+"price": 108.0,
+"price_label": "AED 108.00",
+"reviews": null,
+"movement": "New release",
+"note": "Car accessories demand",
+"date": "31/10/2026",
+"id": "a118",
+"img": "2b39512f559ecfc2.jpg"
+},
+{
+"type": "Amazon",
+"title": "Car trash can with lid",
+"url": "https://www.amazon.ae/dp/B0HHHH8DZW",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Automotive",
+"rank": 6.0,
+"price": 15.99,
+"price_label": "AED 15.99",
+"reviews": null,
+"movement": "New release",
+"note": "Light; bundle with other car items",
+"date": "31/10/2026",
+"id": "a119",
+"img": "81c25bb1fd6b9d34.jpg"
+},
+{
+"type": "Amazon",
+"title": "Steering wheel booster knob",
+"url": "https://www.amazon.ae/dp/B0HDV4RZFF",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Automotive",
+"rank": 8.0,
+"price": 68.89,
+"price_label": "AED 68.89",
+"reviews": null,
+"movement": "New release",
+"note": "Car accessories",
+"date": "31/10/2026",
+"id": "a120",
+"img": "f1143fc4d61acdb5.jpg"
+},
+{
+"type": "Amazon",
+"title": "Sunglasses holder for car sun visor (PU leather)",
+"url": "https://www.amazon.ae/dp/B0HG565YGV",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Automotive",
+"rank": 9.0,
+"price": 31.0,
+"price_label": "AED 31.00",
+"reviews": null,
+"movement": "New release",
+"note": "Light; India leather/PU fit",
+"date": "31/10/2026",
+"id": "a121",
+"img": "aa96b75142fbbc4a.jpg"
+},
+{
+"type": "Amazon",
+"title": "WishCare hair growth serum (Indian brand)",
+"url": "https://www.amazon.ae/dp/B0B573QW21",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Beauty",
+"rank": 7.0,
+"price": 49.0,
+"price_label": "AED 49.00",
+"reviews": null,
+"movement": "New release",
+"note": "Indian brand on UAE new releases; liquid: gate fail for us",
+"date": "31/10/2026",
+"id": "a122",
+"img": "5f9e7ca8c9bbdf61.jpg"
+},
+{
+"type": "Amazon",
+"title": "Be Bodywise glutathione glow serum (Indian brand)",
+"url": "https://www.amazon.ae/dp/B0HFSBTMZB",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Beauty",
+"rank": 6.0,
+"price": 65.49,
+"price_label": "AED 65.49",
+"reviews": null,
+"movement": "New release",
+"note": "Indian brand; liquid: gate fail",
+"date": "31/10/2026",
+"id": "a123",
+"img": "74d6f0557946bee1.jpg"
+},
+{
+"type": "Amazon",
+"title": "Scalp oil applicator comb",
+"url": "https://www.amazon.ae/dp/B0HF498799",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Beauty",
+"rank": 8.0,
+"price": 35.99,
+"price_label": "AED 35.99",
+"reviews": null,
+"movement": "New release",
+"note": "Light, no liquid; demonstrable",
+"date": "31/10/2026",
+"id": "a124",
+"img": "cfa804fcac437416.jpg"
+},
+{
+"type": "Amazon",
+"title": "Soft stretchy seamless hair bands",
+"url": "https://www.amazon.ae/dp/B079KPQZGM",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Beauty",
+"rank": 10.0,
+"price": 10.0,
+"price_label": "AED 10.00",
+"reviews": null,
+"movement": "New release",
+"note": "Bundle only",
+"date": "31/10/2026",
+"id": "a125",
+"img": "3afaab57446ee23e.jpg"
+},
+{
+"type": "Amazon",
+"title": "UAE National Day cap, red",
+"url": "https://www.amazon.ae/dp/B0HLTP36GM",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Fashion",
+"rank": 2.0,
+"price": 19.35,
+"price_label": "AED 19.35",
+"reviews": null,
+"movement": "New release",
+"note": "Seasonal: National Day 2 Dec",
+"date": "31/10/2026",
+"id": "a126",
+"img": "aa467c87063b5fe7.jpg"
+},
+{
+"type": "Amazon",
+"title": "UAE National Day dress for girls",
+"url": "https://www.amazon.ae/dp/B0HNT92P8K",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Fashion",
+"rank": 8.0,
+"price": 103.0,
+"price_label": "AED 103.00",
+"reviews": null,
+"movement": "New release",
+"note": "Seasonal: India garment fit",
+"date": "31/10/2026",
+"id": "a127",
+"img": "d7d36e2d5f28c1e9.jpg"
+},
+{
+"type": "Amazon",
+"title": "UAE flag glitter heart National Day T-shirt",
+"url": "https://www.amazon.ae/dp/B0HM22GH2B",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Fashion",
+"rank": 9.0,
+"price": null,
+"price_label": "",
+"reviews": null,
+"movement": "New release",
+"note": "Seasonal",
+"date": "31/10/2026",
+"id": "a128",
+"img": "eb9134ba81a61b74.jpg"
+},
+{
+"type": "Amazon",
+"title": "UAE National Flag Day T-shirt for kids",
+"url": "https://www.amazon.ae/dp/B0HLG2TJR4",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Fashion",
+"rank": 10.0,
+"price": 36.0,
+"price_label": "AED 36.00",
+"reviews": null,
+"movement": "New release",
+"note": "Seasonal: confirms National Day tee candidate",
+"date": "31/10/2026",
+"id": "a129",
+"img": "107cda4ab93851e0.jpg"
+},
+{
+"type": "Amazon",
+"title": "Glitter dumpling squishy, 5 pcs",
+"url": "https://www.amazon.ae/dp/B0HGQNCVMR",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Toys",
+"rank": 7.0,
+"price": 29.99,
+"price_label": "AED 29.99",
+"reviews": null,
+"movement": "New release",
+"note": "Squishy craze also on YouTube",
+"date": "31/10/2026",
+"id": "a130",
+"img": "94c74aa442b7e325.jpg"
+},
+{
+"type": "Amazon",
+"title": "Portable handheld travel steamer",
+"url": "https://www.amazon.ae/dp/B0HJYVG2NN",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Health",
+"rank": 4.0,
+"price": 78.98,
+"price_label": "AED 78.98",
+"reviews": null,
+"movement": "New release",
+"note": "Electric: gate fail",
+"date": "31/10/2026",
+"id": "a131",
+"img": "bd8cbbb47c34e8e5.jpg"
+},
+{
+"type": "Amazon",
+"title": "Magic Coal charcoal for incense & bakhoor",
+"url": "https://www.amazon.ae/dp/B0HJQLMP1J",
+"countries": [
+"UAE"
+],
+"source": "Amazon.ae New Releases",
+"category": "Health",
+"rank": 7.0,
+"price": 30.0,
+"price_label": "AED 30.00",
+"reviews": null,
+"movement": "New release",
+"note": "Bakhoor category active",
+"date": "31/10/2026",
+"id": "a132",
+"img": "76c78c34384097a8.jpg"
+},
+{
+"type": "Amazon",
+"title": "Insulated lunch bag",
+"url": "https://www.amazon.sa/dp/B0GC48C83C",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Home",
+"rank": 5.0,
+"price": 39.15,
+"price_label": "SAR 39.99",
+"reviews": null,
+"movement": "New release",
+"note": "Light; India textile fit",
+"date": "31/10/2026",
+"id": "a133",
+"img": "da0ff405619ea5b6.jpg"
+},
+{
+"type": "Amazon",
+"title": "5-tier foldable storage cabinet on wheels",
+"url": "https://www.amazon.sa/dp/B0HJC48NFQ",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Home",
+"rank": 6.0,
+"price": null,
+"price_label": "",
+"reviews": null,
+"movement": "New release",
+"note": "Bulky",
+"date": "31/10/2026",
+"id": "a134",
+"img": "d92a2fc72c16dade.jpg"
+},
+{
+"type": "Amazon",
+"title": "Static dust mop with wet cloths",
+"url": "https://www.amazon.sa/dp/B0HJ67D5CH",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Home",
+"rank": 9.0,
+"price": 48.94,
+"price_label": "SAR 49.99",
+"reviews": null,
+"movement": "New release",
+"note": "Bulky",
+"date": "31/10/2026",
+"id": "a135",
+"img": "f0ff8e648965755e.jpg"
+},
+{
+"type": "Amazon",
+"title": "Plastic shoe rack organiser",
+"url": "https://www.amazon.sa/dp/B0HHFBW31F",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Home",
+"rank": 10.0,
+"price": 26.97,
+"price_label": "SAR 27.55",
+"reviews": null,
+"movement": "New release",
+"note": "Bulky",
+"date": "31/10/2026",
+"id": "a136",
+"img": "3ac2273b2bb0d87f.jpg"
+},
+{
+"type": "Amazon",
+"title": "Saudi Arabia logo keychain ring",
+"url": "https://www.amazon.sa/dp/B0HH7X1VHN",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Automotive",
+"rank": 2.0,
+"price": 29.36,
+"price_label": "SAR 29.99",
+"reviews": null,
+"movement": "New release",
+"note": "Light; national-pride gift",
+"date": "31/10/2026",
+"id": "a137",
+"img": "b56dc0b9c7839457.jpg"
+},
+{
+"type": "Amazon",
+"title": "Emoji car headrest covers, 2-pack",
+"url": "https://www.amazon.sa/dp/B0HJ5V4GPJ",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Automotive",
+"rank": 6.0,
+"price": 10.44,
+"price_label": "SAR 10.66",
+"reviews": null,
+"movement": "New release",
+"note": "Light; car accessories",
+"date": "31/10/2026",
+"id": "a138",
+"img": "563634c2ec383b28.jpg"
+},
+{
+"type": "Amazon",
+"title": "Car mirror hook with magnetic cable",
+"url": "https://www.amazon.sa/dp/B0GY4X7P3G",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Automotive",
+"rank": 7.0,
+"price": 34.36,
+"price_label": "SAR 35.10",
+"reviews": null,
+"movement": "New release",
+"note": "Car organiser",
+"date": "31/10/2026",
+"id": "a139",
+"img": "ab7964942baf0ea5.jpg"
+},
+{
+"type": "Amazon",
+"title": "Waterproof all-weather car cover",
+"url": "https://www.amazon.sa/dp/B0HMRV1VP6",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Automotive",
+"rank": 9.0,
+"price": 117.47,
+"price_label": "SAR 119.99",
+"reviews": null,
+"movement": "New release",
+"note": "Heavy-ish",
+"date": "31/10/2026",
+"id": "a140",
+"img": "5039f1797f32f3cc.jpg"
+},
+{
+"type": "Amazon",
+"title": "Almajed Oud Dark 100 ml extrait",
+"url": "https://www.amazon.sa/dp/B0HMW9S6S2",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Beauty",
+"rank": 3.0,
+"price": 145.87,
+"price_label": "SAR 149.00",
+"reviews": null,
+"movement": "New release",
+"note": "Perfume: liquid gate fail",
+"date": "31/10/2026",
+"id": "a141",
+"img": "244ce0a343575c35.jpg"
+},
+{
+"type": "Amazon",
+"title": "Khadlaj Shiyaaka Sky eau de parfum",
+"url": "https://www.amazon.sa/dp/B0H9M6YDD9",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Beauty",
+"rank": 8.0,
+"price": 101.33,
+"price_label": "SAR 103.50",
+"reviews": null,
+"movement": "New release",
+"note": "Perfume: liquid gate fail",
+"date": "31/10/2026",
+"id": "a142",
+"img": "daf995d847e68177.jpg"
+},
+{
+"type": "Amazon",
+"title": "Precision tweezers set, 4-pack",
+"url": "https://www.amazon.sa/dp/B0HN2DZY3Q",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Beauty",
+"rank": 9.0,
+"price": 1.32,
+"price_label": "SAR 1.35",
+"reviews": null,
+"movement": "New release",
+"note": "Bundle only",
+"date": "31/10/2026",
+"id": "a143",
+"img": "5162082911163aed.jpg"
+},
+{
+"type": "Amazon",
+"title": "Men's slim bifold wallet (PU leather)",
+"url": "https://www.amazon.sa/dp/B0HDJW7TMC",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Fashion",
+"rank": 3.0,
+"price": 17.61,
+"price_label": "SAR 17.99",
+"reviews": null,
+"movement": "New release",
+"note": "India leather fit",
+"date": "31/10/2026",
+"id": "a144",
+"img": "e1d6b372308709f6.jpg"
+},
+{
+"type": "Amazon",
+"title": "Men's crew socks, 5-pack",
+"url": "https://www.amazon.sa/dp/B0HHBS9YYF",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Fashion",
+"rank": 4.0,
+"price": 7.31,
+"price_label": "SAR 7.47",
+"reviews": null,
+"movement": "New release",
+"note": "India cotton fit; socks keep showing",
+"date": "31/10/2026",
+"id": "a145",
+"img": "28568b315cb76571.jpg"
+},
+{
+"type": "Amazon",
+"title": "Baby anti-slip ankle socks, 12 pairs",
+"url": "https://www.amazon.sa/dp/B0HF865Q4C",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Fashion",
+"rank": 6.0,
+"price": 33.28,
+"price_label": "SAR 33.99",
+"reviews": null,
+"movement": "New release",
+"note": "India cotton fit",
+"date": "31/10/2026",
+"id": "a146",
+"img": "8e3930797159a598.jpg"
+},
+{
+"type": "Amazon",
+"title": "Travel luggage organiser packing set, 6 pcs",
+"url": "https://www.amazon.sa/dp/B0HML8QZN3",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Fashion",
+"rank": 8.0,
+"price": 14.69,
+"price_label": "SAR 15.00",
+"reviews": null,
+"movement": "New release",
+"note": "Light; travel",
+"date": "31/10/2026",
+"id": "a147",
+"img": "5bd88293696a0317.jpg"
+},
+{
+"type": "Amazon",
+"title": "CRZ YOGA flare leggings",
+"url": "https://www.amazon.sa/dp/B0GL1RCBT5",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Fashion",
+"rank": 10.0,
+"price": 97.9,
+"price_label": "SAR 100.00",
+"reviews": null,
+"movement": "New release",
+"note": "Activewear demand",
+"date": "31/10/2026",
+"id": "a148",
+"img": "6bf450ac6ad326dd.jpg"
+},
+{
+"type": "Amazon",
+"title": "Crunchy squishy ball",
+"url": "https://www.amazon.sa/dp/B0HDC476LP",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Toys",
+"rank": 1.0,
+"price": 35.21,
+"price_label": "SAR 35.97",
+"reviews": null,
+"movement": "New release",
+"note": "Squishy craze #1 in KSA new toys",
+"date": "31/10/2026",
+"id": "a149",
+"img": "0a048a407332fc00.jpg"
+},
+{
+"type": "Amazon",
+"title": "Beach toys sand bucket set",
+"url": "https://www.amazon.sa/dp/B0HJ2K8PFT",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Amazon.sa New Releases",
+"category": "Toys",
+"rank": 9.0,
+"price": 38.18,
+"price_label": "SAR 39.00",
+"reviews": null,
+"movement": "New release",
+"note": "Seasonal: winter beach season",
+"date": "31/10/2026",
+"id": "a150",
+"img": "afa0c48a4ab69bec.jpg"
+},
+{
 "type": "Meta ad",
 "title": "Car hanging ornaments / luxury car accessories",
 "url": "https://www.facebook.com/ads/library/?id=1947231082496356",
@@ -2191,7 +2983,7 @@
 "price": null,
 "note": "Gate pass: light, cheap",
 "date": "03/10/2026",
-"id": "m109",
+"id": "m151",
 "img": "1e84340492955b24.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GSW8XB2T"
@@ -2209,7 +3001,7 @@
 "price": null,
 "note": "Likely glass liner + heavy: gate fail",
 "date": "03/10/2026",
-"id": "m110",
+"id": "m152",
 "img": "c36b1461c407ae74.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DDJ8L2MS"
@@ -2227,7 +3019,7 @@
 "price": null,
 "note": "India cotton sourcing strength; gate pass",
 "date": "03/10/2026",
-"id": "m111",
+"id": "m153",
 "img": "b8d414b96dfc5e13.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G8V53XVK"
@@ -2245,7 +3037,7 @@
 "price": null,
 "note": "Cream/medical claim: gate fail",
 "date": "03/10/2026",
-"id": "m112",
+"id": "m154",
 "img": "087ea19f24818098.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXN6Y8BS"
@@ -2263,7 +3055,7 @@
 "price": null,
 "note": "Same advertiser network also in Qatar",
 "date": "03/10/2026",
-"id": "m113",
+"id": "m155",
 "img": null
 },
 {
@@ -2279,7 +3071,7 @@
 "price": null,
 "note": "Food: gate fail",
 "date": "03/10/2026",
-"id": "m114",
+"id": "m156",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -2297,7 +3089,7 @@
 "price": null,
 "note": "Longest-running in scan; manual mini chopper is the India-sourceable version",
 "date": "03/10/2026",
-"id": "m115",
+"id": "m157",
 "img": "fa770ee720dfcdce.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DN1V3PHF"
@@ -2315,7 +3107,7 @@
 "price": null,
 "note": "Too heavy: gate fail",
 "date": "03/10/2026",
-"id": "m116",
+"id": "m158",
 "img": "1a91e16364644803.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GKPVHQ8C"
@@ -2333,7 +3125,7 @@
 "price": null,
 "note": "Battery: gate fail; heel-care demand signal",
 "date": "03/10/2026",
-"id": "m117",
+"id": "m159",
 "img": "ebaf10c656904c4d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B092PL7GLM"
@@ -2351,7 +3143,7 @@
 "price": null,
 "note": "Gate pass: light, cheap, demo-able",
 "date": "03/10/2026",
-"id": "m118",
+"id": "m160",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -2369,7 +3161,7 @@
 "price": null,
 "note": "Heavy appliance: gate fail",
 "date": "03/10/2026",
-"id": "m119",
+"id": "m161",
 "img": "6d8ab6c77345f78c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B084Q5XN6P"
@@ -2387,7 +3179,7 @@
 "price": null,
 "note": "Seasonal; bulky",
 "date": "03/10/2026",
-"id": "m120",
+"id": "m162",
 "img": "f094bea2da89c9a3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B000SN61UC"
@@ -2405,7 +3197,7 @@
 "price": null,
 "note": "Liquid: gate fail; 2 ad copies",
 "date": "03/10/2026",
-"id": "m121",
+"id": "m163",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -2423,7 +3215,7 @@
 "price": null,
 "note": "Same product run by 3 advertisers in KW; liquid: gate fail",
 "date": "03/10/2026",
-"id": "m122",
+"id": "m164",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -2441,7 +3233,7 @@
 "price": null,
 "note": "Same product, 3rd advertiser",
 "date": "03/10/2026",
-"id": "m123",
+"id": "m165",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -2459,7 +3251,7 @@
 "price": null,
 "note": "Same product, 2nd advertiser",
 "date": "03/10/2026",
-"id": "m124",
+"id": "m166",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -2477,7 +3269,7 @@
 "price": null,
 "note": "Ointment: gate fail; heel-pain demand",
 "date": "03/10/2026",
-"id": "m125",
+"id": "m167",
 "img": "fb22a89b082078c3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FLVP5G9Q"
@@ -2495,7 +3287,7 @@
 "price": null,
 "note": "2nd advertiser on heel pain",
 "date": "03/10/2026",
-"id": "m126",
+"id": "m168",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -2513,7 +3305,7 @@
 "price": null,
 "note": "Cream: gate fail",
 "date": "03/10/2026",
-"id": "m127",
+"id": "m169",
 "img": "9a6c3d6c86620450.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXMWDZM7"
@@ -2531,7 +3323,7 @@
 "price": null,
 "note": "Electronics/battery: gate fail",
 "date": "03/10/2026",
-"id": "m128",
+"id": "m170",
 "img": "d6c93d6ad5b919fb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07F1SLX32"
@@ -2549,7 +3341,7 @@
 "price": null,
 "note": "Found in UAE search, ad copy targets #Kuwait; running since 2021",
 "date": "03/10/2026",
-"id": "m129",
+"id": "m171",
 "img": "15406f12b4b5aa02.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
@@ -2567,7 +3359,7 @@
 "price": null,
 "note": "Gate pass; matches Kuwait sunglasses signal",
 "date": "03/10/2026",
-"id": "m130",
+"id": "m172",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -2585,7 +3377,7 @@
 "price": null,
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m131",
+"id": "m173",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -2603,7 +3395,7 @@
 "price": null,
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m132",
+"id": "m174",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -2621,7 +3413,7 @@
 "price": null,
 "note": "Electronic, heavy-ish",
 "date": "03/10/2026",
-"id": "m133",
+"id": "m175",
 "img": "e830b49b103a888d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GQBM85DF"
@@ -2639,7 +3431,7 @@
 "price": null,
 "note": "Watch cell battery; check courier rules",
 "date": "03/10/2026",
-"id": "m134",
+"id": "m176",
 "img": "d39ff94761eb7585.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D45GHRTW"
@@ -2657,7 +3449,7 @@
 "price": null,
 "note": "Chemical: gate fail",
 "date": "03/10/2026",
-"id": "m135",
+"id": "m177",
 "img": "323f1c0bc2114a2f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H9JDLK84"
@@ -2675,7 +3467,7 @@
 "price": null,
 "note": "Counterfeit-style: avoid",
 "date": "03/10/2026",
-"id": "m136",
+"id": "m178",
 "img": null
 },
 {
@@ -2691,7 +3483,7 @@
 "price": 276.66,
 "note": "Probably over 400 g",
 "date": "03/10/2026",
-"id": "m137",
+"id": "m179",
 "img": "0be2d150998b5cdb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPY1N7XC"
@@ -2709,7 +3501,7 @@
 "price": null,
 "note": "Bulky: gate fail",
 "date": "03/10/2026",
-"id": "m138",
+"id": "m180",
 "img": "731d3ae3c1fc857f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D8FQDW2H"
@@ -2727,7 +3519,7 @@
 "price": null,
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m139",
+"id": "m181",
 "img": "ccedff2bebb51509.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G63SMWP8"
@@ -2745,7 +3537,7 @@
 "price": null,
 "note": "Liquid: gate fail; many copies",
 "date": "03/10/2026",
-"id": "m140",
+"id": "m182",
 "img": null
 },
 {
@@ -2761,7 +3553,7 @@
 "price": null,
 "note": "India textile fit; light; gate pass",
 "date": "30/10/2026",
-"id": "m141",
+"id": "m183",
 "img": "a6af3c63292f11e7.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HC4761TK"
@@ -2779,7 +3571,7 @@
 "price": null,
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m142",
+"id": "m184",
 "img": "3abcd27dbb43ff9a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CWCQWWZS"
@@ -2797,7 +3589,7 @@
 "price": null,
 "note": "Still running since 3 Oct scan (was 118 days)",
 "date": "30/10/2026",
-"id": "m143",
+"id": "m185",
 "img": null
 },
 {
@@ -2813,7 +3605,7 @@
 "price": null,
 "note": "Food: gate fail; still running",
 "date": "30/10/2026",
-"id": "m144",
+"id": "m186",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -2831,7 +3623,7 @@
 "price": null,
 "note": "Liquid/cosmetic: gate fail",
 "date": "30/10/2026",
-"id": "m145",
+"id": "m187",
 "img": "c1dac029c026a8ac.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B082WZTJV5"
@@ -2849,7 +3641,7 @@
 "price": null,
 "note": "India Tiruppur fit",
 "date": "30/10/2026",
-"id": "m146",
+"id": "m188",
 "img": "1fbb543adc5d2c31.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07FJMHKZG"
@@ -2867,7 +3659,7 @@
 "price": 100.0,
 "note": "Price benchmark: AED 100 for 6; bundle model",
 "date": "30/10/2026",
-"id": "m147",
+"id": "m189",
 "img": "d32f204661e318d5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
@@ -2885,7 +3677,7 @@
 "price": null,
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m148",
+"id": "m190",
 "img": "9a8be6bb62a432b0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B00W04OVJU"
@@ -2903,7 +3695,7 @@
 "price": null,
 "note": "Still running since 3 Oct (was 155 days); gate pass",
 "date": "30/10/2026",
-"id": "m149",
+"id": "m191",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -2921,7 +3713,7 @@
 "price": null,
 "note": "2nd advertiser, same product",
 "date": "30/10/2026",
-"id": "m150",
+"id": "m192",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -2939,7 +3731,7 @@
 "price": null,
 "note": "Light; avoid medical claims",
 "date": "30/10/2026",
-"id": "m151",
+"id": "m193",
 "img": "b2b7b0bf322c0ac8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
@@ -2957,7 +3749,7 @@
 "price": null,
 "note": "Weight-loss claim: risky",
 "date": "30/10/2026",
-"id": "m152",
+"id": "m194",
 "img": "57a5f45e6f531eb2.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B017AGGBTU"
@@ -2975,7 +3767,7 @@
 "price": null,
 "note": "Likely over 400 g",
 "date": "30/10/2026",
-"id": "m153",
+"id": "m195",
 "img": "72d2ee3a4b8cdc97.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CG19TN1Y"
@@ -2993,7 +3785,7 @@
 "price": 96.92,
 "note": "Price benchmark SAR 99",
 "date": "30/10/2026",
-"id": "m154",
+"id": "m196",
 "img": "b11352f09fc7b498.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0F5QF82DX"
@@ -3011,7 +3803,7 @@
 "price": null,
 "note": "Confirms chopper demand; 49 live chopper ads in KSA",
 "date": "30/10/2026",
-"id": "m155",
+"id": "m197",
 "img": "7a58d1b74650732e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B08Y8FBRF8"
@@ -3029,7 +3821,7 @@
 "price": null,
 "note": "Chopper/grinder category",
 "date": "30/10/2026",
-"id": "m156",
+"id": "m198",
 "img": "ee7eadc36d7ef2ae.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B06WWN6SQP"
@@ -3047,7 +3839,7 @@
 "price": 87.13,
 "note": "Electric: gate fail; longest in category",
 "date": "30/10/2026",
-"id": "m157",
+"id": "m199",
 "img": "ae35004be7bb733a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CD5YG5BF"
@@ -3065,7 +3857,7 @@
 "price": null,
 "note": "43 live posture ads in KSA",
 "date": "30/10/2026",
-"id": "m158",
+"id": "m200",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3083,7 +3875,7 @@
 "price": null,
 "note": "Same product, 3rd advertiser",
 "date": "30/10/2026",
-"id": "m159",
+"id": "m201",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3101,7 +3893,7 @@
 "price": null,
 "note": "Still running since 3 Oct (was 72 days)",
 "date": "30/10/2026",
-"id": "m160",
+"id": "m202",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -3119,7 +3911,7 @@
 "price": null,
 "note": "Liquid: gate fail; still running",
 "date": "30/10/2026",
-"id": "m161",
+"id": "m203",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3137,7 +3929,7 @@
 "price": null,
 "note": "Also advertised in Qatar (81 days); check if battery",
 "date": "30/10/2026",
-"id": "m162",
+"id": "m204",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -3155,7 +3947,7 @@
 "price": null,
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
-"id": "m163",
+"id": "m205",
 "img": "a5b04e85475679c1.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07RC3GT4T"
@@ -3173,7 +3965,7 @@
 "price": null,
 "note": "Bulky",
 "date": "30/10/2026",
-"id": "m164",
+"id": "m206",
 "img": "b506d5c678e85742.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G2W8T7B6"
@@ -3191,7 +3983,7 @@
 "price": null,
 "note": "110 live heel-pain ads in Kuwait",
 "date": "30/10/2026",
-"id": "m165",
+"id": "m207",
 "img": "3f537b34287631d0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
@@ -3209,7 +4001,7 @@
 "price": null,
 "note": "Close to heel-cup idea; check product",
 "date": "30/10/2026",
-"id": "m166",
+"id": "m208",
 "img": "faf6cbfe4f751398.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09NTL8146"
@@ -3227,7 +4019,7 @@
 "price": null,
 "note": "Foot support category",
 "date": "30/10/2026",
-"id": "m167",
+"id": "m209",
 "img": "eb8b97f105f19816.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CMYF53RT"
@@ -3245,7 +4037,7 @@
 "price": null,
 "note": "Still running since 3 Oct (was 70 days)",
 "date": "30/10/2026",
-"id": "m168",
+"id": "m210",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -3263,7 +4055,7 @@
 "price": null,
 "note": "Same advertiser as Kuwait",
 "date": "30/10/2026",
-"id": "m169",
+"id": "m211",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -3281,7 +4073,7 @@
 "price": null,
 "note": "Heavy: gate fail; still running",
 "date": "30/10/2026",
-"id": "m170",
+"id": "m212",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -3299,7 +4091,7 @@
 "price": null,
 "note": "Battery: gate fail",
 "date": "30/10/2026",
-"id": "m171",
+"id": "m213",
 "img": "4ebed75e493de060.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HHHR5YHZ"
@@ -3317,7 +4109,7 @@
 "price": 14.31,
 "note": "Too cheap alone; bundle only",
 "date": "30/10/2026",
-"id": "m172",
+"id": "m214",
 "img": "8afa4c71ea891a5d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HGBD4YWC"
@@ -3335,7 +4127,7 @@
 "price": 190.7,
 "note": "Heavy/battery: gate fail",
 "date": "30/10/2026",
-"id": "m173",
+"id": "m215",
 "img": "a2b5365539e67437.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CS3B7MD8"
@@ -3359,7 +4151,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "xtUEmdKeC_8",
-"id": "y174",
+"id": "y216",
 "img": "bc0af2e2342fd3d3.jpg"
 },
 {
@@ -3381,7 +4173,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "u1-RU1Bn0c4",
-"id": "y175",
+"id": "y217",
 "img": "f025d472d767b669.jpg"
 },
 {
@@ -3399,7 +4191,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "QVv3mQzlrN0",
-"id": "y176",
+"id": "y218",
 "img": "6ec43d79b95ae762.jpg"
 },
 {
@@ -3421,7 +4213,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "p52mbzhBsfw",
-"id": "y177",
+"id": "y219",
 "img": "eb67ccf19390f051.jpg"
 },
 {
@@ -3440,7 +4232,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "IxJSU7wVTfk",
-"id": "y178",
+"id": "y220",
 "img": "5c8c245b7829e1dd.jpg"
 },
 {
@@ -3462,7 +4254,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "51-JrldTbWg",
-"id": "y179",
+"id": "y221",
 "img": "f30f371caa764e3e.jpg"
 },
 {
@@ -3484,7 +4276,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "AZZ3Ve_enpI",
-"id": "y180",
+"id": "y222",
 "img": "ed2e25387a80b689.jpg"
 },
 {
@@ -3505,7 +4297,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "1t9nqw6SfO0",
-"id": "y181",
+"id": "y223",
 "img": "ba8ee54a0ffda177.jpg"
 },
 {
@@ -3527,7 +4319,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "BQIwRiMxHXc",
-"id": "y182",
+"id": "y224",
 "img": "45fe638bb5a36103.jpg"
 },
 {
@@ -3549,7 +4341,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "fmOz8LwuqzY",
-"id": "y183",
+"id": "y225",
 "img": "ee15b3a4d018a55f.jpg"
 },
 {
@@ -3571,7 +4363,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "rPSDGVo1QeY",
-"id": "y184",
+"id": "y226",
 "img": "59f904cbfeddf456.jpg"
 },
 {
@@ -3590,7 +4382,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "_RjsF8VjDUA",
-"id": "y185",
+"id": "y227",
 "img": "efe4dba46efa6fe1.jpg"
 },
 {
@@ -3612,7 +4404,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "xrJIiCjnif0",
-"id": "y186",
+"id": "y228",
 "img": "3b25fce019aacbe8.jpg"
 },
 {
@@ -3634,7 +4426,7 @@
 "published": "19/10/2026",
 "date": "26/10/2026",
 "yt": "7LTQ89YwnYQ",
-"id": "y187",
+"id": "y229",
 "img": "73824917b511cf2c.jpg"
 },
 {
@@ -3656,7 +4448,7 @@
 "published": "22/10/2026",
 "date": "26/10/2026",
 "yt": "tTJFfhaOQ-g",
-"id": "y188",
+"id": "y230",
 "img": "6c99280bbe2810da.jpg"
 },
 {
@@ -3678,7 +4470,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "jDWqDTTXTlY",
-"id": "y189",
+"id": "y231",
 "img": "29692ac02e703b9e.jpg"
 },
 {
@@ -3700,7 +4492,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "QDaO3sKAfKU",
-"id": "y190",
+"id": "y232",
 "img": "2fa0a22018aaf7ed.jpg"
 },
 {
@@ -3722,7 +4514,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "LlhTEttKcwQ",
-"id": "y191",
+"id": "y233",
 "img": "1e4493167af01c38.jpg"
 },
 {
@@ -3744,7 +4536,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "LNZIhKPSrXY",
-"id": "y192",
+"id": "y234",
 "img": "527eff513f195a05.jpg"
 },
 {
@@ -3766,7 +4558,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "qZAgXS9zeVk",
-"id": "y193",
+"id": "y235",
 "img": "85bd2f3ef30df8ed.jpg"
 },
 {
@@ -3788,7 +4580,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "0nJm0-1Vjvo",
-"id": "y194",
+"id": "y236",
 "img": "560fa0ae75680dde.jpg"
 },
 {
@@ -3810,7 +4602,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "ZI_JpzKc13I",
-"id": "y195",
+"id": "y237",
 "img": "daf82f3fd6ae87c2.jpg"
 },
 {
@@ -3832,7 +4624,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "YV55rCt3S2c",
-"id": "y196",
+"id": "y238",
 "img": "741b13f0c8af1424.jpg"
 },
 {
@@ -3854,7 +4646,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "SFZCCwznp1Y",
-"id": "y197",
+"id": "y239",
 "img": "41dc71e423f0d6a4.jpg"
 },
 {
@@ -3876,7 +4668,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "NaS9MfBWvyg",
-"id": "y198",
+"id": "y240",
 "img": "74b6c395ab03c25f.jpg"
 },
 {
@@ -3898,7 +4690,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "XK5wZbhAaVs",
-"id": "y199",
+"id": "y241",
 "img": "9bf10bbe7b1fc584.jpg"
 },
 {
@@ -3920,7 +4712,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "xvDltGHNql8",
-"id": "y200",
+"id": "y242",
 "img": "988bc0fc3109ed1b.jpg"
 },
 {
@@ -3942,7 +4734,7 @@
 "published": "19/10/2026",
 "date": "26/10/2026",
 "yt": "0v_1mLrEu5Y",
-"id": "y201",
+"id": "y243",
 "img": "660a66fdc3008ff5.jpg"
 },
 {
@@ -3964,7 +4756,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "Mzy5D2RGdio",
-"id": "y202",
+"id": "y244",
 "img": "3feb1c85361de96b.jpg"
 },
 {
@@ -3986,7 +4778,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "q6kxABAOF_E",
-"id": "y203",
+"id": "y245",
 "img": "9b5354e4e75231d0.jpg"
 },
 {
@@ -4008,7 +4800,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "uchwc-W5SsA",
-"id": "y204",
+"id": "y246",
 "img": "d0ac2a991bba2d6e.jpg"
 },
 {
@@ -4030,7 +4822,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "WSOwdeNw8ZA",
-"id": "y205",
+"id": "y247",
 "img": "790c8b8a9df4bd60.jpg"
 },
 {
@@ -4051,7 +4843,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "yrpv4eGQhVc",
-"id": "y206",
+"id": "y248",
 "img": "a4af4032507fd1b5.jpg"
 },
 {
@@ -4073,7 +4865,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "vtEFVGa3LBw",
-"id": "y207",
+"id": "y249",
 "img": "eef945b34d76be9c.jpg"
 },
 {
@@ -4094,7 +4886,7 @@
 "published": "21/09/2026",
 "date": "03/10/2026",
 "yt": "hXVY84C5wuc",
-"id": "y208",
+"id": "y250",
 "img": "393247c7bfa64280.jpg"
 },
 {
@@ -4116,7 +4908,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "XYAJhJmrlPk",
-"id": "y209",
+"id": "y251",
 "img": "0a56feea9d1abe62.jpg"
 },
 {
@@ -4138,7 +4930,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "yDgmNs4I1BE",
-"id": "y210",
+"id": "y252",
 "img": "14f8ae12647b9a8a.jpg"
 },
 {
@@ -4160,7 +4952,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "f363W_CQARo",
-"id": "y211",
+"id": "y253",
 "img": "b4de172d9b2988b0.jpg"
 },
 {
@@ -4182,7 +4974,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "pslMEc6Qc84",
-"id": "y212",
+"id": "y254",
 "img": "6db6d2a6c2a0422d.jpg"
 },
 {
@@ -4204,7 +4996,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "BJkl2SyvQ4A",
-"id": "y213",
+"id": "y255",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -4226,7 +5018,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "Mnd2BUIrBAI",
-"id": "y214",
+"id": "y256",
 "img": "f898ab3fd8435334.jpg"
 },
 {
@@ -4248,7 +5040,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "WZTqUw7Wozc",
-"id": "y215",
+"id": "y257",
 "img": "c815db336dddf3cd.jpg"
 },
 {
@@ -4270,7 +5062,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "yoFkM8d273A",
-"id": "y216",
+"id": "y258",
 "img": "8c4515f42a8e0319.jpg"
 },
 {
@@ -4292,7 +5084,7 @@
 "published": "20/10/2026",
 "date": "26/10/2026",
 "yt": "KpdrAwXnj9w",
-"id": "y217",
+"id": "y259",
 "img": "38567149e0f9b513.jpg"
 },
 {
@@ -4314,7 +5106,7 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "7aWsiOEleWg",
-"id": "y218",
+"id": "y260",
 "img": "dda4f735ba529944.jpg"
 },
 {
@@ -4336,7 +5128,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "MVYg_fj8b64",
-"id": "y219",
+"id": "y261",
 "img": "afb360ce1899a08a.jpg"
 },
 {
@@ -4358,7 +5150,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "CyxDI740rMY",
-"id": "y220",
+"id": "y262",
 "img": "be5b9eaeb1d0cdd4.jpg"
 },
 {
@@ -4380,7 +5172,7 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "maDRvmTs5Hk",
-"id": "y221",
+"id": "y263",
 "img": "2ad74d3914208155.jpg"
 },
 {
@@ -4402,7 +5194,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "YUoMvQpSYSc",
-"id": "y222",
+"id": "y264",
 "img": "494406e537eb0fd2.jpg"
 },
 {
@@ -4421,7 +5213,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "klyPt9Ilqc4",
-"id": "y223",
+"id": "y265",
 "img": "18d2e48d8887f67c.jpg"
 },
 {
@@ -4443,7 +5235,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "kC2paDIgUeA",
-"id": "y224",
+"id": "y266",
 "img": "3f5dc2deb4cf6a23.jpg"
 },
 {
@@ -4464,7 +5256,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "wqs0EZddylw",
-"id": "y225",
+"id": "y267",
 "img": "1400c46fcdb9cd36.jpg"
 },
 {
@@ -4486,7 +5278,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "p_N-jF8IkJ8",
-"id": "y226",
+"id": "y268",
 "img": "e59c7663590fd30c.jpg"
 },
 {
@@ -4508,7 +5300,7 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "cN7zfUmYiPk",
-"id": "y227",
+"id": "y269",
 "img": "046882cb73a2455a.jpg"
 },
 {
@@ -4530,7 +5322,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "MOeoL0z8ghc",
-"id": "y228",
+"id": "y270",
 "img": "d3ecb1d3b43ef84f.jpg"
 },
 {
@@ -4551,7 +5343,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "Bsmt2wjj65Y",
-"id": "y229",
+"id": "y271",
 "img": "d1472b87f60113be.jpg"
 },
 {
@@ -4573,7 +5365,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "9NcvibfH0KM",
-"id": "y230",
+"id": "y272",
 "img": "dcb23800a1998cf3.jpg"
 },
 {
@@ -4595,7 +5387,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "PS_WjURRB0c",
-"id": "y231",
+"id": "y273",
 "img": "3b1f89236de7e883.jpg"
 },
 {
@@ -4617,7 +5409,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "18UhK4M94TY",
-"id": "y232",
+"id": "y274",
 "img": "a8209ef7da211a93.jpg"
 },
 {
@@ -4639,7 +5431,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "gGtCElKk0Fs",
-"id": "y233",
+"id": "y275",
 "img": "6aa86c58107875f9.jpg"
 },
 {
@@ -4661,7 +5453,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uXMsc6CZXY0",
-"id": "y234",
+"id": "y276",
 "img": "4996d4f9b5e46725.jpg"
 },
 {
@@ -4683,7 +5475,7 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "nm-dWrCPLIY",
-"id": "y235",
+"id": "y277",
 "img": "c259c4a649227ad3.jpg"
 },
 {
@@ -4705,7 +5497,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "2t4yHQZgOf8",
-"id": "y236",
+"id": "y278",
 "img": "edc5587470d61721.jpg"
 },
 {
@@ -4727,7 +5519,7 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "ijmP5TkBt04",
-"id": "y237",
+"id": "y279",
 "img": "264709c5fa019e35.jpg"
 },
 {
@@ -4749,7 +5541,7 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "gvs4f3G4Q7g",
-"id": "y238",
+"id": "y280",
 "img": "6d617c568347b297.jpg"
 },
 {
@@ -4771,7 +5563,7 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "AWgPciz5JdQ",
-"id": "y239",
+"id": "y281",
 "img": "6879e23e2a282b87.jpg"
 },
 {
@@ -4793,7 +5585,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "EBBTUGwA_8k",
-"id": "y240",
+"id": "y282",
 "img": "e7cec7d5703f1eca.jpg"
 },
 {
@@ -4815,7 +5607,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "ZY_9Rp1WDr0",
-"id": "y241",
+"id": "y283",
 "img": "6184c93352f8c28a.jpg"
 },
 {
@@ -4834,7 +5626,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "VJEy4Ye_r7Y",
-"id": "y242",
+"id": "y284",
 "img": "83ae2924cbb3a2b9.jpg"
 },
 {
@@ -4856,7 +5648,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MG-snTgotL8",
-"id": "y243",
+"id": "y285",
 "img": "9bf2af4f8b18898a.jpg"
 },
 {
@@ -4878,7 +5670,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "uRTHhbgCJzc",
-"id": "y244",
+"id": "y286",
 "img": "51640a23e458bec2.jpg"
 },
 {
@@ -4896,7 +5688,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "kVjBMgswvPw",
-"id": "y245",
+"id": "y287",
 "img": "457f77f7abb3a952.jpg"
 },
 {
@@ -4918,7 +5710,7 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "mGa5ZkqWn8Q",
-"id": "y246",
+"id": "y288",
 "img": "bd5a53028d7f03a7.jpg"
 },
 {
@@ -4940,7 +5732,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "CsfDufV6zNM",
-"id": "y247",
+"id": "y289",
 "img": "04640143133afc19.jpg"
 },
 {
@@ -4962,7 +5754,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "HuRyapINGlo",
-"id": "y248",
+"id": "y290",
 "img": "447bf7b92bdcb5ed.jpg"
 },
 {
@@ -4984,7 +5776,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "-xyN9K7zl4I",
-"id": "y249",
+"id": "y291",
 "img": "86c6a481b479c48f.jpg"
 },
 {
@@ -5006,7 +5798,7 @@
 "published": "22/10/2026",
 "date": "26/10/2026",
 "yt": "gkkpx5JDm8c",
-"id": "y250",
+"id": "y292",
 "img": "b82db3ec52d859d5.jpg"
 },
 {
@@ -5024,7 +5816,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "QI1JU0PRYWY",
-"id": "y251",
+"id": "y293",
 "img": "7fd51312646cccde.jpg"
 },
 {
@@ -5046,7 +5838,7 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "PUmEjn1-L5s",
-"id": "y252",
+"id": "y294",
 "img": "9c43e5db0b82cf7e.jpg"
 },
 {
@@ -5068,7 +5860,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "5vmUnoFwYC8",
-"id": "y253",
+"id": "y295",
 "img": "f03875d3843dc1ba.jpg"
 },
 {
@@ -5086,7 +5878,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "o3mTL46qA_k",
-"id": "y254",
+"id": "y296",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -5108,7 +5900,7 @@
 "published": "25/09/2026",
 "date": "05/10/2026",
 "yt": "GTB5bPkUsrc",
-"id": "y255",
+"id": "y297",
 "img": "54e71749ac6247a3.jpg"
 },
 {
@@ -5128,7 +5920,7 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "qIo0L_6jHK0",
-"id": "y256",
+"id": "y298",
 "img": "a9c8e414c32146ad.jpg"
 },
 {
@@ -5150,7 +5942,7 @@
 "published": "22/09/2026",
 "date": "03/10/2026",
 "yt": "9rDJKw2waeM",
-"id": "y257",
+"id": "y299",
 "img": "f715269de54a59a0.jpg"
 },
 {
@@ -5172,7 +5964,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "Xnkt3bnQ0ic",
-"id": "y258",
+"id": "y300",
 "img": "ea64d42d962fff25.jpg"
 },
 {
@@ -5194,7 +5986,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "RMZInc7jUOQ",
-"id": "y259",
+"id": "y301",
 "img": "20d0123a2aa08541.jpg"
 },
 {
@@ -5216,7 +6008,7 @@
 "published": "03/10/2026",
 "date": "05/10/2026",
 "yt": "K6h8xEg9bEU",
-"id": "y260",
+"id": "y302",
 "img": "35fb4f26c9fa5648.jpg"
 },
 {
@@ -5238,7 +6030,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "nZn4M0KSAkc",
-"id": "y261",
+"id": "y303",
 "img": "18038a28effcba68.jpg"
 },
 {
@@ -5260,7 +6052,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "sNJlyaPn_j0",
-"id": "y262",
+"id": "y304",
 "img": "763f0afecd4c2803.jpg"
 },
 {
@@ -5282,7 +6074,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "w62zC4hGVT8",
-"id": "y263",
+"id": "y305",
 "img": "0e3ca29e25f0d3d3.jpg"
 },
 {
@@ -5304,7 +6096,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "R87y-emjZSA",
-"id": "y264",
+"id": "y306",
 "img": "fd0130b7e8ba1269.jpg"
 },
 {
@@ -5326,7 +6118,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "2Apsmz1DDq8",
-"id": "y265",
+"id": "y307",
 "img": "07dc11950eb0e216.jpg"
 },
 {
@@ -5348,7 +6140,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "8E7wnk-hH-s",
-"id": "y266",
+"id": "y308",
 "img": "b3c2faa2cd189ed8.jpg"
 },
 {
@@ -5370,7 +6162,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "qwwgRyRNAFg",
-"id": "y267",
+"id": "y309",
 "img": "cee3c04cf305de9e.jpg"
 },
 {
@@ -5389,7 +6181,7 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "snBanaxxbiw",
-"id": "y268",
+"id": "y310",
 "img": "284f409abb255b8f.jpg"
 },
 {
@@ -5410,7 +6202,7 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "K4BP1cpNMIU",
-"id": "y269",
+"id": "y311",
 "img": "bbbb03b70800c5f6.jpg"
 },
 {
@@ -5432,7 +6224,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "fEqDT3NNIiM",
-"id": "y270",
+"id": "y312",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -5454,7 +6246,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "F7UoeRWOrws",
-"id": "y271",
+"id": "y313",
 "img": "923a282b3cf5c3b6.jpg"
 },
 {
@@ -5476,7 +6268,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uwSa-kGFyHY",
-"id": "y272",
+"id": "y314",
 "img": "22c51d8f0aefa4c7.jpg"
 },
 {
@@ -5498,7 +6290,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "MFv995Vb6U8",
-"id": "y273",
+"id": "y315",
 "img": "a45929fe57b03f10.jpg"
 },
 {
@@ -5520,7 +6312,7 @@
 "published": "26/09/2026",
 "date": "03/10/2026",
 "yt": "huxSLkPj9TM",
-"id": "y274",
+"id": "y316",
 "img": "c6939a92723ec087.jpg"
 },
 {
@@ -5538,7 +6330,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "B1BwSyeBRw8",
-"id": "y275",
+"id": "y317",
 "img": "70a9b75ba4a8236f.jpg"
 },
 {
@@ -5559,7 +6351,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "deevIJH9Akc",
-"id": "y276",
+"id": "y318",
 "img": "7f8f8980e69dfeed.jpg"
 },
 {
@@ -5581,7 +6373,7 @@
 "published": "19/10/2026",
 "date": "26/10/2026",
 "yt": "NBHYuNIXNvI",
-"id": "y277",
+"id": "y319",
 "img": "f58267358797602c.jpg"
 },
 {
@@ -5603,7 +6395,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "IgUyP7bQ3RA",
-"id": "y278",
+"id": "y320",
 "img": "0117f2c9a050e108.jpg"
 },
 {
@@ -5625,7 +6417,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "cYiEZx8tk3A",
-"id": "y279",
+"id": "y321",
 "img": "90f6cb05ca900909.jpg"
 },
 {
@@ -5647,7 +6439,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "FMxQozCbH3s",
-"id": "y280",
+"id": "y322",
 "img": "050f696db35cba29.jpg"
 },
 {
@@ -5669,7 +6461,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "08rYmpy-Z7k",
-"id": "y281",
+"id": "y323",
 "img": "584b7629371fd993.jpg"
 },
 {
@@ -5691,7 +6483,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "qyrCxQ2mPTk",
-"id": "y282",
+"id": "y324",
 "img": "9723e40c67edead5.jpg"
 },
 {
@@ -5713,7 +6505,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "ujbxYTdB1YI",
-"id": "y283",
+"id": "y325",
 "img": "4dde6f31c4428f8d.jpg"
 },
 {
@@ -5733,7 +6525,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "57S_cfkCTT0",
-"id": "y284",
+"id": "y326",
 "img": "3393f2e4d3351e59.jpg"
 },
 {
@@ -5755,7 +6547,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "6KFXoeqqr3A",
-"id": "y285",
+"id": "y327",
 "img": "677ead2c25b597d8.jpg"
 },
 {
@@ -5777,7 +6569,7 @@
 "published": "12/10/2026",
 "date": "26/10/2026",
 "yt": "GNeJZULTJlk",
-"id": "y286",
+"id": "y328",
 "img": "0fcb809122cf3649.jpg"
 },
 {
@@ -5799,7 +6591,7 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "AV3KoS40618",
-"id": "y287",
+"id": "y329",
 "img": "19d05511f12962c2.jpg"
 },
 {
@@ -5821,7 +6613,7 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "G8i2ZQ7aU90",
-"id": "y288",
+"id": "y330",
 "img": "93540dfc6455c478.jpg"
 },
 {
@@ -5843,7 +6635,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "lx_RjECZJCg",
-"id": "y289",
+"id": "y331",
 "img": "e27fd8597e630d5b.jpg"
 },
 {
@@ -5865,7 +6657,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "bDHw2wnCrTo",
-"id": "y290",
+"id": "y332",
 "img": "dda2e5822844748d.jpg"
 },
 {
@@ -5887,7 +6679,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "zUc-lvkPzy0",
-"id": "y291",
+"id": "y333",
 "img": "acecc6ea926b3991.jpg"
 },
 {
@@ -5909,7 +6701,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MWDygeC6NW0",
-"id": "y292",
+"id": "y334",
 "img": "5a80374179084a8f.jpg"
 },
 {
@@ -5931,7 +6723,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "115UI0obSZU",
-"id": "y293",
+"id": "y335",
 "img": "a63c56e8cc77dc4e.jpg"
 },
 {
@@ -5949,7 +6741,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "F340A5r7erk",
-"id": "y294",
+"id": "y336",
 "img": "47ccbcc30a30cff4.jpg"
 },
 {
@@ -5971,7 +6763,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "o9jvi9Bp1hQ",
-"id": "y295",
+"id": "y337",
 "img": "958fc95f1d937cf2.jpg"
 },
 {
@@ -5993,7 +6785,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "DYv31K2crUM",
-"id": "y296",
+"id": "y338",
 "img": "b16977fbd45a2913.jpg"
 },
 {
@@ -6015,7 +6807,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "J_dAkMRnSqY",
-"id": "y297",
+"id": "y339",
 "img": "571108719050c43b.jpg"
 },
 {
@@ -6037,7 +6829,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "ADLj15ph-L0",
-"id": "y298",
+"id": "y340",
 "img": "fa57d6c66864f711.jpg"
 },
 {
@@ -6055,7 +6847,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "9-K7hCUeogE",
-"id": "y299",
+"id": "y341",
 "img": "d2f3b2b0ca679166.jpg"
 },
 {
@@ -6077,7 +6869,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "ogD0USkrJgA",
-"id": "y300",
+"id": "y342",
 "img": "61c3ce7429371435.jpg"
 },
 {
@@ -6099,7 +6891,7 @@
 "published": "20/10/2026",
 "date": "26/10/2026",
 "yt": "ruzLGmTGTJ8",
-"id": "y301",
+"id": "y343",
 "img": "ef957e141f6652dd.jpg"
 },
 {
@@ -6121,7 +6913,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "9jNdcS4Fe18",
-"id": "y302",
+"id": "y344",
 "img": "f9121831bd6b198c.jpg"
 },
 {
@@ -6143,7 +6935,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "o8Y3OiYGDPs",
-"id": "y303",
+"id": "y345",
 "img": "1891ccbe2a8e9a3c.jpg"
 },
 {
@@ -6161,7 +6953,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "nZxdNveK-Ts",
-"id": "y304",
+"id": "y346",
 "img": "e3837863da4d6da9.jpg"
 },
 {
@@ -6183,7 +6975,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "eU5gUC_tgUk",
-"id": "y305",
+"id": "y347",
 "img": "cdc63f5d610f2c10.jpg"
 },
 {
@@ -6205,7 +6997,7 @@
 "published": "12/10/2026",
 "date": "26/10/2026",
 "yt": "IteXtsrjOcQ",
-"id": "y306",
+"id": "y348",
 "img": "da9bb5c977e11ece.jpg"
 },
 {
@@ -6227,7 +7019,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "C6znmha3em8",
-"id": "y307",
+"id": "y349",
 "img": "47838045130ac486.jpg"
 },
 {
@@ -6249,7 +7041,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "rrDJeWV2Z-8",
-"id": "y308",
+"id": "y350",
 "img": "ff9a0856e8b2fe75.jpg"
 },
 {
@@ -6271,7 +7063,7 @@
 "published": "30/09/2026",
 "date": "05/10/2026",
 "yt": "d4G4ZkkUI3c",
-"id": "y309",
+"id": "y351",
 "img": "8c388eb24ecd54b3.jpg"
 },
 {
@@ -6293,7 +7085,7 @@
 "published": "25/09/2026",
 "date": "05/10/2026",
 "yt": "_i8dBWiDmZI",
-"id": "y310",
+"id": "y352",
 "img": "7e15f8b4900e2211.jpg"
 },
 {
@@ -6315,7 +7107,7 @@
 "published": "22/10/2026",
 "date": "26/10/2026",
 "yt": "ldvrxMTk7wU",
-"id": "y311",
+"id": "y353",
 "img": "7ecf1c10d03721e4.jpg"
 },
 {
@@ -6337,7 +7129,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "rrLvA3bOFUA",
-"id": "y312",
+"id": "y354",
 "img": "512593bc32eff464.jpg"
 },
 {
@@ -6359,7 +7151,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "XPWBvqExC8w",
-"id": "y313",
+"id": "y355",
 "img": "3102d5fd128924c5.jpg"
 },
 {
@@ -6381,7 +7173,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "VHhlJAJ2xKw",
-"id": "y314",
+"id": "y356",
 "img": "2fb8620da93a9cb0.jpg"
 },
 {
@@ -6403,7 +7195,7 @@
 "published": "22/09/2026",
 "date": "03/10/2026",
 "yt": "TRQpqKnnTDw",
-"id": "y315",
+"id": "y357",
 "img": "3d1d9d84e2bff9b7.jpg"
 },
 {
@@ -6425,7 +7217,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "cqX1Uzdh1gM",
-"id": "y316",
+"id": "y358",
 "img": "ab1746c439053fde.jpg"
 },
 {
@@ -6447,7 +7239,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "4gJDShsKpnU",
-"id": "y317",
+"id": "y359",
 "img": "d8efdf4d2ccf632e.jpg"
 },
 {
@@ -6469,7 +7261,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "xnNQTYz3Y08",
-"id": "y318",
+"id": "y360",
 "img": "57bbab841871cda8.jpg"
 },
 {
@@ -6491,7 +7283,7 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "wxdbmHCnlcg",
-"id": "y319",
+"id": "y361",
 "img": "1071658a61699e54.jpg"
 },
 {
@@ -6513,7 +7305,7 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "Js86TSHS7hY",
-"id": "y320",
+"id": "y362",
 "img": "b8c9180e3679f75a.jpg"
 },
 {
@@ -6535,7 +7327,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "DrFDH0VLcqg",
-"id": "y321",
+"id": "y363",
 "img": "ddefe306c2d20e04.jpg"
 },
 {
@@ -6557,7 +7349,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "t7Z4Jsm2SAk",
-"id": "y322",
+"id": "y364",
 "img": "546ab9911418483d.jpg"
 },
 {
@@ -6579,7 +7371,7 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "RTbXBbHlWgg",
-"id": "y323",
+"id": "y365",
 "img": "4d79f4820e7c5acb.jpg"
 },
 {
@@ -6601,7 +7393,7 @@
 "published": "05/10/2026",
 "date": "19/10/2026",
 "yt": "9OC9-HC-uxU",
-"id": "y324",
+"id": "y366",
 "img": "cbe1d73216072c0b.jpg"
 },
 {
@@ -6623,7 +7415,7 @@
 "published": "25/09/2026",
 "date": "05/10/2026",
 "yt": "Wa8_iirSNwg",
-"id": "y325",
+"id": "y367",
 "img": "f23e161e22b40d4d.jpg"
 },
 {
@@ -6645,7 +7437,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "GeofAyknbvE",
-"id": "y326",
+"id": "y368",
 "img": "72c19480a30a33e3.jpg"
 },
 {
@@ -6667,7 +7459,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "TGWxunksRIQ",
-"id": "y327",
+"id": "y369",
 "img": "2d265e7996bb3cda.jpg"
 },
 {
@@ -6689,7 +7481,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "ULfHSFswl9Q",
-"id": "y328",
+"id": "y370",
 "img": "4d26d2195b0abf0e.jpg"
 },
 {
@@ -6711,7 +7503,7 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "1WWu1vXqb14",
-"id": "y329",
+"id": "y371",
 "img": "3ec23f414f7d3943.jpg"
 },
 {
@@ -6733,7 +7525,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "oK5gkfZ9YSk",
-"id": "y330",
+"id": "y372",
 "img": "2ae538c226a23907.jpg"
 },
 {
@@ -6755,7 +7547,7 @@
 "published": "05/10/2026",
 "date": "19/10/2026",
 "yt": "y8fQy2dN8dE",
-"id": "y331",
+"id": "y373",
 "img": "b8018cf1adad7392.jpg"
 },
 {
@@ -6777,7 +7569,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "6d-k6fUC3Ec",
-"id": "y332",
+"id": "y374",
 "img": "1774e2779ff4a640.jpg"
 },
 {
@@ -6799,7 +7591,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "8oAp68g45mE",
-"id": "y333",
+"id": "y375",
 "img": "bc29be5ea7f0b0d7.jpg"
 },
 {
@@ -6818,7 +7610,7 @@
 "video": "https://www.youtube.com/watch?v=BJkl2SyvQ4A",
 "yt_fallback": "BJkl2SyvQ4A",
 "date": "30/10/2026",
-"id": "v334",
+"id": "v376",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -6837,7 +7629,7 @@
 "video": "https://www.youtube.com/watch?v=ZY_9Rp1WDr0",
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
-"id": "v335",
+"id": "v377",
 "img": "0236b971d5d7d05f.jpg"
 },
 {
@@ -6852,7 +7644,7 @@
 "video": "https://www.youtube.com/watch?v=o3mTL46qA_k",
 "yt_fallback": "o3mTL46qA_k",
 "date": "30/10/2026",
-"id": "v336",
+"id": "v378",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -6871,7 +7663,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v337",
+"id": "v379",
 "img": "d341863df0a7aa60.jpg"
 },
 {
@@ -6890,7 +7682,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v338",
+"id": "v380",
 "img": "625884b722601b73.jpg"
 },
 {
@@ -6909,7 +7701,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v339",
+"id": "v381",
 "img": "288ee9314d6001f5.jpg"
 },
 {
@@ -6928,7 +7720,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v340",
+"id": "v382",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -6947,7 +7739,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v341",
+"id": "v383",
 "img": "d6d8d380ec8507f1.jpg"
 }
 ]
