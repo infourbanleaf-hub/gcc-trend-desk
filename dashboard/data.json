@@ -1213,7 +1213,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a59",
-"img": "a3330f3b32b18275.jpg"
+"img": "1c69b0b4c1a73729.jpg",
+"img_error": "Amazon captcha",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0DQ1TZ45D"
 },
 {
 "type": "Amazon",
@@ -1232,7 +1235,10 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a60",
-"img": "ea60f8c0350e5a72.jpg"
+"img": "72bd72e76de15dc5.jpg",
+"img_error": "Amazon captcha",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0H8YVHFG2"
 },
 {
 "type": "Amazon",
@@ -7630,7 +7636,7 @@
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
 "id": "v377",
-"img": "0236b971d5d7d05f.jpg"
+"img": "6184c93352f8c28a.jpg"
 },
 {
 "type": "Video product",
@@ -7664,7 +7670,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v379",
-"img": "d341863df0a7aa60.jpg"
+"img": "5f36c317d2a699c1.jpg"
 },
 {
 "type": "Video product",
@@ -7683,7 +7689,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v380",
-"img": "625884b722601b73.jpg"
+"img": "5f36c317d2a699c1.jpg"
 },
 {
 "type": "Video product",
@@ -7702,7 +7708,7 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v381",
-"img": "288ee9314d6001f5.jpg"
+"img": "5f36c317d2a699c1.jpg"
 },
 {
 "type": "Video product",
@@ -7740,6 +7746,6 @@
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
 "id": "v383",
-"img": "d6d8d380ec8507f1.jpg"
+"img": "5f36c317d2a699c1.jpg"
 }
 ]
