@@ -82,7 +82,10 @@ for it in items:
     if it["gkey"] in ("Mixed product videos", "Other"):
         srcs = {SRC.get(it["type"], it["type"])}
     it["proof_sources"] = sorted(srcs)
-    it["score"], it["score_parts"] = insights.score(it, len(srcs))
+    if it["type"] == "YouTube":  # a video, not one product: no score (its products are scored when named)
+        it["score"], it["score_parts"] = None, {}
+    else:
+        it["score"], it["score_parts"] = insights.score(it, len(srcs))
 
 rows = []
 for it in items:
@@ -119,7 +122,10 @@ for it in items:
         "video": it.get("video", "") or "",
         "ref": bool(it.get("ref")), "ref_url": it.get("ref_url", "") or "",
         "category": it["gcat"], "gpath": it["gpath"], "gid": it["gid"],
-        "stage": it["stage"], "score": it["score"], "score_parts": it["score_parts"],
+        "stage": it["stage"], "score": it["score"],
+        "sp_demand": it["score_parts"].get("demand"), "sp_proof": it["score_parts"].get("proof"),
+        "sp_momentum": it["score_parts"].get("momentum"), "sp_price": it["score_parts"].get("price"),
+        "sp_fit": it["score_parts"].get("fit"),
         "proof_sources": ", ".join(it["proof_sources"]),
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
