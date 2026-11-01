@@ -44,6 +44,11 @@ instagram:
     - {username: ajmalperfumes, country: UAE}
     - {username: bibaindia, country: India (ships to GCC)}
     - {username: kalkifashion, country: India (ships to GCC)}
+    # Small cash-on-delivery sellers found in the Meta Ad Library scans (our direct competition)
+    - {username: cityrose_fashion, country: UAE}
+    - {username: luxbyhala.ae, country: UAE}
+    - {username: megadealsksa, country: Saudi Arabia}
+    - {username: lubanahbags, country: Oman}
 
 meta_audience:
   # Meta ad account number (digits only) is stored as the secret META_AD_ACCOUNT_ID.
