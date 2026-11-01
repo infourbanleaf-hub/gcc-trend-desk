@@ -185,6 +185,23 @@ def run_findshops(cfg, dry):
     print(f"::warning title=MISSED::{', '.join(missed)}")
 
 
+def run_trade(cfg, dry):
+    tc = cfg["trade"]
+    groups = {str(k): v for k, v in tc["hs"].items()}
+    print("India exports to GCC (UN Comtrade)")
+    values = trade.fetch(list(groups), tc["years"])
+    rows = trade.rows(values, groups, tc["years"])
+    print(f"::notice title=Trade data::{len(values)} values, {len(rows)} rows, years {sorted({y for (_, _, y) in values})}")
+    for r in rows[:12]:
+        print(f"::notice title=Top {r[0]} {r[2]}::{r[1][:40]} | {r[3]}: USD {r[4]:,} (prev {r[5]:,}, {r[6]}%)")
+    if dry:
+        return
+    book = sheets.open_sheet(cfg["sheet_id"])
+    ws = sheets.tab(book, "India Exports to GCC", trade.TRADE_HEADERS)
+    sheets.rewrite(ws, trade.TRADE_HEADERS, rows)
+    sheets.set_status(book, "Q10", f"Last trade-data update: {datetime.now(timezone.utc).strftime('%Y-%m-%d')} - {len(rows)} rows (UN Comtrade)")
+
+
 def run_export(cfg, dry):
     export.run(sheets.open_sheet(cfg["sheet_id"]))
 
