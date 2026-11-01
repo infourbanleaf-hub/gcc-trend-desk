@@ -163,6 +163,14 @@ def run_findshops(cfg, dry):
     """Try candidate Instagram usernames (env SHOP_GUESSES, comma-separated) and report the ones that exist."""
     g = Graph(env("IG_ACCESS_TOKEN"), cfg["graph_version"])
     uid = env("IG_USER_ID")
+    for path, fields in (("me/permissions", None), ("me", "id,name"), (uid, "username,account_type")):
+        try:
+            res = g.get(path, fields=fields) if fields else g.get(path)
+            if "data" in res:
+                res = ", ".join(f"{p.get('permission')}={p.get('status')}" for p in res["data"])
+            print(f"::notice title=Diag {path}::{str(res)[:300]}")
+        except Exception as e:
+            print(f"::warning title=Diag {path}::{str(e)[:300]}")
     for name in [n.strip().lstrip("@") for n in os.environ.get("SHOP_GUESSES", "").split(",") if n.strip()]:
         try:
             bd = g.get(uid, fields=f"business_discovery.username({name}){{username,name,followers_count,media_count,biography}}")["business_discovery"]
