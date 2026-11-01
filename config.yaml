@@ -42,8 +42,8 @@ instagram:
     - {username: boutiqaat, country: Kuwait}
     - {username: arabianoud, country: Saudi Arabia}
     - {username: ajmalperfumes, country: UAE}
-    - {username: bibaindia, country: UAE}
-    - {username: kalkifashion, country: UAE}
+    - {username: bibaindia, country: India (ships to GCC)}
+    - {username: kalkifashion, country: India (ships to GCC)}
 
 meta_audience:
   # Meta ad account number (digits only) is stored as the secret META_AD_ACCOUNT_ID.
@@ -51,14 +51,15 @@ meta_audience:
   # Terms with no Meta interest are skipped (Oud, Foot care and Home organisation had none on 20 Oct 2026).
   countries: {UAE: AE, Saudi Arabia: SA, Qatar: QA, Oman: OM, Kuwait: KW}
   interests:
-    - Kitchen utensil
-    - Car accessories
-    - Travel
-    - Sunglasses
-    - Home improvement
-    - Perfume
+    # The shortlisted product lines (Candidates tab), so audience growth speaks to what we may sell.
     - Hijab
-    - Shoes
+    - Abaya
+    - Shawl
+    - Kurta
+    - Cushion
+    - Costume jewelry
+    - Back pain
+    - Sunglasses
 
 trade:
   # HS codes (4-digit customs product groups) for the product types on the wall. India -> GCC exports.

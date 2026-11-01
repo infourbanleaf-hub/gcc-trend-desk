@@ -42,7 +42,32 @@ def num(v):
         return ""
 
 
+def _configured_tags(ig):
+    return {"#" + t.strip().lstrip("#") for tags in ig["hashtags"].values() for t in tags}
+
+
+def keep_configured(records_, ig):
+    """Drop rows from hashtags no longer in config (e.g. the old city tags, which were mostly news and memes)."""
+    tags = _configured_tags(ig)
+    return [r for r in records_ if str(r.get("Hashtag", "")).strip() in tags]
+
+
+def run_pulseclean(cfg, dry):
+    """No API calls: remove Instagram Pulse rows whose hashtag is no longer configured."""
+    ig = cfg["instagram"]
+    book = sheets.open_sheet(cfg["sheet_id"])
+    ws = sheets.tab(book, "Instagram Pulse", instagram.PULSE_HEADERS)
+    old = records(ws)
+    kept = keep_configured(old, ig)
+    rows = [[r.get(h, "") for h in instagram.PULSE_HEADERS] for r in kept]
+    print(f"::notice title=Pulse clean-up::kept {len(kept)} of {len(old)} rows ({len(old) - len(kept)} from old hashtags removed)")
+    if not dry:
+        sheets.rewrite(ws, instagram.PULSE_HEADERS, rows)
+
+
 def run_pulse(cfg, dry):
+    if os.environ.get("CLEAN_ONLY") == "true":
+        return run_pulseclean(cfg, dry)
     g = Graph(env("IG_ACCESS_TOKEN"), cfg["graph_version"])
     ig = cfg["instagram"]
     now = datetime.now(timezone.utc)
@@ -62,7 +87,7 @@ def run_pulse(cfg, dry):
         return
     book = sheets.open_sheet(cfg["sheet_id"])
     ws = sheets.tab(book, "Instagram Pulse", instagram.PULSE_HEADERS)
-    rows = instagram.merge_pulse(records(ws), posts, now, ig.get("keep_days", 14))
+    rows = instagram.merge_pulse(keep_configured(records(ws), ig), posts, now, ig.get("keep_days", 14))
     sheets.rewrite(ws, instagram.PULSE_HEADERS, rows)
     timing += f"; sheet: {time.time() - t1:.0f}s"
     if os.environ.get("GITHUB_ACTIONS"):
