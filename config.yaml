@@ -24,7 +24,26 @@ instagram:
   # Gulf online shops to track with Business Discovery (public business/creator accounts only).
   # Exact Instagram usernames, without '@'. Example format:
   #   - {username: someshop.ae, country: UAE}
-  shops: []
+  shops:
+    # Verified with Business Discovery on 1 Nov 2026. Big Gulf marketplaces, modest-fashion shops and Indian brands selling to the Gulf.
+    - {username: namshi, country: UAE}
+    - {username: noon_uae, country: UAE}
+    - {username: noon, country: Saudi Arabia}
+    - {username: splashfashions, country: UAE}
+    - {username: centrepointme, country: UAE}
+    - {username: maxfashionmena, country: UAE}
+    - {username: brandsforless, country: UAE}
+    - {username: vogacloset, country: UAE}
+    - {username: modanisa, country: UAE}
+    - {username: ounass, country: UAE}
+    - {username: desertcart, country: UAE}
+    - {username: danubehome, country: UAE}
+    - {username: mumzworld, country: UAE}
+    - {username: boutiqaat, country: Kuwait}
+    - {username: arabianoud, country: Saudi Arabia}
+    - {username: ajmalperfumes, country: UAE}
+    - {username: bibaindia, country: UAE}
+    - {username: kalkifashion, country: UAE}
 
 meta_audience:
   # Meta ad account number (digits only) is stored as the secret META_AD_ACCOUNT_ID.
