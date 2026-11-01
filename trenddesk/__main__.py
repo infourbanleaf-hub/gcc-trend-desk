@@ -171,30 +171,18 @@ def run_findshops(cfg, dry):
             print(f"::notice title=Diag {path}::{str(res)[:300]}")
         except Exception as e:
             print(f"::warning title=Diag {path}::{str(e)[:300]}")
+    found, missed = [], []
     for name in [n.strip().lstrip("@") for n in os.environ.get("SHOP_GUESSES", "").split(",") if n.strip()]:
         try:
             bd = g.get(uid, fields=f"business_discovery.username({name}){{username,name,followers_count,media_count,biography}}")["business_discovery"]
-            bio = " ".join(str(bd.get("biography", "")).split())[:90]
-            print(f"::notice title=FOUND {name}::{bd.get('name','')} | {bd.get('followers_count')} followers | {bd.get('media_count')} posts | {bio}")
+            bio = " ".join(str(bd.get("biography", "")).split())[:70]
+            found.append(f"{name} | {bd.get('name','')} | {bd.get('followers_count')} | {bd.get('media_count')} | {bio}")
         except (GraphError, KeyError) as e:
-            print(f"::warning title=MISS {name}::{str(e)[:120]}")
-
-
-def run_trade(cfg, dry):
-    tc = cfg["trade"]
-    groups = {str(k): v for k, v in tc["hs"].items()}
-    print("India exports to GCC (UN Comtrade)")
-    values = trade.fetch(list(groups), tc["years"])
-    rows = trade.rows(values, groups, tc["years"])
-    print(f"::notice title=Trade data::{len(values)} values, {len(rows)} rows, years {sorted({y for (_, _, y) in values})}")
-    for r in rows[:12]:
-        print(f"::notice title=Top {r[0]} {r[2]}::{r[1][:40]} | {r[3]}: USD {r[4]:,} (prev {r[5]:,}, {r[6]}%)")
-    if dry:
-        return
-    book = sheets.open_sheet(cfg["sheet_id"])
-    ws = sheets.tab(book, "India Exports to GCC", trade.TRADE_HEADERS)
-    sheets.rewrite(ws, trade.TRADE_HEADERS, rows)
-    sheets.set_status(book, "Q10", f"Last trade-data update: {datetime.now(timezone.utc).strftime('%Y-%m-%d')} - {len(rows)} rows (UN Comtrade)")
+            missed.append(name)
+    # GitHub shows at most 10 notices per step: pack results into a few annotations
+    for i in range(0, len(found), 6):
+        print(f"::notice title=FOUND {i // 6 + 1}::" + " %0A ".join(found[i:i + 6]))
+    print(f"::warning title=MISSED::{', '.join(missed)}")
 
 
 def run_export(cfg, dry):
