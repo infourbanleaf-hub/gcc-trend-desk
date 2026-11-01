@@ -20,6 +20,30 @@ def pdate(v):
 
 today = datetime(*map(int, sys.argv[3].split("-"))) if len(sys.argv) > 3 else datetime.now()
 week_ago = today - timedelta(days=7)
+# ---- History: every dated sighting of the same product, from the sheet's repeat scans and from the
+# weekly snapshots the export job saves in dashboard/history/. Used for trend lines and week-on-week change.
+METRIC = {"Amazon": "rank", "Meta ad": "days", "YouTube": "views", "Video product": "views", "Candidate": "signals"}
+def hkey(it):
+    if it["type"] == "Candidate" or not it.get("url"):
+        return (it["type"], re.sub(r"\W+", "", str(it.get("title", "")).lower())[:40])
+    return (it["type"], it.get("url"))
+import re
+SERIES = {}
+def add_point(it, d):
+    m = METRIC.get(it["type"])
+    v = it.get(m) if m else None
+    if d is None or v in (None, ""):
+        return
+    SERIES.setdefault(hkey(it), {})[d.strftime("%Y-%m-%d")] = {"v": v, "price": it.get("price")}
+for it in items:
+    add_point(it, pdate(it.get("date")) if it["type"] != "YouTube" else pdate(it.get("date")))
+_hd = repo / "dashboard" / "history"
+if _hd.exists():
+    for f in sorted(_hd.glob("*.json")):
+        d = pdate(f.stem)
+        for it in json.loads(f.read_text(encoding="utf-8")):
+            add_point(it, d)
+
 # Amazon and Meta rows repeat across weekly scans: keep the latest row per link, remember the first sighting.
 first, latest = {}, {}
 for it in items:
@@ -134,6 +158,81 @@ for it in items:
     else:
         it["score"], it["score_parts"] = insights.score(it, len(srcs), it["trade_change"])
 
+def hist_of(it):
+    pts = SERIES.get(hkey(it), {})
+    return [[d, pts[d]["v"]] for d in sorted(pts)][-12:]
+
+
+def change_of(it):
+    h = hist_of(it)
+    if len(h) < 2:
+        return ""
+    (d0, a), (d1, b) = h[-2], h[-1]
+    when = datetime.strptime(d0, "%Y-%m-%d").strftime("%d %b")
+    if it["type"] == "Amazon":
+        a, b = int(a), int(b)
+        return f"Rank #{a} → #{b} since {when}" + (f" (up {a - b})" if b < a else f" (down {b - a})" if b > a else " (steady)")
+    if it["type"] in ("YouTube", "Video product"):
+        return f"+{int(b) - int(a):,} views since {when}" if b >= a else ""
+    if it["type"] == "Candidate":
+        return f"Signals {int(a)} → {int(b)} since {when}" if a != b else ""
+    return f"Still running on {datetime.strptime(d1, '%Y-%m-%d').strftime('%d %b')} (first seen running {when})"
+
+
+MEASURES = {
+    "Amazon": "Marketplace rank in that country's store (measured; rank, not units sold)",
+    "Meta ad": "Days an ad has been live (measured; shows a seller keeps paying, not how much it sells)",
+    "YouTube": "Video views worldwide; found by a search set to that country (viewers may be anywhere)",
+    "Video product": "Views of the video that names the product (worldwide)",
+    "Candidate": "Our shortlist entry: evidence gathered from the sources noted",
+}
+
+
+def confidence(it):
+    pts = 0
+    if it["type"] in ("Amazon", "Meta ad") or (it["type"] == "Candidate" and insights.evidence(it)[0] >= 1.0):
+        pts += 1
+    if it.get("price") not in (None, ""):
+        pts += 1
+    if len(hist_of(it)) >= 2 or len(it.get("proof_sources", [])) >= 2:
+        pts += 1
+    cs = [c for c in it.get("countries", []) if c]
+    if cs and len(cs) <= 2 and it["type"] != "YouTube":
+        pts += 1
+    return "High" if pts >= 4 else "Medium" if pts >= 2 else "Low"
+
+
+# Meta audience (people Meta can reach per month) for the interest closest to the product's category.
+AUD_MAP = [(r"Scarves|Shawl", ["Hijab", "Shawl"]), (r"Traditional", ["Abaya", "Kurta"]),
+           (r"Supports & Braces|Massage", ["Back pain"]), (r"Cushion|Linens", ["Cushion"]),
+           (r"Jewelry", ["Costume jewelry"]), (r"Sunglasses", ["Sunglasses"]), (r"Kitchen", ["Kitchen utensil"]),
+           (r"Luggage", ["Travel"]), (r"Perfume|Fragrance", ["Perfume"]),
+           (r"Shoes", ["Shoes"]), (r"Hardware|Household", ["Home improvement"])]
+AUD = {}
+_af = repo / "dashboard" / "audience.json"
+if _af.exists():
+    for a in json.loads(_af.read_text(encoding="utf-8")):
+        if a.get("high"):
+            AUD[(a["country"], a["term"])] = a
+
+
+def audience_of(it):
+    path = it.get("gpath") or it.get("gcat") or ""
+    terms = next((t for rx, t in AUD_MAP if re.search(rx, path)), None)
+    if not terms:
+        return None, ""
+    cs = [c for c in it.get("countries", []) if c in ("UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman")] or \
+         ["UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman"]
+    best = None
+    for t in terms:
+        tot = sum(AUD[(c, t)]["high"] for c in cs if (c, t) in AUD)
+        if tot and (best is None or tot > best[0]):
+            best = (tot, t, AUD[(next(c for c in cs if (c, t) in AUD), t)]["interest"])
+    if not best:
+        return None, ""
+    return int(best[0]), f"Meta interest '{best[2]}', {', '.join(cs) if len(cs) < 5 else 'all 5 countries'}"
+
+
 rows = []
 for it in items:
     img = ""
@@ -176,6 +275,8 @@ for it in items:
         "hs": it["hs"], "trade_change": it["trade_change"],
         "proof_sources": ", ".join(it["proof_sources"]),
         "margin": it.get("margin"), "india_cost": it.get("india_cost"),
+        "hist": hist_of(it), "change": change_of(it), "confidence": confidence(it),
+        "measures": MEASURES.get(it["type"], ""), "aud": audience_of(it)[0], "aud_label": audience_of(it)[1],
         "evidence": insights.evidence(it)[1] if it["type"] == "Candidate" else "",
         "also": "; ".join(f'{a["type"]}: {a["url"]}' for a in it.get("also", []))[:400],
     })

@@ -4,6 +4,7 @@ Reads the Product Discovery Tracker, picks product rows (candidates, Amazon best
 Meta COD ads, product-search YouTube videos), fetches a small picture for each where one is
 publicly available, and writes dashboard/data.json + dashboard/img/*.jpg.
 """
+from datetime import datetime, timezone
 import hashlib
 import io
 import json
@@ -331,4 +332,20 @@ def run(book, out="dashboard"):
              for r in rows_of(book, "India Exports to GCC")]
     (out / "trade.json").write_text(json.dumps(trade, ensure_ascii=False), encoding="utf-8")
     (out / "data.json").write_text(json.dumps(items, ensure_ascii=False, indent=0), encoding="utf-8")
+    # Meta audience sizes (people reachable per month) by country and search term, latest check of each.
+    aud = {}
+    for r in rows_of(book, "Audience Size"):
+        aud[(r.get("Country"), r.get("Search term"))] = {"country": r.get("Country"), "term": r.get("Search term"),
+            "interest": r.get("Meta interest"), "low": num(r.get("Monthly audience (low)")),
+            "high": num(r.get("Monthly audience (high)")), "date": str(r.get("Date", ""))}
+    (out / "audience.json").write_text(json.dumps(list(aud.values()), ensure_ascii=False), encoding="utf-8")
+    # Weekly history: one small dated snapshot per export, so the wall can show change over time.
+    hist_dir = out / "history"
+    hist_dir.mkdir(exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    snap = [{"type": i["type"], "title": i.get("title", ""), "url": i.get("url", ""),
+             "countries": i.get("countries", []), "rank": i.get("rank"), "days": i.get("days"),
+             "views": i.get("views"), "price": i.get("price"), "reviews": i.get("reviews"),
+             "signals": i.get("signals")} for i in items]
+    (hist_dir / f"{stamp}.json").write_text(json.dumps(snap, ensure_ascii=False), encoding="utf-8")
     return items
