@@ -15,6 +15,17 @@ from pathlib import Path
 GPT_RULES = [
     (r"\bcar\b|vehicle|windshield|sun ?shade|tyre|tire|headrest|backseat|anti-fog|car seat|سيار",
      "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor"),
+    (r"seat belt cover", "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor"),
+    (r"haircut|shears|thinning scissors|tweezers|scalp|applicator comb", "Health & Beauty > Personal Care > Hair Care"),
+    (r"^(?!.*(posture|slimming|back|support|seat|hot sweat)).*\bbelt\b", "Apparel & Accessories > Clothing Accessories > Belts"),
+    (r"\bcap\b|\bhat\b", "Apparel & Accessories > Clothing Accessories > Hats"),
+    (r"eau de parfum|parfum|fragrance", "Health & Beauty > Personal Care > Cosmetics > Perfume & Cologne"),
+    (r"air freshener|moisture absorber|dehumidif", "Home & Garden > Household Supplies"),
+    (r"tumbler|straw cup|mug\b|cups?\b", "Home & Garden > Kitchen & Dining > Tableware > Drinkware"),
+    (r"seat cushion", "Home & Garden > Decor > Chair & Sofa Cushions"),
+    (r"dust mop|\bmop\b", "Home & Garden > Household Supplies > Household Cleaning Supplies"),
+    (r"pegs|clothes ?pins", "Home & Garden > Household Supplies > Laundry Supplies"),
+    (r"fitted sheet|bed ?sheet|duvet|quilt", "Home & Garden > Linens & Bedding > Bedding"),
     (r"sunglass|uv400|polari[sz]ed|eyewear|نظار", "Apparel & Accessories > Clothing Accessories > Sunglasses"),
     (r"socks", "Apparel & Accessories > Clothing > Underwear & Socks > Socks"),
     (r"innerwear|underwear|brief|boxer|undershirt|\bvests?\b|sirwal|سروال", "Apparel & Accessories > Clothing > Underwear & Socks"),
@@ -202,6 +213,9 @@ def demand(it):
 
 
 def price_fit(it):
+    m = num(it.get("margin"))
+    if m is not None:  # a real margin from our own India cost beats a price-range guess
+        return 100 if m >= 50 else 75 if m >= 35 else 40 if m >= 20 else 10
     p = num(it.get("price"))
     if p is None:
         return 45
@@ -224,15 +238,41 @@ def ship_fit(it):
     return 80 if GATE_PASS.search(note) else 55
 
 
+VENDOR = re.compile(r"vendor claim|not gcc-verified|global, not|global only", re.I)
+MEASURED = re.compile(r"tracker|amazon\.|noon\.|ads/library|ad library|best sellers|instagram pulse|youtube gcc|marketplace signals|"
+                      r"gcc ad signals|views|days running|reviews", re.I)
+
+
+def evidence(it):
+    """How trustworthy a candidate's evidence is: (multiplier, label). Measured platform data counts fully,
+    press and platform reports 75%, vendor marketing claims or global-only data 50%."""
+    if it.get("type") != "Candidate":
+        return 1.0, "measured"
+    text = str(it.get("note", "")) + " " + str(it.get("url", ""))
+    if MEASURED.search(text) and VENDOR.search(text):
+        return 0.75, "mixed: measured + vendor claim"
+    if MEASURED.search(text):
+        return 1.0, "measured"
+    if VENDOR.search(text):
+        return 0.5, "vendor claim"
+    if text.strip():
+        return 0.75, "press / report"
+    return 0.5, "none recorded"
+
+
 def score(it, proof_sources, trade_change=None):
     """proof_sources: number of different platforms (Amazon, Meta ad, YouTube, Candidate) showing
     products of the same Google category in the same country."""
+    q, _ = evidence(it)
+    fit = ship_fit(it)
+    if it.get("type") == "Candidate" and fit == 100:
+        fit = 80  # weight is our estimate, not a measured figure
     parts = {
-        "demand": demand(it),
-        "proof": min(100, 25 * proof_sources),
+        "demand": demand(it) * q,
+        "proof": min(100, 25 * proof_sources) * q,
         "momentum": STAGE_PTS.get(it.get("stage", ""), 45),
         "price": price_fit(it),
-        "fit": ship_fit(it),
+        "fit": fit,
         "trade": trade_points(trade_change),
     }
     total = round(sum(parts[k] * w for k, w in WEIGHTS.items()))

@@ -7,7 +7,7 @@ PART A — Ad signals (file 1)
 2. TikTok Creative Center (https://ads.tiktok.com/business/creativecenter/) top ads, top products and trending hashtags, filtered to UAE and Saudi Arabia (and Kuwait/Qatar/Oman if offered), last 7 days. Record product, metric shown (CTR, likes, popularity), URL.
 3. Save to Google Drive (Google Drive connector, create_file, text/csv, disableConversionToGoogleType true) as weekly_adsignals_YYYY-MM-DD.csv with header exactly:
 Country,Platform,Keyword / Filter,Product,Advertiser,Ad Running Since,Days Running,Ad Variations,Engagement / Metric,URL,Note
-(Ad URL format: https://www.facebook.com/ads/library/?id=<LibraryID>. Ad Running Since as YYYY-MM-DD. Note = whether it passes the gates below.)
+(Ad URL format: https://www.facebook.com/ads/library/?id=<LibraryID>. Ad Running Since as YYYY-MM-DD. Note = whether it passes the gates below; if the ad shows a price, start Note with it as "price: SAR 89" (currency code + number, exactly as shown).)
 
 PART B — Marketplace and search signals (file 2)
 4. Amazon best sellers (top 30, keep items priced roughly 25-200 AED/SAR, skip grocery): amazon.ae/gp/bestsellers/{kitchen,fashion,home,automotive,beauty} and amazon.sa/gp/bestsellers/{fashion,home,automotive}. Also try amazon.ae/gp/movers-and-shakers/ and amazon.sa/gp/movers-and-shakers/ (often empty; skip if so). Record rank, product, price, review count, URL https://www.amazon.ae/dp/<ASIN> (or .sa).

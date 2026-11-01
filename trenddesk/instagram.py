@@ -1,4 +1,5 @@
 """Instagram Graph API collectors: hashtag pulse (hourly) and Gulf shop tracking (daily)."""
+import re
 from datetime import datetime, timedelta, timezone
 
 from .graph import GraphError
@@ -13,7 +14,9 @@ PULSE_HEADERS = ["Link", "Country", "Hashtag", "Feed", "Posted (Gulf time)", "Fi
 SHOP_HEADERS = ["Date", "Username", "Country", "Followers", "Follower change vs last check", "Posts",
                 "Avg likes (last 12 posts)", "Best recent post likes", "Best recent post"]
 SHOP_POST_HEADERS = ["Link", "Username", "Country", "Posted (Gulf time)", "Likes", "Comments",
-                     "Likes vs shop average (x)", "Media type", "Caption"]
+                     "Likes vs shop average (x)", "Media type", "Caption", "Giveaway"]
+# Giveaway / contest posts get likes and comments for the prize, not the product.
+GIVEAWAY = re.compile(r"giveaway|give away|contest|win a|chance to win|مسابق|سحب|فوز|يفوز|تفوز|هدية مجانية|اربح|ربح", re.I)
 
 
 def _ts(s):
@@ -157,6 +160,7 @@ def shop_rows(shops, previous_followers, now):
             ratio = round(lk / avg, 2) if isinstance(lk, (int, float)) and avg else ""
             posted = _ts(m["timestamp"]).astimezone(GULF).strftime(FMT) if m.get("timestamp") else ""
             posts.append([m["permalink"], s["username"], s["country"], posted, _num(lk),
-                          _num(m.get("comments_count")), ratio, m.get("media_type", ""), _clean(m.get("caption"))])
+                          _num(m.get("comments_count")), ratio, m.get("media_type", ""), _clean(m.get("caption")),
+                          "Yes" if GIVEAWAY.search(str(m.get("caption") or "")) else ""])
     posts.sort(key=lambda r: r[6] if r[6] != "" else -1, reverse=True)
     return snap, posts

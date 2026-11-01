@@ -41,6 +41,11 @@ def _col(n):
 
 def rewrite(ws, headers, rows):
     """Replace everything under the header with `rows` (list of lists)."""
+    if ws.col_count < len(headers):
+        ws.add_cols(len(headers) - ws.col_count)
+    if ws.row_values(1)[:len(headers)] != headers:
+        ws.update(range_name="A1", values=[headers])
+        ws.format(f"A1:{_col(len(headers))}1", HEADER_FMT)
     ws.batch_clear([f"A2:{_col(len(headers))}{max(ws.row_count, 2)}"])
     if rows:
         if ws.row_count < len(rows) + 1:

@@ -58,6 +58,41 @@ for it in items:
         seen_titles.add(key)
     kept.append(it)
 items = kept
+# The same product often shows up on several platforms (a candidate that is also a Meta ad, an Amazon item
+# in both UAE and KSA). Merge those into one card: countries combined, earliest sighting kept, and the
+# other platforms counted as extra proof.
+ORDER = {"Candidate": 0, "Amazon": 1, "Meta ad": 2, "Video product": 3}
+by_key, merged = {}, []
+for it in items:
+    if it["type"] == "YouTube":
+        merged.append(it)
+        continue
+    key = re.sub(r"\W+", "", str(it.get("title", "")).lower())[:40]
+    if not key:
+        merged.append(it)
+        continue
+    by_key.setdefault(key, []).append(it)
+for key, group in by_key.items():
+    group.sort(key=lambda x: ORDER.get(x["type"], 9))
+    main = group[0]
+    main["also"] = []
+    for o in group[1:]:
+        for c in o.get("countries", []):
+            if c and c not in main.setdefault("countries", []):
+                main["countries"].append(c)
+        if main.get("price") in (None, "") and o.get("price") not in (None, ""):
+            main["price"], main["price_label"] = o["price"], o.get("price_label", "")
+        if not main.get("img") and o.get("img"):
+            main["img"], main["ref"] = o["img"], o.get("ref")
+        f_main = main.get("first_seen") or pdate(main.get("date"))
+        f_o = o.get("first_seen") or pdate(o.get("date"))
+        if f_o and (not f_main or f_o < f_main):
+            main["first_seen"] = f_o
+        main["also"].append({"type": o["type"], "url": o.get("url", ""), "source": str(o.get("source", ""))})
+    merged.append(main)
+print(len(items) - len(merged), "duplicate cards merged")
+items = merged
+
 # Market-insight fields: Google Product Taxonomy, lifecycle stage, opportunity score (see insights.py).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import insights
@@ -92,6 +127,7 @@ for it in items:
     srcs = set().union(*[groups.get((it["gkey"], c), set()) for c in cs], groups.get((it["gkey"], "GCC"), set()))
     if it["gkey"] in ("Mixed product videos", "Other"):
         srcs = {SRC.get(it["type"], it["type"])}
+    srcs = set(srcs) | {SRC.get(a["type"], a["type"]) for a in it.get("also", [])}
     it["proof_sources"] = sorted(srcs)
     if it["type"] == "YouTube":  # a video, not one product: no score (its products are scored when named)
         it["score"], it["score_parts"] = None, {}
@@ -117,7 +153,7 @@ for it in items:
     elif it["type"] == "Video product":
         fs = pdate(it.get("date"))
     elif it["type"] == "Candidate":
-        fs = pdate(it.get("date"))
+        fs = it.get("first_seen") or pdate(it.get("date"))
     else:
         fs = it.get("first_seen")
     is_new = bool(fs and fs >= week_ago)
@@ -139,6 +175,9 @@ for it in items:
         "sp_fit": it["score_parts"].get("fit"), "sp_trade": it["score_parts"].get("trade"),
         "hs": it["hs"], "trade_change": it["trade_change"],
         "proof_sources": ", ".join(it["proof_sources"]),
+        "margin": it.get("margin"), "india_cost": it.get("india_cost"),
+        "evidence": insights.evidence(it)[1] if it["type"] == "Candidate" else "",
+        "also": "; ".join(f'{a["type"]}: {a["url"]}' for a in it.get("also", []))[:400],
     })
 out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(sum(r["new"] for r in rows), "new;", len(rows), "rows,", round(out.stat().st_size / 1e6, 2), "MB,", sum(1 for r in rows if r["img"]), "with pictures")

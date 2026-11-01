@@ -59,19 +59,40 @@ def yt_id(url):
     return m.group(1) if m else None
 
 
+CUR = re.compile(r"(AED|SAR|OMR|QAR|KWD|BHD)\s*\d+(?:[.,]\d+)?|\d+(?:[.,]\d+)?\s*(AED|SAR|OMR|QAR|KWD|BHD)", re.I)
+
+
+def _ad_price_label(r):
+    """A price written in the ad's product title or in the scan's Note (e.g. "price: SAR 89")."""
+    for k in ("Product", "Note", "Engagement / Metric"):
+        m = CUR.search(str(r.get(k, "")))
+        if m:
+            return m.group(0).upper()
+    return ""
+
+
+def _ad_price(r):
+    lab = _ad_price_label(r)
+    return price_aed(lab) if lab else None
+
+
 def collect(book, yt_limit=160):
     items = []
     for r in rows_of(book, "Candidates"):
         name = str(r.get("Product", "")).strip()
         if not name or not r.get("Status"):
             continue
-        note = " ".join(str(r.get(k, "")) for k in ("TikTok Signal", "Meta Longevity", "IG Note", "FB Note", "Saudi Note"))
+        note = str(r.get("TikTok Signal", ""))
+        margin = num(str(r.get("Margin %", "")).replace("%", ""))
+        if margin is not None and margin <= 1:
+            margin *= 100  # stored as a fraction (0.45) or as a percent (45)
         items.append({"type": "Candidate", "title": name, "url": r.get("Link", ""),
                       "countries": countries_in(note + " " + str(r.get("Link", ""))) or ["GCC"],
                       "source": r.get("Source", ""), "status": r.get("Status", ""),
                       "price": price_aed(r.get("Market Price (AED)")), "price_label": f"AED {r.get('Market Price (AED)')}" if r.get("Market Price (AED)") else "",
                       "weight": num(r.get("Est. Weight (g)")), "signals": num(r.get("Confirmations")),
-                      "trend": r.get("Trends Shape", ""), "note": note.strip()[:240], "date": str(r.get("Date Added", ""))})
+                      "trend": r.get("Trends Shape", ""), "note": note.strip()[:400], "date": str(r.get("Date Added", "")),
+                      "india_cost": num(r.get("India Cost (₹)")), "landed": num(r.get("Landed Cost (AED)")), "margin": margin})
     for r in rows_of(book, "Marketplace Signals"):
         items.append({"type": "Amazon", "title": r.get("Product / Keyword", ""), "url": r.get("URL", ""),
                       "countries": [r.get("Country", "")], "source": r.get("Platform", ""),
@@ -83,7 +104,7 @@ def collect(book, yt_limit=160):
         items.append({"type": "Meta ad", "title": r.get("Product", ""), "url": r.get("URL", ""),
                       "countries": [r.get("Country", "")], "source": r.get("Advertiser", ""),
                       "keyword": r.get("Keyword / Filter", ""), "days": num(r.get("Days Running")),
-                      "price": price_aed(r.get("Product", "")) if re.search(r"(AED|SAR|OMR|QAR|KWD)", str(r.get("Product", ""))) else None,
+                      "price": _ad_price(r), "price_label": _ad_price_label(r),
                       "note": r.get("Note", ""), "date": str(r.get("Scan Date", ""))})
     best = {}
     for r in rows_of(book, "YouTube GCC"):
