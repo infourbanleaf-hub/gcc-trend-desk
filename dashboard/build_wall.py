@@ -120,6 +120,8 @@ items = merged
 # Market-insight fields: Google Product Taxonomy, lifecycle stage, opportunity score (see insights.py).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import insights
+# Ads for a whole shop's sale rather than one product ("Jewellery clearance", "Branded perfume discounts").
+STOREWIDE = re.compile(r"\bclearance\b|\bdiscounts\b|\bsale\b|store-?wide|all products|everything at|\bequipment$", re.I)
 SRC = {"Amazon": "Marketplace", "Meta ad": "Meta ads", "TikTok ad": "TikTok ads", "YouTube": "YouTube", "Video product": "YouTube", "Candidate": "Candidates"}
 for it in items:
     text = " ".join(str(it.get(k, "")) for k in ("title", "keyword"))
@@ -161,6 +163,10 @@ for it in items:
     it["proof_sources"] = sorted(srcs)
     if it["type"] == "YouTube":  # a video, not one product: no score (its products are scored when named)
         it["score"], it["score_parts"], it["factors"] = None, {}, 0
+        it["unscored"] = "a video of several products"
+    elif it["type"] in ("Meta ad", "TikTok ad") and STOREWIDE.search(str(it.get("title", ""))):
+        it["score"], it["score_parts"], it["factors"] = None, {}, 0
+        it["unscored"] = "a shop-wide sale ad, not one product"
     else:
         it["score"], it["score_parts"], it["factors"] = insights.score(it, len(srcs), it["trade_change"])
 
@@ -364,6 +370,7 @@ for it in items:
         "sp_fit": it["score_parts"].get("fit"), "sp_trade": it["score_parts"].get("trade"),
         "hs": it["hs"], "trade_change": it["trade_change"], "trade_country": it.get("trade_country", ""),
         "score_raw": it.get("score_raw"), "factors": it.get("factors", 0),
+        "unscored": it.get("unscored", ""),
         "no_ads": it.get("no_ads", False), "ads_near": it.get("ads_near", 0), "demand_ev": it.get("demand_ev", ""),
         "adcheck": it.get("adcheck", ""),
         "proof_sources": ", ".join(it["proof_sources"]),

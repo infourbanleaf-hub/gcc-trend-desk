@@ -149,7 +149,11 @@ def lifecycle(it, today, pdate):
 
 
 # ---------------------------------------------------------------- 3. Opportunity score
-GATE_FAIL = re.compile(r"gate fail|battery|liquid|electric|glass|heavy|bulky|medical|weight-loss|risky|food|over 400", re.I)
+GATE_FAIL = re.compile(
+    r"gate fail|battery|liquid|electric\b|\bglass\b|glassware|\bheavy\b|bulky|(?<!avoid )medical (?:claim|device)|"
+    r"weight-loss|risky|\bfood (?:item|product)|edible|over 400|"
+    r"\bcream\b|ointment|\b(?:hair|body|massage) oil\b|serum|\bgel\b|spray|perfume|parfum|\boud\b|supplement|"
+    r"rechargeable|\d{3,}\s*w\b|look-?alike|replica|first copy|chocolate|coffee beans", re.I)
 GATE_PASS = re.compile(r"gate pass|india .*fit|light", re.I)
 STAGE_PTS = {"Emerging": 90, "Growing": 100, "Peak": 60, "Declining": 15, "": 45}
 WEIGHTS = {"demand": 0.25, "proof": 0.15, "momentum": 0.15, "price": 0.15, "fit": 0.20, "trade": 0.10}
