@@ -240,6 +240,82 @@ def audience_of(it):
     return int(best[0]), f"Meta interest '{best[2]}', {', '.join(cs) if len(cs) < 5 else 'all 5 countries'}"
 
 
+# ---- Demand without ads: products with measured demand where none of the ads we track (Meta Ad Library,
+# TikTok Top Ads) are for the same kind of product in the same country. Our ad data is a sample (the
+# Meta scan searches set keywords, TikTok shows ~20 top ads per list), so "no ads seen" is a lead to check,
+# not proof. A targeted Meta Ad Library search in the Monday scan confirms it ("Ad Gap Checks" tab).
+STOP = set("with from pack pcs piece pieces set sets for and the men's women's mens womens kids girls boys new "
+           "best size large small cotton black white color colour inch premium quality original pair pairs".split())
+
+
+def keywords(text):
+    return {w for w in re.findall(r"[a-z]{4,}", str(text).lower()) if w not in STOP}
+
+
+def same_kind(p1, p2):
+    """Same product type: identical Google category, or one inside the other when the broader one is at
+    least 3 levels deep (Underwear & Socks contains Socks; plain 'Clothing' is too broad to count)."""
+    if not p1 or not p2:
+        return False
+    a, b = p1.split(" > "), p2.split(" > ")
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    return a == b or (len(short) >= 3 and long_[:len(short)] == short)
+
+
+ADS = [it for it in items if it["type"] in ("Meta ad", "TikTok ad")]
+for a in ADS:
+    a["_kw"] = keywords(a.get("title", ""))
+    a["_cs"] = set(c for c in a.get("countries", []) if c) or {"GCC"}
+
+
+def demand_evidence(it):
+    """Plain-language demand proof for products we can measure, or None."""
+    t = it["type"]
+    if t == "Amazon":
+        rank, rev = insights.num(it.get("rank")), insights.num(it.get("reviews"))
+        bits = []
+        if rank is not None and rank <= 10:
+            bits.append(f"#{int(rank)} in {it.get('source', 'Amazon')}")
+        if rev is not None and rev >= 300:
+            bits.append(f"{int(rev):,} reviews")
+        return " · ".join(bits) or None
+    if t == "Video product":
+        v = insights.num(it.get("views"))
+        return f"{int(v):,} views on a shopping video" if v and v >= 200_000 else None
+    if t == "Candidate":
+        q, label = insights.evidence(it)
+        sig = insights.num(it.get("signals")) or 0
+        return f"{int(sig)} independent signals ({label})" if q >= 1.0 and sig >= 2 else None
+    return None
+
+
+CONFIRM = {}
+_cf = repo / "dashboard" / "adgap_checks.json"
+if _cf.exists():
+    for c in json.loads(_cf.read_text(encoding="utf-8")):
+        CONFIRM[(str(c.get("product", "")).strip().lower(), c.get("country", ""))] = c
+
+for it in items:
+    it["no_ads"], it["ads_near"] = False, 0
+    ev = demand_evidence(it)
+    if not ev or it.get("score") is None or it["score"] < 50:
+        continue
+    cs = set(c for c in it.get("countries", []) if c) or {"GCC"}
+    kw = keywords(it.get("title", ""))
+    near = [a for a in ADS if (a["_cs"] & cs or "GCC" in a["_cs"] or "GCC" in cs)
+            and (same_kind(a.get("gpath"), it.get("gpath")) or (kw & a["_kw"]))]
+    it["ads_near"] = len(near)
+    it["demand_ev"] = ev
+    if not near:
+        it["no_ads"] = True
+        chk = next((CONFIRM[k] for k in CONFIRM if k[0] == str(it.get("title", "")).strip().lower()), None)
+        if chk:
+            found = insights.num(chk.get("ads"))
+            it["adcheck"] = (f"Meta Ad Library check {chk.get('date', '')}: {chk.get('ads')} active ads for "
+                             f"'{chk.get('keyword', '')}' in {chk.get('country', '')}")
+            if found:  # the targeted search found ads: not a gap after all
+                it["no_ads"], it["ads_near"] = False, int(found)
+
 for it in items:
     if it.get("score") is not None:
         it["score_raw"] = it["score"]
@@ -288,6 +364,8 @@ for it in items:
         "sp_fit": it["score_parts"].get("fit"), "sp_trade": it["score_parts"].get("trade"),
         "hs": it["hs"], "trade_change": it["trade_change"], "trade_country": it.get("trade_country", ""),
         "score_raw": it.get("score_raw"), "factors": it.get("factors", 0),
+        "no_ads": it.get("no_ads", False), "ads_near": it.get("ads_near", 0), "demand_ev": it.get("demand_ev", ""),
+        "adcheck": it.get("adcheck", ""),
         "proof_sources": ", ".join(it["proof_sources"]),
         "margin": it.get("margin"), "india_cost": it.get("india_cost"),
         "hist": hist_of(it), "change": change_of(it), "confidence": confidence(it),

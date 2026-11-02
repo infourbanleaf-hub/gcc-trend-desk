@@ -21,10 +21,15 @@ jobs:
       - run: python -m trenddesk export
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      - name: List demand-without-ads products for the Monday ad check
+        run: python dashboard/build_wall.py . /tmp/products.json && python -m trenddesk adgaps
+        env:
+          PRODUCTS_JSON: /tmp/products.json
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       - name: Commit export
         run: |
           git config user.name "trend-desk-bot"
           git config user.email "trend-desk-bot@users.noreply.github.com"
-          git add dashboard && git add -f dashboard/data.json dashboard/trade.json dashboard/audience.json dashboard/shipping.json dashboard/history
+          git add dashboard && git add -f dashboard/data.json dashboard/trade.json dashboard/audience.json dashboard/shipping.json dashboard/adgap_checks.json dashboard/history
           git commit -m "Dashboard export $(date -u +%F)" || echo "nothing to commit"
           git push

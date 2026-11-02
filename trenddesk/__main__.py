@@ -245,6 +245,30 @@ def run_tthashtags(cfg, dry):
     sheets.set_status(book, "Q12", f"Last TikTok hashtag scan: {trend[0][0]} - {len(vids)} videos, {len(trend)} hashtags (Apify)")
 
 
+ADGAP_HEADERS = ["Listed on", "Product", "Country", "Demand evidence", "Score", "Search used",
+                 "Active Meta ads found", "Checked on", "Note"]
+
+
+def run_adgaps(cfg, dry):
+    """List the strongest 'demand but no ads seen' products for the Monday scan to check in Meta Ad Library.
+    Reads the wall's products.json (env PRODUCTS_JSON); only adds products not listed before."""
+    import json as _json
+    rows = _json.loads(Path(os.environ.get("PRODUCTS_JSON", "/tmp/products.json")).read_text(encoding="utf-8"))
+    gaps = sorted((r for r in rows if r.get("no_ads") and not r.get("adcheck")), key=lambda r: -(r.get("score") or 0))[:12]
+    stamp = datetime.now(timezone.utc).astimezone(instagram.GULF).strftime("%Y-%m-%d")
+    if dry:
+        for g in gaps:
+            print("  ", g["score"], g["country"], g["title"][:60], "|", g.get("demand_ev"))
+        return
+    book = sheets.open_sheet(cfg["sheet_id"])
+    ws = sheets.tab(book, "Ad Gap Checks", ADGAP_HEADERS)
+    have = {(str(r.get("Product")), str(r.get("Country"))) for r in records(ws)}
+    new = [[stamp, g["title"], g["country"], g.get("demand_ev", ""), g.get("score"), "", "", "", ""]
+           for g in gaps if (g["title"], g["country"]) not in have]
+    sheets.append(ws, new)
+    print(f"::notice title=Ad gaps::{len(gaps)} products with demand and no ads seen; {len(new)} new rows for the Monday check")
+
+
 def run_trade(cfg, dry):
     tc = cfg["trade"]
     groups = {str(k): v for k, v in tc["hs"].items()}
@@ -290,12 +314,12 @@ def run_playbook(cfg, dry, book=None):
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook", "adgaps"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook, "adgaps": run_adgaps}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()

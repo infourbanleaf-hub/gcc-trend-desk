@@ -387,6 +387,11 @@ def run(book, out="dashboard"):
              for r in rows_of(book, "India Exports to GCC")]
     (out / "trade.json").write_text(json.dumps(trade, ensure_ascii=False), encoding="utf-8")
     (out / "data.json").write_text(json.dumps(items, ensure_ascii=False, indent=0), encoding="utf-8")
+    # Ad-gap confirmations filled in by the Monday scan (Meta Ad Library search per product).
+    checks = [{"product": r.get("Product"), "country": r.get("Country"), "keyword": r.get("Search used"),
+               "ads": r.get("Active Meta ads found"), "date": str(r.get("Checked on", ""))}
+              for r in rows_of(book, "Ad Gap Checks") if str(r.get("Active Meta ads found", "")).strip() != ""]
+    (out / "adgap_checks.json").write_text(json.dumps(checks, ensure_ascii=False), encoding="utf-8")
     # Courier assumptions from the sheet's "Shipping Rates" tab, for price fit in the score.
     try:
         v = book.worksheet("Shipping Rates").get_values("A4:F14", value_render_option="UNFORMATTED_VALUE")
