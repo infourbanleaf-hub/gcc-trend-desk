@@ -22,7 +22,7 @@ today = datetime(*map(int, sys.argv[3].split("-"))) if len(sys.argv) > 3 else da
 week_ago = today - timedelta(days=7)
 # ---- History: every dated sighting of the same product, from the sheet's repeat scans and from the
 # weekly snapshots the export job saves in dashboard/history/. Used for trend lines and week-on-week change.
-METRIC = {"Amazon": "rank", "Meta ad": "days", "YouTube": "views", "Video product": "views", "Candidate": "signals"}
+METRIC = {"Amazon": "rank", "Meta ad": "days", "TikTok ad": "likes", "YouTube": "views", "Video product": "views", "Candidate": "signals"}
 def hkey(it):
     if it["type"] == "Candidate" or not it.get("url"):
         return (it["type"], re.sub(r"\W+", "", str(it.get("title", "")).lower())[:40])
@@ -85,7 +85,7 @@ items = kept
 # The same product often shows up on several platforms (a candidate that is also a Meta ad, an Amazon item
 # in both UAE and KSA). Merge those into one card: countries combined, earliest sighting kept, and the
 # other platforms counted as extra proof.
-ORDER = {"Candidate": 0, "Amazon": 1, "Meta ad": 2, "Video product": 3}
+ORDER = {"Candidate": 0, "Amazon": 1, "Meta ad": 2, "TikTok ad": 3, "Video product": 4}
 by_key, merged = {}, []
 for it in items:
     if it["type"] == "YouTube":
@@ -120,7 +120,7 @@ items = merged
 # Market-insight fields: Google Product Taxonomy, lifecycle stage, opportunity score (see insights.py).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import insights
-SRC = {"Amazon": "Marketplace", "Meta ad": "Meta ads", "YouTube": "YouTube", "Video product": "YouTube", "Candidate": "Candidates"}
+SRC = {"Amazon": "Marketplace", "Meta ad": "Meta ads", "TikTok ad": "TikTok ads", "YouTube": "YouTube", "Video product": "YouTube", "Candidate": "Candidates"}
 for it in items:
     text = " ".join(str(it.get(k, "")) for k in ("title", "keyword"))
     top, path, gid = insights.google_category(text)
@@ -185,12 +185,13 @@ MEASURES = {
     "YouTube": "Video views worldwide; found by a search set to that country (viewers may be anywhere)",
     "Video product": "Views of the video that names the product (worldwide)",
     "Candidate": "Our shortlist entry: evidence gathered from the sources noted",
+    "TikTok ad": "One of TikTok's top auction ads in that country over 30 days (measured by TikTok; likes and CTR, not sales)",
 }
 
 
 def confidence(it):
     pts = 0
-    if it["type"] in ("Amazon", "Meta ad") or (it["type"] == "Candidate" and insights.evidence(it)[0] >= 1.0):
+    if it["type"] in ("Amazon", "Meta ad", "TikTok ad") or (it["type"] == "Candidate" and insights.evidence(it)[0] >= 1.0):
         pts += 1
     if it.get("price") not in (None, ""):
         pts += 1
@@ -253,6 +254,8 @@ for it in items:
         fs = pdate(it.get("date"))
     elif it["type"] == "Candidate":
         fs = it.get("first_seen") or pdate(it.get("date"))
+    elif it["type"] == "TikTok ad":
+        fs = pdate(it.get("first_date")) or pdate(it.get("date"))
     else:
         fs = it.get("first_seen")
     is_new = bool(fs and fs >= week_ago)
@@ -261,7 +264,7 @@ for it in items:
         "url": it.get("url", ""), "country": ", ".join(cs) or "GCC",
         "source": str(it.get("source", "")), "price": it.get("price"),
         "price_label": it.get("price_label", "") or "",
-        "views": it.get("views"), "likes": it.get("likes"), "days": it.get("days"),
+        "views": it.get("views"), "likes": it.get("likes"), "ctr": it.get("ctr"), "industry": it.get("industry", ""), "days": it.get("days"),
         "reviews": it.get("reviews"), "rank": it.get("rank"), "movement": it.get("movement", "") or "",
         "signals": it.get("signals"), "status": it.get("status", "") or "",
         "note": str(it.get("note", "") or "")[:200], "date": it.get("date", ""), "img": img,

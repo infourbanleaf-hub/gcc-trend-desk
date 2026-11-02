@@ -136,6 +136,9 @@ def lifecycle(it, today, pdate):
             return ""
         age = max((today - pub).days, 1)
         return "Emerging" if age <= 14 else "Growing" if age <= 60 else "Peak"
+    if t == "TikTok ad":  # in TikTok's top-ads list now: new this month, or still there weeks later
+        first = pdate(it.get("first_date")) or pdate(it.get("date"))
+        return "Emerging" if not first or (today - first).days <= 14 else "Growing"
     if t == "Candidate":
         shape = str(it.get("trend", "")).lower()
         return {"rising": "Growing", "seasonal": "Peak", "flat": "Peak", "declining": "Declining"}.get(shape, "Emerging")
@@ -209,6 +212,10 @@ def demand(it):
         return min(100, max(0, (31 - r) / 30 * 70) + min(30, math.log10(rev + 1) / 4 * 30))
     if t == "Candidate":
         return min(100, 35 * (num(it.get("signals")) or 1))
+    if t == "TikTok ad":  # a top auction ad in that country; likes 10 = 0 .. 10K = 70, plus up to 30 for CTR
+        lk = num(it.get("likes")) or 0
+        ctr = num(it.get("ctr")) or 0
+        return min(100, max(0, (math.log10(lk + 1) - 1) / 3 * 70) + min(30, ctr * 15))
     return 30
 
 

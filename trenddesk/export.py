@@ -77,6 +77,43 @@ def _ad_price(r):
     return price_aed(lab) if lab else None
 
 
+# TikTok ads often write prices in Arabic ("399 ريال", "99 درهم"): read them in the country's own currency.
+LOCAL_CUR = {"UAE": "AED", "Saudi Arabia": "SAR", "Qatar": "QAR", "Oman": "OMR", "Kuwait": "KWD"}
+AR_PRICE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:ريال|ر\.س|رس|درهم|د\.إ|دينار|د\.ك|ريالات)")
+# TikTok industries that are not physical products we could ship (apps, services, finance, food, travel...).
+TT_SKIP = re.compile(r"app|game|financ|bank|insur|educat|travel|airline|hotel|vehicle|automobile|real estate|"
+                     r"service|food|beverage|restaurant|deliver|telecom|news|entertain|government|media|"
+                     r"health care|medical|pharma|business", re.I)
+
+
+def tiktok_items(book):
+    latest, first = {}, {}
+    for r in rows_of(book, "TikTok Top Ads"):
+        k = str(r.get("Ad ID"))
+        if k:
+            first[k] = min(first.get(k, "9999"), str(r.get("Scan Date")))
+        if k and (k not in latest or str(r.get("Scan Date")) >= str(latest[k].get("Scan Date"))):
+            latest[k] = r
+    out = []
+    for r in latest.values():
+        if TT_SKIP.search(str(r.get("Industry", ""))):
+            continue
+        title, country = str(r.get("Ad title", "")), r.get("Country", "")
+        lab = CUR.search(title)
+        lab = lab.group(0).upper() if lab else ""
+        if not lab:
+            m = AR_PRICE.search(title)
+            if m and country in LOCAL_CUR:
+                lab = f"{LOCAL_CUR[country]} {m.group(1)}"
+        out.append({"type": "TikTok ad", "title": title[:160], "url": r.get("Link", ""), "countries": [country],
+                    "source": r.get("Brand") or r.get("Industry", ""), "industry": r.get("Industry", ""),
+                    "likes": num(r.get("Likes")), "ctr": num(r.get("CTR (TikTok)")), "cover": r.get("Cover image", ""),
+                    "price": price_aed(lab) if lab else None, "price_label": lab,
+                    "note": f"TikTok Top Ads · {r.get('Industry', '')} · objective {r.get('Objective', '')}",
+                    "date": str(r.get("Scan Date", "")), "first_date": first.get(str(r.get("Ad ID")), "")})
+    return out
+
+
 def collect(book, yt_limit=160):
     items = []
     for r in rows_of(book, "Candidates"):
@@ -126,6 +163,7 @@ def collect(book, yt_limit=160):
             cur["countries"].append(r.get("Country"))
     items += sorted(best.values(), key=lambda x: -x["views"])[:yt_limit]
     items += video_products(rows_of(book, "YouTube Products"))
+    items += tiktok_items(book)
     for i, it in enumerate(items):
         it["id"] = f"{it['type'][0].lower()}{i}"
     return items
@@ -234,6 +272,8 @@ def _candidate_ref(title):
 
 
 def image_source(it):
+    if it.get("cover"):  # TikTok ad cover (signed link, valid for a few days)
+        return it["cover"]
     if it.get("type") == "Video product":
         src = None
         if "amazon." in str(it.get("url", "")):
