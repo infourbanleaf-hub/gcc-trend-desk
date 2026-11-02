@@ -11,8 +11,8 @@ PAGES = {
  "keywords SA": "https://ads.tiktok.com/business/creativecenter/keyword-insights/pc/en?region=SA",
 }
 with sync_playwright() as p:
-    b = p.chromium.launch()
-    ctx = b.new_context(locale="en-US", viewport={"width": 1366, "height": 900})
+    b = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+    ctx = b.new_context(locale="en-US", viewport={"width": 1366, "height": 900}, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
     for name, url in PAGES.items():
         got = []
         page = ctx.new_page()
@@ -24,6 +24,8 @@ with sync_playwright() as p:
                     j = {}
                 got.append((r.url.split("?")[0].split("creative_radar_api")[1], j))
         page.on("response", on_resp)
+        hosts = set()
+        page.on("request", lambda rq, hosts=hosts: hosts.add(rq.url.split("/")[2]))
         try:
             page.goto(url, wait_until="networkidle", timeout=60000)
             page.mouse.wheel(0, 3000); page.wait_for_timeout(4000)
@@ -38,7 +40,10 @@ with sync_playwright() as p:
                 names.append(str(it.get("hashtag_name") or it.get("url_title") or it.get("ad_title") or it.get("keyword")
                                  or it.get("first_ecom_category", {}).get("value") if isinstance(it, dict) else it)[:40])
             summ.append(f"{path} code={j.get('code')} n={len(lst) if isinstance(lst, list) else '?'} {names}")
-        text = page.inner_text("body")[:300].replace("\n", " | ")
-        print(f"::notice title={name}::" + (" ;; ".join(summ)[:800] if summ else "no API data captured") + " || TEXT: " + text[:250])
+        try:
+            text = f"url={page.url[:90]} title={page.title()[:60]} html={len(page.content())} " + page.inner_text("body")[:200].replace("\n", " | ")
+        except Exception as e:
+            text = "text error " + str(e)[:80]
+        print(f"::notice title={name}::" + (" ;; ".join(summ)[:800] if summ else "no API data captured") + " || " + text[:300] + " || hosts=" + ",".join(sorted(hosts))[:250])
         page.close()
     b.close()
