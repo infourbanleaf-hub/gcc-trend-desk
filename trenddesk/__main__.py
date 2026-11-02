@@ -269,6 +269,10 @@ def run_adgaps(cfg, dry):
     print(f"::notice title=Ad gaps::{len(gaps)} products with demand and no ads seen; {len(new)} new rows for the Monday check")
 
 
+def run_apifyusage(cfg, dry):
+    print(f"::notice title=Apify usage this month::{apify_market.usage(env('APIFY_TOKEN'))}")
+
+
 def run_apifymarket(cfg, dry):
     """Amazon.ae/.sa best sellers + new releases -> 'Marketplace Signals'; Google Trends -> 'Google Trends' tab."""
     token = env("APIFY_TOKEN")
@@ -283,18 +287,31 @@ def run_apifymarket(cfg, dry):
                     prev[r["URL"]] = int(float(r["Rank"]))
                 except ValueError:
                     pass
-    rows, run = apify_market.amazon(token, urls, am.get("per_page", 30), prev)
-    print(f"::notice title=Amazon via Apify::{len(rows)} products from {len(urls)} pages; cost USD {run.get('usageTotalUsd')}")
-    tr = apify_market.trends(token, cfg["google_trends"]["terms"])
-    rising = [f"{r[2]} ({r[1]})" for r in tr if r[7] == "Rising"]
-    print(f"::notice title=Google Trends via Apify::{len(tr)} term-country rows; rising: {', '.join(rising)[:250]}")
-    if dry:
-        for r in rows[:5] + tr[:5]:
-            print("  ", r)
-        return
-    sheets.append(sheets.tab(book, "Marketplace Signals", apify_market.MARKET_HEADERS), rows)
-    sheets.append(sheets.tab(book, "Google Trends", apify_market.TRENDS_HEADERS), tr)
-    sheets.set_status(book, "Q13", f"Last Apify market scan: {rows[0][0] if rows else ''} - {len(rows)} Amazon products, {len(tr)} Google Trends rows")
+    # Each part is saved as soon as it arrives, so a later failure (e.g. Apify credit used up) loses nothing.
+    rows = []
+    try:
+        rows, run = apify_market.amazon(token, urls, am.get("per_page", 30), prev)
+        print(f"::notice title=Amazon via Apify::{len(rows)} products from {len(urls)} pages; cost USD {run.get('usageTotalUsd')}")
+        if book and rows:
+            sheets.append(sheets.tab(book, "Marketplace Signals", apify_market.MARKET_HEADERS), rows)
+    except Exception as e:
+        print(f"::warning title=Amazon via Apify failed::{str(e)[:200]}")
+    tr = []
+    try:
+        tr = apify_market.trends(token, cfg["google_trends"]["terms"])
+        rising = [f"{r[2]} ({r[1]})" for r in tr if r[7] == "Rising"]
+        print(f"::notice title=Google Trends via Apify::{len(tr)} term-country rows; rising: {', '.join(rising)[:250]}")
+        if book and tr:
+            sheets.append(sheets.tab(book, "Google Trends", apify_market.TRENDS_HEADERS), tr)
+    except Exception as e:
+        print(f"::warning title=Google Trends via Apify failed::{str(e)[:200]}")
+    if book:
+        sheets.set_status(book, "Q13", f"Last Apify market scan: {datetime.now(timezone.utc).date()} - {len(rows)} Amazon products, {len(tr)} Google Trends rows")
+    try:
+        u = apify_market.usage(token)
+        print(f"::notice title=Apify usage this month::{u}")
+    except Exception as e:
+        print(f"::warning title=Apify usage::{str(e)[:150]}")
 
 
 def run_trade(cfg, dry):
@@ -342,12 +359,12 @@ def run_playbook(cfg, dry, book=None):
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook", "adgaps", "apifymarket"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook", "adgaps", "apifymarket", "apifyusage"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook, "adgaps": run_adgaps, "apifymarket": run_apifymarket}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook, "adgaps": run_adgaps, "apifymarket": run_apifymarket, "apifyusage": run_apifyusage}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()

@@ -96,3 +96,22 @@ def trends(token, terms, geos=("AE", "SA", "KW", "QA", "OM"), log=print):
             rows.append([stamp, GEO[geo], it.get("searchTerm") or it.get("inputUrlOrTerm"), series[-1], avg, chg, peak, trend,
                          ", ".join(r for r in rising if r)])
     return rows
+
+
+def usage(token):
+    """This billing period's Apify spend, broken down by actor where Apify reports it."""
+    me = requests.get(f"{API}/users/me/limits", params={"token": token}, timeout=30).json().get("data", {})
+    cur, lim = me.get("current", {}), me.get("limits", {})
+    runs = requests.get(f"{API}/actor-runs", params={"token": token, "limit": 50, "desc": 1}, timeout=30).json().get("data", {}).get("items", [])
+    by = {}
+    for r in runs:
+        by[r.get("actId", "?")] = by.get(r.get("actId", "?"), 0) + (r.get("usageTotalUsd") or 0)
+    acts = {}
+    for aid in by:
+        try:
+            a = requests.get(f"{API}/acts/{aid}", params={"token": token}, timeout=30).json().get("data", {})
+            acts[aid] = f"{a.get('username')}/{a.get('name')}"
+        except Exception:
+            acts[aid] = aid
+    return (f"used USD {cur.get('monthlyUsageUsd')} of {lim.get('maxMonthlyUsageUsd')}; period {me.get('monthlyUsageCycle', {})}; "
+            + "; ".join(f"{acts[k]} USD {round(v, 3)}" for k, v in sorted(by.items(), key=lambda kv: -kv[1])))
