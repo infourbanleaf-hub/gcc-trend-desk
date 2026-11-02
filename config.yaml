@@ -92,3 +92,23 @@ trade:
     "3307": Incense, bakhoor, room perfumes
     "4421": Other wood articles - massage rollers, hangers
     "9503": Toys
+
+tiktok:
+  # Read through Apify (apify.com) from outside India; TikTok itself is never opened here.
+  # Hashtags are the country signal: TikTok does not let anyone filter public videos by country.
+  videos_per_hashtag: 25
+  hashtags:
+    - منتجات_مفيدة          # useful products (Arabic, Gulf-heavy)
+    - تسوق_اونلاين           # online shopping
+    - عروض_السعودية          # Saudi deals
+    - الدفع_عند_الاستلام     # cash on delivery
+    - تسوق_الكويت
+    - عروض_الامارات
+    - عروض_قطر
+    - عروض_عمان
+    - dubaishopping
+    - ksashopping
+    - tiktokmademebuyit
+    - noonfinds
+    - عبايات                 # abayas
+    - حجاب                   # hijab
