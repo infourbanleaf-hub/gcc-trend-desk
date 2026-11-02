@@ -8063,7 +8063,7 @@
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
 "id": "v387",
-"img": "0236b971d5d7d05f.jpg"
+"img": "6184c93352f8c28a.jpg"
 },
 {
 "type": "Video product",
@@ -8193,7 +8193,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t394",
-"img": "6384d15fcdc2b0d9.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8213,7 +8214,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t395",
-"img": "62074f0f7f9b3197.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8233,7 +8235,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t396",
-"img": "2356686ebcf32d11.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eab9ee0>"
 },
 {
 "type": "TikTok ad",
@@ -8253,7 +8256,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t397",
-"img": "d2b7ed30636585c0.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea87fb0>"
 },
 {
 "type": "TikTok ad",
@@ -8273,7 +8277,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t398",
-"img": "875c94db198c3b29.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb00810>"
 },
 {
 "type": "TikTok ad",
@@ -8293,7 +8298,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t399",
-"img": "6a150f00ff1a5e63.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8313,7 +8319,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t400",
-"img": "b82d0ca645760e0a.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cd10>"
 },
 {
 "type": "TikTok ad",
@@ -8333,7 +8340,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t401",
-"img": "4631884d06d0fe32.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8353,7 +8361,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t402",
-"img": "834128aee7a8a70a.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea86930>"
 },
 {
 "type": "TikTok ad",
@@ -8373,7 +8382,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t403",
-"img": "edbc2a4207a3f46d.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8393,7 +8403,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t404",
-"img": "ddd0a0bb1b06517c.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
 },
 {
 "type": "TikTok ad",
@@ -8413,7 +8424,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t405",
-"img": "a042a6e124a74b16.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8433,7 +8445,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t406",
-"img": "63629e88936b4d33.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8453,7 +8466,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t407",
-"img": "4a389066dd746a1a.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
 },
 {
 "type": "TikTok ad",
@@ -8473,7 +8487,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t408",
-"img": "2cb12db5ae1f4cfc.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8493,7 +8508,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t409",
-"img": "b2a4a89e41f9fd8d.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
 },
 {
 "type": "TikTok ad",
@@ -8513,7 +8529,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t410",
-"img": "7bff42f26a80e1db.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8533,7 +8550,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t411",
-"img": "4665f9521e6c6e49.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8553,7 +8571,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t412",
-"img": "22dc16fedf2da5a9.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8573,7 +8592,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t413",
-"img": "f98939928819296a.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7ccc0>"
 },
 {
 "type": "TikTok ad",
@@ -8593,7 +8613,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t414",
-"img": "d8e9b40f67907641.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8613,7 +8634,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t415",
-"img": "5ba42c5c4618125a.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7ccc0>"
 },
 {
 "type": "TikTok ad",
@@ -8633,7 +8655,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t416",
-"img": "9179f3cfca6ae171.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8653,7 +8676,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t417",
-"img": "15afd83cdbd32770.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8673,7 +8697,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t418",
-"img": "b7ee3810b78863e2.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8693,7 +8718,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t419",
-"img": "50278a49d8dc1f79.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8713,7 +8739,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t420",
-"img": "768c2f8a3b04e6a5.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8733,7 +8760,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t421",
-"img": "bdcf7d734d5653a1.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8753,7 +8781,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t422",
-"img": "452637a71cebbb19.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8773,7 +8802,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t423",
-"img": "9ecf4c26d44d03be.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8793,7 +8823,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t424",
-"img": "bbcdfb092d1419af.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8813,7 +8844,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t425",
-"img": "c9ea7f22c1e1f91d.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8833,7 +8865,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t426",
-"img": "7a47607dec6bb253.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8853,7 +8886,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t427",
-"img": "8c1e3a7acf5fad6c.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8873,7 +8907,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t428",
-"img": "2f0a57e35a9fc88f.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8893,7 +8928,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t429",
-"img": "4768bcc4687088dc.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8913,7 +8949,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t430",
-"img": "2c746a5921dc8568.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8933,7 +8970,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t431",
-"img": "078affff174d30a6.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -8953,7 +8991,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t432",
-"img": "46334ec487862cd1.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8973,7 +9012,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t433",
-"img": "ccebee904a793639.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
 },
 {
 "type": "TikTok ad",
@@ -8993,7 +9033,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t434",
-"img": "1a150e22f9be97e1.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -9013,7 +9054,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t435",
-"img": "24eafee658c18df9.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
 },
 {
 "type": "TikTok ad",
@@ -9033,7 +9075,8 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t436",
-"img": "81baab256a808cad.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eabb0b0>"
 },
 {
 "type": "TikTok ad",
@@ -9053,6 +9096,387 @@
 "date": "2026-11-02",
 "first_date": "2026-11-02",
 "id": "t437",
-"img": "7a7a50a3f2904aa3.jpg"
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+},
+{
+"type": "TikTok ad",
+"title": "Skin By Bio-Oil",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7689525983472795668/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 22630.0,
+"ctr": 0.48,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/ooMMNOEAwNAFqEe4G522weferIDAGFXI7AgqA9~tplv-noop.image?dr=18692&refresh_token=02afe2b4&x-expires=1793660402&x-signature=OXu%2F4yzKMVhUw%2BhonYm0V2p09l4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c033g50000dauu43nog65o07hjnml0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t438",
+"img": "2b22a6bde4638f46.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Tired of plain walls? Glow Bricks by RAK Ceramics brings vibrant colour, flowing curves and depth.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7689079655005257749/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 6189.0,
+"ctr": 0.49,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oEaAqCIjEfGSbrAiRPZTLjqDefoYtVQGNuQJSN~tplv-noop.image?dr=18692&refresh_token=8ef981e3&x-expires=1793660432&x-signature=KuJPrHNnH%2B2HrJiyCjBtq5ly%2BAo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000daqhk97og65vjqasjhag",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective reach",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t439",
+"img": "fe74daaf79b8ce93.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Discover the world of Emiriah perfumes. Find the fragrance that speaks to you.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686346996722745360/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 82.0,
+"ctr": 0.82,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oke2BEfDUInuNHqDmWW0FrPCYBdAmEztFBmvQg~tplv-noop.image?dr=18692&refresh_token=bd3ef47a&x-expires=1793660408&x-signature=YmeeHZpGY6WwItQsLQ3aPxA%2F5YY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dam2prvog65jpmo877t0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t440",
+"img": "f9143c1fbc91d9c5.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "خيارك الاول للراحة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7387702313572679697/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1112.0,
+"ctr": 0.15,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oEibEDAFxIe7xbBAO2GfEcQAS0BdDf1Cox1UA8~tplv-noop.image?dr=18692&refresh_token=65b9fe4b&x-expires=1793660415&x-signature=%2BWVz19%2BapnDZ24iUCTCUSmY50Rw%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000d9u0e7fog65tjg25h2d0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t441",
+"img": "520aad6820932253.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "¡ÚLTIMA UNIDADES CON 60% DE DESCUENTO APROVECHA AHORA!",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7521540118282616850/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "جهاز الدهان الكهربائي الترند 2025",
+"industry": "Household products",
+"likes": 366.0,
+"ctr": 0.37,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oou6GkgXfAI1vjq1BDNq2YBW0EBUFDtbpWEQf7~tplv-noop.image?dr=18692&refresh_token=e9645200&x-expires=1793660415&x-signature=zxUcC%2Bv1HiAVPzR1CQiWhLQqmt4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000d9emhhnog65tqeqsri5g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t442",
+"img": "bb12a1dbdb762223.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "I’m so impressed #peelshot #drmelaxin #cloggedpores #blackhead #koreanskincare",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7576086503853801473/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "Peel Shot Glow Rice",
+"industry": "Beauty & personal care",
+"likes": 48162.0,
+"ctr": 0.1,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocL0rAfVoBQGMIrUEeAbI7FEh82AyTGeD0DiCQ~tplv-noop.image?dr=18692&refresh_token=cefb6f30&x-expires=1793660462&x-signature=jycFWq5WRRmNJ9LLbtzkA4OaMb4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14025g50000d61h2vnog65lt2lnr030",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t443",
+"img": "49a6afe9e0a5ed87.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Veneers who #whiteningstripes #drdent #tiktokmademebuyit #yellowteeth",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7603456541845553169/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "nivuxa",
+"industry": "Beauty & personal care",
+"likes": 87650.0,
+"ctr": 0.09,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocaPayt3SAwbytrRiIYBI4aqBlEPwQWnziSAK~tplv-noop.image?dr=18692&refresh_token=7cdf4999&x-expires=1793660448&x-signature=%2FOYJTj7Qi56EG8A49rt7Sy4EGyA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000d6pamq7og65obc62fdmg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t444",
+"img": "71bb4f1b7abeb5b8.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "جربوه و ادعوا لي",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7497654751128354824/pc/en?countryCode=QA&from=001110&period=180",
+"countries": [
+"Qatar"
+],
+"source": "ليالي",
+"industry": "Beauty & personal care",
+"likes": 116.0,
+"ctr": 0.53,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/osq7NYlBmInAFomf51EAtcB0lXWiiApXAwTY7t~tplv-noop.image?dr=18692&refresh_token=0a8db068&x-expires=1793660502&x-signature=GMX6upl0HA5Fh8hIL7JuXD7FNOg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10033g50000d5leokvog65pjrbjmdb0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t445",
+"img": "45fa6079d12cbe48.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تصاميم جديدة ، بنفس الهدف",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7694587905683406869/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 4.0,
+"ctr": 0.66,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oseVXfbuGeGklRLIIXL0jIzSDC4KQAC6VoCosA~tplv-noop.image?dr=18692&refresh_token=6107e905&x-expires=1793660420&x-signature=Iz30Hvd4KesVlnom6WFYGRCMTx8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db4at4fog65ulgl5vk0g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t446",
+"img": "5073e7eb0e3c77c1.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "شراء اثاث مستعمل بالرياض",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7696122088738193460/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 1.0,
+"ctr": 0.52,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o4WxmZGzQLANgbCnEEIobIGfDnE3ebOOV6bfAZ~tplv-noop.image?dr=18692&refresh_token=44790d63&x-expires=1793660431&x-signature=4sklD8xL%2Fuoyo0ShJB1E9oAOzsg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db723efog65pqrkeom8g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t447",
+"img": "9a0faeb36044c7fe.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "رموش أطول وأكثف مع إيبيلي سيروم يساعد على التغذية والترطيب وتقليل التكسراطلبِيه الآن من Luma",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7690636022977085461/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 0.0,
+"ctr": 0.91,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQUsuF1NeEWnDoEBEqqgIPD9FdfAAB9i6Io6JC~tplv-noop.image?dr=18692&refresh_token=bcedb231&x-expires=1793660428&x-signature=K0xQbDldVF94bujDDSfvwIFmaa8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000data7nfog65ulgifcu2g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t448",
+"img": "80dbeac8bf72d57b.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "فخامة تبدأ من أول رشة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7689957879906942997/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 16.0,
+"ctr": 0.51,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o4khE8i8r5qn3DxKABBAIEZxmZ1wwATBiWiRfn~tplv-noop.image?dr=18692&refresh_token=326abbff&x-expires=1793660433&x-signature=rAyR2AZByhdp84EEIBU33CGcc%2BM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db5c4jvog65hcua623u0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t449",
+"img": "85126000e3031eca.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "وش اللي يصير مع فروتك؟",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7547112845706199047/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "maryoma.gold_beauty",
+"industry": "Apparel & accessories",
+"likes": 401.0,
+"ctr": 0.13,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oE9BmmXf2npqFBA7EO5fN02DgEXDUdBAOjpyIu~tplv-noop.image?dr=18692&refresh_token=908367f2&x-expires=1793660456&x-signature=drzRaA0XQCps4YMWGBzvdWzcZIg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dajt75vog65tjg276rfg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t450",
+"img": "88d2de4f80c2283a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "سيروم تكثيف الرموش: نتائج مذهلة تغير مظهر عينيك فورًا",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7690637268931608597/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "bealee",
+"industry": "Beauty & personal care",
+"likes": 4.0,
+"ctr": 0.69,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o0DeJyfcAHaaqFcDMo8BAvUlEyIBpEogNLT99b~tplv-noop.image?dr=18692&refresh_token=5cc00285&x-expires=1793660477&x-signature=8OJC4aO1ExeG2Uotc5rGATXQKb8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db4qebvog65ufa0smqig",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t451",
+"img": "cafd6cce6adf07cb.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "مصباح المجرة الذكي الذي يجمع بين التصميم الفريد والتكنولوجيا الحديثة.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7293923338005676033/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "😍مصباح المجرة الذكي سماء مليئة بالنجوم",
+"industry": "Household products",
+"likes": 326.0,
+"ctr": 0.52,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oY6YSAo6obBeLMDgBuFEgCDJDcANkNpQIFfEQD~tplv-noop.image?dr=18692&refresh_token=aea38cd7&x-expires=1793660513&x-signature=h3tKBmn6sHQVH5Zz%2F1sf7nAgH%2Fk%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10033g50000d1o312fog65n1f8646eg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t452",
+"img": "73a85299ade4b878.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Full tracky for just €39,95- 🤝 #sweatpants #sweatpants #tracksuits #tracksuitseason",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7605221450940710928/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 11274.0,
+"ctr": 0.03,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-68c710-no/o8NyhDiBQAmTSjIE5DKEJljfsQyRQSF2pLBvOf~tplv-noop.image?dr=18692&refresh_token=a02be34d&x-expires=1793660470&x-signature=t53cMFK1OLML5jE0xLc6BgwFgMo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v26044gc0000d65ihkvog65sklvd5hjg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t453",
+"img": "2f9e9793454f6ad4.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "عباية طقم بيج فاتح طرحة قميص بنطلون #عبايات #عباية_دوام #عبايات_فخمة #عروض #عباية",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7404025161752805392/pc/en?countryCode=QA&from=001110&period=180",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 2891.0,
+"ctr": 0.13,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQq1YlaICEbtCXNAizCwt9B4iEfBAAsHDIMAOX~tplv-noop.image?dr=18692&refresh_token=ace1c005&x-expires=1793660506&x-signature=NM9OPfUpWHIz6ifEzmYUBjeU0Zg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000cr05t2fog65odjdna2ig",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t454",
+"img": "6a1ff5955ace143a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "really dropped two of the most sexiest smelling colognes on tiktok shop like it was no big deal‼️🥵🔥 #bellavita #cologne #menscologne #colognetiktok #mensfragran",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7557389377732378642/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "Showoffdaily",
+"industry": "Beauty & personal care",
+"likes": 328.0,
+"ctr": 0.06,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8WtBfnBBg01iTNBBEiHgwErAA0IbstwyBKt9A~tplv-noop.image?dr=18692&refresh_token=98cbdd27&x-expires=1793660576&x-signature=nsBZlpY6weZZU%2Fyep8t2AEimFuQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000d821t0vog65idg9mr7m0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective product_sales",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t455",
+"img": "d3e3639c84698473.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "🎯 Struggling with thin brows or uneven hairlines? ✨ The 4-Tip Brow Pen is your go-to solution! Fill in brows, beard, or hairline effortlessly. ✅ Waterproof, swe",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7372115494780141569/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 544.0,
+"ctr": 0.73,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068c799-us/ooE2NbVCIEAffQaJCpgAaCoBVBF392RDOT64Hx~tplv-noop.image?dr=18692&refresh_token=10ba9868&x-expires=1793660561&x-signature=gzdPGLp0WYS9UfZA%2Blnx6q5IAn0%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v15025gf0000d52eru7og65oq38q1ugg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t456",
+"img": "f1528d7598b362d2.jpg"
 }
 ]
