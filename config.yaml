@@ -114,3 +114,32 @@ tiktok:
     - noonfinds
     - عبايات                 # abayas
     - حجاب                   # hijab
+
+amazon:
+  # Best-seller and new-release pages read every Monday through Apify (replaces the PC browser scan).
+  per_page: 30
+  pages:
+    - [UAE, Amazon.ae Best Sellers, Kitchen, "https://www.amazon.ae/gp/bestsellers/kitchen"]
+    - [UAE, Amazon.ae Best Sellers, Fashion, "https://www.amazon.ae/gp/bestsellers/fashion"]
+    - [UAE, Amazon.ae Best Sellers, Home, "https://www.amazon.ae/gp/bestsellers/home"]
+    - [UAE, Amazon.ae Best Sellers, Automotive, "https://www.amazon.ae/gp/bestsellers/automotive"]
+    - [UAE, Amazon.ae Best Sellers, Beauty, "https://www.amazon.ae/gp/bestsellers/beauty"]
+    - [UAE, Amazon.ae New Releases, Kitchen, "https://www.amazon.ae/gp/new-releases/kitchen"]
+    - [UAE, Amazon.ae New Releases, Home, "https://www.amazon.ae/gp/new-releases/home"]
+    - [UAE, Amazon.ae New Releases, Automotive, "https://www.amazon.ae/gp/new-releases/automotive"]
+    - [UAE, Amazon.ae New Releases, Beauty, "https://www.amazon.ae/gp/new-releases/beauty"]
+    - [UAE, Amazon.ae New Releases, Fashion, "https://www.amazon.ae/gp/new-releases/fashion"]
+    - [UAE, Amazon.ae New Releases, Toys, "https://www.amazon.ae/gp/new-releases/toys"]
+    - [Saudi Arabia, Amazon.sa Best Sellers, Fashion, "https://www.amazon.sa/gp/bestsellers/fashion"]
+    - [Saudi Arabia, Amazon.sa Best Sellers, Home, "https://www.amazon.sa/gp/bestsellers/home"]
+    - [Saudi Arabia, Amazon.sa Best Sellers, Automotive, "https://www.amazon.sa/gp/bestsellers/automotive"]
+    - [Saudi Arabia, Amazon.sa New Releases, Home, "https://www.amazon.sa/gp/new-releases/home"]
+    - [Saudi Arabia, Amazon.sa New Releases, Fashion, "https://www.amazon.sa/gp/new-releases/fashion"]
+    - [Saudi Arabia, Amazon.sa New Releases, Beauty, "https://www.amazon.sa/gp/new-releases/beauty"]
+    - [Saudi Arabia, Amazon.sa New Releases, Automotive, "https://www.amazon.sa/gp/new-releases/automotive"]
+
+google_trends:
+  # Weekly Google search interest per Gulf country for the product lines we track (English + Arabic).
+  terms: [hijab, حجاب, abaya, عباية, shawl, شال, kurta, kaftan, قفطان, cushion cover, مخدات, socks, جوارب,
+          pyjama, بيجامة, posture corrector, مشد الظهر, mabkhara, مبخرة, sunglasses, نظارات شمسية, wallet, محفظة,
+          car accessories, اكسسوارات سيارات, leggings, thermal wear, رانجولي]

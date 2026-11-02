@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import apify_tiktok, playbook, audience, export, instagram, sheets, tiktok, trade
+from . import apify_market, apify_tiktok, playbook, audience, export, instagram, sheets, tiktok, trade
 from .graph import Graph, GraphError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -269,6 +269,34 @@ def run_adgaps(cfg, dry):
     print(f"::notice title=Ad gaps::{len(gaps)} products with demand and no ads seen; {len(new)} new rows for the Monday check")
 
 
+def run_apifymarket(cfg, dry):
+    """Amazon.ae/.sa best sellers + new releases -> 'Marketplace Signals'; Google Trends -> 'Google Trends' tab."""
+    token = env("APIFY_TOKEN")
+    book = None if dry else sheets.open_sheet(cfg["sheet_id"])
+    am = cfg["amazon"]
+    urls = {u: (c, p, cat) for c, p, cat, u in am["pages"]}
+    prev = {}
+    if book:
+        for r in records(sheets.tab(book, "Marketplace Signals", apify_market.MARKET_HEADERS)):
+            if str(r.get("Platform", "")).startswith("Amazon") and r.get("URL") and str(r.get("Rank", "")).strip():
+                try:
+                    prev[r["URL"]] = int(float(r["Rank"]))
+                except ValueError:
+                    pass
+    rows, run = apify_market.amazon(token, urls, am.get("per_page", 30), prev)
+    print(f"::notice title=Amazon via Apify::{len(rows)} products from {len(urls)} pages; cost USD {run.get('usageTotalUsd')}")
+    tr = apify_market.trends(token, cfg["google_trends"]["terms"])
+    rising = [f"{r[2]} ({r[1]})" for r in tr if r[7] == "Rising"]
+    print(f"::notice title=Google Trends via Apify::{len(tr)} term-country rows; rising: {', '.join(rising)[:250]}")
+    if dry:
+        for r in rows[:5] + tr[:5]:
+            print("  ", r)
+        return
+    sheets.append(sheets.tab(book, "Marketplace Signals", apify_market.MARKET_HEADERS), rows)
+    sheets.append(sheets.tab(book, "Google Trends", apify_market.TRENDS_HEADERS), tr)
+    sheets.set_status(book, "Q13", f"Last Apify market scan: {rows[0][0] if rows else ''} - {len(rows)} Amazon products, {len(tr)} Google Trends rows")
+
+
 def run_trade(cfg, dry):
     tc = cfg["trade"]
     groups = {str(k): v for k, v in tc["hs"].items()}
@@ -314,12 +342,12 @@ def run_playbook(cfg, dry, book=None):
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook", "adgaps"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook", "adgaps", "apifymarket"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook, "adgaps": run_adgaps}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook, "adgaps": run_adgaps, "apifymarket": run_apifymarket}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
