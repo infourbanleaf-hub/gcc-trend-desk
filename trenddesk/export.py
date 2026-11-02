@@ -90,6 +90,11 @@ TT_KEEP = {"22": "Apparel & accessories", "14": "Beauty & personal care", "21": 
 FOREIGN_SCRIPT = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff\u0e00-\u0e7f\u0400-\u04ff\uac00-\ud7af]")
 
 
+# Ads filed under a product industry that are really games, apps or services.
+TT_NOT_PRODUCT = re.compile(r"wherewindsmeet|where winds meet|\bgame\b|download|التجارة الإلكترونية – يوم استلام الراتب|"
+                            r"\bapp\b|تطبيق|خدمة|خدمات", re.I)
+
+
 def tt_industry(code):
     c = str(code).replace("label_", "").strip()
     return TT_KEEP.get(c[:2]) if c[:2].isdigit() else None
@@ -107,7 +112,7 @@ def tiktok_items(book):
     for r in latest.values():
         title, country = str(r.get("Ad title", "")), r.get("Country", "")
         industry = tt_industry(r.get("Industry", ""))
-        if not industry or not title.strip() or FOREIGN_SCRIPT.search(title):
+        if not industry or not title.strip() or FOREIGN_SCRIPT.search(title) or TT_NOT_PRODUCT.search(title):
             continue
         lab = CUR.search(title)
         lab = lab.group(0).upper() if lab else ""
