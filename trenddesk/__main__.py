@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import apify_tiktok, audience, export, instagram, sheets, tiktok, trade
+from . import apify_tiktok, playbook, audience, export, instagram, sheets, tiktok, trade
 from .graph import Graph, GraphError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -263,17 +263,39 @@ def run_trade(cfg, dry):
 
 
 def run_export(cfg, dry):
-    export.run(sheets.open_sheet(cfg["sheet_id"]))
+    book = sheets.open_sheet(cfg["sheet_id"])
+    export.run(book)
+    run_playbook(cfg, dry, book)
+
+
+def run_playbook(cfg, dry, book=None):
+    """Creative Playbook tab: what the strongest Gulf posts and ads have in common (see playbook.py)."""
+    book = book or sheets.open_sheet(cfg["sheet_id"])
+    src = {}
+    for name in ("Gulf Shop Posts", "TikTok Videos", "TikTok Top Ads"):
+        try:
+            src[name] = records(book.worksheet(name))
+        except Exception as e:
+            print(f"::warning title=Playbook::{name} not readable: {str(e)[:80]}")
+    week = datetime.now(timezone.utc).astimezone(instagram.GULF).strftime("%Y-%m-%d")
+    rows = playbook.build(src, week)
+    print(f"::notice title=Creative Playbook::{len(rows)} findings from " + ", ".join(f"{k}: {len(v)}" for k, v in src.items()))
+    if dry:
+        for r in rows[:40]:
+            print("  ", r[:7])
+        return
+    ws = sheets.tab(book, "Creative Playbook", playbook.HEADERS)
+    sheets.rewrite(ws, playbook.HEADERS, rows)
 
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok", "tthashtags", "playbook"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok, "tthashtags": run_tthashtags, "playbook": run_playbook}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
