@@ -1048,8 +1048,10 @@
 "landed": null,
 "margin": null,
 "id": "c43",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"img": "0614dea9add1219e.jpg",
+"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0873X7QCR"
 },
 {
 "type": "Candidate",
@@ -1072,7 +1074,9 @@
 "landed": null,
 "margin": null,
 "id": "c44",
-"img": null
+"img": "4cb80a6d07eac903.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0FP56F5YR"
 },
 {
 "type": "Candidate",
@@ -1094,7 +1098,9 @@
 "landed": null,
 "margin": null,
 "id": "c45",
-"img": null
+"img": "180511b735671dc8.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0CNK49CJ9"
 },
 {
 "type": "Candidate",
@@ -1189,7 +1195,9 @@
 "landed": null,
 "margin": null,
 "id": "c49",
-"img": null
+"img": "881fdbfda949c5ea.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B094D42LRN"
 },
 {
 "type": "Amazon",
@@ -1690,10 +1698,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a75",
-"img": "721f15881313d3b6.jpg",
-"img_error": "Amazon captcha",
-"ref": true,
-"ref_url": "https://www.amazon.ae/dp/B0DT46M6NQ"
+"img": "e944604c95806c9f.jpg"
 },
 {
 "type": "Amazon",
@@ -8058,7 +8063,7 @@
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
 "id": "v387",
-"img": "6184c93352f8c28a.jpg"
+"img": "0236b971d5d7d05f.jpg"
 },
 {
 "type": "Video product",
