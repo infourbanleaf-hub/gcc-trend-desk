@@ -15,6 +15,9 @@
 "trend": "Rising",
 "note": "Necklaces/jewelry ads: 7.43% CVR, 695M impressions (Adnabu, May-26)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c0",
 "img": "e54b4ebaf91a96ae.jpg",
 "ref": true,
@@ -36,6 +39,9 @@
 "trend": "Rising",
 "note": "",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c1",
 "img": "8c6e6b74e607db27.jpg",
 "ref": true,
@@ -57,6 +63,9 @@
 "trend": "Rising",
 "note": "",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c2",
 "img": "668d52dfd4e3dc3b.jpg",
 "ref": true,
@@ -78,6 +87,9 @@
 "trend": "",
 "note": "TikTok ad keyword data: 8.28% CVR, 1M impressions (Printify 2026)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c3",
 "img": "f87c2fe1dd6ad3a8.jpg",
 "ref": true,
@@ -99,6 +111,9 @@
 "trend": "",
 "note": "TikTok ad keyword data: 9.60% CVR, 2M impressions (Printify 2026)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c4",
 "img": "7bd59738abe89e7b.jpg",
 "ref": true,
@@ -120,6 +135,9 @@
 "trend": "",
 "note": "Vendor claim: peel-and-stick decor, geometric designs +19% YoY (SellTheTrend 2026)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c5",
 "img": "429ceeff1c3f46c5.jpg",
 "ref": true,
@@ -141,6 +159,9 @@
 "trend": "",
 "note": "Vendor claim: rotating necklace searches +53%, 900M+ kinetic-jewelry views (SellTheTrend 2026)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c6",
 "img": "bcce84aa776379ed.jpg",
 "ref": true,
@@ -162,6 +183,9 @@
 "trend": "",
 "note": "Vendor claim: gym phone mount searches +63%, magnetic tripods 25-30%/yr (SellTheTrend 2026)",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c7",
 "img": "d8553227b153821b.jpg",
 "ref": true,
@@ -183,6 +207,9 @@
 "trend": "Rising",
 "note": "",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c8",
 "img": "6f3fc38737d2a330.jpg",
 "ref": true,
@@ -204,6 +231,9 @@
 "trend": "Seasonal",
 "note": "",
 "date": "02/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c9",
 "img": "a9662a156cc77ccf.jpg",
 "ref": true,
@@ -226,8 +256,11 @@
 "weight": 120.0,
 "signals": 2.0,
 "trend": "Rising",
-"note": "YouTube country trending (Science & Tech), 03-Oct-26: iPhone 18 Pro Max videos trending in KSA, Qatar, Oman, Kuwait (e.g. Arabic 'iPhone 18 Pro Max charging test' 1.5M views; 'iPhone 18 + Fold' 3.9M-35M views); Samsung S27 Ultra in KSA, Oma",
+"note": "YouTube country trending (Science & Tech), 03-Oct-26: iPhone 18 Pro Max videos trending in KSA, Qatar, Oman, Kuwait (e.g. Arabic 'iPhone 18 Pro Max charging test' 1.5M views; 'iPhone 18 + Fold' 3.9M-35M views); Samsung S27 Ultra in KSA, Oman, Kuwait",
 "date": "03/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c10",
 "img": "ff2a9ce15d022cc3.jpg"
 },
@@ -250,6 +283,9 @@
 "trend": "Rising",
 "note": "YouTube country trending (Howto & Style), 03-Oct-26: Arabic 'I cut my hair at home' video at 10.6M views is trending in KSA, Qatar, Oman and Kuwait",
 "date": "03/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c11",
 "img": "23803ef7e6621fb3.jpg"
 },
@@ -269,8 +305,35 @@
 "trend": "Seasonal",
 "note": "YouTube country trending, 03-Oct-26: Arabic 'first day of school routine' family videos trending in Kuwait (883K) and top Arabic 'purchases' search (2.1M views, lunch box shown); 'school purchases we regretted' 384K",
 "date": "03/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
 "id": "c12",
 "img": "ce1fa19b359ffc14.jpg"
+},
+{
+"type": "Candidate",
+"title": "Posture corrector back belt",
+"url": "https://www.facebook.com/ads/library/?id=1446525330116291",
+"countries": [
+"GCC"
+],
+"source": "Meta Ads",
+"status": "New",
+"price": null,
+"price_label": "",
+"weight": null,
+"signals": 0.0,
+"trend": "",
+"note": "",
+"date": "03/10/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c13",
+"img": "f18bfab5868dad8f.jpg",
+"ref": true,
+"ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
 },
 {
 "type": "Candidate",
@@ -288,7 +351,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c13",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c14",
 "img": "3f537b34287631d0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
@@ -309,7 +375,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c14",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c15",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -330,7 +399,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c15",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c16",
 "img": "15e063b5b1d925f8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B081Z1TTD3"
@@ -351,7 +423,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c16",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c17",
 "img": "d32f204661e318d5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
@@ -372,7 +447,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c17",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c18",
 "img": "330337bbef74eec4.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B083S8FZBH"
@@ -393,7 +471,10 @@
 "trend": "Rising",
 "note": "",
 "date": "03/10/2026",
-"id": "c18",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c19",
 "img": "373f96ad6d830f75.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H4KNCZDN"
@@ -414,7 +495,10 @@
 "trend": "Rising",
 "note": "",
 "date": "03/10/2026",
-"id": "c19",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c20",
 "img": "0cbf14c425bfe0a8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07VSQDZD1"
@@ -435,7 +519,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c20",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c21",
 "img": "c9bb434eebbf9268.jpg"
 },
 {
@@ -454,7 +541,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c21",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c22",
 "img": "84cd6937020caf18.jpg"
 },
 {
@@ -473,7 +563,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c22",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c23",
 "img": "a423e5d859771471.jpg"
 },
 {
@@ -492,7 +585,10 @@
 "trend": "",
 "note": "",
 "date": "03/10/2026",
-"id": "c23",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c24",
 "img": "8497aa9eaf99e074.jpg",
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
@@ -512,9 +608,12 @@
 "weight": 250.0,
 "signals": 2.0,
 "trend": "Rising",
-"note": "UAE: stretchy hijab headband holder is a new entry at #17 in Amazon.ae Fashion Best Sellers with 2 reviews, AED 32.88 (tracker Marketplace Signals, 03-Oct-26). Egypt proxy, not GCC-verified: Pinterest 'hijabi fashion casual' +1,500% MoM (Pi",
+"note": "UAE: stretchy hijab headband holder is a new entry at #17 in Amazon.ae Fashion Best Sellers with 2 reviews, AED 32.88 (tracker Marketplace Signals, 03-Oct-26). Egypt proxy, not GCC-verified: Pinterest 'hijabi fashion casual' +1,500% MoM (Pinterest Trends, 03-Oct-26)",
 "date": "30/10/2026",
-"id": "c24",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c25",
 "img": "08d73810685aa14f.jpg"
 },
 {
@@ -533,7 +632,10 @@
 "trend": "Rising",
 "note": "Qatar: 4,000+ active Meta ads from 100+ sellers, the highest ad count in the Qatar report (Overview Ad Intelligence, updated 22-Jul-26; Vendor claim). No sales or reach figure given.",
 "date": "30/10/2026",
-"id": "c25",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c26",
 "img": "b1b78ebea2ca9716.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0B5DXRKPD"
@@ -552,9 +654,12 @@
 "weight": 250.0,
 "signals": 2.0,
 "trend": "Seasonal",
-"note": "UAE: Gulf News (25-Oct-26) says shoppers buy diyas, rangoli colours and festive clothes at Meena Bazaar before Diwali (8 Nov), but gives no sales figure; Dubai Festival of Lights runs 2-12 Nov as part of the official Dubai retail calendar, ",
+"note": "UAE: Gulf News (25-Oct-26) says shoppers buy diyas, rangoli colours and festive clothes at Meena Bazaar before Diwali (8 Nov), but gives no sales figure; Dubai Festival of Lights runs 2-12 Nov as part of the official Dubai retail calendar, with 'decorative diyas, candles, household accessories and gifts' (few.ae, Oct-26); UAE Instagram Pulse 20-Oct-26: 3 Diwali-themed retail posts (low engagement)",
 "date": "30/10/2026",
-"id": "c26",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c27",
 "img": "c1dc158d8ecabb2e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FPLY63DP"
@@ -575,7 +680,10 @@
 "trend": "Rising",
 "note": "",
 "date": "30/10/2026",
-"id": "c27",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c28",
 "img": "5da2774309c542ac.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H9T6KLDR"
@@ -596,7 +704,10 @@
 "trend": "Seasonal",
 "note": "",
 "date": "30/10/2026",
-"id": "c28",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c29",
 "img": "fa28b667eaaba005.jpg"
 },
 {
@@ -614,9 +725,12 @@
 "weight": 300.0,
 "signals": 2.0,
 "trend": "Seasonal",
-"note": "Qatar: winter camping season opens 25-Oct-26 and runs to 20-Apr-27; there were 2,991 camps last season (QNA, Oct-26); Sealine sites were 100% booked on day 1 and 50% of sites nationwide were booked; 5,000 cabins approved at Sealine and Khor",
+"note": "Qatar: winter camping season opens 25-Oct-26 and runs to 20-Apr-27; there were 2,991 camps last season (QNA, Oct-26); Sealine sites were 100% booked on day 1 and 50% of sites nationwide were booked; 5,000 cabins approved at Sealine and Khor Al Adaid (Al Raya, 18-Oct-26); Qatar Instagram 20-Oct-26: 'جهّز كشتتك' kashta seating ad from Al Hazm (low engagement). Kuwait: camping season ran 15 Nov to 15",
 "date": "30/10/2026",
-"id": "c29",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c30",
 "img": "12659c88f4d3f785.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H8YFXNHP"
@@ -636,9 +750,12 @@
 "weight": 200.0,
 "signals": 2.0,
 "trend": "Seasonal",
-"note": "Qatar: Instagram seller post on #qatarshopping for a 'Kashmiri embroidered shawl', 20-Oct-26 (Instagram Pulse; 0 likes at scan); a second Qatar reel '#Shaalkashmiri #qatarshopping' was posted the same day. UAE: Gulf News (25-Oct-26) notes t",
+"note": "Qatar: Instagram seller post on #qatarshopping for a 'Kashmiri embroidered shawl', 20-Oct-26 (Instagram Pulse; 0 likes at scan); a second Qatar reel '#Shaalkashmiri #qatarshopping' was posted the same day. UAE: Gulf News (25-Oct-26) notes that last season's Global Village India Pavilion vendors sold Kashmiri textiles. No figures.",
 "date": "30/10/2026",
-"id": "c30",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c31",
 "img": "dbf51546f18d6541.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GWQQF2FC"
@@ -657,9 +774,12 @@
 "weight": 200.0,
 "signals": 2.0,
 "trend": "Seasonal",
-"note": "Oman: Instagram 20-Oct-26: 2 seller reels tagged #مصار_كشميرية #المصار #عمان ('guess the price'), low engagement (Instagram Pulse). Kashmir Life (2016, older than 30 days): genuine handmade massars sell for OMR 50-70 and synthetic fakes for",
+"note": "Oman: Instagram 20-Oct-26: 2 seller reels tagged #مصار_كشميرية #المصار #عمان ('guess the price'), low engagement (Instagram Pulse). Kashmir Life (2016, older than 30 days): genuine handmade massars sell for OMR 50-70 and synthetic fakes for OMR 2-5; 'cashmere mussar is a rage among Omani men'.",
 "date": "30/10/2026",
-"id": "c31",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c32",
 "img": "de69ee99d75300bf.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G2CG7XWC"
@@ -680,7 +800,10 @@
 "trend": "",
 "note": "Qatar: 1,500+ active Meta ads from 2 sellers (Overview Ad Intelligence, 'Royal French Waist & Body Sculpting Corset', updated 22-Jul-26; Vendor claim). No sales figure.",
 "date": "30/10/2026",
-"id": "c32",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c33",
 "img": "9f4009a1bd8135c9.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09MD3V7XL"
@@ -700,9 +823,12 @@
 "weight": 300.0,
 "signals": 2.0,
 "trend": "Rising",
-"note": "Qatar: 870+ active Meta ads from 2 sellers (Overview Ad Intelligence, 'Men's Waffle Fabric Casual Loose Pants', updated 22-Jul-26; Vendor claim). Related: the tracker's own UAE Meta Ad Library scan shows men's cotton sirwal ads running 266 ",
+"note": "Qatar: 870+ active Meta ads from 2 sellers (Overview Ad Intelligence, 'Men's Waffle Fabric Casual Loose Pants', updated 22-Jul-26; Vendor claim). Related: the tracker's own UAE Meta Ad Library scan shows men's cotton sirwal ads running 266 days (03-Oct-26).",
 "date": "30/10/2026",
-"id": "c33",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c34",
 "img": "d087821e712e8696.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07MZPKGWB"
@@ -722,9 +848,12 @@
 "weight": 350.0,
 "signals": 1.0,
 "trend": "",
-"note": "Qatar: 153 active Meta ads (Overview Ad Intelligence, 'Spring-Loaded Knee Relief & Prayer Support Brace', updated 22-Jul-26; Vendor claim; report contradicts itself on seller count). Related: knee-pain ads in the tracker's Kuwait Meta scan ",
+"note": "Qatar: 153 active Meta ads (Overview Ad Intelligence, 'Spring-Loaded Knee Relief & Prayer Support Brace', updated 22-Jul-26; Vendor claim; report contradicts itself on seller count). Related: knee-pain ads in the tracker's Kuwait Meta scan (03-Oct-26) were creams, not braces.",
 "date": "30/10/2026",
-"id": "c34",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c35",
 "img": "b2b7b0bf322c0ac8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
@@ -744,9 +873,12 @@
 "weight": 350.0,
 "signals": 2.0,
 "trend": "Rising",
-"note": "KSA: Arab News (22-Sep-26) says young Saudis add embroidered details, embroidered outer layers and regional styles to modern outfits; no figures. KSA+UAE combined: Pinterest Fall 2025 report shows 'hijabi classy outfits' searches +176% (Pin",
+"note": "KSA: Arab News (22-Sep-26) says young Saudis add embroidered details, embroidered outer layers and regional styles to modern outfits; no figures. KSA+UAE combined: Pinterest Fall 2025 report shows 'hijabi classy outfits' searches +176% (Pinterest via HiDubai Focus, Oct-25; older than 30 days).",
 "date": "30/10/2026",
-"id": "c35",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c36",
 "img": "b882c59818522908.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D3LHR2CW"
@@ -769,9 +901,12 @@
 "weight": 300.0,
 "signals": 2.0,
 "trend": "Rising",
-"note": "GCC: Arabic back-scratcher video ('أداة حك الظهر'), 583K views, published 03-Oct-26. It came up in the YouTube product search for UAE, KSA, Qatar, Oman and Kuwait (tracker YouTube GCC, 05-Oct-26; all 5 countries returned the same results). ",
+"note": "GCC: Arabic back-scratcher video ('أداة حك الظهر'), 583K views, published 03-Oct-26. It came up in the YouTube product search for UAE, KSA, Qatar, Oman and Kuwait (tracker YouTube GCC, 05-Oct-26; all 5 countries returned the same results). Foot-pain demand: Kuwait heel-pain ointment ads running 151 and 72 days (2 advertisers); KSA electric callus-remover ad running 208 days (tracker GCC Ad Signals",
 "date": "30/10/2026",
-"id": "c36",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c37",
 "img": "22c51d8f0aefa4c7.jpg"
 },
 {
@@ -789,9 +924,12 @@
 "weight": 350.0,
 "signals": 2.0,
 "trend": "Seasonal",
-"note": "GCC scans: 'Festive wear kurta plazzo sets | Amazon finds' has 1.04M views (published 21-Sep-26) and came up in all 5 country searches on 05-Oct-26. 'kurta set | amazon finds' has 3.08M views in all 5 countries (03-Oct-26), and another at 1",
+"note": "GCC scans: 'Festive wear kurta plazzo sets | Amazon finds' has 1.04M views (published 21-Sep-26) and came up in all 5 country searches on 05-Oct-26. 'kurta set | amazon finds' has 3.08M views in all 5 countries (03-Oct-26), and another at 1.04M views appeared for KSA and Oman (05-Oct-26) (tracker YouTube GCC). These are Indian creators, so the signal points to the Indian diaspora rather than Arab ",
 "date": "30/10/2026",
-"id": "c37",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c38",
 "img": "cee3c04cf305de9e.jpg"
 },
 {
@@ -810,7 +948,10 @@
 "trend": "Flat",
 "note": "UAE: CHAOREN ratchet leather belt is #10 in Amazon.ae Fashion Best Sellers, 5,040 reviews, AED 59.99 (tracker Marketplace Signals, 03-Oct-26). No social virality figure found",
 "date": "30/10/2026",
-"id": "c38",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c39",
 "img": "11cbe33d83bca7de.jpg"
 },
 {
@@ -829,7 +970,10 @@
 "trend": "",
 "note": "KSA: 'Men's Cloud Cushion Casual Sandals' has 272 active Meta ads, 100+ sellers, low saturation (Overviewdata ad-intel, updated 22-Jul-26). Vendor claim; the page contradicts itself on the seller count",
 "date": "30/10/2026",
-"id": "c39",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c40",
 "img": "599e63a0c4883b7b.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FMQXJC78"
@@ -850,7 +994,7 @@
 "movement": "",
 "note": "Electric: gate fail",
 "date": "03/10/2026",
-"id": "a40",
+"id": "a41",
 "img": "91b4d03f394782aa.jpg"
 },
 {
@@ -869,7 +1013,7 @@
 "movement": "",
 "note": "Humidity; chemical desiccant",
 "date": "03/10/2026",
-"id": "a41",
+"id": "a42",
 "img": "4698c8eb21cae219.jpg"
 },
 {
@@ -888,7 +1032,7 @@
 "movement": "",
 "note": "Battery; below AED 69 alone",
 "date": "03/10/2026",
-"id": "a42",
+"id": "a43",
 "img": "054f908a21584a36.jpg"
 },
 {
@@ -907,9 +1051,8 @@
 "movement": "",
 "note": "Light; below AED 69 alone",
 "date": "03/10/2026",
-"id": "a43",
-"img": null,
-"img_error": "Amazon captcha"
+"id": "a44",
+"img": "666593525cbd3e9a.jpg"
 },
 {
 "type": "Amazon",
@@ -927,7 +1070,7 @@
 "movement": "",
 "note": "Light, India-sourceable; candidate",
 "date": "03/10/2026",
-"id": "a44",
+"id": "a45",
 "img": "c9bb434eebbf9268.jpg"
 },
 {
@@ -946,7 +1089,7 @@
 "movement": "",
 "note": "India leather fit",
 "date": "03/10/2026",
-"id": "a45",
+"id": "a46",
 "img": "11cbe33d83bca7de.jpg"
 },
 {
@@ -965,7 +1108,7 @@
 "movement": "",
 "note": "New entrant in top 20",
 "date": "03/10/2026",
-"id": "a46",
+"id": "a47",
 "img": "08d73810685aa14f.jpg"
 },
 {
@@ -984,7 +1127,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a47",
+"id": "a48",
 "img": "7d88c65d492b555d.jpg"
 },
 {
@@ -1003,7 +1146,7 @@
 "movement": "",
 "note": "Liquid: gate fail",
 "date": "03/10/2026",
-"id": "a48",
+"id": "a49",
 "img": "dc3725bb60e87be3.jpg"
 },
 {
@@ -1022,7 +1165,7 @@
 "movement": "",
 "note": "K-beauty dominates top 10; liquid",
 "date": "03/10/2026",
-"id": "a49",
+"id": "a50",
 "img": "79a3d65cc2e494a7.jpg"
 },
 {
@@ -1041,7 +1184,7 @@
 "movement": "",
 "note": "Bulky",
 "date": "03/10/2026",
-"id": "a50",
+"id": "a51",
 "img": "0d153c5d39817315.jpg"
 },
 {
@@ -1060,7 +1203,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a51",
+"id": "a52",
 "img": "b3de60f755b12f1e.jpg"
 },
 {
@@ -1079,7 +1222,7 @@
 "movement": "",
 "note": "Matches UAE car-ornament ad signal",
 "date": "03/10/2026",
-"id": "a52",
+"id": "a53",
 "img": "33d2b1fa88410ca7.jpg"
 },
 {
@@ -1098,7 +1241,7 @@
 "movement": "",
 "note": "Gulf heat; candidate",
 "date": "03/10/2026",
-"id": "a53",
+"id": "a54",
 "img": "84cd6937020caf18.jpg"
 },
 {
@@ -1117,7 +1260,7 @@
 "movement": "",
 "note": "India textile fit; heavy",
 "date": "03/10/2026",
-"id": "a54",
+"id": "a55",
 "img": "e2fb5ef90c136e91.jpg"
 },
 {
@@ -1136,7 +1279,7 @@
 "movement": "",
 "note": "Indian-made brand",
 "date": "03/10/2026",
-"id": "a55",
+"id": "a56",
 "img": "0731d0c0d89bb63d.jpg"
 },
 {
@@ -1155,7 +1298,7 @@
 "movement": "",
 "note": "Very demo-able; candidate",
 "date": "03/10/2026",
-"id": "a56",
+"id": "a57",
 "img": "a423e5d859771471.jpg"
 },
 {
@@ -1174,7 +1317,7 @@
 "movement": "",
 "note": "Heavy multipack",
 "date": "03/10/2026",
-"id": "a57",
+"id": "a58",
 "img": "591afd8bbf26d48e.jpg"
 },
 {
@@ -1193,7 +1336,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a58",
+"id": "a59",
 "img": "a4080ab786fd54f7.jpg"
 },
 {
@@ -1212,7 +1355,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a59",
+"id": "a60",
 "img": "1c69b0b4c1a73729.jpg",
 "img_error": "Amazon captcha",
 "ref": true,
@@ -1234,7 +1377,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a60",
+"id": "a61",
 "img": "72bd72e76de15dc5.jpg",
 "img_error": "Amazon captcha",
 "ref": true,
@@ -1256,7 +1399,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a61",
+"id": "a62",
 "img": "5bd36b73e54e8378.jpg"
 },
 {
@@ -1275,7 +1418,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a62",
+"id": "a63",
 "img": "4ac0a5933f30bad0.jpg"
 },
 {
@@ -1294,7 +1437,7 @@
 "movement": "",
 "note": "Indian brand (Godrej) top-selling in KSA",
 "date": "03/10/2026",
-"id": "a63",
+"id": "a64",
 "img": "67482e1960d0336e.jpg"
 },
 {
@@ -1313,7 +1456,7 @@
 "movement": "",
 "note": "Indian brand",
 "date": "03/10/2026",
-"id": "a64",
+"id": "a65",
 "img": "766b782b6aaea30c.jpg"
 },
 {
@@ -1332,7 +1475,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a65",
+"id": "a66",
 "img": "721f15881313d3b6.jpg",
 "img_error": "Amazon captcha",
 "ref": true,
@@ -1354,7 +1497,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a66",
+"id": "a67",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1374,7 +1517,7 @@
 "movement": "",
 "note": "Matches KSA Fordeal chopper ad (490 days)",
 "date": "03/10/2026",
-"id": "a67",
+"id": "a68",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1394,7 +1537,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a68",
+"id": "a69",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1414,7 +1557,7 @@
 "movement": "",
 "note": "Incense; India incense fit",
 "date": "03/10/2026",
-"id": "a69",
+"id": "a70",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1434,7 +1577,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a70",
+"id": "a71",
 "img": "d6cd720111ce7003.jpg",
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
@@ -1456,7 +1599,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a71",
+"id": "a72",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1476,7 +1619,7 @@
 "movement": "",
 "note": "Incense; India incense fit",
 "date": "03/10/2026",
-"id": "a72",
+"id": "a73",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1496,7 +1639,7 @@
 "movement": "",
 "note": "Electric",
 "date": "03/10/2026",
-"id": "a73",
+"id": "a74",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1516,7 +1659,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a74",
+"id": "a75",
 "img": null,
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
 },
@@ -1536,7 +1679,7 @@
 "movement": "",
 "note": "Indian brand (Milton)",
 "date": "03/10/2026",
-"id": "a75",
+"id": "a76",
 "img": "e57fe8deb27be5c8.jpg",
 "img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
@@ -1558,7 +1701,7 @@
 "movement": "Avg interest 23 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a76",
+"id": "a77",
 "img": null
 },
 {
@@ -1577,7 +1720,7 @@
 "movement": "Avg interest 15 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a77",
+"id": "a78",
 "img": null
 },
 {
@@ -1596,7 +1739,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a78",
+"id": "a79",
 "img": null
 },
 {
@@ -1615,7 +1758,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a79",
+"id": "a80",
 "img": null
 },
 {
@@ -1634,7 +1777,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a80",
+"id": "a81",
 "img": "7ba3fd38d6e45323.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CTFFKDKJ"
@@ -1655,7 +1798,7 @@
 "movement": "Avg interest 67 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a81",
+"id": "a82",
 "img": null
 },
 {
@@ -1674,7 +1817,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a82",
+"id": "a83",
 "img": null
 },
 {
@@ -1693,7 +1836,7 @@
 "movement": "Avg interest 1 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a83",
+"id": "a84",
 "img": null
 },
 {
@@ -1712,7 +1855,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a84",
+"id": "a85",
 "img": null
 },
 {
@@ -1731,7 +1874,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a85",
+"id": "a86",
 "img": "7dc348a5db5849e8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FLJWNZXP"
@@ -1752,7 +1895,7 @@
 "movement": "+700% MoM, +2,500% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a86",
+"id": "a87",
 "img": null
 },
 {
@@ -1771,7 +1914,7 @@
 "movement": "+600% MoM, +10,000% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a87",
+"id": "a88",
 "img": null
 },
 {
@@ -1790,7 +1933,7 @@
 "movement": "+1,500% MoM, +80% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a88",
+"id": "a89",
 "img": null
 },
 {
@@ -1809,7 +1952,7 @@
 "movement": "+600% MoM, -70% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a89",
+"id": "a90",
 "img": null
 },
 {
@@ -1828,7 +1971,7 @@
 "movement": "+400% MoM, -60% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a90",
+"id": "a91",
 "img": "838938edb0809952.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0F2TDWSMH"
@@ -1849,7 +1992,7 @@
 "movement": "New in top 20",
 "note": "Seasonal: UAE National Day 2 Dec; India cotton fit",
 "date": "30/10/2026",
-"id": "a91",
+"id": "a92",
 "img": "fa28b667eaaba005.jpg"
 },
 {
@@ -1868,7 +2011,7 @@
 "movement": "New in top 20",
 "note": "Seasonal: National Day",
 "date": "30/10/2026",
-"id": "a92",
+"id": "a93",
 "img": "93ccbcdc3a18e1aa.jpg"
 },
 {
@@ -1887,7 +2030,7 @@
 "movement": "New in top 20",
 "note": "Light; India fit",
 "date": "30/10/2026",
-"id": "a93",
+"id": "a94",
 "img": "5a0439df5b8491e0.jpg"
 },
 {
@@ -1906,7 +2049,7 @@
 "movement": "New in top 20",
 "note": "Below AED 69 alone",
 "date": "30/10/2026",
-"id": "a94",
+"id": "a95",
 "img": "899522baf19bf152.jpg"
 },
 {
@@ -1925,7 +2068,7 @@
 "movement": "Down from #3 on 3 Oct",
 "note": "Cooling",
 "date": "30/10/2026",
-"id": "a95",
+"id": "a96",
 "img": "c9bb434eebbf9268.jpg"
 },
 {
@@ -1944,11 +2087,8 @@
 "movement": "Down from #1",
 "note": "",
 "date": "30/10/2026",
-"id": "a96",
-"img": "06c460c05a3bf3d8.jpg",
-"img_error": "Amazon captcha",
-"ref": false,
-"ref_url": "https://www.amazon.ae/dp/B07WG1DPHH"
+"id": "a97",
+"img": "666593525cbd3e9a.jpg"
 },
 {
 "type": "Amazon",
@@ -1966,7 +2106,7 @@
 "movement": "Down from #5",
 "note": "Electric: gate fail",
 "date": "30/10/2026",
-"id": "a97",
+"id": "a98",
 "img": "91b4d03f394782aa.jpg"
 },
 {
@@ -1985,7 +2125,7 @@
 "movement": "Down from #7",
 "note": "Battery",
 "date": "30/10/2026",
-"id": "a98",
+"id": "a99",
 "img": "054f908a21584a36.jpg"
 },
 {
@@ -2004,7 +2144,7 @@
 "movement": "New in top 30",
 "note": "",
 "date": "30/10/2026",
-"id": "a99",
+"id": "a100",
 "img": "9bc5a0f3c8d5de77.jpg"
 },
 {
@@ -2023,7 +2163,7 @@
 "movement": "New in top 30",
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
-"id": "a100",
+"id": "a101",
 "img": "8a3e0a8b95f5224b.jpg"
 },
 {
@@ -2042,7 +2182,7 @@
 "movement": "",
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
-"id": "a101",
+"id": "a102",
 "img": "b6d9ea182ca875f3.jpg"
 },
 {
@@ -2061,7 +2201,7 @@
 "movement": "Was #20",
 "note": "",
 "date": "30/10/2026",
-"id": "a102",
+"id": "a103",
 "img": "b3de60f755b12f1e.jpg"
 },
 {
@@ -2080,7 +2220,7 @@
 "movement": "Up from #12 on 3 Oct",
 "note": "Indian brand; India cotton fit",
 "date": "30/10/2026",
-"id": "a103",
+"id": "a104",
 "img": "e3365bc8b0fb25a7.jpg"
 },
 {
@@ -2099,7 +2239,7 @@
 "movement": "New in top 20",
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
-"id": "a104",
+"id": "a105",
 "img": "7dbc199a65fd0640.jpg"
 },
 {
@@ -2118,7 +2258,7 @@
 "movement": "Was #6",
 "note": "India textile fit",
 "date": "30/10/2026",
-"id": "a105",
+"id": "a106",
 "img": "16c48fa78fafa09d.jpg"
 },
 {
@@ -2137,7 +2277,7 @@
 "movement": "New in top 20",
 "note": "Indian brand",
 "date": "30/10/2026",
-"id": "a106",
+"id": "a107",
 "img": "721a7e1f2726fad0.jpg"
 },
 {
@@ -2156,7 +2296,7 @@
 "movement": "Was #14",
 "note": "",
 "date": "30/10/2026",
-"id": "a107",
+"id": "a108",
 "img": "5bd36b73e54e8378.jpg"
 },
 {
@@ -2175,7 +2315,7 @@
 "movement": "New in top 20",
 "note": "",
 "date": "30/10/2026",
-"id": "a108",
+"id": "a109",
 "img": "0b69f166efc4bd97.jpg"
 },
 {
@@ -2194,7 +2334,7 @@
 "movement": "New release",
 "note": "Brand item; reference for tumbler demand",
 "date": "31/10/2026",
-"id": "a109",
+"id": "a110",
 "img": "8d51ab4629d299ff.jpg"
 },
 {
@@ -2213,7 +2353,7 @@
 "movement": "New release",
 "note": "Ceramic: breakage risk",
 "date": "31/10/2026",
-"id": "a110",
+"id": "a111",
 "img": "961316fdebc08ec3.jpg"
 },
 {
@@ -2232,7 +2372,7 @@
 "movement": "New release",
 "note": "Battery: gate fail",
 "date": "31/10/2026",
-"id": "a111",
+"id": "a112",
 "img": "6ad28d7f5ec5b58a.jpg"
 },
 {
@@ -2251,7 +2391,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a112",
+"id": "a113",
 "img": "99c4797311ee7ee9.jpg"
 },
 {
@@ -2270,7 +2410,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a113",
+"id": "a114",
 "img": "f730adbdb68bd0e2.jpg"
 },
 {
@@ -2289,7 +2429,7 @@
 "movement": "New release",
 "note": "India textile fit (cotton bedding)",
 "date": "31/10/2026",
-"id": "a114",
+"id": "a115",
 "img": "9b060ea6e5b2737b.jpg"
 },
 {
@@ -2308,7 +2448,7 @@
 "movement": "New release",
 "note": "Below AED 69 alone",
 "date": "31/10/2026",
-"id": "a115",
+"id": "a116",
 "img": "dd45c59e70426c76.jpg"
 },
 {
@@ -2327,7 +2467,7 @@
 "movement": "New release",
 "note": "Indian festive decor; matches rangoli candidate",
 "date": "31/10/2026",
-"id": "a116",
+"id": "a117",
 "img": "9cd0521dfe5d4d13.jpg"
 },
 {
@@ -2346,7 +2486,7 @@
 "movement": "New release",
 "note": "Light; organiser category",
 "date": "31/10/2026",
-"id": "a117",
+"id": "a118",
 "img": "bd27cf69b3271860.jpg"
 },
 {
@@ -2365,7 +2505,7 @@
 "movement": "New release",
 "note": "Car accessories demand",
 "date": "31/10/2026",
-"id": "a118",
+"id": "a119",
 "img": "2b39512f559ecfc2.jpg"
 },
 {
@@ -2384,7 +2524,7 @@
 "movement": "New release",
 "note": "Light; bundle with other car items",
 "date": "31/10/2026",
-"id": "a119",
+"id": "a120",
 "img": "81c25bb1fd6b9d34.jpg"
 },
 {
@@ -2403,7 +2543,7 @@
 "movement": "New release",
 "note": "Car accessories",
 "date": "31/10/2026",
-"id": "a120",
+"id": "a121",
 "img": "f1143fc4d61acdb5.jpg"
 },
 {
@@ -2422,7 +2562,7 @@
 "movement": "New release",
 "note": "Light; India leather/PU fit",
 "date": "31/10/2026",
-"id": "a121",
+"id": "a122",
 "img": "aa96b75142fbbc4a.jpg"
 },
 {
@@ -2441,7 +2581,7 @@
 "movement": "New release",
 "note": "Indian brand on UAE new releases; liquid: gate fail for us",
 "date": "31/10/2026",
-"id": "a122",
+"id": "a123",
 "img": "5f9e7ca8c9bbdf61.jpg"
 },
 {
@@ -2460,7 +2600,7 @@
 "movement": "New release",
 "note": "Indian brand; liquid: gate fail",
 "date": "31/10/2026",
-"id": "a123",
+"id": "a124",
 "img": "74d6f0557946bee1.jpg"
 },
 {
@@ -2479,7 +2619,7 @@
 "movement": "New release",
 "note": "Light, no liquid; demonstrable",
 "date": "31/10/2026",
-"id": "a124",
+"id": "a125",
 "img": "cfa804fcac437416.jpg"
 },
 {
@@ -2498,7 +2638,7 @@
 "movement": "New release",
 "note": "Bundle only",
 "date": "31/10/2026",
-"id": "a125",
+"id": "a126",
 "img": "3afaab57446ee23e.jpg"
 },
 {
@@ -2517,7 +2657,7 @@
 "movement": "New release",
 "note": "Seasonal: National Day 2 Dec",
 "date": "31/10/2026",
-"id": "a126",
+"id": "a127",
 "img": "aa467c87063b5fe7.jpg"
 },
 {
@@ -2536,7 +2676,7 @@
 "movement": "New release",
 "note": "Seasonal: India garment fit",
 "date": "31/10/2026",
-"id": "a127",
+"id": "a128",
 "img": "d7d36e2d5f28c1e9.jpg"
 },
 {
@@ -2555,7 +2695,7 @@
 "movement": "New release",
 "note": "Seasonal",
 "date": "31/10/2026",
-"id": "a128",
+"id": "a129",
 "img": "eb9134ba81a61b74.jpg"
 },
 {
@@ -2574,7 +2714,7 @@
 "movement": "New release",
 "note": "Seasonal: confirms National Day tee candidate",
 "date": "31/10/2026",
-"id": "a129",
+"id": "a130",
 "img": "107cda4ab93851e0.jpg"
 },
 {
@@ -2593,7 +2733,7 @@
 "movement": "New release",
 "note": "Squishy craze also on YouTube",
 "date": "31/10/2026",
-"id": "a130",
+"id": "a131",
 "img": "94c74aa442b7e325.jpg"
 },
 {
@@ -2612,7 +2752,7 @@
 "movement": "New release",
 "note": "Electric: gate fail",
 "date": "31/10/2026",
-"id": "a131",
+"id": "a132",
 "img": "bd8cbbb47c34e8e5.jpg"
 },
 {
@@ -2631,7 +2771,7 @@
 "movement": "New release",
 "note": "Bakhoor category active",
 "date": "31/10/2026",
-"id": "a132",
+"id": "a133",
 "img": "76c78c34384097a8.jpg"
 },
 {
@@ -2650,7 +2790,7 @@
 "movement": "New release",
 "note": "Light; India textile fit",
 "date": "31/10/2026",
-"id": "a133",
+"id": "a134",
 "img": "da0ff405619ea5b6.jpg"
 },
 {
@@ -2669,7 +2809,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a134",
+"id": "a135",
 "img": "d92a2fc72c16dade.jpg"
 },
 {
@@ -2688,7 +2828,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a135",
+"id": "a136",
 "img": "f0ff8e648965755e.jpg"
 },
 {
@@ -2707,7 +2847,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a136",
+"id": "a137",
 "img": "3ac2273b2bb0d87f.jpg"
 },
 {
@@ -2726,7 +2866,7 @@
 "movement": "New release",
 "note": "Light; national-pride gift",
 "date": "31/10/2026",
-"id": "a137",
+"id": "a138",
 "img": "b56dc0b9c7839457.jpg"
 },
 {
@@ -2745,7 +2885,7 @@
 "movement": "New release",
 "note": "Light; car accessories",
 "date": "31/10/2026",
-"id": "a138",
+"id": "a139",
 "img": "563634c2ec383b28.jpg"
 },
 {
@@ -2764,7 +2904,7 @@
 "movement": "New release",
 "note": "Car organiser",
 "date": "31/10/2026",
-"id": "a139",
+"id": "a140",
 "img": "ab7964942baf0ea5.jpg"
 },
 {
@@ -2783,7 +2923,7 @@
 "movement": "New release",
 "note": "Heavy-ish",
 "date": "31/10/2026",
-"id": "a140",
+"id": "a141",
 "img": "5039f1797f32f3cc.jpg"
 },
 {
@@ -2802,7 +2942,7 @@
 "movement": "New release",
 "note": "Perfume: liquid gate fail",
 "date": "31/10/2026",
-"id": "a141",
+"id": "a142",
 "img": "244ce0a343575c35.jpg"
 },
 {
@@ -2821,7 +2961,7 @@
 "movement": "New release",
 "note": "Perfume: liquid gate fail",
 "date": "31/10/2026",
-"id": "a142",
+"id": "a143",
 "img": "daf995d847e68177.jpg"
 },
 {
@@ -2840,7 +2980,7 @@
 "movement": "New release",
 "note": "Bundle only",
 "date": "31/10/2026",
-"id": "a143",
+"id": "a144",
 "img": "5162082911163aed.jpg"
 },
 {
@@ -2859,7 +2999,7 @@
 "movement": "New release",
 "note": "India leather fit",
 "date": "31/10/2026",
-"id": "a144",
+"id": "a145",
 "img": "e1d6b372308709f6.jpg"
 },
 {
@@ -2878,7 +3018,7 @@
 "movement": "New release",
 "note": "India cotton fit; socks keep showing",
 "date": "31/10/2026",
-"id": "a145",
+"id": "a146",
 "img": "28568b315cb76571.jpg"
 },
 {
@@ -2897,7 +3037,7 @@
 "movement": "New release",
 "note": "India cotton fit",
 "date": "31/10/2026",
-"id": "a146",
+"id": "a147",
 "img": "8e3930797159a598.jpg"
 },
 {
@@ -2916,7 +3056,7 @@
 "movement": "New release",
 "note": "Light; travel",
 "date": "31/10/2026",
-"id": "a147",
+"id": "a148",
 "img": "5bd88293696a0317.jpg"
 },
 {
@@ -2935,7 +3075,7 @@
 "movement": "New release",
 "note": "Activewear demand",
 "date": "31/10/2026",
-"id": "a148",
+"id": "a149",
 "img": "6bf450ac6ad326dd.jpg"
 },
 {
@@ -2954,7 +3094,7 @@
 "movement": "New release",
 "note": "Squishy craze #1 in KSA new toys",
 "date": "31/10/2026",
-"id": "a149",
+"id": "a150",
 "img": "0a048a407332fc00.jpg"
 },
 {
@@ -2973,7 +3113,7 @@
 "movement": "New release",
 "note": "Seasonal: winter beach season",
 "date": "31/10/2026",
-"id": "a150",
+"id": "a151",
 "img": "afa0c48a4ab69bec.jpg"
 },
 {
@@ -2987,9 +3127,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 44.0,
 "price": null,
+"price_label": "",
 "note": "Gate pass: light, cheap",
 "date": "03/10/2026",
-"id": "m151",
+"id": "m152",
 "img": "1e84340492955b24.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GSW8XB2T"
@@ -3005,9 +3146,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 161.0,
 "price": null,
+"price_label": "",
 "note": "Likely glass liner + heavy: gate fail",
 "date": "03/10/2026",
-"id": "m152",
+"id": "m153",
 "img": "c36b1461c407ae74.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DDJ8L2MS"
@@ -3023,9 +3165,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 266.0,
 "price": null,
+"price_label": "",
 "note": "India cotton sourcing strength; gate pass",
 "date": "03/10/2026",
-"id": "m153",
+"id": "m154",
 "img": "b8d414b96dfc5e13.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G8V53XVK"
@@ -3041,9 +3184,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 356.0,
 "price": null,
+"price_label": "",
 "note": "Cream/medical claim: gate fail",
 "date": "03/10/2026",
-"id": "m154",
+"id": "m155",
 "img": "087ea19f24818098.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXN6Y8BS"
@@ -3059,9 +3203,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 118.0,
 "price": null,
+"price_label": "",
 "note": "Same advertiser network also in Qatar",
 "date": "03/10/2026",
-"id": "m155",
+"id": "m156",
 "img": null
 },
 {
@@ -3075,9 +3220,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 65.0,
 "price": null,
+"price_label": "",
 "note": "Food: gate fail",
 "date": "03/10/2026",
-"id": "m156",
+"id": "m157",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -3093,9 +3239,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 490.0,
 "price": null,
+"price_label": "",
 "note": "Longest-running in scan; manual mini chopper is the India-sourceable version",
 "date": "03/10/2026",
-"id": "m157",
+"id": "m158",
 "img": "fa770ee720dfcdce.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DN1V3PHF"
@@ -3111,9 +3258,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 299.0,
 "price": null,
+"price_label": "",
 "note": "Too heavy: gate fail",
 "date": "03/10/2026",
-"id": "m158",
+"id": "m159",
 "img": "1a91e16364644803.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GKPVHQ8C"
@@ -3129,9 +3277,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 208.0,
 "price": null,
+"price_label": "",
 "note": "Battery: gate fail; heel-care demand signal",
 "date": "03/10/2026",
-"id": "m159",
+"id": "m160",
 "img": "ebaf10c656904c4d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B092PL7GLM"
@@ -3147,9 +3296,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 155.0,
 "price": null,
+"price_label": "",
 "note": "Gate pass: light, cheap, demo-able",
 "date": "03/10/2026",
-"id": "m160",
+"id": "m161",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3165,9 +3315,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 211.0,
 "price": null,
+"price_label": "",
 "note": "Heavy appliance: gate fail",
 "date": "03/10/2026",
-"id": "m161",
+"id": "m162",
 "img": "6d8ab6c77345f78c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B084Q5XN6P"
@@ -3183,9 +3334,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 110.0,
 "price": null,
+"price_label": "",
 "note": "Seasonal; bulky",
 "date": "03/10/2026",
-"id": "m162",
+"id": "m163",
 "img": "f094bea2da89c9a3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B000SN61UC"
@@ -3201,9 +3353,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 184.0,
 "price": null,
+"price_label": "",
 "note": "Liquid: gate fail; 2 ad copies",
 "date": "03/10/2026",
-"id": "m163",
+"id": "m164",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3219,9 +3372,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 85.0,
 "price": null,
+"price_label": "",
 "note": "Same product run by 3 advertisers in KW; liquid: gate fail",
 "date": "03/10/2026",
-"id": "m164",
+"id": "m165",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3237,9 +3391,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 78.0,
 "price": null,
+"price_label": "",
 "note": "Same product, 3rd advertiser",
 "date": "03/10/2026",
-"id": "m165",
+"id": "m166",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3255,9 +3410,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 77.0,
 "price": null,
+"price_label": "",
 "note": "Same product, 2nd advertiser",
 "date": "03/10/2026",
-"id": "m166",
+"id": "m167",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3273,9 +3429,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 151.0,
 "price": null,
+"price_label": "",
 "note": "Ointment: gate fail; heel-pain demand",
 "date": "03/10/2026",
-"id": "m167",
+"id": "m168",
 "img": "fb22a89b082078c3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FLVP5G9Q"
@@ -3291,9 +3448,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 72.0,
 "price": null,
+"price_label": "",
 "note": "2nd advertiser on heel pain",
 "date": "03/10/2026",
-"id": "m168",
+"id": "m169",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -3309,9 +3467,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 140.0,
 "price": null,
+"price_label": "",
 "note": "Cream: gate fail",
 "date": "03/10/2026",
-"id": "m169",
+"id": "m170",
 "img": "9a6c3d6c86620450.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXMWDZM7"
@@ -3327,9 +3486,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 85.0,
 "price": null,
+"price_label": "",
 "note": "Electronics/battery: gate fail",
 "date": "03/10/2026",
-"id": "m170",
+"id": "m171",
 "img": "d6c93d6ad5b919fb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07F1SLX32"
@@ -3345,9 +3505,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 1939.0,
 "price": null,
+"price_label": "",
 "note": "Found in UAE search, ad copy targets #Kuwait; running since 2021",
 "date": "03/10/2026",
-"id": "m171",
+"id": "m172",
 "img": "15406f12b4b5aa02.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
@@ -3363,9 +3524,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 70.0,
 "price": null,
+"price_label": "",
 "note": "Gate pass; matches Kuwait sunglasses signal",
 "date": "03/10/2026",
-"id": "m172",
+"id": "m173",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -3381,9 +3543,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 79.0,
 "price": null,
+"price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m173",
+"id": "m174",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -3399,9 +3562,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 110.0,
 "price": null,
+"price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m174",
+"id": "m175",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -3417,9 +3581,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 24.0,
 "price": null,
+"price_label": "",
 "note": "Electronic, heavy-ish",
 "date": "03/10/2026",
-"id": "m175",
+"id": "m176",
 "img": "e830b49b103a888d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GQBM85DF"
@@ -3435,9 +3600,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 57.0,
 "price": null,
+"price_label": "",
 "note": "Watch cell battery; check courier rules",
 "date": "03/10/2026",
-"id": "m176",
+"id": "m177",
 "img": "d39ff94761eb7585.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D45GHRTW"
@@ -3453,9 +3619,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 119.0,
 "price": null,
+"price_label": "",
 "note": "Chemical: gate fail",
 "date": "03/10/2026",
-"id": "m177",
+"id": "m178",
 "img": "323f1c0bc2114a2f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H9JDLK84"
@@ -3471,9 +3638,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 31.0,
 "price": null,
+"price_label": "",
 "note": "Counterfeit-style: avoid",
 "date": "03/10/2026",
-"id": "m178",
+"id": "m179",
 "img": null
 },
 {
@@ -3487,9 +3655,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 74.0,
 "price": 276.66,
+"price_label": "29 OMR",
 "note": "Probably over 400 g",
 "date": "03/10/2026",
-"id": "m179",
+"id": "m180",
 "img": "0be2d150998b5cdb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPY1N7XC"
@@ -3505,9 +3674,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 94.0,
 "price": null,
+"price_label": "",
 "note": "Bulky: gate fail",
 "date": "03/10/2026",
-"id": "m180",
+"id": "m181",
 "img": "731d3ae3c1fc857f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D8FQDW2H"
@@ -3523,9 +3693,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 213.0,
 "price": null,
+"price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m181",
+"id": "m182",
 "img": "ccedff2bebb51509.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G63SMWP8"
@@ -3541,9 +3712,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 170.0,
 "price": null,
+"price_label": "",
 "note": "Liquid: gate fail; many copies",
 "date": "03/10/2026",
-"id": "m182",
+"id": "m183",
 "img": null
 },
 {
@@ -3557,9 +3729,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 100.0,
 "price": null,
+"price_label": "",
 "note": "India textile fit; light; gate pass",
 "date": "30/10/2026",
-"id": "m183",
+"id": "m184",
 "img": "a6af3c63292f11e7.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HC4761TK"
@@ -3575,9 +3748,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 40.0,
 "price": null,
+"price_label": "",
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m184",
+"id": "m185",
 "img": "3abcd27dbb43ff9a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CWCQWWZS"
@@ -3593,9 +3767,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 145.0,
 "price": null,
+"price_label": "",
 "note": "Still running since 3 Oct scan (was 118 days)",
 "date": "30/10/2026",
-"id": "m185",
+"id": "m186",
 "img": null
 },
 {
@@ -3609,9 +3784,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 92.0,
 "price": null,
+"price_label": "",
 "note": "Food: gate fail; still running",
 "date": "30/10/2026",
-"id": "m186",
+"id": "m187",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -3627,9 +3803,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 17.0,
 "price": null,
+"price_label": "",
 "note": "Liquid/cosmetic: gate fail",
 "date": "30/10/2026",
-"id": "m187",
+"id": "m188",
 "img": "c1dac029c026a8ac.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B082WZTJV5"
@@ -3645,9 +3822,10 @@
 "keyword": "سروال قطن (cotton sirwal)",
 "days": 111.0,
 "price": null,
+"price_label": "",
 "note": "India Tiruppur fit",
 "date": "30/10/2026",
-"id": "m188",
+"id": "m189",
 "img": "1fbb543adc5d2c31.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07FJMHKZG"
@@ -3663,9 +3841,10 @@
 "keyword": "سروال قطن (cotton sirwal)",
 "days": 18.0,
 "price": 100.0,
+"price_label": "AED 100",
 "note": "Price benchmark: AED 100 for 6; bundle model",
 "date": "30/10/2026",
-"id": "m189",
+"id": "m190",
 "img": "d32f204661e318d5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
@@ -3681,9 +3860,10 @@
 "keyword": "سروال قطن (cotton sirwal)",
 "days": 18.0,
 "price": null,
+"price_label": "",
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m190",
+"id": "m191",
 "img": "9a8be6bb62a432b0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B00W04OVJU"
@@ -3699,9 +3879,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 182.0,
 "price": null,
+"price_label": "",
 "note": "Still running since 3 Oct (was 155 days); gate pass",
 "date": "30/10/2026",
-"id": "m191",
+"id": "m192",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3717,9 +3898,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 180.0,
 "price": null,
+"price_label": "",
 "note": "2nd advertiser, same product",
 "date": "30/10/2026",
-"id": "m192",
+"id": "m193",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3735,9 +3917,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 211.0,
 "price": null,
+"price_label": "",
 "note": "Light; avoid medical claims",
 "date": "30/10/2026",
-"id": "m193",
+"id": "m194",
 "img": "b2b7b0bf322c0ac8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
@@ -3753,9 +3936,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 252.0,
 "price": null,
+"price_label": "",
 "note": "Weight-loss claim: risky",
 "date": "30/10/2026",
-"id": "m194",
+"id": "m195",
 "img": "57a5f45e6f531eb2.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B017AGGBTU"
@@ -3771,9 +3955,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 227.0,
 "price": null,
+"price_label": "",
 "note": "Likely over 400 g",
 "date": "30/10/2026",
-"id": "m195",
+"id": "m196",
 "img": "72d2ee3a4b8cdc97.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CG19TN1Y"
@@ -3789,9 +3974,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 29.0,
 "price": 96.92,
+"price_label": "SAR 99",
 "note": "Price benchmark SAR 99",
 "date": "30/10/2026",
-"id": "m196",
+"id": "m197",
 "img": "b11352f09fc7b498.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0F5QF82DX"
@@ -3807,9 +3993,10 @@
 "keyword": "مفرمة (chopper)",
 "days": 129.0,
 "price": null,
+"price_label": "",
 "note": "Confirms chopper demand; 49 live chopper ads in KSA",
 "date": "30/10/2026",
-"id": "m197",
+"id": "m198",
 "img": "7a58d1b74650732e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B08Y8FBRF8"
@@ -3825,9 +4012,10 @@
 "keyword": "مفرمة (chopper)",
 "days": 115.0,
 "price": null,
+"price_label": "",
 "note": "Chopper/grinder category",
 "date": "30/10/2026",
-"id": "m198",
+"id": "m199",
 "img": "ee7eadc36d7ef2ae.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B06WWN6SQP"
@@ -3843,9 +4031,10 @@
 "keyword": "مفرمة (chopper)",
 "days": 514.0,
 "price": 87.13,
+"price_label": "SAR 89",
 "note": "Electric: gate fail; longest in category",
 "date": "30/10/2026",
-"id": "m199",
+"id": "m200",
 "img": "ae35004be7bb733a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CD5YG5BF"
@@ -3861,9 +4050,10 @@
 "keyword": "مشد الظهر (posture)",
 "days": 164.0,
 "price": null,
+"price_label": "",
 "note": "43 live posture ads in KSA",
 "date": "30/10/2026",
-"id": "m200",
+"id": "m201",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3879,9 +4069,10 @@
 "keyword": "مشد الظهر (posture)",
 "days": 137.0,
 "price": null,
+"price_label": "",
 "note": "Same product, 3rd advertiser",
 "date": "30/10/2026",
-"id": "m201",
+"id": "m202",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3897,9 +4088,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 99.0,
 "price": null,
+"price_label": "",
 "note": "Still running since 3 Oct (was 72 days)",
 "date": "30/10/2026",
-"id": "m202",
+"id": "m203",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -3915,9 +4107,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 104.0,
 "price": null,
+"price_label": "",
 "note": "Liquid: gate fail; still running",
 "date": "30/10/2026",
-"id": "m203",
+"id": "m204",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3933,9 +4126,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 129.0,
 "price": null,
+"price_label": "",
 "note": "Also advertised in Qatar (81 days); check if battery",
 "date": "30/10/2026",
-"id": "m204",
+"id": "m205",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -3951,9 +4145,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 66.0,
 "price": null,
+"price_label": "",
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
-"id": "m205",
+"id": "m206",
 "img": "a5b04e85475679c1.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07RC3GT4T"
@@ -3969,9 +4164,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 30.0,
 "price": null,
+"price_label": "",
 "note": "Bulky",
 "date": "30/10/2026",
-"id": "m206",
+"id": "m207",
 "img": "b506d5c678e85742.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G2W8T7B6"
@@ -3987,9 +4183,10 @@
 "keyword": "الم الكعب (heel pain)",
 "days": 265.0,
 "price": null,
+"price_label": "",
 "note": "110 live heel-pain ads in Kuwait",
 "date": "30/10/2026",
-"id": "m207",
+"id": "m208",
 "img": "3f537b34287631d0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
@@ -4005,9 +4202,10 @@
 "keyword": "الم الكعب (heel pain)",
 "days": 115.0,
 "price": null,
+"price_label": "",
 "note": "Close to heel-cup idea; check product",
 "date": "30/10/2026",
-"id": "m208",
+"id": "m209",
 "img": "faf6cbfe4f751398.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09NTL8146"
@@ -4023,9 +4221,10 @@
 "keyword": "الم الكعب (heel pain)",
 "days": 101.0,
 "price": null,
+"price_label": "",
 "note": "Foot support category",
 "date": "30/10/2026",
-"id": "m209",
+"id": "m210",
 "img": "eb8b97f105f19816.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CMYF53RT"
@@ -4041,9 +4240,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 97.0,
 "price": null,
+"price_label": "",
 "note": "Still running since 3 Oct (was 70 days)",
 "date": "30/10/2026",
-"id": "m210",
+"id": "m211",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -4059,9 +4259,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 81.0,
 "price": null,
+"price_label": "",
 "note": "Same advertiser as Kuwait",
 "date": "30/10/2026",
-"id": "m211",
+"id": "m212",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -4077,9 +4278,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 106.0,
 "price": null,
+"price_label": "",
 "note": "Heavy: gate fail; still running",
 "date": "30/10/2026",
-"id": "m212",
+"id": "m213",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -4095,9 +4297,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 37.0,
 "price": null,
+"price_label": "",
 "note": "Battery: gate fail",
 "date": "30/10/2026",
-"id": "m213",
+"id": "m214",
 "img": "4ebed75e493de060.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HHHR5YHZ"
@@ -4113,9 +4316,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 57.0,
 "price": 14.31,
+"price_label": "1.5 OMR",
 "note": "Too cheap alone; bundle only",
 "date": "30/10/2026",
-"id": "m214",
+"id": "m215",
 "img": "8afa4c71ea891a5d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HGBD4YWC"
@@ -4131,9 +4335,10 @@
 "keyword": "الدفع عند الاستلام (COD)",
 "days": 98.0,
 "price": 190.7,
+"price_label": "19.99 OMR",
 "note": "Heavy/battery: gate fail",
 "date": "30/10/2026",
-"id": "m215",
+"id": "m216",
 "img": "a2b5365539e67437.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CS3B7MD8"
@@ -4157,7 +4362,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "xtUEmdKeC_8",
-"id": "y216",
+"id": "y217",
 "img": "bc0af2e2342fd3d3.jpg"
 },
 {
@@ -4179,7 +4384,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "u1-RU1Bn0c4",
-"id": "y217",
+"id": "y218",
 "img": "f025d472d767b669.jpg"
 },
 {
@@ -4197,7 +4402,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "QVv3mQzlrN0",
-"id": "y218",
+"id": "y219",
 "img": "6ec43d79b95ae762.jpg"
 },
 {
@@ -4219,8 +4424,52 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "p52mbzhBsfw",
-"id": "y219",
+"id": "y220",
 "img": "eb67ccf19390f051.jpg"
+},
+{
+"type": "YouTube",
+"title": "BAAJA BALL 🎺🎵⚾ #shorts #youtubeshorts #cricket #unboxing #ball #funny",
+"url": "https://www.youtube.com/watch?v=uJ5vPJ-hGgc",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Box Of Vengeance",
+"query": "unboxing gadgets",
+"views": 9353612.0,
+"likes": 476247.0,
+"comments": 2747.0,
+"published": "29/10/2026",
+"date": "02/11/2026",
+"yt": "uJ5vPJ-hGgc",
+"id": "y221",
+"img": "ff63091414f79aeb.jpg"
+},
+{
+"type": "YouTube",
+"title": "\"Can I Borrow One?\" Her Chopsticks Kept Disappearing 🍜 Amazon Find",
+"url": "https://www.youtube.com/watch?v=jod0VRBQiYE",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 8908516.0,
+"likes": 82094.0,
+"comments": 60.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "jod0VRBQiYE",
+"id": "y222",
+"img": "d4f902fe73b2b643.jpg"
 },
 {
 "type": "YouTube",
@@ -4238,8 +4487,30 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "IxJSU7wVTfk",
-"id": "y220",
+"id": "y223",
 "img": "5c8c245b7829e1dd.jpg"
+},
+{
+"type": "YouTube",
+"title": "The Amazon Find That Saved Dinner… Almost 🔥",
+"url": "https://www.youtube.com/watch?v=ZnLdfZ2vTkI",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 8437837.0,
+"likes": 58885.0,
+"comments": 33.0,
+"published": "28/10/2026",
+"date": "02/11/2026",
+"yt": "ZnLdfZ2vTkI",
+"id": "y224",
+"img": "20bb4dd63074b8be.jpg"
 },
 {
 "type": "YouTube",
@@ -4260,8 +4531,30 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "51-JrldTbWg",
-"id": "y221",
+"id": "y225",
 "img": "f30f371caa764e3e.jpg"
+},
+{
+"type": "YouTube",
+"title": "A Thief Cut Her Bag. Round Two Went Differently 🎒 Amazon Find",
+"url": "https://www.youtube.com/watch?v=7LTQ89YwnYQ",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 7698668.0,
+"likes": 65943.0,
+"comments": 26.0,
+"published": "19/10/2026",
+"date": "02/11/2026",
+"yt": "7LTQ89YwnYQ",
+"id": "y226",
+"img": "73824917b511cf2c.jpg"
 },
 {
 "type": "YouTube",
@@ -4282,7 +4575,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "AZZ3Ve_enpI",
-"id": "y222",
+"id": "y227",
 "img": "ed2e25387a80b689.jpg"
 },
 {
@@ -4303,8 +4596,30 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "1t9nqw6SfO0",
-"id": "y223",
+"id": "y228",
 "img": "ba8ee54a0ffda177.jpg"
+},
+{
+"type": "YouTube",
+"title": "iPhone DUO Unboxing & Drop Test",
+"url": "https://www.youtube.com/watch?v=YXwHuSyVe4k",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "TECHOOB",
+"query": "unboxing gadgets",
+"views": 6405329.0,
+"likes": 104759.0,
+"comments": 917.0,
+"published": "23/10/2026",
+"date": "02/11/2026",
+"yt": "YXwHuSyVe4k",
+"id": "y229",
+"img": "56458b81ac886bdd.jpg"
 },
 {
 "type": "YouTube",
@@ -4325,7 +4640,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "BQIwRiMxHXc",
-"id": "y224",
+"id": "y230",
 "img": "45fe638bb5a36103.jpg"
 },
 {
@@ -4347,7 +4662,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "fmOz8LwuqzY",
-"id": "y225",
+"id": "y231",
 "img": "ee15b3a4d018a55f.jpg"
 },
 {
@@ -4369,7 +4684,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "rPSDGVo1QeY",
-"id": "y226",
+"id": "y232",
 "img": "59f904cbfeddf456.jpg"
 },
 {
@@ -4388,8 +4703,30 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "_RjsF8VjDUA",
-"id": "y227",
+"id": "y233",
 "img": "efe4dba46efa6fe1.jpg"
+},
+{
+"type": "YouTube",
+"title": "🫪Please avoid this soap immediately🤯 #shorts #meeshofinds #amazonfinds #affordablefinds",
+"url": "https://www.youtube.com/watch?v=ewIFSTyydzs",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Foodie Bharathi",
+"query": "amazon finds",
+"views": 6020789.0,
+"likes": 61643.0,
+"comments": 3077.0,
+"published": "26/10/2026",
+"date": "02/11/2026",
+"yt": "ewIFSTyydzs",
+"id": "y234",
+"img": "f655e67e18bbc55f.jpg"
 },
 {
 "type": "YouTube",
@@ -4410,30 +4747,8 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "xrJIiCjnif0",
-"id": "y228",
+"id": "y235",
 "img": "3b25fce019aacbe8.jpg"
-},
-{
-"type": "YouTube",
-"title": "Amazon Products You Should Never See 😳",
-"url": "https://www.youtube.com/watch?v=7LTQ89YwnYQ",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "RumiRumiR",
-"query": "amazon finds",
-"views": 5813917.0,
-"likes": 49723.0,
-"comments": 23.0,
-"published": "19/10/2026",
-"date": "26/10/2026",
-"yt": "7LTQ89YwnYQ",
-"id": "y229",
-"img": "73824917b511cf2c.jpg"
 },
 {
 "type": "YouTube",
@@ -4454,7 +4769,7 @@
 "published": "22/10/2026",
 "date": "26/10/2026",
 "yt": "tTJFfhaOQ-g",
-"id": "y230",
+"id": "y236",
 "img": "6c99280bbe2810da.jpg"
 },
 {
@@ -4476,7 +4791,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "jDWqDTTXTlY",
-"id": "y231",
+"id": "y237",
 "img": "29692ac02e703b9e.jpg"
 },
 {
@@ -4498,8 +4813,30 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "QDaO3sKAfKU",
-"id": "y232",
+"id": "y238",
 "img": "2fa0a22018aaf7ed.jpg"
+},
+{
+"type": "YouTube",
+"title": "Amazon Products You Should Never See 😳",
+"url": "https://www.youtube.com/watch?v=0v_1mLrEu5Y",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 5324032.0,
+"likes": 64509.0,
+"comments": 76.0,
+"published": "19/10/2026",
+"date": "02/11/2026",
+"yt": "0v_1mLrEu5Y",
+"id": "y239",
+"img": "660a66fdc3008ff5.jpg"
 },
 {
 "type": "YouTube",
@@ -4520,7 +4857,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "LlhTEttKcwQ",
-"id": "y233",
+"id": "y240",
 "img": "1e4493167af01c38.jpg"
 },
 {
@@ -4542,8 +4879,30 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "LNZIhKPSrXY",
-"id": "y234",
+"id": "y241",
 "img": "527eff513f195a05.jpg"
+},
+{
+"type": "YouTube",
+"title": "He Broke Her Glasses… Then Needed This Amazon Case 😎",
+"url": "https://www.youtube.com/watch?v=oUF4uvkrgRw",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 4668648.0,
+"likes": 23180.0,
+"comments": 13.0,
+"published": "30/10/2026",
+"date": "02/11/2026",
+"yt": "oUF4uvkrgRw",
+"id": "y242",
+"img": "6ade60b94d67ad0c.jpg"
 },
 {
 "type": "YouTube",
@@ -4564,7 +4923,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "qZAgXS9zeVk",
-"id": "y235",
+"id": "y243",
 "img": "85bd2f3ef30df8ed.jpg"
 },
 {
@@ -4586,8 +4945,30 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "0nJm0-1Vjvo",
-"id": "y236",
+"id": "y244",
 "img": "560fa0ae75680dde.jpg"
+},
+{
+"type": "YouTube",
+"title": "Amazon Products You Should Never See 😳",
+"url": "https://www.youtube.com/watch?v=VcEcbTKhET0",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 4591078.0,
+"likes": 51284.0,
+"comments": 48.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "VcEcbTKhET0",
+"id": "y245",
+"img": "70b676fe8ce7ae28.jpg"
 },
 {
 "type": "YouTube",
@@ -4608,8 +4989,52 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "ZI_JpzKc13I",
-"id": "y237",
+"id": "y246",
 "img": "daf82f3fd6ae87c2.jpg"
+},
+{
+"type": "YouTube",
+"title": "Xiaomi 18 Pro Transparent Edition Unboxing & First Look ⚡ 8 Elite Gen 6, Dual Displays, 200MP & More",
+"url": "https://www.youtube.com/watch?v=dLSlklUmhfI",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Trakin Tech",
+"query": "unboxing gadgets",
+"views": 4576979.0,
+"likes": 17205.0,
+"comments": 471.0,
+"published": "24/10/2026",
+"date": "02/11/2026",
+"yt": "dLSlklUmhfI",
+"id": "y247",
+"img": "6168cf4a60e3aced.jpg"
+},
+{
+"type": "YouTube",
+"title": "Amazon Products You Should Never See 😳",
+"url": "https://www.youtube.com/watch?v=veQ4cveZ-ro",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 4466443.0,
+"likes": 34203.0,
+"comments": 22.0,
+"published": "24/10/2026",
+"date": "02/11/2026",
+"yt": "veQ4cveZ-ro",
+"id": "y248",
+"img": "1b4c9d4922efa1df.jpg"
 },
 {
 "type": "YouTube",
@@ -4630,7 +5055,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "YV55rCt3S2c",
-"id": "y238",
+"id": "y249",
 "img": "741b13f0c8af1424.jpg"
 },
 {
@@ -4652,7 +5077,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "SFZCCwznp1Y",
-"id": "y239",
+"id": "y250",
 "img": "41dc71e423f0d6a4.jpg"
 },
 {
@@ -4674,7 +5099,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "NaS9MfBWvyg",
-"id": "y240",
+"id": "y251",
 "img": "74b6c395ab03c25f.jpg"
 },
 {
@@ -4696,7 +5121,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "XK5wZbhAaVs",
-"id": "y241",
+"id": "y252",
 "img": "9bf10bbe7b1fc584.jpg"
 },
 {
@@ -4718,30 +5143,8 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "xvDltGHNql8",
-"id": "y242",
+"id": "y253",
 "img": "988bc0fc3109ed1b.jpg"
-},
-{
-"type": "YouTube",
-"title": "Amazon Products You Should Never See 😳",
-"url": "https://www.youtube.com/watch?v=0v_1mLrEu5Y",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "RumiRumiR",
-"query": "amazon finds",
-"views": 4232152.0,
-"likes": 51701.0,
-"comments": 67.0,
-"published": "19/10/2026",
-"date": "26/10/2026",
-"yt": "0v_1mLrEu5Y",
-"id": "y243",
-"img": "660a66fdc3008ff5.jpg"
 },
 {
 "type": "YouTube",
@@ -4762,7 +5165,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "Mzy5D2RGdio",
-"id": "y244",
+"id": "y254",
 "img": "3feb1c85361de96b.jpg"
 },
 {
@@ -4784,7 +5187,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "q6kxABAOF_E",
-"id": "y245",
+"id": "y255",
 "img": "9b5354e4e75231d0.jpg"
 },
 {
@@ -4806,7 +5209,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "uchwc-W5SsA",
-"id": "y246",
+"id": "y256",
 "img": "d0ac2a991bba2d6e.jpg"
 },
 {
@@ -4828,7 +5231,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "WSOwdeNw8ZA",
-"id": "y247",
+"id": "y257",
 "img": "790c8b8a9df4bd60.jpg"
 },
 {
@@ -4849,7 +5252,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "yrpv4eGQhVc",
-"id": "y248",
+"id": "y258",
 "img": "a4af4032507fd1b5.jpg"
 },
 {
@@ -4871,7 +5274,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "vtEFVGa3LBw",
-"id": "y249",
+"id": "y259",
 "img": "eef945b34d76be9c.jpg"
 },
 {
@@ -4892,7 +5295,7 @@
 "published": "21/09/2026",
 "date": "03/10/2026",
 "yt": "hXVY84C5wuc",
-"id": "y250",
+"id": "y260",
 "img": "393247c7bfa64280.jpg"
 },
 {
@@ -4914,7 +5317,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "XYAJhJmrlPk",
-"id": "y251",
+"id": "y261",
 "img": "0a56feea9d1abe62.jpg"
 },
 {
@@ -4936,7 +5339,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "yDgmNs4I1BE",
-"id": "y252",
+"id": "y262",
 "img": "14f8ae12647b9a8a.jpg"
 },
 {
@@ -4958,7 +5361,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "f363W_CQARo",
-"id": "y253",
+"id": "y263",
 "img": "b4de172d9b2988b0.jpg"
 },
 {
@@ -4980,7 +5383,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "pslMEc6Qc84",
-"id": "y254",
+"id": "y264",
 "img": "6db6d2a6c2a0422d.jpg"
 },
 {
@@ -5002,7 +5405,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "BJkl2SyvQ4A",
-"id": "y255",
+"id": "y265",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -5024,7 +5427,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "Mnd2BUIrBAI",
-"id": "y256",
+"id": "y266",
 "img": "f898ab3fd8435334.jpg"
 },
 {
@@ -5046,7 +5449,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "WZTqUw7Wozc",
-"id": "y257",
+"id": "y267",
 "img": "c815db336dddf3cd.jpg"
 },
 {
@@ -5068,7 +5471,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "yoFkM8d273A",
-"id": "y258",
+"id": "y268",
 "img": "8c4515f42a8e0319.jpg"
 },
 {
@@ -5090,7 +5493,7 @@
 "published": "20/10/2026",
 "date": "26/10/2026",
 "yt": "KpdrAwXnj9w",
-"id": "y259",
+"id": "y269",
 "img": "38567149e0f9b513.jpg"
 },
 {
@@ -5112,8 +5515,30 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "7aWsiOEleWg",
-"id": "y260",
+"id": "y270",
 "img": "dda4f735ba529944.jpg"
+},
+{
+"type": "YouTube",
+"title": "Dji Osmo 7 vs Samsung s23 😱 review 🔥|. #smartphone #review #gimbal #dji #viral #shorts",
+"url": "https://www.youtube.com/watch?v=pJHrNagd-Po",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Harsh_.Batham..j",
+"query": "unboxing gadgets",
+"views": 2941939.0,
+"likes": 28595.0,
+"comments": 41.0,
+"published": "23/10/2026",
+"date": "02/11/2026",
+"yt": "pJHrNagd-Po",
+"id": "y271",
+"img": "98cb77bac1800dce.jpg"
 },
 {
 "type": "YouTube",
@@ -5134,7 +5559,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "MVYg_fj8b64",
-"id": "y261",
+"id": "y272",
 "img": "afb360ce1899a08a.jpg"
 },
 {
@@ -5156,7 +5581,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "CyxDI740rMY",
-"id": "y262",
+"id": "y273",
 "img": "be5b9eaeb1d0cdd4.jpg"
 },
 {
@@ -5178,7 +5603,7 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "maDRvmTs5Hk",
-"id": "y263",
+"id": "y274",
 "img": "2ad74d3914208155.jpg"
 },
 {
@@ -5200,7 +5625,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "YUoMvQpSYSc",
-"id": "y264",
+"id": "y275",
 "img": "494406e537eb0fd2.jpg"
 },
 {
@@ -5219,8 +5644,30 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "klyPt9Ilqc4",
-"id": "y265",
+"id": "y276",
 "img": "18d2e48d8887f67c.jpg"
+},
+{
+"type": "YouTube",
+"title": "Rc Bullet Train Vs Electric Smartcraft Bande Bharat Bullet Train Unboxing 😍05",
+"url": "https://www.youtube.com/watch?v=A7x-SxlTpuo",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Izu Unboxing Planet",
+"query": "unboxing gadgets",
+"views": 2666548.0,
+"likes": 10400.0,
+"comments": 5.0,
+"published": "20/10/2026",
+"date": "02/11/2026",
+"yt": "A7x-SxlTpuo",
+"id": "y277",
+"img": "23493fa431c3711b.jpg"
 },
 {
 "type": "YouTube",
@@ -5241,7 +5688,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "kC2paDIgUeA",
-"id": "y266",
+"id": "y278",
 "img": "3f5dc2deb4cf6a23.jpg"
 },
 {
@@ -5262,7 +5709,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "wqs0EZddylw",
-"id": "y267",
+"id": "y279",
 "img": "1400c46fcdb9cd36.jpg"
 },
 {
@@ -5284,7 +5731,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "p_N-jF8IkJ8",
-"id": "y268",
+"id": "y280",
 "img": "e59c7663590fd30c.jpg"
 },
 {
@@ -5306,7 +5753,7 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "cN7zfUmYiPk",
-"id": "y269",
+"id": "y281",
 "img": "046882cb73a2455a.jpg"
 },
 {
@@ -5328,8 +5775,30 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "MOeoL0z8ghc",
-"id": "y270",
+"id": "y282",
 "img": "d3ecb1d3b43ef84f.jpg"
+},
+{
+"type": "YouTube",
+"title": "ASMR iPhone Duo Unboxing",
+"url": "https://www.youtube.com/watch?v=_4ELeWAgMwo",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Marques Brownlee",
+"query": "unboxing gadgets",
+"views": 2267643.0,
+"likes": 70829.0,
+"comments": 987.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "_4ELeWAgMwo",
+"id": "y283",
+"img": "c781c2461fe1a449.jpg"
 },
 {
 "type": "YouTube",
@@ -5349,7 +5818,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "Bsmt2wjj65Y",
-"id": "y271",
+"id": "y284",
 "img": "d1472b87f60113be.jpg"
 },
 {
@@ -5371,7 +5840,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "9NcvibfH0KM",
-"id": "y272",
+"id": "y285",
 "img": "dcb23800a1998cf3.jpg"
 },
 {
@@ -5393,7 +5862,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "PS_WjURRB0c",
-"id": "y273",
+"id": "y286",
 "img": "3b1f89236de7e883.jpg"
 },
 {
@@ -5415,8 +5884,52 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "18UhK4M94TY",
-"id": "y274",
+"id": "y287",
 "img": "a8209ef7da211a93.jpg"
+},
+{
+"type": "YouTube",
+"title": "افضل خمس مشتريات من الامزون #ضحك",
+"url": "https://www.youtube.com/watch?v=gkkpx5JDm8c",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "ابو اليوس | Abu Alyous",
+"query": "مشتريات",
+"views": 2103521.0,
+"likes": 24124.0,
+"comments": 257.0,
+"published": "22/10/2026",
+"date": "02/11/2026",
+"yt": "gkkpx5JDm8c",
+"id": "y288",
+"img": "b82db3ec52d859d5.jpg"
+},
+{
+"type": "YouTube",
+"title": "Con este PRODUCTO puedes PINTAR tu CABELLO y lavarlo con AGUA 😍",
+"url": "https://www.youtube.com/watch?v=CsfDufV6zNM",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Mabell Rodríguez",
+"query": "منتجات مفيدة",
+"views": 2076833.0,
+"likes": 51483.0,
+"comments": 233.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "CsfDufV6zNM",
+"id": "y289",
+"img": "04640143133afc19.jpg"
 },
 {
 "type": "YouTube",
@@ -5437,7 +5950,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "gGtCElKk0Fs",
-"id": "y275",
+"id": "y290",
 "img": "6aa86c58107875f9.jpg"
 },
 {
@@ -5459,7 +5972,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uXMsc6CZXY0",
-"id": "y276",
+"id": "y291",
 "img": "4996d4f9b5e46725.jpg"
 },
 {
@@ -5481,8 +5994,30 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "nm-dWrCPLIY",
-"id": "y277",
+"id": "y292",
 "img": "c259c4a649227ad3.jpg"
+},
+{
+"type": "YouTube",
+"title": "$250 Squishy Haul 😱🧸",
+"url": "https://www.youtube.com/watch?v=CkhSSmjZD60",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "MunchMinion4",
+"query": "مشتريات",
+"views": 1961881.0,
+"likes": 20923.0,
+"comments": 113.0,
+"published": "27/10/2026",
+"date": "02/11/2026",
+"yt": "CkhSSmjZD60",
+"id": "y293",
+"img": "bcb339240dd6106b.jpg"
 },
 {
 "type": "YouTube",
@@ -5503,7 +6038,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "2t4yHQZgOf8",
-"id": "y278",
+"id": "y294",
 "img": "edc5587470d61721.jpg"
 },
 {
@@ -5525,7 +6060,7 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "ijmP5TkBt04",
-"id": "y279",
+"id": "y295",
 "img": "264709c5fa019e35.jpg"
 },
 {
@@ -5547,7 +6082,7 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "gvs4f3G4Q7g",
-"id": "y280",
+"id": "y296",
 "img": "6d617c568347b297.jpg"
 },
 {
@@ -5569,7 +6104,7 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "AWgPciz5JdQ",
-"id": "y281",
+"id": "y297",
 "img": "6879e23e2a282b87.jpg"
 },
 {
@@ -5591,7 +6126,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "EBBTUGwA_8k",
-"id": "y282",
+"id": "y298",
 "img": "e7cec7d5703f1eca.jpg"
 },
 {
@@ -5613,7 +6148,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "ZY_9Rp1WDr0",
-"id": "y283",
+"id": "y299",
 "img": "6184c93352f8c28a.jpg"
 },
 {
@@ -5632,7 +6167,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "VJEy4Ye_r7Y",
-"id": "y284",
+"id": "y300",
 "img": "83ae2924cbb3a2b9.jpg"
 },
 {
@@ -5654,7 +6189,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MG-snTgotL8",
-"id": "y285",
+"id": "y301",
 "img": "9bf2af4f8b18898a.jpg"
 },
 {
@@ -5676,7 +6211,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "uRTHhbgCJzc",
-"id": "y286",
+"id": "y302",
 "img": "51640a23e458bec2.jpg"
 },
 {
@@ -5694,7 +6229,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "kVjBMgswvPw",
-"id": "y287",
+"id": "y303",
 "img": "457f77f7abb3a952.jpg"
 },
 {
@@ -5716,30 +6251,8 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "mGa5ZkqWn8Q",
-"id": "y288",
+"id": "y304",
 "img": "bd5a53028d7f03a7.jpg"
-},
-{
-"type": "YouTube",
-"title": "Con este PRODUCTO puedes PINTAR tu CABELLO y lavarlo con AGUA 😍",
-"url": "https://www.youtube.com/watch?v=CsfDufV6zNM",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Mabell Rodríguez",
-"query": "منتجات مفيدة",
-"views": 1690787.0,
-"likes": 44035.0,
-"comments": 209.0,
-"published": "21/10/2026",
-"date": "26/10/2026",
-"yt": "CsfDufV6zNM",
-"id": "y289",
-"img": "04640143133afc19.jpg"
 },
 {
 "type": "YouTube",
@@ -5760,8 +6273,30 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "HuRyapINGlo",
-"id": "y290",
+"id": "y305",
 "img": "447bf7b92bdcb5ed.jpg"
+},
+{
+"type": "YouTube",
+"title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
+"url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Lisi Shops",
+"query": "unboxing gadgets",
+"views": 1651843.0,
+"likes": 60421.0,
+"comments": 423.0,
+"published": "27/10/2026",
+"date": "02/11/2026",
+"yt": "3Mc0okAqdFU",
+"id": "y306",
+"img": "526b22831f468245.jpg"
 },
 {
 "type": "YouTube",
@@ -5782,13 +6317,13 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "-xyN9K7zl4I",
-"id": "y291",
+"id": "y307",
 "img": "86c6a481b479c48f.jpg"
 },
 {
 "type": "YouTube",
-"title": "افضل خمس مشتريات من الامزون #ضحك",
-"url": "https://www.youtube.com/watch?v=gkkpx5JDm8c",
+"title": "I Tested BANNED Huawei Wide Phone #shorts",
+"url": "https://www.youtube.com/watch?v=piIRXeJ35aw",
 "countries": [
 "UAE",
 "Saudi Arabia",
@@ -5796,16 +6331,16 @@
 "Oman",
 "Kuwait"
 ],
-"source": "ابو اليوس | Abu Alyous",
-"query": "مشتريات",
-"views": 1574846.0,
-"likes": 18731.0,
-"comments": 217.0,
-"published": "22/10/2026",
-"date": "26/10/2026",
-"yt": "gkkpx5JDm8c",
-"id": "y292",
-"img": "b82db3ec52d859d5.jpg"
+"source": "Techno Ruhez",
+"query": "unboxing gadgets",
+"views": 1650546.0,
+"likes": 67081.0,
+"comments": 615.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "piIRXeJ35aw",
+"id": "y308",
+"img": "6e56b7812bca5c76.jpg"
 },
 {
 "type": "YouTube",
@@ -5822,7 +6357,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "QI1JU0PRYWY",
-"id": "y293",
+"id": "y309",
 "img": "7fd51312646cccde.jpg"
 },
 {
@@ -5844,8 +6379,30 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "PUmEjn1-L5s",
-"id": "y294",
+"id": "y310",
 "img": "9c43e5db0b82cf7e.jpg"
+},
+{
+"type": "YouTube",
+"title": "TIK TOK M'A FAIT ACHETER ÇA ! (C'est une révolution ?!) #12",
+"url": "https://www.youtube.com/watch?v=v9wYSebfh4o",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "JOYCA",
+"query": "tiktok made me buy it",
+"views": 1548522.0,
+"likes": 64514.0,
+"comments": 1183.0,
+"published": "01/11/2026",
+"date": "02/11/2026",
+"yt": "v9wYSebfh4o",
+"id": "y311",
+"img": "2546a8be07bfbafc.jpg"
 },
 {
 "type": "YouTube",
@@ -5866,7 +6423,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "5vmUnoFwYC8",
-"id": "y295",
+"id": "y312",
 "img": "f03875d3843dc1ba.jpg"
 },
 {
@@ -5884,7 +6441,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "o3mTL46qA_k",
-"id": "y296",
+"id": "y313",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -5906,7 +6463,7 @@
 "published": "25/09/2026",
 "date": "05/10/2026",
 "yt": "GTB5bPkUsrc",
-"id": "y297",
+"id": "y314",
 "img": "54e71749ac6247a3.jpg"
 },
 {
@@ -5926,7 +6483,7 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "qIo0L_6jHK0",
-"id": "y298",
+"id": "y315",
 "img": "a9c8e414c32146ad.jpg"
 },
 {
@@ -5948,7 +6505,7 @@
 "published": "22/09/2026",
 "date": "03/10/2026",
 "yt": "9rDJKw2waeM",
-"id": "y299",
+"id": "y316",
 "img": "f715269de54a59a0.jpg"
 },
 {
@@ -5970,7 +6527,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "Xnkt3bnQ0ic",
-"id": "y300",
+"id": "y317",
 "img": "ea64d42d962fff25.jpg"
 },
 {
@@ -5992,7 +6549,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "RMZInc7jUOQ",
-"id": "y301",
+"id": "y318",
 "img": "20d0123a2aa08541.jpg"
 },
 {
@@ -6014,8 +6571,30 @@
 "published": "03/10/2026",
 "date": "05/10/2026",
 "yt": "K6h8xEg9bEU",
-"id": "y302",
+"id": "y319",
 "img": "35fb4f26c9fa5648.jpg"
+},
+{
+"type": "YouTube",
+"title": "Meesho Finds Under 500 ♥️ || Vlogsofsona|| #keeporreturn #meeshohaul",
+"url": "https://www.youtube.com/watch?v=gW2UHEIHfhA",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Vlogsofsona",
+"query": "مشتريات",
+"views": 1217751.0,
+"likes": 38917.0,
+"comments": 75.0,
+"published": "25/10/2026",
+"date": "02/11/2026",
+"yt": "gW2UHEIHfhA",
+"id": "y320",
+"img": "8930e4a2f81c9429.jpg"
 },
 {
 "type": "YouTube",
@@ -6036,7 +6615,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "nZn4M0KSAkc",
-"id": "y303",
+"id": "y321",
 "img": "18038a28effcba68.jpg"
 },
 {
@@ -6058,7 +6637,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "sNJlyaPn_j0",
-"id": "y304",
+"id": "y322",
 "img": "763f0afecd4c2803.jpg"
 },
 {
@@ -6080,7 +6659,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "w62zC4hGVT8",
-"id": "y305",
+"id": "y323",
 "img": "0e3ca29e25f0d3d3.jpg"
 },
 {
@@ -6102,7 +6681,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "R87y-emjZSA",
-"id": "y306",
+"id": "y324",
 "img": "fd0130b7e8ba1269.jpg"
 },
 {
@@ -6124,7 +6703,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "2Apsmz1DDq8",
-"id": "y307",
+"id": "y325",
 "img": "07dc11950eb0e216.jpg"
 },
 {
@@ -6146,7 +6725,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "8E7wnk-hH-s",
-"id": "y308",
+"id": "y326",
 "img": "b3c2faa2cd189ed8.jpg"
 },
 {
@@ -6168,7 +6747,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "qwwgRyRNAFg",
-"id": "y309",
+"id": "y327",
 "img": "cee3c04cf305de9e.jpg"
 },
 {
@@ -6187,7 +6766,7 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "snBanaxxbiw",
-"id": "y310",
+"id": "y328",
 "img": "284f409abb255b8f.jpg"
 },
 {
@@ -6208,7 +6787,7 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "K4BP1cpNMIU",
-"id": "y311",
+"id": "y329",
 "img": "bbbb03b70800c5f6.jpg"
 },
 {
@@ -6230,8 +6809,30 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "fEqDT3NNIiM",
-"id": "y312",
+"id": "y330",
 "img": "5f36c317d2a699c1.jpg"
+},
+{
+"type": "YouTube",
+"title": "affordable iphone duo case haul!",
+"url": "https://www.youtube.com/watch?v=d6ktS1sUT1M",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Peachietech",
+"query": "مشتريات",
+"views": 942817.0,
+"likes": 35087.0,
+"comments": 206.0,
+"published": "25/10/2026",
+"date": "02/11/2026",
+"yt": "d6ktS1sUT1M",
+"id": "y331",
+"img": "0d2195c29b71639b.jpg"
 },
 {
 "type": "YouTube",
@@ -6252,7 +6853,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "F7UoeRWOrws",
-"id": "y313",
+"id": "y332",
 "img": "923a282b3cf5c3b6.jpg"
 },
 {
@@ -6274,8 +6875,30 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uwSa-kGFyHY",
-"id": "y314",
+"id": "y333",
 "img": "22c51d8f0aefa4c7.jpg"
+},
+{
+"type": "YouTube",
+"title": "دلّو اخدت كل مشتريات مريومة !",
+"url": "https://www.youtube.com/watch?v=Q35QinmzT-s",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Mariam TV",
+"query": "مشتريات",
+"views": 872887.0,
+"likes": 5879.0,
+"comments": 6.0,
+"published": "29/10/2026",
+"date": "02/11/2026",
+"yt": "Q35QinmzT-s",
+"id": "y334",
+"img": "9e5d16195a1fc8ec.jpg"
 },
 {
 "type": "YouTube",
@@ -6296,7 +6919,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "MFv995Vb6U8",
-"id": "y315",
+"id": "y335",
 "img": "a45929fe57b03f10.jpg"
 },
 {
@@ -6318,7 +6941,7 @@
 "published": "26/09/2026",
 "date": "03/10/2026",
 "yt": "huxSLkPj9TM",
-"id": "y316",
+"id": "y336",
 "img": "c6939a92723ec087.jpg"
 },
 {
@@ -6336,8 +6959,30 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "B1BwSyeBRw8",
-"id": "y317",
+"id": "y337",
 "img": "70a9b75ba4a8236f.jpg"
+},
+{
+"type": "YouTube",
+"title": "“Employee Purchase”",
+"url": "https://www.youtube.com/watch?v=NBHYuNIXNvI",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "LEXY’S OFFICIAL YOUTUBE CHANNEL",
+"query": "#shorts مشتريات",
+"views": 734958.0,
+"likes": 61400.0,
+"comments": 211.0,
+"published": "19/10/2026",
+"date": "02/11/2026",
+"yt": "NBHYuNIXNvI",
+"id": "y338",
+"img": "f58267358797602c.jpg"
 },
 {
 "type": "YouTube",
@@ -6357,30 +7002,8 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "deevIJH9Akc",
-"id": "y318",
+"id": "y339",
 "img": "7f8f8980e69dfeed.jpg"
-},
-{
-"type": "YouTube",
-"title": "“Employee Purchase”",
-"url": "https://www.youtube.com/watch?v=NBHYuNIXNvI",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "LEXY’S OFFICIAL YOUTUBE CHANNEL",
-"query": "#shorts مشتريات",
-"views": 632414.0,
-"likes": 55983.0,
-"comments": 194.0,
-"published": "19/10/2026",
-"date": "26/10/2026",
-"yt": "NBHYuNIXNvI",
-"id": "y319",
-"img": "f58267358797602c.jpg"
 },
 {
 "type": "YouTube",
@@ -6401,7 +7024,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "IgUyP7bQ3RA",
-"id": "y320",
+"id": "y340",
 "img": "0117f2c9a050e108.jpg"
 },
 {
@@ -6423,8 +7046,30 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "cYiEZx8tk3A",
-"id": "y321",
+"id": "y341",
 "img": "90f6cb05ca900909.jpg"
+},
+{
+"type": "YouTube",
+"title": "Hollister Haul @AmeliaElizabethJett",
+"url": "https://www.youtube.com/watch?v=rSPuIj3gtpU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Jett Set Farmhouse",
+"query": "مشتريات",
+"views": 541753.0,
+"likes": 22477.0,
+"comments": 91.0,
+"published": "23/10/2026",
+"date": "02/11/2026",
+"yt": "rSPuIj3gtpU",
+"id": "y342",
+"img": "15db9ca2e32fecc4.jpg"
 },
 {
 "type": "YouTube",
@@ -6445,7 +7090,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "FMxQozCbH3s",
-"id": "y322",
+"id": "y343",
 "img": "050f696db35cba29.jpg"
 },
 {
@@ -6467,7 +7112,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "08rYmpy-Z7k",
-"id": "y323",
+"id": "y344",
 "img": "584b7629371fd993.jpg"
 },
 {
@@ -6489,7 +7134,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "qyrCxQ2mPTk",
-"id": "y324",
+"id": "y345",
 "img": "9723e40c67edead5.jpg"
 },
 {
@@ -6511,7 +7156,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "ujbxYTdB1YI",
-"id": "y325",
+"id": "y346",
 "img": "4dde6f31c4428f8d.jpg"
 },
 {
@@ -6531,8 +7176,30 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "57S_cfkCTT0",
-"id": "y326",
+"id": "y347",
 "img": "3393f2e4d3351e59.jpg"
+},
+{
+"type": "YouTube",
+"title": "احسن مشتريات مكتبه بمصروف المدرسه😵😵",
+"url": "https://www.youtube.com/watch?v=n4YxQ_8EVq8",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "لولي وعمر ",
+"query": "مشتريات",
+"views": 476367.0,
+"likes": 5262.0,
+"comments": 25.0,
+"published": "01/11/2026",
+"date": "02/11/2026",
+"yt": "n4YxQ_8EVq8",
+"id": "y348",
+"img": "8f270ebf8eacd7ec.jpg"
 },
 {
 "type": "YouTube",
@@ -6553,7 +7220,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "6KFXoeqqr3A",
-"id": "y327",
+"id": "y349",
 "img": "677ead2c25b597d8.jpg"
 },
 {
@@ -6575,7 +7242,7 @@
 "published": "12/10/2026",
 "date": "26/10/2026",
 "yt": "GNeJZULTJlk",
-"id": "y328",
+"id": "y350",
 "img": "0fcb809122cf3649.jpg"
 },
 {
@@ -6597,7 +7264,7 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "AV3KoS40618",
-"id": "y329",
+"id": "y351",
 "img": "19d05511f12962c2.jpg"
 },
 {
@@ -6619,7 +7286,7 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "G8i2ZQ7aU90",
-"id": "y330",
+"id": "y352",
 "img": "93540dfc6455c478.jpg"
 },
 {
@@ -6641,7 +7308,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "lx_RjECZJCg",
-"id": "y331",
+"id": "y353",
 "img": "e27fd8597e630d5b.jpg"
 },
 {
@@ -6663,7 +7330,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "bDHw2wnCrTo",
-"id": "y332",
+"id": "y354",
 "img": "dda2e5822844748d.jpg"
 },
 {
@@ -6685,7 +7352,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "zUc-lvkPzy0",
-"id": "y333",
+"id": "y355",
 "img": "acecc6ea926b3991.jpg"
 },
 {
@@ -6707,7 +7374,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MWDygeC6NW0",
-"id": "y334",
+"id": "y356",
 "img": "5a80374179084a8f.jpg"
 },
 {
@@ -6729,7 +7396,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "115UI0obSZU",
-"id": "y335",
+"id": "y357",
 "img": "a63c56e8cc77dc4e.jpg"
 },
 {
@@ -6747,7 +7414,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "F340A5r7erk",
-"id": "y336",
+"id": "y358",
 "img": "47ccbcc30a30cff4.jpg"
 },
 {
@@ -6769,7 +7436,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "o9jvi9Bp1hQ",
-"id": "y337",
+"id": "y359",
 "img": "958fc95f1d937cf2.jpg"
 },
 {
@@ -6791,7 +7458,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "DYv31K2crUM",
-"id": "y338",
+"id": "y360",
 "img": "b16977fbd45a2913.jpg"
 },
 {
@@ -6813,7 +7480,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "J_dAkMRnSqY",
-"id": "y339",
+"id": "y361",
 "img": "571108719050c43b.jpg"
 },
 {
@@ -6835,7 +7502,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "ADLj15ph-L0",
-"id": "y340",
+"id": "y362",
 "img": "fa57d6c66864f711.jpg"
 },
 {
@@ -6853,8 +7520,30 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "9-K7hCUeogE",
-"id": "y341",
+"id": "y363",
 "img": "d2f3b2b0ca679166.jpg"
+},
+{
+"type": "YouTube",
+"title": "Kitchen Finds #meeshofinds #youtubeshorts #budgetfinds #meeshohaul #ytshorts #meesho #home #kitchen",
+"url": "https://www.youtube.com/watch?v=dN2r6c4JfTw",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Smriti Mohan",
+"query": "منتجات مفيدة",
+"views": 308470.0,
+"likes": 5774.0,
+"comments": 44.0,
+"published": "20/10/2026",
+"date": "02/11/2026",
+"yt": "dN2r6c4JfTw",
+"id": "y364",
+"img": "03f405f82af766a1.jpg"
 },
 {
 "type": "YouTube",
@@ -6875,7 +7564,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "ogD0USkrJgA",
-"id": "y342",
+"id": "y365",
 "img": "61c3ce7429371435.jpg"
 },
 {
@@ -6897,7 +7586,7 @@
 "published": "20/10/2026",
 "date": "26/10/2026",
 "yt": "ruzLGmTGTJ8",
-"id": "y343",
+"id": "y366",
 "img": "ef957e141f6652dd.jpg"
 },
 {
@@ -6919,7 +7608,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "9jNdcS4Fe18",
-"id": "y344",
+"id": "y367",
 "img": "f9121831bd6b198c.jpg"
 },
 {
@@ -6941,7 +7630,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "o8Y3OiYGDPs",
-"id": "y345",
+"id": "y368",
 "img": "1891ccbe2a8e9a3c.jpg"
 },
 {
@@ -6959,8 +7648,52 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "nZxdNveK-Ts",
-"id": "y346",
+"id": "y369",
 "img": "e3837863da4d6da9.jpg"
+},
+{
+"type": "YouTube",
+"title": "Squishy Store Haul Ep 4 #shorts #squishy #dumplings #needoh",
+"url": "https://www.youtube.com/watch?v=XPWBvqExC8w",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "TYE Arcade",
+"query": "#shorts مشتريات",
+"views": 237184.0,
+"likes": 1540.0,
+"comments": 33.0,
+"published": "21/10/2026",
+"date": "02/11/2026",
+"yt": "XPWBvqExC8w",
+"id": "y370",
+"img": "3102d5fd128924c5.jpg"
+},
+{
+"type": "YouTube",
+"title": "The New Tesla Demo Captures Why Big Tech is Broken",
+"url": "https://www.youtube.com/watch?v=ldvrxMTk7wU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Cal Newport",
+"query": "منتجات مفيدة",
+"views": 236997.0,
+"likes": 5514.0,
+"comments": 1264.0,
+"published": "22/10/2026",
+"date": "02/11/2026",
+"yt": "ldvrxMTk7wU",
+"id": "y371",
+"img": "7ecf1c10d03721e4.jpg"
 },
 {
 "type": "YouTube",
@@ -6981,8 +7714,30 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "eU5gUC_tgUk",
-"id": "y347",
+"id": "y372",
 "img": "cdc63f5d610f2c10.jpg"
+},
+{
+"type": "YouTube",
+"title": "Meesho suitset Haul #ytshorts #shorts #shortsfeed #meeshohaul # #kurtasethaul  #meesho #kurtaset",
+"url": "https://www.youtube.com/watch?v=LgrcK2yJUYo",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Fashion Tales by Komal",
+"query": "#shorts مشتريات",
+"views": 220444.0,
+"likes": 29.0,
+"comments": 0.0,
+"published": "19/10/2026",
+"date": "02/11/2026",
+"yt": "LgrcK2yJUYo",
+"id": "y373",
+"img": "c42968a128f60539.jpg"
 },
 {
 "type": "YouTube",
@@ -7003,7 +7758,7 @@
 "published": "12/10/2026",
 "date": "26/10/2026",
 "yt": "IteXtsrjOcQ",
-"id": "y348",
+"id": "y374",
 "img": "da9bb5c977e11ece.jpg"
 },
 {
@@ -7025,13 +7780,13 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "C6znmha3em8",
-"id": "y349",
+"id": "y375",
 "img": "47838045130ac486.jpg"
 },
 {
 "type": "YouTube",
-"title": "El MEJOR PRODUCTO para tu skincare 😳",
-"url": "https://www.youtube.com/watch?v=rrDJeWV2Z-8",
+"title": "Meesho kurta sets haul #ytshorts #shorts #shortsfeed #meeshohaul # #kurtasethaul  #meesho #kurtaset",
+"url": "https://www.youtube.com/watch?v=V-u8vCGHGU4",
 "countries": [
 "UAE",
 "Saudi Arabia",
@@ -7039,566 +7794,16 @@
 "Oman",
 "Kuwait"
 ],
-"source": "Mabell Rodríguez",
-"query": "منتجات مفيدة",
-"views": 188137.0,
-"likes": 4134.0,
-"comments": 69.0,
-"published": "27/09/2026",
-"date": "05/10/2026",
-"yt": "rrDJeWV2Z-8",
-"id": "y350",
-"img": "ff9a0856e8b2fe75.jpg"
-},
-{
-"type": "YouTube",
-"title": "Hello Kitty dumpling reveal! 😱#unboxing #haul #shorts",
-"url": "https://www.youtube.com/watch?v=d4G4ZkkUI3c",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Scarlett and Tiania",
+"source": "Fashion Tales by Komal",
 "query": "#shorts مشتريات",
-"views": 187525.0,
-"likes": 1897.0,
-"comments": 28.0,
-"published": "30/09/2026",
-"date": "05/10/2026",
-"yt": "d4G4ZkkUI3c",
-"id": "y351",
-"img": "8c388eb24ecd54b3.jpg"
-},
-{
-"type": "YouTube",
-"title": "15 New Coolest Car Gadgets on Amazon You Need Yesterday",
-"url": "https://www.youtube.com/watch?v=_i8dBWiDmZI",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "NextoolX",
-"query": "منتجات مفيدة",
-"views": 186721.0,
-"likes": 1008.0,
-"comments": 9.0,
-"published": "25/09/2026",
-"date": "05/10/2026",
-"yt": "_i8dBWiDmZI",
-"id": "y352",
-"img": "7e15f8b4900e2211.jpg"
-},
-{
-"type": "YouTube",
-"title": "The New Tesla Demo Captures Why Big Tech is Broken",
-"url": "https://www.youtube.com/watch?v=ldvrxMTk7wU",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Cal Newport",
-"query": "منتجات مفيدة",
-"views": 172117.0,
-"likes": 4447.0,
-"comments": 1072.0,
-"published": "22/10/2026",
-"date": "26/10/2026",
-"yt": "ldvrxMTk7wU",
-"id": "y353",
-"img": "7ecf1c10d03721e4.jpg"
-},
-{
-"type": "YouTube",
-"title": "20 AMAZON MUST-HAVE HOME FINDS YOU’LL ACTUALLY WANT 👀",
-"url": "https://www.youtube.com/watch?v=rrLvA3bOFUA",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Emma's Finds",
-"query": "منتجات مفيدة",
-"views": 171857.0,
-"likes": 2965.0,
-"comments": 14.0,
-"published": "30/09/2026",
-"date": "12/10/2026",
-"yt": "rrLvA3bOFUA",
-"id": "y354",
-"img": "512593bc32eff464.jpg"
-},
-{
-"type": "YouTube",
-"title": "Squishy Store Haul Ep 4 #shorts #squishy #dumplings #needoh",
-"url": "https://www.youtube.com/watch?v=XPWBvqExC8w",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "TYE Arcade",
-"query": "#shorts مشتريات",
-"views": 166884.0,
-"likes": 1157.0,
-"comments": 30.0,
-"published": "21/10/2026",
-"date": "26/10/2026",
-"yt": "XPWBvqExC8w",
-"id": "y355",
-"img": "3102d5fd128924c5.jpg"
-},
-{
-"type": "YouTube",
-"title": "Life is hard when your sister makes content 😂 #short #unboxing #haul #family",
-"url": "https://www.youtube.com/watch?v=VHhlJAJ2xKw",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Mackenzie Ellsworth",
-"query": "#shorts مشتريات",
-"views": 159937.0,
-"likes": 10399.0,
-"comments": 64.0,
-"published": "27/09/2026",
-"date": "05/10/2026",
-"yt": "VHhlJAJ2xKw",
-"id": "y356",
-"img": "2fb8620da93a9cb0.jpg"
-},
-{
-"type": "YouTube",
-"title": "I Turned One Product Image Into a Cinematic Ad With Dreamina Canvas",
-"url": "https://www.youtube.com/watch?v=TRQpqKnnTDw",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "AI EXPLORE",
-"query": "منتجات مفيدة",
-"views": 146985.0,
-"likes": 2447.0,
-"comments": 317.0,
-"published": "22/09/2026",
-"date": "03/10/2026",
-"yt": "TRQpqKnnTDw",
-"id": "y357",
-"img": "3d1d9d84e2bff9b7.jpg"
-},
-{
-"type": "YouTube",
-"title": "Home Repairing Finds #meeshofinds #youtubeshorts #budgetfinds #home #meeshohaul #ytshorts #repairing",
-"url": "https://www.youtube.com/watch?v=cqX1Uzdh1gM",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Smriti Mohan",
-"query": "منتجات مفيدة",
-"views": 146233.0,
-"likes": 2457.0,
-"comments": 32.0,
-"published": "13/10/2026",
-"date": "26/10/2026",
-"yt": "cqX1Uzdh1gM",
-"id": "y358",
-"img": "ab1746c439053fde.jpg"
-},
-{
-"type": "YouTube",
-"title": "انبوكسينج شي ان 😁 #beautybloggers #shein",
-"url": "https://www.youtube.com/watch?v=4gJDShsKpnU",
-"countries": [
-"UAE",
-"Oman",
-"Kuwait",
-"Saudi Arabia",
-"Qatar"
-],
-"source": "Rana tutorial - رنا تتوريال",
-"query": "منتجات مفيدة",
-"views": 143299.0,
-"likes": 2868.0,
-"comments": 61.0,
-"published": "17/10/2026",
-"date": "26/10/2026",
-"yt": "4gJDShsKpnU",
-"id": "y359",
-"img": "d8efdf4d2ccf632e.jpg"
-},
-{
-"type": "YouTube",
-"title": "مشترياتي 🥰🥰 #يوميات #يومياتي #مشتريات #مشترياتي #روتين #روتيني_اليومي #foryou #reels #shorts #viral",
-"url": "https://www.youtube.com/watch?v=xnNQTYz3Y08",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "محبي لمزابي و كوثر",
-"query": "#shorts مشتريات",
-"views": 137181.0,
-"likes": 922.0,
-"comments": 11.0,
-"published": "29/09/2026",
-"date": "12/10/2026",
-"yt": "xnNQTYz3Y08",
-"id": "y360",
-"img": "57bbab841871cda8.jpg"
-},
-{
-"type": "YouTube",
-"title": "Adrien Broner Not Playing About His Bottles 😂 #shorts",
-"url": "https://www.youtube.com/watch?v=wxdbmHCnlcg",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Toxic Media",
-"query": "#shorts مشتريات",
-"views": 134992.0,
-"likes": 1992.0,
-"comments": 411.0,
-"published": "10/10/2026",
-"date": "19/10/2026",
-"yt": "wxdbmHCnlcg",
-"id": "y361",
-"img": "1071658a61699e54.jpg"
-},
-{
-"type": "YouTube",
-"title": "20 Amazon Finds Viral For A Reason 🤯✨ #amazonfinds #homehacks",
-"url": "https://www.youtube.com/watch?v=Js86TSHS7hY",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Velora Picks",
-"query": "منتجات مفيدة",
-"views": 129400.0,
-"likes": 0.0,
-"comments": 16.0,
-"published": "10/10/2026",
-"date": "19/10/2026",
-"yt": "Js86TSHS7hY",
-"id": "y362",
-"img": "b8c9180e3679f75a.jpg"
-},
-{
-"type": "YouTube",
-"title": "Meesho kitchen finds📦 #dailyvlog #trending #shorts #meesho #onlineshopping #ytshorts #kitchen #reel",
-"url": "https://www.youtube.com/watch?v=DrFDH0VLcqg",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Vanika🧸",
-"query": "#shorts مشتريات",
-"views": 128412.0,
-"likes": 1195.0,
-"comments": 3.0,
-"published": "21/10/2026",
-"date": "26/10/2026",
-"yt": "DrFDH0VLcqg",
-"id": "y363",
-"img": "ddefe306c2d20e04.jpg"
-},
-{
-"type": "YouTube",
-"title": "Amazon gadgets you didn’t know you needed! Which one is your favorite? #shorts #amazon #trending",
-"url": "https://www.youtube.com/watch?v=t7Z4Jsm2SAk",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Nuttyfinds",
-"query": "#shorts منتجات مفيدة",
-"views": 122040.0,
-"likes": 1713.0,
-"comments": 13.0,
-"published": "14/10/2026",
-"date": "26/10/2026",
-"yt": "t7Z4Jsm2SAk",
-"id": "y364",
-"img": "546ab9911418483d.jpg"
-},
-{
-"type": "YouTube",
-"title": "20 AMAZON Must-Have Finds That Are Actually Worth It 👀 #shorts",
-"url": "https://www.youtube.com/watch?v=RTbXBbHlWgg",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Emma's Finds",
-"query": "#shorts منتجات مفيدة",
-"views": 115646.0,
-"likes": 2258.0,
-"comments": 11.0,
-"published": "24/09/2026",
-"date": "05/10/2026",
-"yt": "RTbXBbHlWgg",
-"id": "y365",
-"img": "4d79f4820e7c5acb.jpg"
-},
-{
-"type": "YouTube",
-"title": "منتجات تقنية مالهاش لازمة... والناس لسه بتشتريها! 🤦‍♂️📱",
-"url": "https://www.youtube.com/watch?v=9OC9-HC-uxU",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "شرح خالد - Shar7Khaled",
-"query": "منتجات مفيدة",
-"views": 114243.0,
-"likes": 1390.0,
-"comments": 56.0,
-"published": "05/10/2026",
-"date": "19/10/2026",
-"yt": "9OC9-HC-uxU",
-"id": "y366",
-"img": "cbe1d73216072c0b.jpg"
-},
-{
-"type": "YouTube",
-"title": "Useful Amazon Tech Products You'll Regret Skipping | Part-74 #shorts #amazon #trending #viral #fyp",
-"url": "https://www.youtube.com/watch?v=Wa8_iirSNwg",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Nuttyfinds",
-"query": "#shorts منتجات مفيدة",
-"views": 112376.0,
-"likes": 2002.0,
-"comments": 12.0,
-"published": "25/09/2026",
-"date": "05/10/2026",
-"yt": "Wa8_iirSNwg",
-"id": "y367",
-"img": "f23e161e22b40d4d.jpg"
-},
-{
-"type": "YouTube",
-"title": "مشتريات هدى من زاره",
-"url": "https://www.youtube.com/watch?v=GeofAyknbvE",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "أسرار وخفايا مشاهير ",
-"query": "#shorts مشتريات",
-"views": 109482.0,
-"likes": 1212.0,
-"comments": 5.0,
-"published": "03/10/2026",
-"date": "12/10/2026",
-"yt": "GeofAyknbvE",
-"id": "y368",
-"img": "72c19480a30a33e3.jpg"
-},
-{
-"type": "YouTube",
-"title": "LOS PRODUCTOS DE TEMU QUE SÍ VALE LA PENA COMPRAR PARA TU HOGAR 🏠",
-"url": "https://www.youtube.com/watch?v=TGWxunksRIQ",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "AbruTrip ",
-"query": "منتجات مفيدة",
-"views": 109157.0,
-"likes": 2480.0,
-"comments": 183.0,
-"published": "11/10/2026",
-"date": "19/10/2026",
-"yt": "TGWxunksRIQ",
-"id": "y369",
-"img": "2d265e7996bb3cda.jpg"
-},
-{
-"type": "YouTube",
-"title": "Squishy Store Haul Ep 2 #shorts #clawmachine #arcade #squishy #needoh #dumplings",
-"url": "https://www.youtube.com/watch?v=ULfHSFswl9Q",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "TYE Arcade",
-"query": "#shorts مشتريات",
-"views": 102558.0,
-"likes": 906.0,
-"comments": 61.0,
-"published": "09/10/2026",
-"date": "19/10/2026",
-"yt": "ULfHSFswl9Q",
-"id": "y370",
-"img": "4d26d2195b0abf0e.jpg"
-},
-{
-"type": "YouTube",
-"title": "مشتريات صادمة #viral #shorts #youtube",
-"url": "https://www.youtube.com/watch?v=1WWu1vXqb14",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Elias vibes ",
-"query": "#shorts مشتريات",
-"views": 101990.0,
-"likes": 451.0,
-"comments": 3.0,
-"published": "10/10/2026",
-"date": "19/10/2026",
-"yt": "1WWu1vXqb14",
-"id": "y371",
-"img": "3ec23f414f7d3943.jpg"
-},
-{
-"type": "YouTube",
-"title": "Costume haul❤️❄️ #musical #disney#shorts#theater#actor#dance#shorts",
-"url": "https://www.youtube.com/watch?v=oK5gkfZ9YSk",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Lexis Trechak",
-"query": "#shorts مشتريات",
-"views": 101232.0,
-"likes": 3741.0,
-"comments": 41.0,
-"published": "17/10/2026",
-"date": "26/10/2026",
-"yt": "oK5gkfZ9YSk",
-"id": "y372",
-"img": "2ae538c226a23907.jpg"
-},
-{
-"type": "YouTube",
-"title": "نانا وشهاب مشتريات للبيبي 🔥 #اكسبلور #نانا #ترند #تيك_توك #العراق #shorts",
-"url": "https://www.youtube.com/watch?v=y8fQy2dN8dE",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "harley /هارلي",
-"query": "#shorts مشتريات",
-"views": 93209.0,
-"likes": 268.0,
-"comments": 71.0,
-"published": "05/10/2026",
-"date": "19/10/2026",
-"yt": "y8fQy2dN8dE",
-"id": "y373",
-"img": "b8018cf1adad7392.jpg"
-},
-{
-"type": "YouTube",
-"title": "World 🌍 snack haul!!! What should we try next??#haul #shorts #snacks",
-"url": "https://www.youtube.com/watch?v=6d-k6fUC3Ec",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Nisha Noelle",
-"query": "#shorts مشتريات",
-"views": 86275.0,
-"likes": 3096.0,
-"comments": 57.0,
-"published": "06/10/2026",
-"date": "19/10/2026",
-"yt": "6d-k6fUC3Ec",
-"id": "y374",
-"img": "1774e2779ff4a640.jpg"
-},
-{
-"type": "YouTube",
-"title": "20 Kitchen Tools You NEED From Dollar Tree Before November1st!",
-"url": "https://www.youtube.com/watch?v=8oAp68g45mE",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Frugal Now Official",
-"query": "منتجات مفيدة",
-"views": 85852.0,
-"likes": 1357.0,
-"comments": 51.0,
-"published": "12/10/2026",
-"date": "19/10/2026",
-"yt": "8oAp68g45mE",
-"id": "y375",
-"img": "bc29be5ea7f0b0d7.jpg"
+"views": 204297.0,
+"likes": 28.0,
+"comments": 0.0,
+"published": "19/10/2026",
+"date": "02/11/2026",
+"yt": "V-u8vCGHGU4",
+"id": "y376",
+"img": "61894ce81ad62c07.jpg"
 },
 {
 "type": "Video product",
@@ -7616,7 +7821,7 @@
 "video": "https://www.youtube.com/watch?v=BJkl2SyvQ4A",
 "yt_fallback": "BJkl2SyvQ4A",
 "date": "30/10/2026",
-"id": "v376",
+"id": "v377",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -7635,7 +7840,7 @@
 "video": "https://www.youtube.com/watch?v=ZY_9Rp1WDr0",
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
-"id": "v377",
+"id": "v378",
 "img": "6184c93352f8c28a.jpg"
 },
 {
@@ -7650,7 +7855,7 @@
 "video": "https://www.youtube.com/watch?v=o3mTL46qA_k",
 "yt_fallback": "o3mTL46qA_k",
 "date": "30/10/2026",
-"id": "v378",
+"id": "v379",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -7669,7 +7874,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v379",
+"id": "v380",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -7688,7 +7893,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v380",
+"id": "v381",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -7707,8 +7912,8 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v381",
-"img": "5f36c317d2a699c1.jpg"
+"id": "v382",
+"img": "288ee9314d6001f5.jpg"
 },
 {
 "type": "Video product",
@@ -7726,7 +7931,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v382",
+"id": "v383",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -7745,7 +7950,1007 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v383",
-"img": "5f36c317d2a699c1.jpg"
+"id": "v384",
+"img": "d6d8d380ec8507f1.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Something new for your rotation. Shop the latest arrivals at The Editor’s Market.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7688623934208262165/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 3.0,
+"ctr": 0.82,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oUyMTeAmeAIkFhboAGbVPCCShIDoLGS6QQeQdW~tplv-noop.image?dr=18692&refresh_token=f0bc1c31&x-expires=1793607818&x-signature=Orkqn4PVqzkJyspLcnP1I%2FKHsVI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db688afog65li0vitf4g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t385",
+"img": "6384d15fcdc2b0d9.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "التجارة الإلكترونية – يوم استلام الراتب – حَسّن حياتك",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7689722353451630600/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 3224.0,
+"ctr": 0.51,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o09lBSfDcEeoNsqDomWpD0NJQBmATEpwFB4vIg~tplv-noop.image?dr=18692&refresh_token=4eb3f1f5&x-expires=1793607809&x-signature=IfoPAUqskGol9qr4rILsH1zGFJI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v1c033g50000db89krvog65uk9aaodkg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective lead_generation",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t386",
+"img": "f94ccba9002d3ae0.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806439331610645/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 4.0,
+"ctr": 0.52,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oAQ77AfSqVIA9Cm6BywuErii2X9761tGB7AoA3~tplv-noop.image?dr=18692&refresh_token=0690eb80&x-expires=1793607816&x-signature=RGn7ksyok3fxgBv47M%2BKlUPm0iY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000damggpfog65rtklqnrug",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t387",
+"img": "62074f0f7f9b3197.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "230 GSM combed ring-spun cotton, pre-washed. Founding Edition tees, AED 199 + free tote.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693269914828881926/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 11.0,
+"ctr": 0.8,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oUA1ApbYOi3u1B9BI1iB5ZfCInuPwL2uAqHNvm~tplv-noop.image?dr=18692&refresh_token=67630a5f&x-expires=1793607810&x-signature=%2FxGZK7UuxVfLjmDnm8nACuVhaSg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db3qb6vog65pqrmqur10",
+"price": 199.0,
+"price_label": "AED 199",
+"note": "TikTok Top Ads · Apparel & accessories · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t388",
+"img": "2356686ebcf32d11.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "بخصم 50 % والدفع عند الاستلام",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693740073683288082/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "casio",
+"industry": "Apparel & accessories",
+"likes": 2.0,
+"ctr": 0.87,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oE1IqJF7SAMEtAim5A8IbCVBKYBkwIfXwQqBiT~tplv-noop.image?dr=18692&refresh_token=e061e244&x-expires=1793607821&x-signature=kQMytlqeL1IE6iQKwNMJjW%2Frgj4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db2qg9fog65ptmsjoc9g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t389",
+"img": "d2b7ed30636585c0.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806410655858708/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 0.0,
+"ctr": 0.79,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oIBjvi3AQICVyiuBzqXfCuRGo63LAmwst1EoAA~tplv-noop.image?dr=18692&refresh_token=8d424428&x-expires=1793607818&x-signature=S8qgwwOqCqbhZOVU90WRPp%2Fwb88%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000damggpfog65nm8trlj5g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t390",
+"img": "875c94db198c3b29.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Hajar's red rock, printed on the back. Hajar Mountains Tee, AED 199 Founding Edition + free tote.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693259994217398280/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "sahra & beyond",
+"industry": "Apparel & accessories",
+"likes": 5.0,
+"ctr": 0.88,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oIB1RNIwqAAi4i9p7smjzYfJjLBoAAJIzEZ1LH~tplv-noop.image?dr=18692&refresh_token=fbc1fd33&x-expires=1793607804&x-signature=nPnNCQyo44p1tGfKKg%2BVmSlrDgs%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db3qb6vog65j5ien73s0",
+"price": 199.0,
+"price_label": "AED 199",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t391",
+"img": "6a150f00ff1a5e63.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "مقبض حمام بالشفط بدون حفر، تركيب سريع وثبات يساعدك في الدخول والخروج بسهولة.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7692984549635244039/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "glow atelier",
+"industry": "Household products",
+"likes": 0.0,
+"ctr": 0.87,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/osfqxfNDDpDxVEXE5HFxuEoGBDUTIgBmBjAUWA~tplv-noop.image?dr=18692&refresh_token=4a3eea0d&x-expires=1793607848&x-signature=qHoxZdbTpGQ9E3QwF7CEd55Q3Co%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db21ornog65j5idbv31g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t392",
+"img": "b82d0ca645760e0a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "اغتنم أجر سقيا الماء...",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7690264951118135297/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 39.0,
+"ctr": 0.56,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oEyAdzkxIEzrzPz6ZYaiA8BVWQi5Ajr0Zc8Ax~tplv-noop.image?dr=18692&refresh_token=c901bf90&x-expires=1793607863&x-signature=7QhMaYV1D%2FgWxO%2FCSWwmSHKB1cU%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000dauf2p7og65hcuedrjt0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t393",
+"img": "4631884d06d0fe32.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "🩶",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686142242533998600/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 9.0,
+"ctr": 0.65,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYeBQYqQoOuDRBFzgEUQGfE8FEAR8Dlkmu87nQ~tplv-noop.image?dr=18692&refresh_token=c04561e7&x-expires=1793607846&x-signature=plFztung%2B5RTEPVfDfQTIDLthS0%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14044g50000daa6c17og65iepobsnbg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t394",
+"img": "834128aee7a8a70a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "منتجات فاخرة بجودة لا تُقاوم. اطلب الآن عبر موقعنا الإلكتروني أو تواصل معنا",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7692364550381223942/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 34.0,
+"ctr": 0.76,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oAAcHsxjAiIdXgkA2aBDYVPF6z1sCDbOAitEE~tplv-noop.image?dr=18692&refresh_token=04a72bd2&x-expires=1793607871&x-signature=MXm0XYsSwtyIXi8Gh5EeYd8Gxt8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db0cbm7og65li0ohndm0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t395",
+"img": "edbc2a4207a3f46d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "اللمسة الأخيرة: الملابس، الشعر، وبالطبع عطر \"بون بون جيرل\" Last check: outfit, hair, Bon Bon Girl",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686975294005526535/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 220.0,
+"ctr": 0.73,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okQrMSVA1UIHPdkHGDQpfRLVfgEDIAejIWE1MO~tplv-noop.image?dr=18692&refresh_token=31ea7f97&x-expires=1793607852&x-signature=bgVdRytmyXbe3qfsxD%2B0Y1BJ%2FN4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v29025g50000dahqj3nog65ooso8kvp0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective video_view",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t396",
+"img": "ddd0a0bb1b06517c.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#2022 #السعودية #الرياض #جدة #عروض #تخفيضات #موسم_الرياض #حفاضات #الأم #baby",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7047131802791919618/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Baby, kids & maternity",
+"likes": 4.0,
+"ctr": 0.82,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/3cfb0ef059b34169b1af9732ec0d487e~tplv-noop.image?dr=18692&refresh_token=f8d35dc1&x-expires=1793607844&x-signature=qavahYa2cWya22N%2Bix9LbsJS%2Bzk%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v10025g50000c766rm3c77ufnlrsph80",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Baby, kids & maternity · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t397",
+"img": "a042a6e124a74b16.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "شركة مكافحة وشبك الحمام بالرياض 🕊️ تخلص من تجمع الحمام والأعشاش والفضلات على الأسطح والمكيفات والنوافذ والبلكونات مع خدمات احترافية لتركيب شبك وطارد الحمام بالر",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7685795552219873300/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 48.0,
+"ctr": 0.41,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocMfWFleABqRLD9xQy1BXmThtWEEqqrUgEBSQ0~tplv-noop.image?dr=18692&refresh_token=8e54f6bd&x-expires=1793607873&x-signature=FQ4ktNWfhOk4uo7HmBrsx99HpQM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14044g50000dakmilvog65upmi3aosg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t398",
+"img": "08cb69ff4121580a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Plum's Promise Outfit Preview. Coming to Global Where Winds Meet on October 11 #WhereWindsMeet #WWMCCPS12 #WWMFace",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693724044912181249/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 4871.0,
+"ctr": 0.92,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okfpEYYiAnorAI4RVRQfDjFxEgDFSgfBDOEEDj~tplv-noop.image?dr=18692&refresh_token=18cad0c0&x-expires=1793607947&x-signature=rrDANYSe8ZwqoBAtNYEcusXDYw4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v29025g50000db2g9vvog65k60fh0710",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective video_view",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t399",
+"img": "750e036fc06056d5.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تشكيلة مختارة من الأثاث والديكور",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7692774710933536788/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 43.0,
+"ctr": 0.48,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oEgCrhgwfAIvjpLBCDNq3mBCOEBUFDfq2jUQAz~tplv-noop.image?dr=18692&refresh_token=489d3e5c&x-expires=1793607882&x-signature=8m30xt5Ej0gHSj8PMaETjQt6MN0%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db13kqvog65ptmu1aggg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t400",
+"img": "63629e88936b4d33.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806504880144404/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 34.0,
+"ctr": 0.4,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/osqlUAtZlBmIQAFNvB1QHGUA9rDdgwfeuhCDEQ~tplv-noop.image?dr=18692&refresh_token=3e749505&x-expires=1793607919&x-signature=G6FDQoahuY1RQxlZoN7Fi3M28Jo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000damggpfog65nm8trlj40",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t401",
+"img": "4a389066dd746a1a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806502511050773/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1.0,
+"ctr": 0.89,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oQAvBDGqUElA2NpIhitfBFCraDCXRQE8qi8eOg~tplv-noop.image?dr=18692&refresh_token=66729fd2&x-expires=1793607909&x-signature=kQkEj8UzaUdj1az9dOCCyD%2F64AM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000damggpfog65u49rrpah0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t402",
+"img": "2cb12db5ae1f4cfc.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806586818297877/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 6.0,
+"ctr": 0.59,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oACob8GCWeheDFSetWoOoULIDKsLIGV4DQAAGY~tplv-noop.image?dr=18692&refresh_token=7b8c3726&x-expires=1793607917&x-signature=4unAc4lszATUy4sp%2FGxlUtLis5w%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000damggpfog65r2ottoc2g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t403",
+"img": "b2a4a89e41f9fd8d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "لندن أقرب لك مما تتخيل مع دخوني حصريًا لندن كولكشن من دخوني اطلبه الآن من الموقع الالكتروني 🤍 مجموعة سحر لندن #دخوني #راعي_الطيب #عطور #explorer #عالمي",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7688308802571862037/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "دخوني",
+"industry": "Beauty & personal care",
+"likes": 24.0,
+"ctr": 0.29,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAfdWldQsBBFGRaECIvov1AIFOggCqXfDCVyEW~tplv-noop.image?dr=18692&refresh_token=f5e2a903&x-expires=1793607979&x-signature=HA3Ft1KS0jTnjn3%2B6qp20NcxEGc%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v10025g50000dap5g7fog65njnoqu5d0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t404",
+"img": "7bff42f26a80e1db.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "خامة والوان ممتعه للعين 😍✨ #شجيع #فاتوران",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7685661126928449556/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 37.0,
+"ctr": 0.8,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ow1oIHY61IuJCUA37AViO6ciIZBEhoAygwfSpS~tplv-noop.image?dr=18692&refresh_token=224c14d5&x-expires=1793607949&x-signature=Sm9%2F0LJ0YpNdaQTy79qdqdCCVuU%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v1c044g50000dakesgfog65ngkj75lc0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t405",
+"img": "4665f9521e6c6e49.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "رايكم بنات ؟!!؟!؟!❤️ #فساتين #فستان_اكمام #ميرال_لاين #فساتين_طويله #ميرال_للازياء",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7615541885717528584/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 5.0,
+"ctr": 0.73,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMFpsAe1TABPHIImSsLeGFA19ToLofIVWcGTJf~tplv-noop.image?dr=18692&refresh_token=5b41e3ec&x-expires=1793607926&x-signature=a0vdRbPdoKtmjp%2BFdoL%2FW0pwfGI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v10025g50000d6m4t3vog65kqka7uuvg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t406",
+"img": "22dc16fedf2da5a9.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Breitling Ladies Chronomat 36: refined stainless steel with the iconic Rouleaux bracelet.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693080415792693266/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 24.0,
+"ctr": 0.84,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQxYEUFmMRUZkkoDBADAIMw8N9qgUBHDr1EefS~tplv-noop.image?dr=18692&refresh_token=a822282d&x-expires=1793607970&x-signature=DqjkTn4kZeA6S5U0%2F64rOniWX1c%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v14033g50000db1l66fog65ufa7ph4a0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective reach",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t407",
+"img": "f98939928819296a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تنفيذنا وتصويرنا الشخصي اسم المنتج في المتجر فستان مزنه #فساتين #فساتين_سهره #فساتين_فخمه #اخت_العروسة #M",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686940116657651728/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 91.0,
+"ctr": 0.74,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oceE1s1ADMCIbdABpCGL4VgDWgyvefjqvLUIaV~tplv-noop.image?dr=18692&refresh_token=31e223af&x-expires=1793607968&x-signature=F380ZJstzC0tOYMxECDUYJ2PT%2BE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my2&VideoID=v1c044g50000damnrunog65q85a4eiqg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective lead_generation",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t408",
+"img": "d8e9b40f67907641.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "زينتنا تراثنا وبلَفحة الشعر احتفلنا🇸🇦 #كلارا #زينتنا_تراثنا #اليوم_الوطني_السعودي",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686525702129287175/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "clara",
+"industry": "Beauty & personal care",
+"likes": 4334.0,
+"ctr": 0.34,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okNQcQBNgAKeB6hGRFf2AqDBkSrq2EEPcJlwCY~tplv-noop.image?dr=18692&refresh_token=0d09af90&x-expires=1793608260&x-signature=UvaILaGArIIpPTK3x0THQ2JiW84%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c044g50000dam05c7og65gumqaf3dg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective video_view",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t409",
+"img": "5ba42c5c4618125a.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "A quiet mark on the chest, then the whole back. Hajar and Al Quaa print tees, AED 199 + free tote.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7693270906345521158/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 5.0,
+"ctr": 0.86,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oAQqxFDPQBBEWf84fDAgQuOFv6HbqCWWZ79NUp~tplv-noop.image?dr=18692&refresh_token=9be8bf1e&x-expires=1793608127&x-signature=EDU4GX6XlNO2IFNx%2F%2FyIlcSYNzE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db3qb6vog65ufa2ufb0g",
+"price": 199.0,
+"price_label": "AED 199",
+"note": "TikTok Top Ads · Apparel & accessories · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t410",
+"img": "9179f3cfca6ae171.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "LINK IN BIO +CASH ON DELIVERY",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7544793930601922568/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 6.0,
+"ctr": 0.81,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o8BqrFYGEQFIAPa4QpfT2teAbOyeRDgbDAOPCR~tplv-noop.image?dr=18692&refresh_token=b7301ac8&x-expires=1793608245&x-signature=potbwgr7tvVItXnbCoAKBpQq4gw%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10033g50000d2q8icvog65g126eg1q0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t411",
+"img": "15afd83cdbd32770.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "لا تحتار في الهدايا رافال الأقرب ل هديتك",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7453872786919538704/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 5818.0,
+"ctr": 0.28,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEu96uk4DQzeQi0sAjFBo9jeLCfGOxDIEsAbI4~tplv-noop.image?dr=18692&refresh_token=679aed41&x-expires=1793608191&x-signature=z0%2F1LkxwVDm%2Bg5VpQg9DW2LC7%2Bk%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000ctonb7nog65qe3fr35k0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t412",
+"img": "b7ee3810b78863e2.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Wireless Mini Camera 1080P Included Night Vision+50%OFF+COD+FREE SHIPPING",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7534068866214232072/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "Souqul khas",
+"industry": "Household products",
+"likes": 864.0,
+"ctr": 0.49,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oQAvbbAzhqBIzYVJjmJR6iO16A0m2iEaArAQW~tplv-noop.image?dr=18692&refresh_token=0021f226&x-expires=1793608169&x-signature=xWp2XyX89S0F%2Bd4gv9hpc2SW6Q0%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000d9ldmhnog65lpug229t0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t413",
+"img": "50278a49d8dc1f79.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "يجمع كل احتياجات العناية بالسواك في بكج واحد",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7695798092739117062/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "سواكنا",
+"industry": "Beauty & personal care",
+"likes": 9.0,
+"ctr": 0.6,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o44eEQX95DA79QAnbeF8G2rCDMrAvFpMIefnME~tplv-noop.image?dr=18692&refresh_token=ab4277e0&x-expires=1793608167&x-signature=RlgAhBbFhDbs6AixeqMpoMCNxWE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db6ffefog65ufa3qnfbg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t414",
+"img": "768c2f8a3b04e6a5.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "مقبض حمام بالشفط بدون حفر، تركيب سريع وثبات يساعدك في الدخول والخروج بسهولة.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7692993539118727189/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "glow atelier",
+"industry": "Household products",
+"likes": 1.0,
+"ctr": 0.83,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oAaBA6sHQvBTiGAIncEcVA1szZHIAviYHVbbw~tplv-noop.image?dr=18692&refresh_token=b9f8e8f0&x-expires=1793608160&x-signature=0Q0ofAEaB5pqo%2F9Lv3RZ3PjGg4Q%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db21ornog65lebqlirm0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t415",
+"img": "bdcf7d734d5653a1.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#عروض #اليوم#الوطني# وخصمات #تخيل تدخل بيتك وتحس إنك في المكان الصح مش أي أثاث🤔 لكن اختيار يخليك مختلف عن أي حد 📲 خلك من الناس اللي تختار الصح… وتواصل معنا الآن",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7688756994220425234/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 38.0,
+"ctr": 0.49,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocAQsAfDoZIBy8juIgAoEyFEZLVfJVzSDBDfCU~tplv-noop.image?dr=18692&refresh_token=1faaedac&x-expires=1793608185&x-signature=jABstINFAxB58rxLlVEeX3l%2Fd3k%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dapv087og65m40ehivp0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t416",
+"img": "452637a71cebbb19.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "احصل على نظارتك المميزة بخصم 30 بالمية",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7685892679989952533/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 65.0,
+"ctr": 0.85,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQvlqpeAAAAipBw77ABHq1IXVEnK1hm0UiGByS~tplv-noop.image?dr=18692&refresh_token=82f55868&x-expires=1793608163&x-signature=aNlfNDLLt%2FULKtVHnFykUhjCZNY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dal8aunog65rtkkk2730",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective reach",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t417",
+"img": "9ecf4c26d44d03be.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "اقوي عروض وخصومات اليوم الوطني من سبشل هوم #مفروشات #تخفيضات_السعوديه #مفروشات_راقيه #لباد_فندقي",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7634302593783136263/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 39.0,
+"ctr": 0.58,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYkGLDeCxEUfSa35IBLHIeAJSkc5VQAE2DorAG~tplv-noop.image?dr=18692&refresh_token=cf3eefbd&x-expires=1793608204&x-signature=FMqd9eLMKsssR3bPsqO4eDY2kKM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000dasotp7og65l089t8900",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t418",
+"img": "bbcdfb092d1419af.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "توصيل مجّاني فوق الـ100 + ضمان استرجاع مجّاني",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7678346550859366420/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 6.0,
+"ctr": 0.64,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/owbCOLDwCS5eC7YjdVG2AAowgfIGQx17GDGfIA~tplv-noop.image?dr=18692&refresh_token=ad31db75&x-expires=1793608160&x-signature=fazFBdIG95IyaiRsL1IprcjKo2g%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dao1jn7og65usd5rqvg0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t419",
+"img": "c9ea7f22c1e1f91d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "عروض قوية مع خصومات لاتقاوم",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7685893400248041493/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 27.0,
+"ctr": 0.87,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQI2fQqAyyRTPD29DGEJveFKVqBFyAfuElMGe8~tplv-noop.image?dr=18692&refresh_token=f6207318&x-expires=1793608276&x-signature=rogUHEG%2BOwvZC7aPbCXMG69hpGg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000daupfgvog65n4vm8jfr0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective reach",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t420",
+"img": "7a47607dec6bb253.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "إطلالة فاخرة. توصيل مجاني داخل السعودية. الدفع عند الاستلام. Luxury Look Free Shipping znzeshop.com",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7688463474007932945/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1.0,
+"ctr": 0.87,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/ow6Zl5zAiYkrAXz1PFmpiCZuVyQLAIAIAaB4x~tplv-noop.image?dr=18692&refresh_token=1ea61a39&x-expires=1793608163&x-signature=N%2BMtYYkcOw9uE4OXBKDwdekizjs%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dapei07og65hcub4bjbg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t421",
+"img": "8c1e3a7acf5fad6c.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "الآن ولفترة محدودة ✨ولأنكم تستاهلون أكثر 💖 كريم العناية المتكاملة💆🏻‍♀️🧴+مزيل العرق هدية منا لكم 🎁 كملي روتينك مع سافيور l خبراء العناية والتجميل (متخصصون في تطو",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7692010216887713813/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 35.0,
+"ctr": 0.41,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAcRggLCZVSNlUeGDyGAgKhArxVAtDGEerIXer~tplv-noop.image?dr=18692&refresh_token=a6fb2c7b&x-expires=1793608172&x-signature=4I%2B8AD3qFQ7YF8fiVP1qr4zkHsg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000db1lihnog65g65an8l40",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective traffic",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t422",
+"img": "2f0a57e35a9fc88f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "The best tracksuit in the game 😮‍💨 #tracksuits #tracksuitseason",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7547402117809045505/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Velvet Amsterdam",
+"industry": "Apparel & accessories",
+"likes": 23854.0,
+"ctr": 0.1,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oEYvAiM43CBBD9nLAaprIZEIOiiwCCBE24YF2~tplv-noop.image?dr=18692&refresh_token=717c8e19&x-expires=1793608169&x-signature=JW0egFV812LbzEanmOiSkiKUkVc%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24044gl0000d2us0cnog65mhe5482jg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t423",
+"img": "d302d4766b472029.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "باروكة @بدور البراهيم 🇸🇦 من برستيج #باروكات_شعر_طبيعي من رواد صناعة وبيع الباروكات الطبيعيه في السعوديه و دول الخليج العربي 😍👌 نخصص الباروكات الطبيعية كل الاطوا",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7506101286333808656/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 113.0,
+"ctr": 0.39,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUWnIzE08HxiC4b0AAIm1zhPRS4waiIBCluAFf~tplv-noop.image?dr=18692&refresh_token=a60494df&x-expires=1793608171&x-signature=TM7wOB1v%2Bvzvfgyb2BxYWKd0Z0I%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c044g50000cvju2h7og65jqcaabl2g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t424",
+"img": "837fef8059647039.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "خذ حيوانك الأليف معاك بكل راحة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7313886998934978562/pc/en?countryCode=KW&from=001110&period=7",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1.0,
+"ctr": 0.87,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oIDH3ErA5Q3zVF5DnUWfjJClZvfaBNgINqIdAB~tplv-noop.image?dr=18692&refresh_token=ddd95a31&x-expires=1793608174&x-signature=SlrkrFsPcJuWTi9uJW%2F%2FF%2BqRruI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000db6tslfog65li0sjfjmg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t425",
+"img": "4768bcc4687088dc.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806382092681236/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1.0,
+"ctr": 0.87,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/o4XwS7CyA7QBo7q1mm6AAruVGiIoEBitj6BVfB~tplv-noop.image?dr=18692&refresh_token=3841f7ff&x-expires=1793608237&x-signature=E4aHz0Nh9Am0OsDkXld9yyhQ0Z8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000damggpfog65rtklqnrt0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t426",
+"img": "2c746a5921dc8568.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "محفظة نسائية من الجلد الطبيعي - حجم صغير وسعة كبيرة",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686806525378904085/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 4.0,
+"ctr": 0.68,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/oQ7hIUaalDAGCqAWxQF5BNqCeDbgHBUrQUfPtE~tplv-noop.image?dr=18692&refresh_token=53cc2c24&x-expires=1793608236&x-signature=QrXvcAkETp%2F%2BnrB2P1ZCAVkBv3c%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000damggpfog65sml98r3mg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t427",
+"img": "078affff174d30a6.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "حياكم عروض فريدوم للشعر الطبيعى جاكم 🔥🔥🔥☝️ باروكة شعر طبيعى 100٪ 🔥👌❤️ تنغسل _ تستشور _ تنسبغ _ وتعيش معكى مدى الحياة 🤩🤩 ومن متجرنا الحين وفرنا لكى خدمة تقسيط سه",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7302077874109333505/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 785.0,
+"ctr": 0.06,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068/o4AugC5ykh0AyIQIJKuNAfhlczLgL0EEI0CEPo~tplv-noop.image?dr=18692&refresh_token=f5ac3d25&x-expires=1793608202&x-signature=D9ypN5f3UGRmeli%2B21ur4lYXy00%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v09044g40000ckn89q3c77u45jog4850",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t428",
+"img": "2d969a2bc83d5839.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "wow!!!",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7389881295314976784/pc/en?countryCode=QA&from=001110&period=180",
+"countries": [
+"Qatar"
+],
+"source": "百度阅读-电子书看书阅读神器",
+"industry": "Apparel & accessories",
+"likes": 687.0,
+"ctr": 0.27,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-b9e703-sg/okrcJfPIgA7WCQYIMCLNjQMGB44VQD7eeEHANu~tplv-noop.image?dr=18692&refresh_token=f793c0dd&x-expires=1793608232&x-signature=urOjR13n14s2BI8SGyO6KrcTv34%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c607g5000ccq723p7og65rno1cdlu0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t429",
+"img": "46334ec487862cd1.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Sapolino for kids",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7548446434284552209/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "Frogolino",
+"industry": "Baby, kids & maternity",
+"likes": 316.0,
+"ctr": 0.99,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oABDAfXCag8NDdBQFHyEAMBQ8BwFQ1eHohgz3W~tplv-noop.image?dr=18692&refresh_token=2b2efcd9&x-expires=1793608236&x-signature=BsmEWXgC7Y9SI9wiPVMzNMbWEMQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10033g50000d30ng37og65pcoseqgg0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Baby, kids & maternity · objective video_view",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t430",
+"img": "ccebee904a793639.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "زوروا أقرب فرع لكم",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686186380267978759/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 73.0,
+"ctr": 0.76,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/ogyrEqiBWwfAm2sB11WqBIiIYiiNUmAVyFAIBw~tplv-noop.image?dr=18692&refresh_token=4ae9ab56&x-expires=1793608255&x-signature=qiXmVUhGe%2BSC5aKM%2Bu%2FCyxsiYOQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000daldb2vog65mo56ac8h0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective video_view",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t431",
+"img": "1a150e22f9be97e1.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#عطور #عطورات_فاخرة #عطور_ريف #البحرين #تغطيات",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7686581600653869076/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 9.0,
+"ctr": 0.65,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYRWQxBWIiArIcAVbEiolNBAA2hafKMs1GbWw0~tplv-noop.image?dr=18692&refresh_token=2e77f141&x-expires=1793608246&x-signature=7z2SJKlFA0MNyKy63uKE1ZMlUxo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10025g50000dam3bbfog65m8hhhdkdg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective reach",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t432",
+"img": "24eafee658c18df9.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#drmelaxin #koreanskincare #superbranddaybfcm #tiktokshopblackfriday #openyoursuperstory @Dr Melaxin Official",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7573899430128418833/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "Dr.Malaxin Global",
+"industry": "Beauty & personal care",
+"likes": 18423.0,
+"ctr": 0.05,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068c799-us/okVBGW4A465DMzxlBisRJRfCEfEFboEpAEsIJ1~tplv-noop.image?dr=18692&refresh_token=58d02394&x-expires=1793608336&x-signature=4ym%2B6sRvVD3d71Oqji9u3cCY%2FQQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v15044gf0000d4dq14fog65osv3i9vm0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective product_sales",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t433",
+"img": "81baab256a808cad.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Wireless magic? Yes! 24/7 support + free return! 🚨",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7569577101978140689/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "الدفع عند الاستلام",
+"industry": "Apparel & accessories",
+"likes": 35229.0,
+"ctr": 0.07,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYBVDEgiITpCVeCJQBBIVpF0GIMWNBfJm7AkpI~tplv-noop.image?dr=18692&refresh_token=0cdb1f12&x-expires=1793608291&x-signature=0RDYHGn9i6Zqmc3FmbjZYTw3ksg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000d4g9ki7og65j4oq4laj0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-02",
+"first_date": "2026-11-02",
+"id": "t434",
+"img": "7a7a50a3f2904aa3.jpg"
 }
 ]
