@@ -1,32 +1,20 @@
-"""One-off: find Apify actors for Amazon best sellers (ae/sa) and Google Trends; print pricing + input schema."""
-import json, os, requests
-T = os.environ["APIFY_TOKEN"]
-A = "https://api.apify.com/v2"
-def get(path, **p):
-    p["token"] = T
-    return requests.get(A + path, params=p, timeout=60).json()
-for q in [x for x in os.environ.get("SEARCH", "").split(",") if x]:
-    items = (get("/store", search=q, limit=6).get("data") or {}).get("items", [])
-    for it in items:
-        pr = it.get("currentPricingInfo") or {}
-        st = it.get("stats") or {}
-        print(f"::notice title={q}::{it.get('username')}/{it.get('name')} | users30d {st.get('totalUsers30Days')} | rating {it.get('actorReviewRating')} | price {pr.get('pricingModel')} {pr.get('pricePerUnitUsd') or pr.get('pricePerEvent') or ''}"[:300])
-def schema(actor):
-    a = get(f"/acts/{actor.replace('/', '~')}").get("data") or {}
-    bid = ((a.get("taggedBuilds") or {}).get("latest") or {}).get("buildId")
-    b = get(f"/acts/{actor.replace('/', '~')}/builds/{bid}").get("data") or {} if bid else {}
-    sch = b.get("inputSchema")
-    sch = json.loads(sch) if isinstance(sch, str) else (sch or {})
-    props = sch.get("properties", {})
-    out = []
-    for k, v in props.items():
-        en = v.get("enum") or v.get("enumTitles") or ""
-        out.append(f"{k}({v.get('type')}){'='+json.dumps(v.get('prefill') or v.get('default'))[:60] if (v.get('prefill') or v.get('default')) else ''}{' enum:'+','.join(map(str,en))[:160] if en else ''}")
-    pr = a.get("pricingInfos") or []
-    print(f"::notice title=schema {actor}::price={json.dumps(pr[-1] if pr else {})[:200]} || " + " ; ".join(out)[:700])
-for actor in os.environ.get("CHECK", "").split(","):
-    if actor.strip():
-        try:
-            schema(actor.strip())
-        except Exception as e:
-            print(f"::warning title={actor}::{e}")
+"""One-off: small real runs of the two actors, report cost, item count and fields."""
+import json, os, requests, collections
+T = os.environ["APIFY_TOKEN"]; A = "https://api.apify.com/v2"
+def run(actor, body):
+    r = requests.post(f"{A}/acts/{actor}/runs", params={"token": T, "waitForFinish": 280}, json=body, timeout=320).json()["data"]
+    items = requests.get(f"{A}/datasets/{r['defaultDatasetId']}/items", params={"token": T, "clean": 1}, timeout=60).json()
+    return r, items
+r, items = run("junglee~amazon-bestsellers", {"categoryUrls": [{"url": "https://www.amazon.ae/gp/bestsellers/fashion"}, {"url": "https://www.amazon.sa/gp/bestsellers/home"}], "maxItemsPerStartUrl": 30, "depthOfCrawl": 1, "language": "en"})
+print(f"::notice title=Amazon run::status {r['status']} cost USD {r.get('usageTotalUsd')} charged {json.dumps(r.get('chargedEventCounts'))} items {len(items)}")
+if items:
+    print("::notice title=Amazon fields::" + ", ".join(list(items[0].keys())[:30]))
+    print("::notice title=Amazon sample::" + json.dumps({k: items[0].get(k) for k in list(items[0].keys())[:14]}, ensure_ascii=False)[:700])
+    print("::notice title=Amazon domains::" + json.dumps(collections.Counter(str(i.get('url', ''))[:22] for i in items)))
+r, items = run("apify~google-trends-scraper", {"searchTerms": ["hijab", "abaya", "عباية"], "geo": "SA", "isMultiple": False, "maxItems": 3, "skipDebugScreen": True})
+print(f"::notice title=Trends run::status {r['status']} cost USD {r.get('usageTotalUsd')} charged {json.dumps(r.get('chargedEventCounts'))} items {len(items)}")
+if items:
+    it = items[0]
+    print("::notice title=Trends fields::" + ", ".join(it.keys()))
+    tl = it.get("interestOverTime_timelineData") or it.get("interestOverTime") or []
+    print("::notice title=Trends sample::" + str(it.get("searchTerm") or it.get("inputUrlOrTerm")) + " points " + str(len(tl)) + " " + json.dumps(tl[-3:] if isinstance(tl, list) else tl, ensure_ascii=False)[:500])
