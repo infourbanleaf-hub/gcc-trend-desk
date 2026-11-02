@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import audience, export, instagram, sheets, trade
+from . import audience, export, instagram, sheets, tiktok, trade
 from .graph import Graph, GraphError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -210,6 +210,24 @@ def run_findshops(cfg, dry):
     print(f"::warning title=MISSED::{', '.join(missed)}")
 
 
+def run_tiktok(cfg, dry):
+    """TikTok Top Ads for the 5 Gulf countries (public Creative Center, no login) -> 'TikTok Top Ads' tab."""
+    rows, names = tiktok.collect(period=30, pages=3)
+    print(f"::notice title=TikTok Top Ads::{len(rows)} ads; " + ", ".join(
+        f"{c}: {sum(1 for r in rows if r[1] == c)}" for c in tiktok.REGIONS.values()))
+    if dry or not rows:
+        for r in rows[:15]:
+            print("  ", r[1], r[4], r[6], r[2][:60])
+        return
+    book = sheets.open_sheet(cfg["sheet_id"])
+    ws = sheets.tab(book, "TikTok Top Ads", tiktok.HEADERS)
+    have = {(str(r.get("Scan Date")), str(r.get("Ad ID"))) for r in records(ws)}
+    new = [r for r in rows if (r[0], r[8]) not in have]
+    sheets.append(ws, new)
+    sheets.set_status(book, "Q11", f"Last TikTok scan: {rows[0][0]} - {len(new)} ads (Top Ads, 5 countries)")
+    print(f"Wrote {len(new)} rows to TikTok Top Ads")
+
+
 def run_trade(cfg, dry):
     tc = cfg["trade"]
     groups = {str(k): v for k, v in tc["hs"].items()}
@@ -233,12 +251,12 @@ def run_export(cfg, dry):
 
 def main():
     p = argparse.ArgumentParser(prog="trenddesk")
-    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade"])
+    p.add_argument("job", choices=["check", "pulse", "shops", "audience", "export", "findshops", "trade", "tiktok"])
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
     cfg = load_config()
     try:
-        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade}[a.job](cfg, a.dry_run)
+        {"check": run_check, "pulse": run_pulse, "shops": run_shops, "audience": run_audience, "export": run_export, "findshops": run_findshops, "trade": run_trade, "tiktok": run_tiktok}[a.job](cfg, a.dry_run)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
