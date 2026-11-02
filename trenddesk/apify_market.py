@@ -62,11 +62,12 @@ def amazon(token, urls, per_url=30, previous=None, log=print):
         price = it.get("price") or {}
         price_s = f"{price.get('currency', '')} {price.get('value')}".strip() if price.get("value") is not None else ""
         stars, revs = it.get("stars"), it.get("reviewsCount")
-        rr = (f"{stars} / {revs:,}" if stars and revs else f"{revs:,}" if revs else "")
+        rr = f"{revs:,} reviews" if revs else ""  # same format as before: the export reads the digits
         img = str(it.get("thumbnailUrl", ""))
         img_id = img.split("/images/I/")[1].split(".")[0] if "/images/I/" in img else ""
         rows.append([stamp, country, platform, cat or it.get("categoryName", ""), " ".join(str(it.get("name", "")).split())[:200],
-                     rank, price_s, rr, move, url, (f"img:{img_id}" if img_id else "") + " (Apify)"])
+                     rank, price_s, rr, move, url,
+                     " ".join(x for x in (f"img:{img_id}" if img_id else "", f"{stars} stars" if stars else "", "(Apify)") if x)])
     return rows, run
 
 
