@@ -9,6 +9,11 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+
+def _auth(token):
+    """Send the key in a header, never in the web address, so it cannot appear in error messages or logs."""
+    return {"Authorization": f"Bearer {token}"}
+
 API = "https://api.apify.com/v2"
 GULF = timezone(timedelta(hours=4))
 AMAZON_ACTOR = "junglee~amazon-bestsellers"
@@ -23,11 +28,12 @@ GEO = {"AE": "UAE", "SA": "Saudi Arabia", "KW": "Kuwait", "QA": "Qatar", "OM": "
 
 
 def _run(token, actor, body, wait=290, cap=None):
-    r = requests.post(f"{API}/acts/{actor}/runs", params={"token": token, "waitForFinish": wait, "maxTotalChargeUsd": cap or MAX_USD},
+    r = requests.post(f"{API}/acts/{actor}/runs", headers=_auth(token), params={"waitForFinish": wait, "maxTotalChargeUsd": cap or MAX_USD},
                       json=body, timeout=wait + 40)
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"Apify HTTP {r.status_code} for {actor}: {r.text[:200]}")
     run = r.json()["data"]
-    items = requests.get(f"{API}/datasets/{run['defaultDatasetId']}/items", params={"token": token, "clean": 1},
+    items = requests.get(f"{API}/datasets/{run['defaultDatasetId']}/items", headers=_auth(token), params={"clean": 1},
                          timeout=90).json()
     return run, items
 
@@ -104,16 +110,16 @@ def trends(token, terms, geos=("AE", "SA", "KW", "QA", "OM"), log=print):
 
 def usage(token):
     """This billing period's Apify spend, broken down by actor where Apify reports it."""
-    me = requests.get(f"{API}/users/me/limits", params={"token": token}, timeout=30).json().get("data", {})
+    me = requests.get(f"{API}/users/me/limits", headers=_auth(token), timeout=30).json().get("data", {})
     cur, lim = me.get("current", {}), me.get("limits", {})
-    runs = requests.get(f"{API}/actor-runs", params={"token": token, "limit": 50, "desc": 1}, timeout=30).json().get("data", {}).get("items", [])
+    runs = requests.get(f"{API}/actor-runs", headers=_auth(token), params={"limit": 50, "desc": 1}, timeout=30).json().get("data", {}).get("items", [])
     by = {}
     for r in runs:
         by[r.get("actId", "?")] = by.get(r.get("actId", "?"), 0) + (r.get("usageTotalUsd") or 0)
     acts = {}
     for aid in by:
         try:
-            a = requests.get(f"{API}/acts/{aid}", params={"token": token}, timeout=30).json().get("data", {})
+            a = requests.get(f"{API}/acts/{aid}", headers=_auth(token), timeout=30).json().get("data", {})
             acts[aid] = f"{a.get('username')}/{a.get('name')}"
         except Exception:
             acts[aid] = aid

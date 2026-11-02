@@ -11,6 +11,11 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+
+def _auth(token):
+    """Send the key in a header, never in the web address, so it cannot appear in error messages or logs."""
+    return {"Authorization": f"Bearer {token}"}
+
 GULF = timezone(timedelta(hours=4))
 ACTOR = "clockworks~tiktok-scraper"
 VIDEO_HEADERS = ["Scan Date", "Hashtag", "Posted (Gulf time)", "Author", "Author followers", "Views", "Likes",
@@ -34,7 +39,7 @@ def fetch(token, hashtags, per_tag=25, log=print):
     url = f"https://api.apify.com/v2/acts/{ACTOR}/run-sync-get-dataset-items"
     body = {"hashtags": hashtags, "resultsPerPage": per_tag, "shouldDownloadVideos": False,
             "shouldDownloadCovers": False, "shouldDownloadSubtitles": False, "shouldDownloadSlideshowImages": False}
-    r = requests.post(url, params={"token": token, "timeout": 290}, json=body, timeout=320)
+    r = requests.post(url, headers=_auth(token), params={"timeout": 290}, json=body, timeout=320)
     if r.status_code >= 400:
         raise RuntimeError(f"Apify HTTP {r.status_code}: {r.text[:300]}")
     items = r.json()
