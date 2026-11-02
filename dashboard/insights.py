@@ -137,11 +137,13 @@ def lifecycle(it, today, pdate):
         age = max((today - pub).days, 1)
         return "Emerging" if age <= 14 else "Growing" if age <= 60 else "Peak"
     if t == "TikTok ad":  # in TikTok's top-ads list now: new this month, or still there weeks later
-        first = pdate(it.get("first_date")) or pdate(it.get("date"))
-        return "Emerging" if not first or (today - first).days <= 14 else "Growing"
+        first, seen = pdate(it.get("first_date")), pdate(it.get("date"))
+        if not first or not seen or first >= seen:
+            return ""  # seen in one scan only: no trend reading yet
+        return "Growing" if (today - first).days > 14 else "Emerging"
     if t == "Candidate":
         shape = str(it.get("trend", "")).lower()
-        return {"rising": "Growing", "seasonal": "Peak", "flat": "Peak", "declining": "Declining"}.get(shape, "Emerging")
+        return {"rising": "Growing", "seasonal": "Peak", "flat": "Peak", "declining": "Declining"}.get(shape, "")
     return ""
 
 
@@ -267,20 +269,65 @@ def evidence(it):
     return 0.5, "none recorded"
 
 
+# Courier cost assumptions for price fit when our own cost is not known yet. Overwritten from the sheet's
+# "Shipping Rates" tab (dashboard/shipping.json) by build_wall.py.
+SHIPPING = {"inr_per_aed": 25.86, "gst": 0.18, "fuel_per_kg": 47, "packaging": 0,
+            "slabs": [[500, 1259], [1000, 1470], [2000, 1700], [3000, 2000], [5000, 3090], [10000, 4400]]}
+
+
+def courier_aed(weight_g):
+    """Courier charge in AED for one parcel (rate for the weight slab + GST + fuel surcharge)."""
+    w = weight_g or 500  # unknown weight: assume the smallest slab (most of our products are under 500 g)
+    base = next((r for lim, r in SHIPPING["slabs"] if w <= lim), SHIPPING["slabs"][-1][1])
+    inr = base * (1 + SHIPPING["gst"]) + SHIPPING["fuel_per_kg"] * max(0.5, math.ceil(w / 500) / 2) + SHIPPING["packaging"]
+    return inr / SHIPPING["inr_per_aed"]
+
+
+def price_fit_after_shipping(it):
+    """Without our own cost, judge price by how much is left after the courier charge (headroom for the
+    product cost and margin). A real margin from the Candidates sheet always wins."""
+    m = num(it.get("margin"))
+    if m is not None:
+        return 100 if m >= 50 else 75 if m >= 35 else 40 if m >= 20 else 10
+    p = num(it.get("price"))
+    rng = re.findall(r"\d+(?:\.\d+)?", str(it.get("price_label", ""))) if it.get("type") == "Candidate" else []
+    if len(rng) >= 2:  # a range such as "AED 69-109": judge at the middle of the range
+        p = (float(rng[0]) + float(rng[1])) / 2
+    if p is None or p <= 0:
+        return None
+    left = (p - courier_aed(num(it.get("weight")))) / p
+    return 100 if left >= 0.60 else 75 if left >= 0.45 else 40 if left >= 0.30 else 10
+
+
+# Confidence pulls a score toward the middle (50): a strong score on thin evidence should not outrank a
+# good score on solid evidence.
+SHRINK = {"High": 1.0, "Medium": 0.85, "Low": 0.6}
+
+
+def shrink(factors_known, conf):
+    """Combined pull toward 50: lower confidence and fewer known factors (out of 6) both count."""
+    return SHRINK[conf] * min(1.0, 0.55 + 0.1 * factors_known)
+
+
 def score(it, proof_sources, trade_change=None):
-    """proof_sources: number of different platforms (Amazon, Meta ad, YouTube, Candidate) showing
-    products of the same Google category in the same country."""
+    """Weighted 0-100 score over the factors we actually know for this product. Unknown factors (no price,
+    no weight, no trend reading, no export data) are left out and the remaining weights rescaled, instead
+    of being filled with a neutral guess. Returns (score, parts, factors_known)."""
     q, _ = evidence(it)
-    fit = ship_fit(it)
-    if it.get("type") == "Candidate" and fit == 100:
-        fit = 80  # weight is our estimate, not a measured figure
-    parts = {
-        "demand": demand(it) * q,
-        "proof": min(100, 25 * proof_sources) * q,
-        "momentum": STAGE_PTS.get(it.get("stage", ""), 45),
-        "price": price_fit(it),
-        "fit": fit,
-        "trade": trade_points(trade_change),
-    }
-    total = round(sum(parts[k] * w for k, w in WEIGHTS.items()))
-    return total, {k: round(v) for k, v in parts.items()}
+    parts = {"demand": demand(it) * q, "proof": min(100, 25 * proof_sources) * q}
+    if it.get("stage"):
+        parts["momentum"] = STAGE_PTS.get(it.get("stage"), 45)
+    pf = price_fit_after_shipping(it)
+    if pf is not None:
+        parts["price"] = pf
+    note = str(it.get("note", "")) + " " + str(it.get("title", ""))
+    if GATE_FAIL.search(note):
+        parts["fit"] = 0
+    elif num(it.get("weight")) is not None or GATE_PASS.search(note):
+        fit = ship_fit(it)
+        parts["fit"] = 80 if it.get("type") == "Candidate" and fit == 100 else fit  # candidate weight is our estimate
+    if trade_change not in ("", None):
+        parts["trade"] = trade_points(trade_change)
+    wsum = sum(WEIGHTS[k] for k in parts)
+    total = round(sum(parts[k] * WEIGHTS[k] for k in parts) / wsum)
+    return total, {k: round(v) for k, v in parts.items()}, len(parts)

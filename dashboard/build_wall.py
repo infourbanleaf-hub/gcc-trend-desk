@@ -131,17 +131,23 @@ for it in items:
     it["gcat"] = " > ".join(parts[:2]) if len(parts) > 1 else parts[0]
     it["gkey"] = " > ".join(parts[:3])
     it["stage"] = insights.lifecycle(it, today, pdate)
+_sf = repo / "dashboard" / "shipping.json"
+if _sf.exists():
+    insights.SHIPPING.update(json.loads(_sf.read_text(encoding="utf-8")))
 TRADE = {}
 _tf = repo / "dashboard" / "trade.json"
 if _tf.exists():
     for t in json.loads(_tf.read_text(encoding="utf-8")):
-        if t.get("change") not in ("", None):
+        # Growth from a tiny base (under USD 1M a year) says little about the market: left out.
+        if t.get("change") not in ("", None) and (insights.num(t.get("usd")) or 0) >= 1_000_000:
             TRADE[(str(t["hs"]), t["country"])] = float(t["change"])
 for it in items:
     it["hs"] = insights.hs_code(" ".join(str(it.get(k, "")) for k in ("title", "keyword")))
     cs = [c for c in it.get("countries", []) if c in ("UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman")] or ["UAE", "Saudi Arabia", "Kuwait", "Qatar", "Oman"]
-    vals = [TRADE[(it["hs"], c)] for c in cs if (it["hs"], c) in TRADE]
-    it["trade_change"] = max(vals) if vals else None
+    vals = [(TRADE[(it["hs"], c)], c) for c in cs if (it["hs"], c) in TRADE]
+    best = max(vals) if vals else None
+    it["trade_change"] = best[0] if best else None
+    it["trade_country"] = best[1] if best else ""
 groups = {}
 for it in items:
     for c in ([c for c in it.get("countries", []) if c] or ["GCC"]):
@@ -154,9 +160,9 @@ for it in items:
     srcs = set(srcs) | {SRC.get(a["type"], a["type"]) for a in it.get("also", [])}
     it["proof_sources"] = sorted(srcs)
     if it["type"] == "YouTube":  # a video, not one product: no score (its products are scored when named)
-        it["score"], it["score_parts"] = None, {}
+        it["score"], it["score_parts"], it["factors"] = None, {}, 0
     else:
-        it["score"], it["score_parts"] = insights.score(it, len(srcs), it["trade_change"])
+        it["score"], it["score_parts"], it["factors"] = insights.score(it, len(srcs), it["trade_change"])
 
 def hist_of(it):
     pts = SERIES.get(hkey(it), {})
@@ -234,6 +240,11 @@ def audience_of(it):
     return int(best[0]), f"Meta interest '{best[2]}', {', '.join(cs) if len(cs) < 5 else 'all 5 countries'}"
 
 
+for it in items:
+    if it.get("score") is not None:
+        it["score_raw"] = it["score"]
+        it["score"] = round(50 + (it["score"] - 50) * insights.shrink(it.get("factors", 6), confidence(it)))
+
 rows = []
 for it in items:
     img = ""
@@ -275,7 +286,8 @@ for it in items:
         "sp_demand": it["score_parts"].get("demand"), "sp_proof": it["score_parts"].get("proof"),
         "sp_momentum": it["score_parts"].get("momentum"), "sp_price": it["score_parts"].get("price"),
         "sp_fit": it["score_parts"].get("fit"), "sp_trade": it["score_parts"].get("trade"),
-        "hs": it["hs"], "trade_change": it["trade_change"],
+        "hs": it["hs"], "trade_change": it["trade_change"], "trade_country": it.get("trade_country", ""),
+        "score_raw": it.get("score_raw"), "factors": it.get("factors", 0),
         "proof_sources": ", ".join(it["proof_sources"]),
         "margin": it.get("margin"), "india_cost": it.get("india_cost"),
         "hist": hist_of(it), "change": change_of(it), "confidence": confidence(it),

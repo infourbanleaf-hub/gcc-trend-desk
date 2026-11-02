@@ -4,7 +4,7 @@ Reads the tracker's own tabs (TikTok Videos, TikTok Top Ads, Gulf Shop Posts, In
 posts that have a feature (price shown, cash-on-delivery, discount, question hook...) with posts that do not.
 Engagement is always compared within one source, never across sources:
   - Instagram shop posts: likes against that shop's own average (removes the size of the shop)
-  - TikTok hashtag videos: views
+  - TikTok hashtag videos: views per follower of the poster (so big accounts do not decide the result)
   - TikTok top ads: TikTok's CTR figure
 Each line states its sample size; lines with fewer than MIN_N posts on either side are left out.
 Correlation, not cause: a feature common in strong posts is a thing to test, not a guarantee.
@@ -57,6 +57,8 @@ def _fmt(v, kind):
         return f"{v:.2f}"
     if kind == "x":
         return f"{v:.2f}×"
+    if kind == "vpf":
+        return f"{v:.2f} views/follower"
     return f"{v:,.0f}"
 
 
@@ -75,9 +77,11 @@ def _posts(book_rows):
         if str(r.get("Hashtag", "")).lower() in GLOBAL_TAGS or r.get("Link") in seen:
             continue
         seen.add(r.get("Link"))
-        out.append({"source": "TikTok hashtag videos", "kind": "views", "metric": _num(r.get("Views")),
+        views, fans = _num(r.get("Views")), _num(r.get("Author followers"))
+        out.append({"source": "TikTok hashtag videos", "kind": "vpf",
+                    "metric": (views / max(fans or 0, 100)) if views is not None else None,
                     "caption": str(r.get("Caption", "")), "when": _when(r.get("Posted (Gulf time)")),
-                    "link": r.get("Link", ""), "media": "VIDEO"})
+                    "link": r.get("Link", ""), "media": "VIDEO", "views": views})
     from .export import FOREIGN_SCRIPT, TT_NOT_PRODUCT, tt_industry
     seen = set()
     for r in book_rows.get("TikTok Top Ads", []):
@@ -86,7 +90,7 @@ def _posts(book_rows):
                 or TT_NOT_PRODUCT.search(title)):
             continue
         seen.add(r.get("Ad ID"))
-        out.append({"source": "TikTok top ads", "kind": "ctr", "metric": _num(r.get("CTR (TikTok)")),
+        out.append({"source": "TikTok top ads (CTR index)", "kind": "ctr", "metric": _num(r.get("CTR (TikTok)")),
                     "caption": str(r.get("Ad title", "")), "when": None, "link": r.get("Link", ""),
                     "media": "VIDEO", "length": _num(r.get("Video length (s)"))})
     return [p for p in out if p["metric"] is not None and p["caption"].strip()]
@@ -109,7 +113,7 @@ def build(book_rows, week):
             my, mn = statistics.median(p["metric"] for p in yes), statistics.median(p["metric"] for p in no)
             lift = (my / mn - 1) if mn else None
             ex = max(yes, key=lambda p: p["metric"])
-            read = ("Strong pattern" if lift is not None and abs(lift) >= 0.25 and min(len(yes), len(no)) >= 10
+            read = ("Strong pattern" if lift is not None and abs(lift) >= 0.25 and min(len(yes), len(no)) >= 15
                     else "Some pattern" if lift is not None and abs(lift) >= 0.10 else "No clear difference")
             rows.append(["Caption features", name, src, _fmt(my, kind), _fmt(mn, kind),
                          "" if lift is None else f"{lift:+.0%}", read, f"{len(yes)} / {len(no)}",
@@ -140,23 +144,24 @@ def build(book_rows, week):
                 rows.append(["Posting time", f"{label}: {k}", src, _fmt(med, kind), "", "", "", f"{n}", "", "", week])
 
     # 4) Video length for TikTok top ads (by CTR).
-    ads = [p for p in posts if p["source"] == "TikTok top ads" and p.get("length")]
+    ads = [p for p in posts if p["source"].startswith("TikTok top ads") and p.get("length")]
     buckets = [(0, 10, "Up to 10 s"), (10, 20, "11–20 s"), (20, 30, "21–30 s"), (30, 60, "31–60 s"), (60, 10**6, "Over 60 s")]
     for lo, hi, name in buckets:
         b = [p for p in ads if lo < p["length"] <= hi]
         if len(b) >= MIN_N:
-            rows.append(["Video length", name, "TikTok top ads", _fmt(statistics.median(p["metric"] for p in b), "ctr"),
+            rows.append(["Video length", name, "TikTok top ads (CTR index)", _fmt(statistics.median(p["metric"] for p in b), "ctr"),
                          "", "", "", f"{len(b)}", "", "", week])
 
     # 5) Hooks: opening words of the top posts in each source, to copy the structure (not the words).
     for src in sources:
-        ps = sorted((p for p in posts if p["source"] == src), key=lambda p: -p["metric"])[:6]
+        ps = sorted((p for p in posts if p["source"] == src), key=lambda p: -(p.get("views") or p["metric"]))[:6]
         for p in ps:
             hook = " ".join(re.split(r"[\n.!؟?]", p["caption"].strip())[0].split()[:14])
-            rows.append(["Top hooks", hook[:120], src, _fmt(p["metric"], p["kind"]), "", "", "", "", "", p["link"], week])
+            shown = _fmt(_num(p.get("views")) if p["kind"] == "vpf" else p["metric"], "views" if p["kind"] == "vpf" else p["kind"])
+            rows.append(["Top hooks", hook[:120], src, shown, "", "", "", "", "", p["link"], week])
 
     # 6) Hashtags used most by the top quarter of TikTok videos.
-    tt = sorted((p for p in posts if p["source"] == "TikTok hashtag videos"), key=lambda p: -p["metric"])
+    tt = sorted((p for p in posts if p["source"] == "TikTok hashtag videos"), key=lambda p: -(p.get("views") or 0))
     top = tt[: max(1, len(tt) // 4)]
     counts = {}
     for p in top:

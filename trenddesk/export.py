@@ -387,6 +387,17 @@ def run(book, out="dashboard"):
              for r in rows_of(book, "India Exports to GCC")]
     (out / "trade.json").write_text(json.dumps(trade, ensure_ascii=False), encoding="utf-8")
     (out / "data.json").write_text(json.dumps(items, ensure_ascii=False, indent=0), encoding="utf-8")
+    # Courier assumptions from the sheet's "Shipping Rates" tab, for price fit in the score.
+    try:
+        v = book.worksheet("Shipping Rates").get_values("A4:F14", value_render_option="UNFORMATTED_VALUE")
+        v = [list(r) + [""] * (6 - len(r)) for r in v]
+        col = 2 if str(v[0][5]).strip() == "Express" else 1  # F4: service used
+        slabs = [[int(num(r[0])), num(r[col])] for r in v if num(r[0]) and num(r[col])]
+        ship = {"slabs": slabs, "gst": num(v[1][5]), "fuel_per_kg": num(v[2][5]), "packaging": num(v[3][5]),
+                "inr_per_aed": num(v[5][5])}
+        (out / "shipping.json").write_text(json.dumps({k: x for k, x in ship.items() if x not in (None, [])}), encoding="utf-8")
+    except Exception as e:
+        print(f"  shipping rates: {e}")
     # Meta audience sizes (people reachable per month) by country and search term, latest check of each.
     aud = {}
     for r in rows_of(book, "Audience Size"):
