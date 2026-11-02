@@ -13,6 +13,26 @@ from pathlib import Path
 # ---------------------------------------------------------------- 1. Google Product Taxonomy
 # (rule, taxonomy path). First match wins; paths are checked against the official file when present.
 GPT_RULES = [
+    (r"mabkhara|incense burner|bakhoor burner|مبخر", "Home & Garden > Decor > Home Fragrance Accessories > Incense Holders"),
+    (r"thermal|long johns|base layer|winter set", "Apparel & Accessories > Clothing"),
+    (r"pyjama|pajama|sleepwear|nightwear|nightgown|loungewear|lounge set|lounge pants|بيجام|ملابس نوم",
+     "Apparel & Accessories > Clothing > Sleepwear & Loungewear"),
+    # Arabic product words (TikTok and Meta ads are often captioned in Arabic only)
+    (r"فستان|فساتين|جلابي|قفطان", "Apparel & Accessories > Clothing > Dresses"),
+    (r"عباي|طرح|شيل", "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing"),
+    (r"محفظ", "Apparel & Accessories > Handbags, Wallets & Cases > Wallets & Money Clips"),
+    (r"شنط|حقيب", "Apparel & Accessories > Handbags, Wallets & Cases > Handbags"),
+    (r"عطور|عطر|دخون|بخور", "Health & Beauty > Personal Care > Cosmetics > Perfume & Cologne"),
+    (r"كريم|سيروم|بشر|مكياج", "Health & Beauty > Personal Care > Cosmetics"),
+    (r"سواك|مسواك", "Health & Beauty > Personal Care > Oral Care"),
+    (r"مفروشات|شراشف|مخد|لحاف", "Home & Garden > Linens & Bedding"),
+    (r"مقبض حمام|حمام", "Home & Garden > Bathroom Accessories"),
+    (r"أثاث|اثاث|ديكور", "Home & Garden > Decor"),
+    (r"حفاض|أطفال|اطفال|رضيع", "Baby & Toddler"),
+    (r"حيوان|قطط|كلاب|\bpet\b", "Animals & Pet Supplies > Pet Supplies"),
+    (r"نظار", "Apparel & Accessories > Clothing Accessories > Sunglasses"),
+    (r"ساعة|ساعات", "Apparel & Accessories > Jewelry > Watches"),
+    (r"tees?\b|t-shirts?|tracksuits?|hoodie|sweatshirt", "Apparel & Accessories > Clothing"),
     (r"\bcar\b|vehicle|windshield|sun ?shade|tyre|tire|headrest|backseat|anti-fog|car seat|سيار",
      "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor"),
     (r"seat belt cover", "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor"),
@@ -92,8 +112,13 @@ def taxonomy():
     return _TAXO
 
 
-def google_category(text):
-    """(top-level, full path, id) for a product name. The path is trimmed to the deepest level the
+INDUSTRY_FALLBACK = {"Apparel & accessories": "Apparel & Accessories", "Beauty & personal care": "Health & Beauty > Personal Care",
+                     "Household products": "Home & Garden", "Baby, kids & maternity": "Baby & Toddler",
+                     "Pets": "Animals & Pet Supplies"}
+
+
+def google_category(text, industry=""):
+    """(top-level, full path, id) for a product name; falls back to the ad platform's own industry. The path is trimmed to the deepest level the
     official file contains, so a guessed sub-level never shows up as if it were official."""
     tax = taxonomy()
     for pat, path in GPT_RULES:
@@ -107,7 +132,17 @@ def google_category(text):
                     return path.split(" > ")[0], path, tax[path]
             else:
                 return path.split(" > ")[0], path, ""
+    if industry in INDUSTRY_FALLBACK:
+        return _official(INDUSTRY_FALLBACK[industry], tax)
     return "Other", "", ""
+
+
+def _official(path, tax):
+    parts = path.split(" > ")
+    while tax and parts and " > ".join(parts) not in tax:
+        parts.pop()
+    path = " > ".join(parts) or path
+    return path.split(" > ")[0], path, (tax or {}).get(path, "")
 
 
 # ---------------------------------------------------------------- 2. Lifecycle stage
@@ -150,7 +185,7 @@ def lifecycle(it, today, pdate):
 
 # ---------------------------------------------------------------- 3. Opportunity score
 GATE_FAIL = re.compile(
-    r"gate fail|battery|liquid|electric\b|\bglass\b|glassware|\bheavy\b|bulky|(?<!avoid )medical (?:claim|device)|"
+    r"gate fail|battery|liquid|(?<!non-)(?<!non )electric\b|\bglass\b|glassware|\bheavy\b|bulky|(?<!avoid )medical (?:claim|device)|"
     r"weight-loss|risky|\bfood (?:item|product)|edible|over 400|"
     r"\bcream\b|ointment|\b(?:hair|body|massage) oil\b|serum|\bgel\b|spray|perfume|parfum|\boud\b|supplement|"
     r"rechargeable|\d{3,}\s*w\b|look-?alike|replica|first copy|chocolate|coffee beans", re.I)
@@ -160,6 +195,8 @@ WEIGHTS = {"demand": 0.25, "proof": 0.15, "momentum": 0.15, "price": 0.15, "fit"
 
 # Product name -> HS code (4-digit customs group) used in the "India Exports to GCC" tab.
 HS_RULES = [
+    (r"mabkhara|incense burner|bakhoor burner|burner|مبخر", "8306"),
+    (r"pyjama|pajama|sleepwear|nightwear|nightgown|loungewear|lounge set", "6108"),
     (r"corset|shaper|shapewear|compression|slimming|waist", "6212"),
     (r"socks", "6115"),
     (r"innerwear|underwear|brief|boxer|undershirt|\bvests?\b|sirwal|سروال", "6107"),

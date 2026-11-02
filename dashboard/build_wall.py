@@ -125,7 +125,7 @@ STOREWIDE = re.compile(r"\bclearance\b|\bdiscounts\b|\bsale\b|store-?wide|all pr
 SRC = {"Amazon": "Marketplace", "Meta ad": "Meta ads", "TikTok ad": "TikTok ads", "YouTube": "YouTube", "Video product": "YouTube", "Candidate": "Candidates"}
 for it in items:
     text = " ".join(str(it.get(k, "")) for k in ("title", "keyword"))
-    top, path, gid = insights.google_category(text)
+    top, path, gid = insights.google_category(text, it.get("industry", ""))
     if not path and it["type"] == "YouTube":
         top, path, gid = "Mixed product videos", "", ""
     it["gtop"], it["gpath"], it["gid"] = top, path, gid
