@@ -212,7 +212,7 @@ def run_findshops(cfg, dry):
 
 def run_tiktok(cfg, dry):
     """TikTok Top Ads for the 5 Gulf countries (public Creative Center, no login) -> 'TikTok Top Ads' tab."""
-    rows, names = tiktok.collect(period=30, pages=3)
+    rows, names = tiktok.collect()
     print(f"::notice title=TikTok Top Ads::{len(rows)} ads; " + ", ".join(
         f"{c}: {sum(1 for r in rows if r[1] == c)}" for c in tiktok.REGIONS.values()))
     if dry or not rows:

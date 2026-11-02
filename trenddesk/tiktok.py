@@ -36,8 +36,9 @@ def _labels(filters):
     return out
 
 
-def collect(period=30, pages=3, log=print):
-    """Return (rows, industry_names). pages = how many 20-ad pages to try per country ("View more")."""
+def collect(periods=(7, 30, 180), log=print):
+    """Return (rows, industry_names). Without a login TikTok serves one page of 20 ads per list, so each
+    country's 7-, 30- and 180-day lists are read to see more ads (duplicates across lists are dropped)."""
     from playwright.sync_api import sync_playwright
 
     rows, names = [], {}
@@ -46,50 +47,44 @@ def collect(period=30, pages=3, log=print):
         browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
         ctx = browser.new_context(locale="en-US", viewport={"width": 1366, "height": 900}, user_agent=UA)
         for code, country in REGIONS.items():
-            lists, filters = [], {}
-            page = ctx.new_page()
-
-            def on_resp(r, lists=lists, filters=filters):
-                if "creative_radar_api/v1/top_ads/v2/list" in r.url:
-                    try:
-                        lists.append(r.json())
-                    except Exception:
-                        pass
-                elif "creative_radar_api/v1/top_ads/v2/filters" in r.url:
-                    try:
-                        filters.update(r.json())
-                    except Exception:
-                        pass
-
-            page.on("response", on_resp)
-            try:
-                page.goto(PAGE.format(code=code, period=period), wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(9000)
-                for _ in range(pages - 1):  # "View more" loads the next page of ads, if TikTok allows it
-                    btn = page.get_by_text("View More", exact=False)
-                    if not btn.count():
-                        break
-                    btn.first.click()
-                    page.wait_for_timeout(5000)
-            except Exception as e:
-                log(f"::warning title=TikTok {country}::{str(e)[:150]}")
-            names.update(_labels(filters))
             seen = set()
-            for js in lists:
-                for m in ((js.get("data") or {}).get("materials") or []):
-                    if m.get("id") in seen:
-                        continue
-                    seen.add(m.get("id"))
-                    v = m.get("video_info") or {}
-                    rows.append([stamp, country, " ".join(str(m.get("ad_title", "")).split())[:300],
-                                 "" if m.get("brand_name") in (None, "Not Mention") else m.get("brand_name"),
-                                 m.get("industry_key", ""), str(m.get("objective_key", "")).replace("campaign_objective_", ""),
-                                 m.get("like", ""), m.get("ctr", ""), str(m.get("id", "")),
-                                 DETAIL.format(id=m.get("id"), code=code, period=period),
-                                 v.get("cover", ""), round(v.get("duration") or 0)])
+            for period in periods:
+                lists, filters = [], {}
+                page = ctx.new_page()
+
+                def on_resp(r, lists=lists, filters=filters):
+                    if "creative_radar_api/v1/top_ads/v2/list" in r.url:
+                        try:
+                            lists.append(r.json())
+                        except Exception:
+                            pass
+                    elif "creative_radar_api/v1/top_ads/v2/filters" in r.url:
+                        try:
+                            filters.update(r.json())
+                        except Exception:
+                            pass
+
+                page.on("response", on_resp)
+                try:
+                    page.goto(PAGE.format(code=code, period=period), wait_until="domcontentloaded", timeout=60000)
+                    page.wait_for_timeout(9000)
+                except Exception as e:
+                    log(f"::warning title=TikTok {country} {period}d::{str(e)[:150]}")
+                names.update(_labels(filters))
+                for js in lists:
+                    for m in ((js.get("data") or {}).get("materials") or []):
+                        if m.get("id") in seen:
+                            continue
+                        seen.add(m.get("id"))
+                        v = m.get("video_info") or {}
+                        rows.append([stamp, country, " ".join(str(m.get("ad_title", "")).split())[:300],
+                                     "" if m.get("brand_name") in (None, "Not Mention") else m.get("brand_name"),
+                                     str(m.get("industry_key", "")).replace("label_", ""),
+                                     str(m.get("objective_key", "")).replace("campaign_objective_", ""),
+                                     m.get("like", ""), m.get("ctr", ""), str(m.get("id", "")),
+                                     DETAIL.format(id=m.get("id"), code=code, period=period),
+                                     v.get("cover", ""), round(v.get("duration") or 0)])
+                page.close()
             log(f"  {country}: {len(seen)} ads")
-            page.close()
         browser.close()
-    for r in rows:  # readable industry names
-        r[4] = names.get(str(r[4]), str(r[4]).replace("label_", ""))
     return rows, names

@@ -80,10 +80,19 @@ def _ad_price(r):
 # TikTok ads often write prices in Arabic ("399 ريال", "99 درهم"): read them in the country's own currency.
 LOCAL_CUR = {"UAE": "AED", "Saudi Arabia": "SAR", "Qatar": "QAR", "Oman": "OMR", "Kuwait": "KWD"}
 AR_PRICE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:ريال|ر\.س|رس|درهم|د\.إ|دينار|د\.ك|ريالات)")
-# TikTok industries that are not physical products we could ship (apps, services, finance, food, travel...).
-TT_SKIP = re.compile(r"app|game|financ|bank|insur|educat|travel|airline|hotel|vehicle|automobile|real estate|"
-                     r"service|food|beverage|restaurant|deliver|telecom|news|entertain|government|media|"
-                     r"health care|medical|pharma|business", re.I)
+# TikTok industry codes (first two digits) for physical products we could ship. Codes come from TikTok's
+# Creative Center filter list: 22 apparel & accessories, 14 beauty & personal care, 21 household products,
+# 12 baby, kids & maternity, 19 pets. Everything else (apps, games, food, services, finance, travel...) is left out.
+TT_KEEP = {"22": "Apparel & accessories", "14": "Beauty & personal care", "21": "Household products",
+           "12": "Baby, kids & maternity", "19": "Pets"}
+# TikTok's Gulf lists also carry ads aimed at other countries (Japanese, Thai, Russian...): keep only ads
+# written in Arabic or English.
+FOREIGN_SCRIPT = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff\u0e00-\u0e7f\u0400-\u04ff\uac00-\ud7af]")
+
+
+def tt_industry(code):
+    c = str(code).replace("label_", "").strip()
+    return TT_KEEP.get(c[:2]) if c[:2].isdigit() else None
 
 
 def tiktok_items(book):
@@ -96,9 +105,10 @@ def tiktok_items(book):
             latest[k] = r
     out = []
     for r in latest.values():
-        if TT_SKIP.search(str(r.get("Industry", ""))):
-            continue
         title, country = str(r.get("Ad title", "")), r.get("Country", "")
+        industry = tt_industry(r.get("Industry", ""))
+        if not industry or not title.strip() or FOREIGN_SCRIPT.search(title):
+            continue
         lab = CUR.search(title)
         lab = lab.group(0).upper() if lab else ""
         if not lab:
@@ -106,10 +116,10 @@ def tiktok_items(book):
             if m and country in LOCAL_CUR:
                 lab = f"{LOCAL_CUR[country]} {m.group(1)}"
         out.append({"type": "TikTok ad", "title": title[:160], "url": r.get("Link", ""), "countries": [country],
-                    "source": r.get("Brand") or r.get("Industry", ""), "industry": r.get("Industry", ""),
+                    "source": r.get("Brand") or "TikTok advertiser", "industry": industry,
                     "likes": num(r.get("Likes")), "ctr": num(r.get("CTR (TikTok)")), "cover": r.get("Cover image", ""),
                     "price": price_aed(lab) if lab else None, "price_label": lab,
-                    "note": f"TikTok Top Ads · {r.get('Industry', '')} · objective {r.get('Objective', '')}",
+                    "note": f"TikTok Top Ads · {industry} · objective {r.get('Objective', '')}",
                     "date": str(r.get("Scan Date", "")), "first_date": first.get(str(r.get("Ad ID")), "")})
     return out
 
