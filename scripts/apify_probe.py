@@ -5,8 +5,8 @@ A = "https://api.apify.com/v2"
 def get(path, **p):
     p["token"] = T
     return requests.get(A + path, params=p, timeout=60).json()
-for q in ["amazon bestsellers", "amazon best sellers marketplace", "google trends"]:
-    items = (get("/store", search=q, limit=12).get("data") or {}).get("items", [])
+for q in [x for x in os.environ.get("SEARCH", "").split(",") if x]:
+    items = (get("/store", search=q, limit=6).get("data") or {}).get("items", [])
     for it in items:
         pr = it.get("currentPricingInfo") or {}
         st = it.get("stats") or {}

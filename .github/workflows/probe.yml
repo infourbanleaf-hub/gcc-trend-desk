@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       check: { description: "actors to inspect", required: false, default: "" }
+      search: { description: "store searches", required: false, default: "" }
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -15,3 +16,4 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           CHECK: ${{ github.event.inputs.check }}
+          SEARCH: ${{ github.event.inputs.search }}
