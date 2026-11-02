@@ -96,7 +96,7 @@ TT_NOT_PRODUCT = re.compile(r"wherewindsmeet|where winds meet|\bgame\b|download|
 
 
 def tt_industry(code):
-    c = str(code).replace("label_", "").strip()
+    c = str(code).replace("label_", "").strip().split(" ")[0]
     return TT_KEEP.get(c[:2]) if c[:2].isdigit() else None
 
 

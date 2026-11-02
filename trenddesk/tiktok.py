@@ -20,19 +20,11 @@ HEADERS = ["Scan Date", "Country", "Ad title", "Brand", "Industry", "Objective",
 
 
 def _labels(filters):
-    """industry_key -> readable industry name, from the page's own filter list."""
+    """industry id -> readable name, from the page's own filter list (e.g. 19102000000 -> Pet Household Products)."""
     out = {}
-
-    def walk(items, parent=""):
-        for it in items or []:
-            key, label = it.get("id") or it.get("value"), it.get("label") or it.get("value") or ""
-            name = str(label).replace("label_", "").replace("_", " ").strip()
-            if key:
-                out[str(key)] = (parent + " > " + name) if parent and name else name
-            walk(it.get("sub_industry") or it.get("children"), name)
-
-    data = (filters or {}).get("data") or {}
-    walk(data.get("industry"))
+    for it in ((filters or {}).get("data") or {}).get("industry") or []:
+        if it.get("id") and it.get("value"):
+            out[str(it["id"])] = str(it["value"])
     return out
 
 
@@ -87,4 +79,7 @@ def collect(periods=(7, 30, 180), log=print):
                 page.close()
             log(f"  {country}: {len(seen)} ads")
         browser.close()
+    for r in rows:  # "22102000000" -> "22102000000 Bags" so the code (used for filtering) and the name both show
+        if r[4] in names:
+            r[4] = f"{r[4]} {names[r[4]]}"
     return rows, names
