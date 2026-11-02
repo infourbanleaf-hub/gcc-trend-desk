@@ -185,9 +185,9 @@ def lifecycle(it, today, pdate):
 
 # ---------------------------------------------------------------- 3. Opportunity score
 GATE_FAIL = re.compile(
-    r"gate fail|battery|liquid|(?<!non-)(?<!non )electric\b|\bglass\b|glassware|\bheavy\b|bulky|(?<!avoid )medical (?:claim|device)|"
+    r"gate fail|(?<!no )(?<!without )(?<!non-)battery(?!-free)|liquid|(?<!non-)(?<!non )electric\b|\bglass\b|glassware|\bheavy\b|bulky|(?<!avoid )medical (?:claim|device)|"
     r"weight-loss|risky|\bfood (?:item|product)|edible|over 400|"
-    r"\bcream\b|ointment|\b(?:hair|body|massage) oil\b|serum|\bgel\b|spray|perfume|parfum|\boud\b|supplement|"
+    r"\bcream\b|ointment|\b(?:hair|body|massage) oil\b|serum|(?<!silicone )\bgel\b|spray|perfume|parfum|oud oil|dehn al oud|supplement|"
     r"rechargeable|\d{3,}\s*w\b|look-?alike|replica|first copy|chocolate|coffee beans", re.I)
 GATE_PASS = re.compile(r"gate pass|india .*fit|light", re.I)
 STAGE_PTS = {"Emerging": 90, "Growing": 100, "Peak": 60, "Declining": 15, "": 45}
@@ -196,6 +196,7 @@ WEIGHTS = {"demand": 0.25, "proof": 0.15, "momentum": 0.15, "price": 0.15, "fit"
 # Product name -> HS code (4-digit customs group) used in the "India Exports to GCC" tab.
 HS_RULES = [
     (r"mabkhara|incense burner|bakhoor burner|burner|مبخر", "8306"),
+    (r"thermal|long johns|base layer", "6107"),
     (r"pyjama|pajama|sleepwear|nightwear|nightgown|loungewear|lounge set", "6108"),
     (r"corset|shaper|shapewear|compression|slimming|waist", "6212"),
     (r"socks", "6115"),
@@ -279,8 +280,18 @@ def price_fit(it):
     return 20
 
 
+def gate_text(it):
+    """Text the product rules are checked against. A candidate's note is evidence about *other* listings
+    ("oud bakhoor sells on Noon"), so only its name and an explicit 'gate fail' remark count."""
+    title, note = str(it.get("title", "")), str(it.get("note", ""))
+    if it.get("type") == "Candidate":
+        m = re.search(r"gate fail[^.;]*", note, re.I)
+        return title + (" " + m.group(0) if m else "")
+    return note + " " + title
+
+
 def ship_fit(it):
-    note = str(it.get("note", "")) + " " + str(it.get("title", ""))
+    note = gate_text(it)
     if GATE_FAIL.search(note):
         return 0
     w = num(it.get("weight"))
@@ -362,7 +373,7 @@ def score(it, proof_sources, trade_change=None):
     pf = price_fit_after_shipping(it)
     if pf is not None:
         parts["price"] = pf
-    note = str(it.get("note", "")) + " " + str(it.get("title", ""))
+    note = gate_text(it)
     if GATE_FAIL.search(note):
         parts["fit"] = 0
     elif num(it.get("weight")) is not None or GATE_PASS.search(note):
