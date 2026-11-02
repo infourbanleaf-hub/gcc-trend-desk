@@ -22,8 +22,8 @@ TRENDS_HEADERS = ["Week of", "Country", "Term", "Latest full week (0-100)", "12-
 GEO = {"AE": "UAE", "SA": "Saudi Arabia", "KW": "Kuwait", "QA": "Qatar", "OM": "Oman"}
 
 
-def _run(token, actor, body, wait=290):
-    r = requests.post(f"{API}/acts/{actor}/runs", params={"token": token, "waitForFinish": wait, "maxTotalChargeUsd": MAX_USD},
+def _run(token, actor, body, wait=290, cap=None):
+    r = requests.post(f"{API}/acts/{actor}/runs", params={"token": token, "waitForFinish": wait, "maxTotalChargeUsd": cap or MAX_USD},
                       json=body, timeout=wait + 40)
     r.raise_for_status()
     run = r.json()["data"]
@@ -76,8 +76,12 @@ def trends(token, terms, geos=("AE", "SA", "KW", "QA", "OM"), log=print):
     stamp = datetime.now(timezone.utc).astimezone(GULF).strftime("%Y-%m-%d")
     rows = []
     for geo in geos:
-        run, items = _run(token, TRENDS_ACTOR, {"searchTerms": terms, "geo": geo, "isMultiple": False,
-                                                "maxItems": len(terms), "skipDebugScreen": True})
+        try:
+            run, items = _run(token, TRENDS_ACTOR, {"searchTerms": terms, "geo": geo, "isMultiple": False,
+                                                    "maxItems": len(terms), "skipDebugScreen": True}, cap=0.15)
+        except Exception as e:
+            log(f"::warning title=Trends {geo}::{str(e)[:150]}")
+            continue
         log(f"  Trends {geo}: {len(items)} terms, run {run['status']}, cost USD {run.get('usageTotalUsd')}")
         for it in items:
             tl = [p for p in (it.get("interestOverTime_timelineData") or []) if not p.get("isPartial")]

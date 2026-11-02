@@ -290,6 +290,8 @@ def run_apifymarket(cfg, dry):
     # Each part is saved as soon as it arrives, so a later failure (e.g. Apify credit used up) loses nothing.
     rows = []
     try:
+        if os.environ.get("SKIP_AMAZON") == "1":
+            raise RuntimeError("skipped this run")
         rows, run = apify_market.amazon(token, urls, am.get("per_page", 30), prev)
         print(f"::notice title=Amazon via Apify::{len(rows)} products from {len(urls)} pages; cost USD {run.get('usageTotalUsd')}")
         if book and rows:
