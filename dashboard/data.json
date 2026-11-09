@@ -590,7 +590,6 @@
 "margin": null,
 "id": "c24",
 "img": "8497aa9eaf99e074.jpg",
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D49T3QHT"
 },
@@ -1049,7 +1048,6 @@
 "margin": null,
 "id": "c43",
 "img": "0614dea9add1219e.jpg",
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0873X7QCR"
 },
@@ -1200,6 +1198,258 @@
 "ref_url": "https://www.amazon.ae/dp/B094D42LRN"
 },
 {
+"type": "Candidate",
+"title": "Men's thobe gift box: brass cufflinks + agate 33-bead misbaha + metal pen (no watch)",
+"url": "https://www.instagram.com/reel/DfSxeugyePQ/",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Instagram",
+"status": "Shortlisted",
+"price": 99.0,
+"price_label": "AED 99-149",
+"weight": 300.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "KSA: multiple Saudi Instagram reels tagged #ترند selling boxed men's thobe gift sets (watch, misbaha, cufflinks, pen), posted 3-8 Nov 2026 (Instagram DfSxeugyePQ, DfLX1oZIwUa, Det4RmPuhao); KSA TikTok discover page 'ثوب كبك' lists 'سبحة مع بكس، قلم، كبك' gift boxes (TikTok, Nov-26). No view counts retrieved.",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c50",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Khambhat agate (aqeeq) 33-bead misbaha with tassel + pouch",
+"url": "https://www.tiktok.com/discover/%D9%85%D8%AD%D9%84%C2%A0%D8%B3%D8%A8%D8%AD%D9%87%C2%A0%D8%A8%D8%B4%D9%85%D8%A7%D9%84%C2%A0%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%C2%A0%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D9%82",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Kuwait"
+],
+"source": "TikTok",
+"status": "Shortlisted",
+"price": 69.0,
+"price_label": "AED 69-129",
+"weight": 60.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "KSA: TikTok discover page for Riyadh agate misbaha shops + Dammam agate workshop video (TikTok, Nov-26); UAE: Instagram reel with UAE Flag Day misbaha sale, caption notes misbaha spreading on TikTok (Instagram, ~1 Nov 2026); Kuwait: amber misbaha selling at KD 115 on TikTok (@amber..boutique). No view counts retrieved.",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c51",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Padel racket cover (padded canvas) + 3 overgrips + sweat wristband kit",
+"url": "https://www.facebook.com/kuwaittimesdaily/posts/premier-padel-kuwait-major-ends-on-high-note-strengthens-global-sporting-profile/1579026194271110/",
+"countries": [
+"Saudi Arabia",
+"Kuwait",
+"Qatar"
+],
+"source": "Facebook",
+"status": "New",
+"price": 69.0,
+"price_label": "AED 69-99",
+"weight": 220.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "Kuwait: Premier Padel Kuwait Major wrapped ~31 Oct 2026 (Kuwait Times FB); Qatar: FIP Padel World Cup 2026 in Doha this week (SEA Sports News FB, Nov-26); KSA: '1,000+ padel courts, 40% in Riyadh' (LinkedIn post, unverified). Sport-growth evidence, not product sales.",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c52",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Waxed-canvas kashta coffee kit / utensil roll bag (fits finjans, dallah tools)",
+"url": "https://www.gulf-times.com/article/735538/qatar/camping-shops-gear-up-for-winter-season-as-demand-rises",
+"countries": [
+"Kuwait",
+"Qatar"
+],
+"source": "Marketplace",
+"status": "New",
+"price": 69.0,
+"price_label": "AED 69-109",
+"weight": 320.0,
+"signals": 2.0,
+"trend": "Seasonal",
+"note": "Qatar: camping retailers stocking up for winter; Indian tent fabric popular at QR190/metre; equipment bags from QR20 (Gulf Times, 11-Oct-26). Kuwait: camping season runs 15 Nov-15 Mar (Kuwait Times, Dec-25, seasonal). Retailer demand, no product-level sales figure.",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c53",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Kashmiri papier-mache Christmas ornament set (6 pcs, hand-painted)",
+"url": "https://platinumlist.net/guide/christmas-markets-in-dubai/",
+"countries": [
+"UAE"
+],
+"source": "Facebook",
+"status": "New",
+"price": 69.0,
+"price_label": "AED 69-99",
+"weight": 120.0,
+"signals": 2.0,
+"trend": "Seasonal",
+"note": "UAE: Dubai Christmas markets confirmed 1 Dec-10 Jan, incl. Madinat Jumeirah 4-27 Dec (Platinumlist, Nov-26; What's On Dubai FB); Abu Dhabi Yas Links Christmas market 21 Nov (FB). Event evidence only, no product figure.",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c54",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Personalised Arabic-calligraphy name necklace (gold-plated brass / silver, made to order)",
+"url": "https://www.instagram.com/p/De8fFZ6ozek/",
+"countries": [
+"UAE"
+],
+"source": "Instagram",
+"status": "Shortlisted",
+"price": 55.0,
+"price_label": "AED 55-79",
+"weight": 25.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "UAE: jefora.com IG post selling an engraved Arabic-calligraphy necklace at AED 69 COD (26-Oct-26, tracker Instagram Pulse, #uaeshopping). UAE: a second seller (Souqly) runs a 'Her name, in gold' custom name necklace post at about AED 55, tagged #TikTokMadeMeBuyIt (26-Oct-26, #dubaishopping). Both posts had 0 likes at scan, so this is seller activity, not proven virality",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c55",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Lightweight cotton peshtemal / hammam towel (flat-weave, quick-dry)",
+"url": "https://www.youtube.com/watch?v=WeYjB1-cr6s",
+"countries": [
+"Saudi Arabia"
+],
+"source": "YouTube",
+"status": "New",
+"price": 69.0,
+"price_label": "AED 69-89",
+"weight": 280.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "KSA: 'He Compared a Cheap Towel to an Expensive One!' by Arabic creator Riza (ريزا), 11,422,866 views, on the KSA YouTube Howto & Style trending chart (published 27-Oct-26, tracker YouTube GCC scan 02-Nov-26). KSA: beach toys new at #9 on Amazon.sa New Releases tagged winter beach season (31-Oct-26). No price in either source",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c56",
+"img": "24844e10a51723c0.jpg"
+},
+{
+"type": "Candidate",
+"title": "Anti-theft crossbody sling bag (slash-resistant strap, hidden zip)",
+"url": "https://www.youtube.com/watch?v=7LTQ89YwnYQ",
+"countries": [
+"UAE",
+"Saudi Arabia"
+],
+"source": "YouTube",
+"status": "New",
+"price": 79.0,
+"price_label": "AED 79-119",
+"weight": 350.0,
+"signals": 2.0,
+"trend": "Rising",
+"note": "UAE and KSA: 'A Thief Cut Her Bag. Round Two Went Differently' by RumiRumiR, 7,698,668 views, a top result in the 'amazon finds' search for UAE and KSA (published 19-Oct-26, tracker YouTube GCC scan 02-Nov-26). Creator is not GCC-based",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c57",
+"img": "73824917b511cf2c.jpg"
+},
+{
+"type": "Candidate",
+"title": "Leather eyewear hard case + glasses chain + microfiber cloth set (Kanpur leather)",
+"url": "https://www.youtube.com/watch?v=oUF4uvkrgRw",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Kuwait",
+"Qatar"
+],
+"source": "YouTube",
+"status": "New",
+"price": 69.0,
+"price_label": "AED 69-89",
+"weight": 120.0,
+"signals": 1.0,
+"trend": "",
+"note": "UAE and KSA: 'He Broke Her Glasses... Then Needed This Amazon Case' by RumiRumiR, 4,668,648 views, in the 'amazon finds' search results for UAE and KSA (published 30-Oct-26, tracker YouTube GCC scan 02-Nov-26). Related: UV400 sunglasses Meta ads still running in Qatar (97 days) and polarized sunglasses ads in Kuwait (66 days) (tracker GCC Ad Signals, 30-Oct-26)",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c58",
+"img": "6ade60b94d67ad0c.jpg"
+},
+{
+"type": "Candidate",
+"title": "Canvas kashta carry bag for thermos, dallah and finjan cups (padded, block-print lining)",
+"url": "https://www.qna.org.qa/ar-QA/News-Area/News/2026-10/1/وزارة-البيية-والتغير-المناخي-تعلن-انطلاق-موسم-التخييم-الشتوي-اعتبارا-من-25-اكتوبر-الجاري",
+"countries": [
+"Kuwait",
+"Qatar"
+],
+"source": "Instagram",
+"status": "New",
+"price": 79.0,
+"price_label": "AED 79-109",
+"weight": 350.0,
+"signals": 2.0,
+"trend": "Seasonal",
+"note": "Qatar: winter camping season opened 25-Oct-26 and runs to 20-Apr-27; 2,991 camps last season (QNA, Oct-26, already in tracker). Kuwait: camping season runs 15 Nov to 15 Mar; tents, chairs, grills and charcoal are the named supplies, with camping kits at KD 50-300 (Kuwait Times, Nov-22, older). No source names this bag; the product is our inference",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c59",
+"img": null
+},
+{
+"type": "Candidate",
+"title": "Women's cotton-linen elastic-waist maxi skirt (Jaipur block print)",
+"url": "https://www.instagram.com/p/DeturGJlI__/",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Instagram",
+"status": "New",
+"price": 79.0,
+"price_label": "AED 79-119",
+"weight": 250.0,
+"signals": 1.0,
+"trend": "",
+"note": "KSA: Lavin Fashion IG post for a cotton-linen elastic-waist long skirt with tracked shipping across the Kingdom (20-Oct-26, tracker Instagram Pulse, #تسوق_اونلاين; 0 likes at scan). KSA: Arab News (22-Sep-26) on young Saudis mixing regional and embroidered styles into modern outfits (no figures, already in tracker)",
+"date": "09/11/2026",
+"india_cost": null,
+"landed": null,
+"margin": null,
+"id": "c60",
+"img": null
+},
+{
 "type": "Amazon",
 "title": "NutriCook Rapid Egg Cooker (7 eggs)",
 "url": "https://www.amazon.ae/dp/B07RCG9YQC",
@@ -1215,7 +1465,7 @@
 "movement": "",
 "note": "Electric: gate fail",
 "date": "03/10/2026",
-"id": "a50",
+"id": "a61",
 "img": "91b4d03f394782aa.jpg"
 },
 {
@@ -1234,7 +1484,7 @@
 "movement": "",
 "note": "Humidity; chemical desiccant",
 "date": "03/10/2026",
-"id": "a51",
+"id": "a62",
 "img": "4698c8eb21cae219.jpg"
 },
 {
@@ -1253,7 +1503,7 @@
 "movement": "",
 "note": "Battery; below AED 69 alone",
 "date": "03/10/2026",
-"id": "a52",
+"id": "a63",
 "img": "054f908a21584a36.jpg"
 },
 {
@@ -1272,7 +1522,7 @@
 "movement": "",
 "note": "Light; below AED 69 alone",
 "date": "03/10/2026",
-"id": "a53",
+"id": "a64",
 "img": null,
 "img_error": "Amazon captcha"
 },
@@ -1292,7 +1542,7 @@
 "movement": "",
 "note": "Light, India-sourceable; candidate",
 "date": "03/10/2026",
-"id": "a54",
+"id": "a65",
 "img": "c9bb434eebbf9268.jpg"
 },
 {
@@ -1311,7 +1561,7 @@
 "movement": "",
 "note": "India leather fit",
 "date": "03/10/2026",
-"id": "a55",
+"id": "a66",
 "img": "11cbe33d83bca7de.jpg"
 },
 {
@@ -1330,7 +1580,7 @@
 "movement": "",
 "note": "New entrant in top 20",
 "date": "03/10/2026",
-"id": "a56",
+"id": "a67",
 "img": "08d73810685aa14f.jpg"
 },
 {
@@ -1349,7 +1599,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a57",
+"id": "a68",
 "img": "7d88c65d492b555d.jpg"
 },
 {
@@ -1368,7 +1618,7 @@
 "movement": "",
 "note": "Liquid: gate fail",
 "date": "03/10/2026",
-"id": "a58",
+"id": "a69",
 "img": "dc3725bb60e87be3.jpg"
 },
 {
@@ -1387,7 +1637,7 @@
 "movement": "",
 "note": "K-beauty dominates top 10; liquid",
 "date": "03/10/2026",
-"id": "a59",
+"id": "a70",
 "img": "79a3d65cc2e494a7.jpg"
 },
 {
@@ -1406,7 +1656,7 @@
 "movement": "",
 "note": "Bulky",
 "date": "03/10/2026",
-"id": "a60",
+"id": "a71",
 "img": "0d153c5d39817315.jpg"
 },
 {
@@ -1425,7 +1675,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a61",
+"id": "a72",
 "img": "b3de60f755b12f1e.jpg"
 },
 {
@@ -1444,7 +1694,7 @@
 "movement": "",
 "note": "Matches UAE car-ornament ad signal",
 "date": "03/10/2026",
-"id": "a62",
+"id": "a73",
 "img": "33d2b1fa88410ca7.jpg"
 },
 {
@@ -1463,7 +1713,7 @@
 "movement": "",
 "note": "Gulf heat; candidate",
 "date": "03/10/2026",
-"id": "a63",
+"id": "a74",
 "img": "84cd6937020caf18.jpg"
 },
 {
@@ -1482,7 +1732,7 @@
 "movement": "",
 "note": "India textile fit; heavy",
 "date": "03/10/2026",
-"id": "a64",
+"id": "a75",
 "img": "e2fb5ef90c136e91.jpg"
 },
 {
@@ -1501,7 +1751,7 @@
 "movement": "",
 "note": "Indian-made brand",
 "date": "03/10/2026",
-"id": "a65",
+"id": "a76",
 "img": "0731d0c0d89bb63d.jpg"
 },
 {
@@ -1520,7 +1770,7 @@
 "movement": "",
 "note": "Very demo-able; candidate",
 "date": "03/10/2026",
-"id": "a66",
+"id": "a77",
 "img": "a423e5d859771471.jpg"
 },
 {
@@ -1539,7 +1789,7 @@
 "movement": "",
 "note": "Heavy multipack",
 "date": "03/10/2026",
-"id": "a67",
+"id": "a78",
 "img": "591afd8bbf26d48e.jpg"
 },
 {
@@ -1558,7 +1808,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a68",
+"id": "a79",
 "img": "a4080ab786fd54f7.jpg"
 },
 {
@@ -1577,7 +1827,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a69",
+"id": "a80",
 "img": "1c69b0b4c1a73729.jpg",
 "img_error": "Amazon captcha",
 "ref": true,
@@ -1599,7 +1849,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a70",
+"id": "a81",
 "img": "72bd72e76de15dc5.jpg",
 "img_error": "Amazon captcha",
 "ref": true,
@@ -1621,7 +1871,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a71",
+"id": "a82",
 "img": "5bd36b73e54e8378.jpg"
 },
 {
@@ -1640,7 +1890,7 @@
 "movement": "",
 "note": "India textile fit",
 "date": "03/10/2026",
-"id": "a72",
+"id": "a83",
 "img": "4ac0a5933f30bad0.jpg"
 },
 {
@@ -1659,7 +1909,7 @@
 "movement": "",
 "note": "Indian brand (Godrej) top-selling in KSA",
 "date": "03/10/2026",
-"id": "a73",
+"id": "a84",
 "img": "67482e1960d0336e.jpg"
 },
 {
@@ -1678,7 +1928,7 @@
 "movement": "",
 "note": "Indian brand",
 "date": "03/10/2026",
-"id": "a74",
+"id": "a85",
 "img": "766b782b6aaea30c.jpg"
 },
 {
@@ -1697,7 +1947,7 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a75",
+"id": "a86",
 "img": "e944604c95806c9f.jpg"
 },
 {
@@ -1716,9 +1966,8 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a76",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a87",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1736,9 +1985,8 @@
 "movement": "",
 "note": "Matches KSA Fordeal chopper ad (490 days)",
 "date": "03/10/2026",
-"id": "a77",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a88",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1756,9 +2004,8 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a78",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a89",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1776,9 +2023,8 @@
 "movement": "",
 "note": "Incense; India incense fit",
 "date": "03/10/2026",
-"id": "a79",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a90",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1796,9 +2042,8 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a80",
+"id": "a91",
 "img": "d6cd720111ce7003.jpg",
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0758SGPKF"
 },
@@ -1818,9 +2063,8 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a81",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a92",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1838,9 +2082,8 @@
 "movement": "",
 "note": "Incense; India incense fit",
 "date": "03/10/2026",
-"id": "a82",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a93",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1858,9 +2101,8 @@
 "movement": "",
 "note": "Electric",
 "date": "03/10/2026",
-"id": "a83",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a94",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1878,9 +2120,8 @@
 "movement": "",
 "note": "",
 "date": "03/10/2026",
-"id": "a84",
-"img": null,
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou"
+"id": "a95",
+"img": null
 },
 {
 "type": "Amazon",
@@ -1898,9 +2139,8 @@
 "movement": "",
 "note": "Indian brand (Milton)",
 "date": "03/10/2026",
-"id": "a85",
+"id": "a96",
 "img": "e57fe8deb27be5c8.jpg",
-"img_error": "HTTPSConnectionPool(host='www.noon.com', port=443): Read timed out. (read timeou",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B00MIYM0VS"
 },
@@ -1920,7 +2160,7 @@
 "movement": "Avg interest 23 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a86",
+"id": "a97",
 "img": null
 },
 {
@@ -1939,7 +2179,7 @@
 "movement": "Avg interest 15 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a87",
+"id": "a98",
 "img": null
 },
 {
@@ -1958,7 +2198,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a88",
+"id": "a99",
 "img": null
 },
 {
@@ -1977,7 +2217,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a89",
+"id": "a100",
 "img": null
 },
 {
@@ -1996,7 +2236,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a90",
+"id": "a101",
 "img": "7ba3fd38d6e45323.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CTFFKDKJ"
@@ -2017,7 +2257,7 @@
 "movement": "Avg interest 67 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a91",
+"id": "a102",
 "img": null
 },
 {
@@ -2036,7 +2276,7 @@
 "movement": "Avg interest 2 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a92",
+"id": "a103",
 "img": null
 },
 {
@@ -2055,7 +2295,7 @@
 "movement": "Avg interest 1 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a93",
+"id": "a104",
 "img": null
 },
 {
@@ -2074,7 +2314,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a94",
+"id": "a105",
 "img": null
 },
 {
@@ -2093,7 +2333,7 @@
 "movement": "Avg interest 0 of 100 vs the other 4 terms",
 "note": "Relative score, not volume",
 "date": "03/10/2026",
-"id": "a95",
+"id": "a106",
 "img": "7dc348a5db5849e8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FLJWNZXP"
@@ -2114,7 +2354,7 @@
 "movement": "+700% MoM, +2,500% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a96",
+"id": "a107",
 "img": null
 },
 {
@@ -2133,7 +2373,7 @@
 "movement": "+600% MoM, +10,000% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a97",
+"id": "a108",
 "img": null
 },
 {
@@ -2152,7 +2392,7 @@
 "movement": "+1,500% MoM, +80% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a98",
+"id": "a109",
 "img": null
 },
 {
@@ -2171,7 +2411,7 @@
 "movement": "+600% MoM, -70% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a99",
+"id": "a110",
 "img": null
 },
 {
@@ -2190,7 +2430,7 @@
 "movement": "+400% MoM, -60% YoY",
 "note": "Pinterest has no GCC region",
 "date": "03/10/2026",
-"id": "a100",
+"id": "a111",
 "img": "838938edb0809952.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0F2TDWSMH"
@@ -2211,7 +2451,7 @@
 "movement": "New in top 20",
 "note": "Seasonal: UAE National Day 2 Dec; India cotton fit",
 "date": "30/10/2026",
-"id": "a101",
+"id": "a112",
 "img": "fa28b667eaaba005.jpg"
 },
 {
@@ -2230,7 +2470,7 @@
 "movement": "New in top 20",
 "note": "Seasonal: National Day",
 "date": "30/10/2026",
-"id": "a102",
+"id": "a113",
 "img": "93ccbcdc3a18e1aa.jpg"
 },
 {
@@ -2249,7 +2489,7 @@
 "movement": "New in top 20",
 "note": "Light; India fit",
 "date": "30/10/2026",
-"id": "a103",
+"id": "a114",
 "img": "5a0439df5b8491e0.jpg"
 },
 {
@@ -2268,7 +2508,7 @@
 "movement": "New in top 20",
 "note": "Below AED 69 alone",
 "date": "30/10/2026",
-"id": "a104",
+"id": "a115",
 "img": "899522baf19bf152.jpg"
 },
 {
@@ -2287,7 +2527,7 @@
 "movement": "Down from #3 on 3 Oct",
 "note": "Cooling",
 "date": "30/10/2026",
-"id": "a105",
+"id": "a116",
 "img": "c9bb434eebbf9268.jpg"
 },
 {
@@ -2306,7 +2546,7 @@
 "movement": "Down from #1",
 "note": "",
 "date": "30/10/2026",
-"id": "a106",
+"id": "a117",
 "img": "06c460c05a3bf3d8.jpg",
 "img_error": "Amazon captcha",
 "ref": false,
@@ -2328,7 +2568,7 @@
 "movement": "Down from #5",
 "note": "Electric: gate fail",
 "date": "30/10/2026",
-"id": "a107",
+"id": "a118",
 "img": "91b4d03f394782aa.jpg"
 },
 {
@@ -2347,7 +2587,7 @@
 "movement": "Down from #7",
 "note": "Battery",
 "date": "30/10/2026",
-"id": "a108",
+"id": "a119",
 "img": "054f908a21584a36.jpg"
 },
 {
@@ -2366,7 +2606,7 @@
 "movement": "New in top 30",
 "note": "",
 "date": "30/10/2026",
-"id": "a109",
+"id": "a120",
 "img": "9bc5a0f3c8d5de77.jpg"
 },
 {
@@ -2385,7 +2625,7 @@
 "movement": "New in top 30",
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
-"id": "a110",
+"id": "a121",
 "img": "8a3e0a8b95f5224b.jpg"
 },
 {
@@ -2404,7 +2644,7 @@
 "movement": "",
 "note": "Car-freshener category holding",
 "date": "30/10/2026",
-"id": "a111",
+"id": "a122",
 "img": "b6d9ea182ca875f3.jpg"
 },
 {
@@ -2423,7 +2663,7 @@
 "movement": "Was #20",
 "note": "",
 "date": "30/10/2026",
-"id": "a112",
+"id": "a123",
 "img": "b3de60f755b12f1e.jpg"
 },
 {
@@ -2442,7 +2682,7 @@
 "movement": "Up from #12 on 3 Oct",
 "note": "Indian brand; India cotton fit",
 "date": "30/10/2026",
-"id": "a113",
+"id": "a124",
 "img": "e3365bc8b0fb25a7.jpg"
 },
 {
@@ -2461,7 +2701,7 @@
 "movement": "New in top 20",
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
-"id": "a114",
+"id": "a125",
 "img": "7dbc199a65fd0640.jpg"
 },
 {
@@ -2480,7 +2720,7 @@
 "movement": "Was #6",
 "note": "India textile fit",
 "date": "30/10/2026",
-"id": "a115",
+"id": "a126",
 "img": "16c48fa78fafa09d.jpg"
 },
 {
@@ -2499,7 +2739,7 @@
 "movement": "New in top 20",
 "note": "Indian brand",
 "date": "30/10/2026",
-"id": "a116",
+"id": "a127",
 "img": "721a7e1f2726fad0.jpg"
 },
 {
@@ -2518,7 +2758,7 @@
 "movement": "Was #14",
 "note": "",
 "date": "30/10/2026",
-"id": "a117",
+"id": "a128",
 "img": "5bd36b73e54e8378.jpg"
 },
 {
@@ -2537,7 +2777,7 @@
 "movement": "New in top 20",
 "note": "",
 "date": "30/10/2026",
-"id": "a118",
+"id": "a129",
 "img": "0b69f166efc4bd97.jpg"
 },
 {
@@ -2556,7 +2796,7 @@
 "movement": "New release",
 "note": "Brand item; reference for tumbler demand",
 "date": "31/10/2026",
-"id": "a119",
+"id": "a130",
 "img": "8d51ab4629d299ff.jpg"
 },
 {
@@ -2575,7 +2815,7 @@
 "movement": "New release",
 "note": "Ceramic: breakage risk",
 "date": "31/10/2026",
-"id": "a120",
+"id": "a131",
 "img": "961316fdebc08ec3.jpg"
 },
 {
@@ -2594,7 +2834,7 @@
 "movement": "New release",
 "note": "Battery: gate fail",
 "date": "31/10/2026",
-"id": "a121",
+"id": "a132",
 "img": "6ad28d7f5ec5b58a.jpg"
 },
 {
@@ -2613,7 +2853,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a122",
+"id": "a133",
 "img": "99c4797311ee7ee9.jpg"
 },
 {
@@ -2632,7 +2872,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a123",
+"id": "a134",
 "img": "f730adbdb68bd0e2.jpg"
 },
 {
@@ -2651,7 +2891,7 @@
 "movement": "New release",
 "note": "India textile fit (cotton bedding)",
 "date": "31/10/2026",
-"id": "a124",
+"id": "a135",
 "img": "9b060ea6e5b2737b.jpg"
 },
 {
@@ -2670,7 +2910,7 @@
 "movement": "New release",
 "note": "Below AED 69 alone",
 "date": "31/10/2026",
-"id": "a125",
+"id": "a136",
 "img": "dd45c59e70426c76.jpg"
 },
 {
@@ -2689,7 +2929,7 @@
 "movement": "New release",
 "note": "Indian festive decor; matches rangoli candidate",
 "date": "31/10/2026",
-"id": "a126",
+"id": "a137",
 "img": "9cd0521dfe5d4d13.jpg"
 },
 {
@@ -2708,7 +2948,7 @@
 "movement": "New release",
 "note": "Light; organiser category",
 "date": "31/10/2026",
-"id": "a127",
+"id": "a138",
 "img": "bd27cf69b3271860.jpg"
 },
 {
@@ -2727,7 +2967,7 @@
 "movement": "New release",
 "note": "Car accessories demand",
 "date": "31/10/2026",
-"id": "a128",
+"id": "a139",
 "img": "2b39512f559ecfc2.jpg"
 },
 {
@@ -2746,7 +2986,7 @@
 "movement": "New release",
 "note": "Light; bundle with other car items",
 "date": "31/10/2026",
-"id": "a129",
+"id": "a140",
 "img": "81c25bb1fd6b9d34.jpg"
 },
 {
@@ -2765,7 +3005,7 @@
 "movement": "New release",
 "note": "Car accessories",
 "date": "31/10/2026",
-"id": "a130",
+"id": "a141",
 "img": "f1143fc4d61acdb5.jpg"
 },
 {
@@ -2784,7 +3024,7 @@
 "movement": "New release",
 "note": "Light; India leather/PU fit",
 "date": "31/10/2026",
-"id": "a131",
+"id": "a142",
 "img": "aa96b75142fbbc4a.jpg"
 },
 {
@@ -2803,7 +3043,7 @@
 "movement": "New release",
 "note": "Indian brand on UAE new releases; liquid: gate fail for us",
 "date": "31/10/2026",
-"id": "a132",
+"id": "a143",
 "img": "5f9e7ca8c9bbdf61.jpg"
 },
 {
@@ -2822,7 +3062,7 @@
 "movement": "New release",
 "note": "Indian brand; liquid: gate fail",
 "date": "31/10/2026",
-"id": "a133",
+"id": "a144",
 "img": "74d6f0557946bee1.jpg"
 },
 {
@@ -2841,7 +3081,7 @@
 "movement": "New release",
 "note": "Light, no liquid; demonstrable",
 "date": "31/10/2026",
-"id": "a134",
+"id": "a145",
 "img": "cfa804fcac437416.jpg"
 },
 {
@@ -2860,7 +3100,7 @@
 "movement": "New release",
 "note": "Bundle only",
 "date": "31/10/2026",
-"id": "a135",
+"id": "a146",
 "img": "3afaab57446ee23e.jpg"
 },
 {
@@ -2879,7 +3119,7 @@
 "movement": "New release",
 "note": "Seasonal: National Day 2 Dec",
 "date": "31/10/2026",
-"id": "a136",
+"id": "a147",
 "img": "aa467c87063b5fe7.jpg"
 },
 {
@@ -2898,7 +3138,7 @@
 "movement": "New release",
 "note": "Seasonal: India garment fit",
 "date": "31/10/2026",
-"id": "a137",
+"id": "a148",
 "img": "d7d36e2d5f28c1e9.jpg"
 },
 {
@@ -2917,7 +3157,7 @@
 "movement": "New release",
 "note": "Seasonal",
 "date": "31/10/2026",
-"id": "a138",
+"id": "a149",
 "img": "eb9134ba81a61b74.jpg"
 },
 {
@@ -2936,7 +3176,7 @@
 "movement": "New release",
 "note": "Seasonal: confirms National Day tee candidate",
 "date": "31/10/2026",
-"id": "a139",
+"id": "a150",
 "img": "107cda4ab93851e0.jpg"
 },
 {
@@ -2955,7 +3195,7 @@
 "movement": "New release",
 "note": "Squishy craze also on YouTube",
 "date": "31/10/2026",
-"id": "a140",
+"id": "a151",
 "img": "94c74aa442b7e325.jpg"
 },
 {
@@ -2974,7 +3214,7 @@
 "movement": "New release",
 "note": "Electric: gate fail",
 "date": "31/10/2026",
-"id": "a141",
+"id": "a152",
 "img": "bd8cbbb47c34e8e5.jpg"
 },
 {
@@ -2993,7 +3233,7 @@
 "movement": "New release",
 "note": "Bakhoor category active",
 "date": "31/10/2026",
-"id": "a142",
+"id": "a153",
 "img": "76c78c34384097a8.jpg"
 },
 {
@@ -3012,7 +3252,7 @@
 "movement": "New release",
 "note": "Light; India textile fit",
 "date": "31/10/2026",
-"id": "a143",
+"id": "a154",
 "img": "da0ff405619ea5b6.jpg"
 },
 {
@@ -3031,7 +3271,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a144",
+"id": "a155",
 "img": "d92a2fc72c16dade.jpg"
 },
 {
@@ -3050,7 +3290,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a145",
+"id": "a156",
 "img": "f0ff8e648965755e.jpg"
 },
 {
@@ -3069,7 +3309,7 @@
 "movement": "New release",
 "note": "Bulky",
 "date": "31/10/2026",
-"id": "a146",
+"id": "a157",
 "img": "3ac2273b2bb0d87f.jpg"
 },
 {
@@ -3088,7 +3328,7 @@
 "movement": "New release",
 "note": "Light; national-pride gift",
 "date": "31/10/2026",
-"id": "a147",
+"id": "a158",
 "img": "b56dc0b9c7839457.jpg"
 },
 {
@@ -3107,7 +3347,7 @@
 "movement": "New release",
 "note": "Light; car accessories",
 "date": "31/10/2026",
-"id": "a148",
+"id": "a159",
 "img": "563634c2ec383b28.jpg"
 },
 {
@@ -3126,7 +3366,7 @@
 "movement": "New release",
 "note": "Car organiser",
 "date": "31/10/2026",
-"id": "a149",
+"id": "a160",
 "img": "ab7964942baf0ea5.jpg"
 },
 {
@@ -3145,7 +3385,7 @@
 "movement": "New release",
 "note": "Heavy-ish",
 "date": "31/10/2026",
-"id": "a150",
+"id": "a161",
 "img": "5039f1797f32f3cc.jpg"
 },
 {
@@ -3164,7 +3404,7 @@
 "movement": "New release",
 "note": "Perfume: liquid gate fail",
 "date": "31/10/2026",
-"id": "a151",
+"id": "a162",
 "img": "244ce0a343575c35.jpg"
 },
 {
@@ -3183,7 +3423,7 @@
 "movement": "New release",
 "note": "Perfume: liquid gate fail",
 "date": "31/10/2026",
-"id": "a152",
+"id": "a163",
 "img": "daf995d847e68177.jpg"
 },
 {
@@ -3202,7 +3442,7 @@
 "movement": "New release",
 "note": "Bundle only",
 "date": "31/10/2026",
-"id": "a153",
+"id": "a164",
 "img": "5162082911163aed.jpg"
 },
 {
@@ -3221,7 +3461,7 @@
 "movement": "New release",
 "note": "India leather fit",
 "date": "31/10/2026",
-"id": "a154",
+"id": "a165",
 "img": "e1d6b372308709f6.jpg"
 },
 {
@@ -3240,7 +3480,7 @@
 "movement": "New release",
 "note": "India cotton fit; socks keep showing",
 "date": "31/10/2026",
-"id": "a155",
+"id": "a166",
 "img": "28568b315cb76571.jpg"
 },
 {
@@ -3259,7 +3499,7 @@
 "movement": "New release",
 "note": "India cotton fit",
 "date": "31/10/2026",
-"id": "a156",
+"id": "a167",
 "img": "8e3930797159a598.jpg"
 },
 {
@@ -3278,7 +3518,7 @@
 "movement": "New release",
 "note": "Light; travel",
 "date": "31/10/2026",
-"id": "a157",
+"id": "a168",
 "img": "5bd88293696a0317.jpg"
 },
 {
@@ -3297,7 +3537,7 @@
 "movement": "New release",
 "note": "Activewear demand",
 "date": "31/10/2026",
-"id": "a158",
+"id": "a169",
 "img": "6bf450ac6ad326dd.jpg"
 },
 {
@@ -3316,7 +3556,7 @@
 "movement": "New release",
 "note": "Squishy craze #1 in KSA new toys",
 "date": "31/10/2026",
-"id": "a159",
+"id": "a170",
 "img": "0a048a407332fc00.jpg"
 },
 {
@@ -3335,7 +3575,7 @@
 "movement": "New release",
 "note": "Seasonal: winter beach season",
 "date": "31/10/2026",
-"id": "a160",
+"id": "a171",
 "img": "afa0c48a4ab69bec.jpg"
 },
 {
@@ -3352,7 +3592,7 @@
 "price_label": "",
 "note": "Gate pass: light, cheap",
 "date": "03/10/2026",
-"id": "m161",
+"id": "m172",
 "img": "1e84340492955b24.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GSW8XB2T"
@@ -3371,7 +3611,7 @@
 "price_label": "",
 "note": "Likely glass liner + heavy: gate fail",
 "date": "03/10/2026",
-"id": "m162",
+"id": "m173",
 "img": "c36b1461c407ae74.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DDJ8L2MS"
@@ -3390,7 +3630,7 @@
 "price_label": "",
 "note": "India cotton sourcing strength; gate pass",
 "date": "03/10/2026",
-"id": "m163",
+"id": "m174",
 "img": "b8d414b96dfc5e13.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G8V53XVK"
@@ -3409,7 +3649,7 @@
 "price_label": "",
 "note": "Cream/medical claim: gate fail",
 "date": "03/10/2026",
-"id": "m164",
+"id": "m175",
 "img": "087ea19f24818098.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXN6Y8BS"
@@ -3428,7 +3668,7 @@
 "price_label": "",
 "note": "Same advertiser network also in Qatar",
 "date": "03/10/2026",
-"id": "m165",
+"id": "m176",
 "img": null
 },
 {
@@ -3445,7 +3685,7 @@
 "price_label": "",
 "note": "Food: gate fail",
 "date": "03/10/2026",
-"id": "m166",
+"id": "m177",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -3464,7 +3704,7 @@
 "price_label": "",
 "note": "Longest-running in scan; manual mini chopper is the India-sourceable version",
 "date": "03/10/2026",
-"id": "m167",
+"id": "m178",
 "img": "fa770ee720dfcdce.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0DN1V3PHF"
@@ -3483,7 +3723,7 @@
 "price_label": "",
 "note": "Too heavy: gate fail",
 "date": "03/10/2026",
-"id": "m168",
+"id": "m179",
 "img": "1a91e16364644803.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GKPVHQ8C"
@@ -3502,7 +3742,7 @@
 "price_label": "",
 "note": "Battery: gate fail; heel-care demand signal",
 "date": "03/10/2026",
-"id": "m169",
+"id": "m180",
 "img": "ebaf10c656904c4d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B092PL7GLM"
@@ -3521,7 +3761,7 @@
 "price_label": "",
 "note": "Gate pass: light, cheap, demo-able",
 "date": "03/10/2026",
-"id": "m170",
+"id": "m181",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -3540,7 +3780,7 @@
 "price_label": "",
 "note": "Heavy appliance: gate fail",
 "date": "03/10/2026",
-"id": "m171",
+"id": "m182",
 "img": "6d8ab6c77345f78c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B084Q5XN6P"
@@ -3559,7 +3799,7 @@
 "price_label": "",
 "note": "Seasonal; bulky",
 "date": "03/10/2026",
-"id": "m172",
+"id": "m183",
 "img": "f094bea2da89c9a3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B000SN61UC"
@@ -3578,7 +3818,7 @@
 "price_label": "",
 "note": "Liquid: gate fail; 2 ad copies",
 "date": "03/10/2026",
-"id": "m173",
+"id": "m184",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3597,7 +3837,7 @@
 "price_label": "",
 "note": "Same product run by 3 advertisers in KW; liquid: gate fail",
 "date": "03/10/2026",
-"id": "m174",
+"id": "m185",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3616,7 +3856,7 @@
 "price_label": "",
 "note": "Same product, 3rd advertiser",
 "date": "03/10/2026",
-"id": "m175",
+"id": "m186",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3635,7 +3875,7 @@
 "price_label": "",
 "note": "Same product, 2nd advertiser",
 "date": "03/10/2026",
-"id": "m176",
+"id": "m187",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -3654,7 +3894,7 @@
 "price_label": "",
 "note": "Ointment: gate fail; heel-pain demand",
 "date": "03/10/2026",
-"id": "m177",
+"id": "m188",
 "img": "fb22a89b082078c3.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FLVP5G9Q"
@@ -3673,7 +3913,7 @@
 "price_label": "",
 "note": "2nd advertiser on heel pain",
 "date": "03/10/2026",
-"id": "m178",
+"id": "m189",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -3692,7 +3932,7 @@
 "price_label": "",
 "note": "Cream: gate fail",
 "date": "03/10/2026",
-"id": "m179",
+"id": "m190",
 "img": "9a6c3d6c86620450.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GXMWDZM7"
@@ -3711,7 +3951,7 @@
 "price_label": "",
 "note": "Electronics/battery: gate fail",
 "date": "03/10/2026",
-"id": "m180",
+"id": "m191",
 "img": "d6c93d6ad5b919fb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07F1SLX32"
@@ -3730,7 +3970,7 @@
 "price_label": "",
 "note": "Found in UAE search, ad copy targets #Kuwait; running since 2021",
 "date": "03/10/2026",
-"id": "m181",
+"id": "m192",
 "img": "15406f12b4b5aa02.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07JKG6W9P"
@@ -3749,7 +3989,7 @@
 "price_label": "",
 "note": "Gate pass; matches Kuwait sunglasses signal",
 "date": "03/10/2026",
-"id": "m182",
+"id": "m193",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -3768,7 +4008,7 @@
 "price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m183",
+"id": "m194",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -3787,7 +4027,7 @@
 "price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m184",
+"id": "m195",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -3806,7 +4046,7 @@
 "price_label": "",
 "note": "Electronic, heavy-ish",
 "date": "03/10/2026",
-"id": "m185",
+"id": "m196",
 "img": "e830b49b103a888d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0GQBM85DF"
@@ -3825,7 +4065,7 @@
 "price_label": "",
 "note": "Watch cell battery; check courier rules",
 "date": "03/10/2026",
-"id": "m186",
+"id": "m197",
 "img": "d39ff94761eb7585.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D45GHRTW"
@@ -3844,7 +4084,7 @@
 "price_label": "",
 "note": "Chemical: gate fail",
 "date": "03/10/2026",
-"id": "m187",
+"id": "m198",
 "img": "323f1c0bc2114a2f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0H9JDLK84"
@@ -3863,7 +4103,7 @@
 "price_label": "",
 "note": "Counterfeit-style: avoid",
 "date": "03/10/2026",
-"id": "m188",
+"id": "m199",
 "img": null
 },
 {
@@ -3880,7 +4120,7 @@
 "price_label": "29 OMR",
 "note": "Probably over 400 g",
 "date": "03/10/2026",
-"id": "m189",
+"id": "m200",
 "img": "0be2d150998b5cdb.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPY1N7XC"
@@ -3899,7 +4139,7 @@
 "price_label": "",
 "note": "Bulky: gate fail",
 "date": "03/10/2026",
-"id": "m190",
+"id": "m201",
 "img": "731d3ae3c1fc857f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0D8FQDW2H"
@@ -3918,7 +4158,7 @@
 "price_label": "",
 "note": "Heavy: gate fail",
 "date": "03/10/2026",
-"id": "m191",
+"id": "m202",
 "img": "ccedff2bebb51509.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G63SMWP8"
@@ -3937,7 +4177,7 @@
 "price_label": "",
 "note": "Liquid: gate fail; many copies",
 "date": "03/10/2026",
-"id": "m192",
+"id": "m203",
 "img": null
 },
 {
@@ -3954,7 +4194,7 @@
 "price_label": "",
 "note": "India textile fit; light; gate pass",
 "date": "30/10/2026",
-"id": "m193",
+"id": "m204",
 "img": "a6af3c63292f11e7.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HC4761TK"
@@ -3973,7 +4213,7 @@
 "price_label": "",
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m194",
+"id": "m205",
 "img": "3abcd27dbb43ff9a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CWCQWWZS"
@@ -3992,7 +4232,7 @@
 "price_label": "",
 "note": "Still running since 3 Oct scan (was 118 days)",
 "date": "30/10/2026",
-"id": "m195",
+"id": "m206",
 "img": null
 },
 {
@@ -4009,7 +4249,7 @@
 "price_label": "",
 "note": "Food: gate fail; still running",
 "date": "30/10/2026",
-"id": "m196",
+"id": "m207",
 "img": "93d40141abf8b236.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FBLK8MXZ"
@@ -4028,7 +4268,7 @@
 "price_label": "",
 "note": "Liquid/cosmetic: gate fail",
 "date": "30/10/2026",
-"id": "m197",
+"id": "m208",
 "img": "c1dac029c026a8ac.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B082WZTJV5"
@@ -4047,7 +4287,7 @@
 "price_label": "",
 "note": "India Tiruppur fit",
 "date": "30/10/2026",
-"id": "m198",
+"id": "m209",
 "img": "1fbb543adc5d2c31.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07FJMHKZG"
@@ -4066,7 +4306,7 @@
 "price_label": "AED 100",
 "note": "Price benchmark: AED 100 for 6; bundle model",
 "date": "30/10/2026",
-"id": "m199",
+"id": "m210",
 "img": "d32f204661e318d5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07VJBBG8Y"
@@ -4085,7 +4325,7 @@
 "price_label": "",
 "note": "India cotton fit",
 "date": "30/10/2026",
-"id": "m200",
+"id": "m211",
 "img": "9a8be6bb62a432b0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B00W04OVJU"
@@ -4104,7 +4344,7 @@
 "price_label": "",
 "note": "Still running since 3 Oct (was 155 days); gate pass",
 "date": "30/10/2026",
-"id": "m201",
+"id": "m212",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -4123,7 +4363,7 @@
 "price_label": "",
 "note": "2nd advertiser, same product",
 "date": "30/10/2026",
-"id": "m202",
+"id": "m213",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -4142,7 +4382,7 @@
 "price_label": "",
 "note": "Light; avoid medical claims",
 "date": "30/10/2026",
-"id": "m203",
+"id": "m214",
 "img": "b2b7b0bf322c0ac8.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HF7JKP7D"
@@ -4161,7 +4401,7 @@
 "price_label": "",
 "note": "Weight-loss claim: risky",
 "date": "30/10/2026",
-"id": "m204",
+"id": "m215",
 "img": "57a5f45e6f531eb2.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B017AGGBTU"
@@ -4180,7 +4420,7 @@
 "price_label": "",
 "note": "Likely over 400 g",
 "date": "30/10/2026",
-"id": "m205",
+"id": "m216",
 "img": "72d2ee3a4b8cdc97.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CG19TN1Y"
@@ -4199,7 +4439,7 @@
 "price_label": "SAR 99",
 "note": "Price benchmark SAR 99",
 "date": "30/10/2026",
-"id": "m206",
+"id": "m217",
 "img": "b11352f09fc7b498.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0F5QF82DX"
@@ -4218,7 +4458,7 @@
 "price_label": "",
 "note": "Confirms chopper demand; 49 live chopper ads in KSA",
 "date": "30/10/2026",
-"id": "m207",
+"id": "m218",
 "img": "7a58d1b74650732e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B08Y8FBRF8"
@@ -4237,7 +4477,7 @@
 "price_label": "",
 "note": "Chopper/grinder category",
 "date": "30/10/2026",
-"id": "m208",
+"id": "m219",
 "img": "ee7eadc36d7ef2ae.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B06WWN6SQP"
@@ -4256,7 +4496,7 @@
 "price_label": "SAR 89",
 "note": "Electric: gate fail; longest in category",
 "date": "30/10/2026",
-"id": "m209",
+"id": "m220",
 "img": "ae35004be7bb733a.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CD5YG5BF"
@@ -4275,7 +4515,7 @@
 "price_label": "",
 "note": "43 live posture ads in KSA",
 "date": "30/10/2026",
-"id": "m210",
+"id": "m221",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -4294,7 +4534,7 @@
 "price_label": "",
 "note": "Same product, 3rd advertiser",
 "date": "30/10/2026",
-"id": "m211",
+"id": "m222",
 "img": "f18bfab5868dad8f.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BDZPWY73"
@@ -4313,7 +4553,7 @@
 "price_label": "",
 "note": "Still running since 3 Oct (was 72 days)",
 "date": "30/10/2026",
-"id": "m212",
+"id": "m223",
 "img": "f075a49333a73ca5.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0FQ9WBMTS"
@@ -4332,7 +4572,7 @@
 "price_label": "",
 "note": "Liquid: gate fail; still running",
 "date": "30/10/2026",
-"id": "m213",
+"id": "m224",
 "img": "6e394b1a21d1ee2c.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09S4N48DQ"
@@ -4351,7 +4591,7 @@
 "price_label": "",
 "note": "Also advertised in Qatar (81 days); check if battery",
 "date": "30/10/2026",
-"id": "m214",
+"id": "m225",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -4370,7 +4610,7 @@
 "price_label": "",
 "note": "Matches sunglasses candidate",
 "date": "30/10/2026",
-"id": "m215",
+"id": "m226",
 "img": "a5b04e85475679c1.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B07RC3GT4T"
@@ -4389,7 +4629,7 @@
 "price_label": "",
 "note": "Bulky",
 "date": "30/10/2026",
-"id": "m216",
+"id": "m227",
 "img": "b506d5c678e85742.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0G2W8T7B6"
@@ -4408,7 +4648,7 @@
 "price_label": "",
 "note": "110 live heel-pain ads in Kuwait",
 "date": "30/10/2026",
-"id": "m217",
+"id": "m228",
 "img": "3f537b34287631d0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0BPWC6HDQ"
@@ -4427,7 +4667,7 @@
 "price_label": "",
 "note": "Close to heel-cup idea; check product",
 "date": "30/10/2026",
-"id": "m218",
+"id": "m229",
 "img": "faf6cbfe4f751398.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B09NTL8146"
@@ -4446,7 +4686,7 @@
 "price_label": "",
 "note": "Foot support category",
 "date": "30/10/2026",
-"id": "m219",
+"id": "m230",
 "img": "eb8b97f105f19816.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CMYF53RT"
@@ -4465,7 +4705,7 @@
 "price_label": "",
 "note": "Still running since 3 Oct (was 70 days)",
 "date": "30/10/2026",
-"id": "m220",
+"id": "m231",
 "img": "2815afedc304553e.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0C3H556R5"
@@ -4484,7 +4724,7 @@
 "price_label": "",
 "note": "Same advertiser as Kuwait",
 "date": "30/10/2026",
-"id": "m221",
+"id": "m232",
 "img": "37db80af73f818f0.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CT2WSCKP"
@@ -4503,7 +4743,7 @@
 "price_label": "",
 "note": "Heavy: gate fail; still running",
 "date": "30/10/2026",
-"id": "m222",
+"id": "m233",
 "img": "85fb30d7513a1253.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CSJXXZ8K"
@@ -4522,7 +4762,7 @@
 "price_label": "",
 "note": "Battery: gate fail",
 "date": "30/10/2026",
-"id": "m223",
+"id": "m234",
 "img": "4ebed75e493de060.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HHHR5YHZ"
@@ -4541,7 +4781,7 @@
 "price_label": "1.5 OMR",
 "note": "Too cheap alone; bundle only",
 "date": "30/10/2026",
-"id": "m224",
+"id": "m235",
 "img": "8afa4c71ea891a5d.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0HGBD4YWC"
@@ -4560,10 +4800,32 @@
 "price_label": "19.99 OMR",
 "note": "Heavy/battery: gate fail",
 "date": "30/10/2026",
-"id": "m225",
+"id": "m236",
 "img": "a2b5365539e67437.jpg",
 "ref": true,
 "ref_url": "https://www.amazon.ae/dp/B0CS3B7MD8"
+},
+{
+"type": "YouTube",
+"title": "BAAJA BALL 🎺🎵⚾ #shorts #youtubeshorts #cricket #unboxing #ball #funny",
+"url": "https://www.youtube.com/watch?v=uJ5vPJ-hGgc",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Box Of Vengeance",
+"query": "unboxing gadgets",
+"views": 16816359.0,
+"likes": 747986.0,
+"comments": 3471.0,
+"published": "29/10/2026",
+"date": "09/11/2026",
+"yt": "uJ5vPJ-hGgc",
+"id": "y237",
+"img": "ff63091414f79aeb.jpg"
 },
 {
 "type": "YouTube",
@@ -4584,7 +4846,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "xtUEmdKeC_8",
-"id": "y226",
+"id": "y238",
 "img": "bc0af2e2342fd3d3.jpg"
 },
 {
@@ -4606,8 +4868,30 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "u1-RU1Bn0c4",
-"id": "y227",
+"id": "y239",
 "img": "f025d472d767b669.jpg"
+},
+{
+"type": "YouTube",
+"title": "The Walmart Find That Saved Dinner… Almost 🔥",
+"url": "https://www.youtube.com/watch?v=ZnLdfZ2vTkI",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 11107458.0,
+"likes": 78104.0,
+"comments": 49.0,
+"published": "28/10/2026",
+"date": "09/11/2026",
+"yt": "ZnLdfZ2vTkI",
+"id": "y240",
+"img": "20bb4dd63074b8be.jpg"
 },
 {
 "type": "YouTube",
@@ -4624,7 +4908,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "QVv3mQzlrN0",
-"id": "y228",
+"id": "y241",
 "img": "6ec43d79b95ae762.jpg"
 },
 {
@@ -4646,30 +4930,8 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "p52mbzhBsfw",
-"id": "y229",
+"id": "y242",
 "img": "eb67ccf19390f051.jpg"
-},
-{
-"type": "YouTube",
-"title": "BAAJA BALL 🎺🎵⚾ #shorts #youtubeshorts #cricket #unboxing #ball #funny",
-"url": "https://www.youtube.com/watch?v=uJ5vPJ-hGgc",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Box Of Vengeance",
-"query": "unboxing gadgets",
-"views": 9353612.0,
-"likes": 476247.0,
-"comments": 2747.0,
-"published": "29/10/2026",
-"date": "02/11/2026",
-"yt": "uJ5vPJ-hGgc",
-"id": "y230",
-"img": "ff63091414f79aeb.jpg"
 },
 {
 "type": "YouTube",
@@ -4690,7 +4952,7 @@
 "published": "21/10/2026",
 "date": "02/11/2026",
 "yt": "jod0VRBQiYE",
-"id": "y231",
+"id": "y243",
 "img": "d4f902fe73b2b643.jpg"
 },
 {
@@ -4709,30 +4971,8 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "IxJSU7wVTfk",
-"id": "y232",
+"id": "y244",
 "img": "5c8c245b7829e1dd.jpg"
-},
-{
-"type": "YouTube",
-"title": "The Amazon Find That Saved Dinner… Almost 🔥",
-"url": "https://www.youtube.com/watch?v=ZnLdfZ2vTkI",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "RumiRumiR",
-"query": "amazon finds",
-"views": 8437837.0,
-"likes": 58885.0,
-"comments": 33.0,
-"published": "28/10/2026",
-"date": "02/11/2026",
-"yt": "ZnLdfZ2vTkI",
-"id": "y233",
-"img": "20bb4dd63074b8be.jpg"
 },
 {
 "type": "YouTube",
@@ -4753,7 +4993,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "51-JrldTbWg",
-"id": "y234",
+"id": "y245",
 "img": "f30f371caa764e3e.jpg"
 },
 {
@@ -4775,7 +5015,7 @@
 "published": "19/10/2026",
 "date": "02/11/2026",
 "yt": "7LTQ89YwnYQ",
-"id": "y235",
+"id": "y246",
 "img": "73824917b511cf2c.jpg"
 },
 {
@@ -4797,7 +5037,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "AZZ3Ve_enpI",
-"id": "y236",
+"id": "y247",
 "img": "ed2e25387a80b689.jpg"
 },
 {
@@ -4818,7 +5058,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "1t9nqw6SfO0",
-"id": "y237",
+"id": "y248",
 "img": "ba8ee54a0ffda177.jpg"
 },
 {
@@ -4840,7 +5080,7 @@
 "published": "23/10/2026",
 "date": "02/11/2026",
 "yt": "YXwHuSyVe4k",
-"id": "y238",
+"id": "y249",
 "img": "56458b81ac886bdd.jpg"
 },
 {
@@ -4862,7 +5102,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "BQIwRiMxHXc",
-"id": "y239",
+"id": "y250",
 "img": "45fe638bb5a36103.jpg"
 },
 {
@@ -4884,7 +5124,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "fmOz8LwuqzY",
-"id": "y240",
+"id": "y251",
 "img": "ee15b3a4d018a55f.jpg"
 },
 {
@@ -4906,7 +5146,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "rPSDGVo1QeY",
-"id": "y241",
+"id": "y252",
 "img": "59f904cbfeddf456.jpg"
 },
 {
@@ -4925,7 +5165,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "_RjsF8VjDUA",
-"id": "y242",
+"id": "y253",
 "img": "efe4dba46efa6fe1.jpg"
 },
 {
@@ -4947,7 +5187,7 @@
 "published": "26/10/2026",
 "date": "02/11/2026",
 "yt": "ewIFSTyydzs",
-"id": "y243",
+"id": "y254",
 "img": "f655e67e18bbc55f.jpg"
 },
 {
@@ -4969,8 +5209,51 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "xrJIiCjnif0",
-"id": "y244",
+"id": "y255",
 "img": "3b25fce019aacbe8.jpg"
+},
+{
+"type": "YouTube",
+"title": "TIK TOK M'A FAIT ACHETER ÇA ! (C'est une révolution ?!) #12",
+"url": "https://www.youtube.com/watch?v=v9wYSebfh4o",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman"
+],
+"source": "JOYCA",
+"query": "tiktok made me buy it",
+"views": 5800563.0,
+"likes": 157656.0,
+"comments": 2294.0,
+"published": "01/11/2026",
+"date": "09/11/2026",
+"yt": "v9wYSebfh4o",
+"id": "y256",
+"img": "2546a8be07bfbafc.jpg"
+},
+{
+"type": "YouTube",
+"title": "Unboxing 10,000,000 Diamond play button 😱 💎 #shorts",
+"url": "https://www.youtube.com/watch?v=dp9U2jdh2ck",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Paintellectual PriyA",
+"query": "unboxing gadgets",
+"views": 5776583.0,
+"likes": 84962.0,
+"comments": 1108.0,
+"published": "28/10/2026",
+"date": "09/11/2026",
+"yt": "dp9U2jdh2ck",
+"id": "y257",
+"img": "abb41bd888b8f6dd.jpg"
 },
 {
 "type": "YouTube",
@@ -4991,7 +5274,7 @@
 "published": "22/10/2026",
 "date": "26/10/2026",
 "yt": "tTJFfhaOQ-g",
-"id": "y245",
+"id": "y258",
 "img": "6c99280bbe2810da.jpg"
 },
 {
@@ -5013,7 +5296,7 @@
 "published": "21/10/2026",
 "date": "26/10/2026",
 "yt": "jDWqDTTXTlY",
-"id": "y246",
+"id": "y259",
 "img": "29692ac02e703b9e.jpg"
 },
 {
@@ -5035,7 +5318,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "QDaO3sKAfKU",
-"id": "y247",
+"id": "y260",
 "img": "2fa0a22018aaf7ed.jpg"
 },
 {
@@ -5057,7 +5340,7 @@
 "published": "19/10/2026",
 "date": "02/11/2026",
 "yt": "0v_1mLrEu5Y",
-"id": "y248",
+"id": "y261",
 "img": "660a66fdc3008ff5.jpg"
 },
 {
@@ -5079,7 +5362,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "LlhTEttKcwQ",
-"id": "y249",
+"id": "y262",
 "img": "1e4493167af01c38.jpg"
 },
 {
@@ -5101,8 +5384,30 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "LNZIhKPSrXY",
-"id": "y250",
+"id": "y263",
 "img": "527eff513f195a05.jpg"
+},
+{
+"type": "YouTube",
+"title": "The Checkpoint Rule Changed Overnight: Bangs or No Bangs? (Walmart Find)",
+"url": "https://www.youtube.com/watch?v=9TlGgG7ioOU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 4831341.0,
+"likes": 45728.0,
+"comments": 27.0,
+"published": "27/10/2026",
+"date": "09/11/2026",
+"yt": "9TlGgG7ioOU",
+"id": "y264",
+"img": "8abc2fbfe45da7fb.jpg"
 },
 {
 "type": "YouTube",
@@ -5123,7 +5428,7 @@
 "published": "30/10/2026",
 "date": "02/11/2026",
 "yt": "oUF4uvkrgRw",
-"id": "y251",
+"id": "y265",
 "img": "6ade60b94d67ad0c.jpg"
 },
 {
@@ -5145,7 +5450,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "qZAgXS9zeVk",
-"id": "y252",
+"id": "y266",
 "img": "85bd2f3ef30df8ed.jpg"
 },
 {
@@ -5167,7 +5472,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "0nJm0-1Vjvo",
-"id": "y253",
+"id": "y267",
 "img": "560fa0ae75680dde.jpg"
 },
 {
@@ -5189,7 +5494,7 @@
 "published": "21/10/2026",
 "date": "02/11/2026",
 "yt": "VcEcbTKhET0",
-"id": "y254",
+"id": "y268",
 "img": "70b676fe8ce7ae28.jpg"
 },
 {
@@ -5211,7 +5516,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "ZI_JpzKc13I",
-"id": "y255",
+"id": "y269",
 "img": "daf82f3fd6ae87c2.jpg"
 },
 {
@@ -5233,7 +5538,7 @@
 "published": "24/10/2026",
 "date": "02/11/2026",
 "yt": "dLSlklUmhfI",
-"id": "y256",
+"id": "y270",
 "img": "6168cf4a60e3aced.jpg"
 },
 {
@@ -5255,7 +5560,7 @@
 "published": "24/10/2026",
 "date": "02/11/2026",
 "yt": "veQ4cveZ-ro",
-"id": "y257",
+"id": "y271",
 "img": "1b4c9d4922efa1df.jpg"
 },
 {
@@ -5277,7 +5582,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "YV55rCt3S2c",
-"id": "y258",
+"id": "y272",
 "img": "741b13f0c8af1424.jpg"
 },
 {
@@ -5299,7 +5604,7 @@
 "published": "28/09/2026",
 "date": "12/10/2026",
 "yt": "SFZCCwznp1Y",
-"id": "y259",
+"id": "y273",
 "img": "41dc71e423f0d6a4.jpg"
 },
 {
@@ -5321,8 +5626,30 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "NaS9MfBWvyg",
-"id": "y260",
+"id": "y274",
 "img": "74b6c395ab03c25f.jpg"
+},
+{
+"type": "YouTube",
+"title": "Amazon Products You Don't Want To Miss #amazonfinds  #amazonproducts  #amazongadgets",
+"url": "https://www.youtube.com/watch?v=XNXPWzNog7M",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "iFindsLab",
+"query": "amazon finds",
+"views": 4312829.0,
+"likes": 127035.0,
+"comments": 1093.0,
+"published": "28/10/2026",
+"date": "09/11/2026",
+"yt": "XNXPWzNog7M",
+"id": "y275",
+"img": "899a0746fae3be8c.jpg"
 },
 {
 "type": "YouTube",
@@ -5343,7 +5670,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "XK5wZbhAaVs",
-"id": "y261",
+"id": "y276",
 "img": "9bf10bbe7b1fc584.jpg"
 },
 {
@@ -5365,7 +5692,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "xvDltGHNql8",
-"id": "y262",
+"id": "y277",
 "img": "988bc0fc3109ed1b.jpg"
 },
 {
@@ -5387,7 +5714,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "Mzy5D2RGdio",
-"id": "y263",
+"id": "y278",
 "img": "3feb1c85361de96b.jpg"
 },
 {
@@ -5409,7 +5736,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "q6kxABAOF_E",
-"id": "y264",
+"id": "y279",
 "img": "9b5354e4e75231d0.jpg"
 },
 {
@@ -5431,7 +5758,7 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "uchwc-W5SsA",
-"id": "y265",
+"id": "y280",
 "img": "d0ac2a991bba2d6e.jpg"
 },
 {
@@ -5453,8 +5780,52 @@
 "published": "12/10/2026",
 "date": "19/10/2026",
 "yt": "WSOwdeNw8ZA",
-"id": "y266",
+"id": "y281",
 "img": "790c8b8a9df4bd60.jpg"
+},
+{
+"type": "YouTube",
+"title": "Rc Construction Toys 😮🔥 JCB, Truck, Roller & Loader Unboxing",
+"url": "https://www.youtube.com/watch?v=7UOuruyFvDY",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "CrazyToyWorld 2.0",
+"query": "unboxing gadgets",
+"views": 3770855.0,
+"likes": 0.0,
+"comments": 3.0,
+"published": "03/11/2026",
+"date": "09/11/2026",
+"yt": "7UOuruyFvDY",
+"id": "y282",
+"img": "7fb4576240161d7f.jpg"
+},
+{
+"type": "YouTube",
+"title": "Mummy ke liye ये 4 Cleaning Gadgets for Diwali #gadgets #diwalispecial #amazonfinds #techiela",
+"url": "https://www.youtube.com/watch?v=L6ruXflry4M",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "TECH-iELA Shorts",
+"query": "amazon finds",
+"views": 3431701.0,
+"likes": 56226.0,
+"comments": 128.0,
+"published": "01/11/2026",
+"date": "09/11/2026",
+"yt": "L6ruXflry4M",
+"id": "y283",
+"img": "2a707e6246ce88f3.jpg"
 },
 {
 "type": "YouTube",
@@ -5474,7 +5845,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "yrpv4eGQhVc",
-"id": "y267",
+"id": "y284",
 "img": "a4af4032507fd1b5.jpg"
 },
 {
@@ -5496,7 +5867,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "vtEFVGa3LBw",
-"id": "y268",
+"id": "y285",
 "img": "eef945b34d76be9c.jpg"
 },
 {
@@ -5517,7 +5888,7 @@
 "published": "21/09/2026",
 "date": "03/10/2026",
 "yt": "hXVY84C5wuc",
-"id": "y269",
+"id": "y286",
 "img": "393247c7bfa64280.jpg"
 },
 {
@@ -5539,7 +5910,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "XYAJhJmrlPk",
-"id": "y270",
+"id": "y287",
 "img": "0a56feea9d1abe62.jpg"
 },
 {
@@ -5561,7 +5932,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "yDgmNs4I1BE",
-"id": "y271",
+"id": "y288",
 "img": "14f8ae12647b9a8a.jpg"
 },
 {
@@ -5583,7 +5954,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "f363W_CQARo",
-"id": "y272",
+"id": "y289",
 "img": "b4de172d9b2988b0.jpg"
 },
 {
@@ -5605,7 +5976,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "pslMEc6Qc84",
-"id": "y273",
+"id": "y290",
 "img": "6db6d2a6c2a0422d.jpg"
 },
 {
@@ -5627,7 +5998,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "BJkl2SyvQ4A",
-"id": "y274",
+"id": "y291",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -5649,7 +6020,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "Mnd2BUIrBAI",
-"id": "y275",
+"id": "y292",
 "img": "f898ab3fd8435334.jpg"
 },
 {
@@ -5671,7 +6042,7 @@
 "published": "06/10/2026",
 "date": "19/10/2026",
 "yt": "WZTqUw7Wozc",
-"id": "y276",
+"id": "y293",
 "img": "c815db336dddf3cd.jpg"
 },
 {
@@ -5693,7 +6064,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "yoFkM8d273A",
-"id": "y277",
+"id": "y294",
 "img": "8c4515f42a8e0319.jpg"
 },
 {
@@ -5715,7 +6086,7 @@
 "published": "20/10/2026",
 "date": "26/10/2026",
 "yt": "KpdrAwXnj9w",
-"id": "y278",
+"id": "y295",
 "img": "38567149e0f9b513.jpg"
 },
 {
@@ -5737,8 +6108,30 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "7aWsiOEleWg",
-"id": "y279",
+"id": "y296",
 "img": "dda4f735ba529944.jpg"
+},
+{
+"type": "YouTube",
+"title": "21 Amazon products you won’t mind spending on",
+"url": "https://www.youtube.com/watch?v=50ES9eEU1MU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Sassy Haul",
+"query": "amazon finds",
+"views": 2986374.0,
+"likes": 0.0,
+"comments": 239.0,
+"published": "29/10/2026",
+"date": "09/11/2026",
+"yt": "50ES9eEU1MU",
+"id": "y297",
+"img": "599401423732fa6a.jpg"
 },
 {
 "type": "YouTube",
@@ -5759,7 +6152,7 @@
 "published": "23/10/2026",
 "date": "02/11/2026",
 "yt": "pJHrNagd-Po",
-"id": "y280",
+"id": "y298",
 "img": "98cb77bac1800dce.jpg"
 },
 {
@@ -5781,7 +6174,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "MVYg_fj8b64",
-"id": "y281",
+"id": "y299",
 "img": "afb360ce1899a08a.jpg"
 },
 {
@@ -5803,7 +6196,7 @@
 "published": "23/09/2026",
 "date": "03/10/2026",
 "yt": "CyxDI740rMY",
-"id": "y282",
+"id": "y300",
 "img": "be5b9eaeb1d0cdd4.jpg"
 },
 {
@@ -5825,8 +6218,30 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "maDRvmTs5Hk",
-"id": "y283",
+"id": "y301",
 "img": "2ad74d3914208155.jpg"
+},
+{
+"type": "YouTube",
+"title": "She Ate the “Sponge.” He Picked the Wrong One | Walmart Finds",
+"url": "https://www.youtube.com/watch?v=BgaoNNQ8JK4",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 2850643.0,
+"likes": 20331.0,
+"comments": 11.0,
+"published": "27/10/2026",
+"date": "09/11/2026",
+"yt": "BgaoNNQ8JK4",
+"id": "y302",
+"img": "05916618ac655faf.jpg"
 },
 {
 "type": "YouTube",
@@ -5847,7 +6262,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "YUoMvQpSYSc",
-"id": "y284",
+"id": "y303",
 "img": "494406e537eb0fd2.jpg"
 },
 {
@@ -5866,7 +6281,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "klyPt9Ilqc4",
-"id": "y285",
+"id": "y304",
 "img": "18d2e48d8887f67c.jpg"
 },
 {
@@ -5888,7 +6303,7 @@
 "published": "20/10/2026",
 "date": "02/11/2026",
 "yt": "A7x-SxlTpuo",
-"id": "y286",
+"id": "y305",
 "img": "23493fa431c3711b.jpg"
 },
 {
@@ -5910,7 +6325,7 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "kC2paDIgUeA",
-"id": "y287",
+"id": "y306",
 "img": "3f5dc2deb4cf6a23.jpg"
 },
 {
@@ -5931,7 +6346,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "wqs0EZddylw",
-"id": "y288",
+"id": "y307",
 "img": "1400c46fcdb9cd36.jpg"
 },
 {
@@ -5953,8 +6368,30 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "p_N-jF8IkJ8",
-"id": "y289",
+"id": "y308",
 "img": "e59c7663590fd30c.jpg"
+},
+{
+"type": "YouTube",
+"title": "ART Model Japanese Bullet Train Vs Smartcraft Electric Bullet Train",
+"url": "https://www.youtube.com/watch?v=PFNSqG95pks",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Talib Crazy",
+"query": "unboxing gadgets",
+"views": 2563590.0,
+"likes": 11690.0,
+"comments": 3.0,
+"published": "05/11/2026",
+"date": "09/11/2026",
+"yt": "PFNSqG95pks",
+"id": "y309",
+"img": "1d7155bd37d946b4.jpg"
 },
 {
 "type": "YouTube",
@@ -5975,8 +6412,30 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "cN7zfUmYiPk",
-"id": "y290",
+"id": "y310",
 "img": "046882cb73a2455a.jpg"
+},
+{
+"type": "YouTube",
+"title": "دلّو اخدت كل مشتريات مريومة !",
+"url": "https://www.youtube.com/watch?v=Q35QinmzT-s",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Mariam TV",
+"query": "مشتريات",
+"views": 2488230.0,
+"likes": 16305.0,
+"comments": 14.0,
+"published": "29/10/2026",
+"date": "09/11/2026",
+"yt": "Q35QinmzT-s",
+"id": "y311",
+"img": "9e5d16195a1fc8ec.jpg"
 },
 {
 "type": "YouTube",
@@ -5997,8 +6456,48 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "MOeoL0z8ghc",
-"id": "y291",
+"id": "y312",
 "img": "d3ecb1d3b43ef84f.jpg"
+},
+{
+"type": "YouTube",
+"title": "An Upside-Down Mug Cocoa Prank Went Wrong",
+"url": "https://www.youtube.com/watch?v=Vbd9VrIypgk",
+"countries": [
+"UAE"
+],
+"source": "Rumi Finds",
+"query": "amazon finds",
+"views": 2394899.0,
+"likes": 17970.0,
+"comments": 8.0,
+"published": "26/10/2026",
+"date": "09/11/2026",
+"yt": "Vbd9VrIypgk",
+"id": "y313",
+"img": "29064efd5196e7d0.jpg"
+},
+{
+"type": "YouTube",
+"title": "Mochi Found a New Way to Outsmart This Walmart Find",
+"url": "https://www.youtube.com/watch?v=l4S9nqFDMEc",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 2298723.0,
+"likes": 17278.0,
+"comments": 22.0,
+"published": "02/11/2026",
+"date": "09/11/2026",
+"yt": "l4S9nqFDMEc",
+"id": "y314",
+"img": "a068fa05034804ed.jpg"
 },
 {
 "type": "YouTube",
@@ -6019,7 +6518,7 @@
 "published": "21/10/2026",
 "date": "02/11/2026",
 "yt": "_4ELeWAgMwo",
-"id": "y292",
+"id": "y315",
 "img": "c781c2461fe1a449.jpg"
 },
 {
@@ -6040,7 +6539,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "Bsmt2wjj65Y",
-"id": "y293",
+"id": "y316",
 "img": "d1472b87f60113be.jpg"
 },
 {
@@ -6062,7 +6561,7 @@
 "published": "02/10/2026",
 "date": "12/10/2026",
 "yt": "9NcvibfH0KM",
-"id": "y294",
+"id": "y317",
 "img": "dcb23800a1998cf3.jpg"
 },
 {
@@ -6084,7 +6583,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "PS_WjURRB0c",
-"id": "y295",
+"id": "y318",
 "img": "3b1f89236de7e883.jpg"
 },
 {
@@ -6106,7 +6605,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "18UhK4M94TY",
-"id": "y296",
+"id": "y319",
 "img": "a8209ef7da211a93.jpg"
 },
 {
@@ -6128,8 +6627,30 @@
 "published": "22/10/2026",
 "date": "02/11/2026",
 "yt": "gkkpx5JDm8c",
-"id": "y297",
+"id": "y320",
 "img": "b82db3ec52d859d5.jpg"
+},
+{
+"type": "YouTube",
+"title": "احسن مشتريات مكتبه بمصروف المدرسه😵😵",
+"url": "https://www.youtube.com/watch?v=n4YxQ_8EVq8",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "لولي وعمر ",
+"query": "مشتريات",
+"views": 2081581.0,
+"likes": 20522.0,
+"comments": 75.0,
+"published": "01/11/2026",
+"date": "09/11/2026",
+"yt": "n4YxQ_8EVq8",
+"id": "y321",
+"img": "8f270ebf8eacd7ec.jpg"
 },
 {
 "type": "YouTube",
@@ -6150,7 +6671,7 @@
 "published": "21/10/2026",
 "date": "02/11/2026",
 "yt": "CsfDufV6zNM",
-"id": "y298",
+"id": "y322",
 "img": "04640143133afc19.jpg"
 },
 {
@@ -6172,7 +6693,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "gGtCElKk0Fs",
-"id": "y299",
+"id": "y323",
 "img": "6aa86c58107875f9.jpg"
 },
 {
@@ -6194,8 +6715,52 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uXMsc6CZXY0",
-"id": "y300",
+"id": "y324",
 "img": "4996d4f9b5e46725.jpg"
+},
+{
+"type": "YouTube",
+"title": "$250 Squishy Haul 😱🧸",
+"url": "https://www.youtube.com/watch?v=CkhSSmjZD60",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "MunchMinion4",
+"query": "مشتريات",
+"views": 1999726.0,
+"likes": 21188.0,
+"comments": 113.0,
+"published": "27/10/2026",
+"date": "09/11/2026",
+"yt": "CkhSSmjZD60",
+"id": "y325",
+"img": "bcb339240dd6106b.jpg"
+},
+{
+"type": "YouTube",
+"title": "😱🚁 பறந்துகிட்டே SHOOT பண்ணும் DRONE! 🔫💥🔥 Gel Blaster Drone 😳 #shorts #pts",
+"url": "https://www.youtube.com/watch?v=VwOnFTtkQY8",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "PTS",
+"query": "unboxing gadgets",
+"views": 1979310.0,
+"likes": 98255.0,
+"comments": 278.0,
+"published": "27/10/2026",
+"date": "09/11/2026",
+"yt": "VwOnFTtkQY8",
+"id": "y326",
+"img": "ad905c154b3a46e3.jpg"
 },
 {
 "type": "YouTube",
@@ -6216,30 +6781,8 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "nm-dWrCPLIY",
-"id": "y301",
+"id": "y327",
 "img": "c259c4a649227ad3.jpg"
-},
-{
-"type": "YouTube",
-"title": "$250 Squishy Haul 😱🧸",
-"url": "https://www.youtube.com/watch?v=CkhSSmjZD60",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "MunchMinion4",
-"query": "مشتريات",
-"views": 1961881.0,
-"likes": 20923.0,
-"comments": 113.0,
-"published": "27/10/2026",
-"date": "02/11/2026",
-"yt": "CkhSSmjZD60",
-"id": "y302",
-"img": "bcb339240dd6106b.jpg"
 },
 {
 "type": "YouTube",
@@ -6260,7 +6803,7 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "2t4yHQZgOf8",
-"id": "y303",
+"id": "y328",
 "img": "edc5587470d61721.jpg"
 },
 {
@@ -6282,8 +6825,30 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "ijmP5TkBt04",
-"id": "y304",
+"id": "y329",
 "img": "264709c5fa019e35.jpg"
+},
+{
+"type": "YouTube",
+"title": "₹3.20 Lakh Ka Camera Phone! 😳 Huawei Ka CRAZY Zoom Lens",
+"url": "https://www.youtube.com/watch?v=fGmk5A31Rhw",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Techy Pathshala",
+"query": "unboxing gadgets",
+"views": 1936215.0,
+"likes": 97033.0,
+"comments": 467.0,
+"published": "02/11/2026",
+"date": "09/11/2026",
+"yt": "fGmk5A31Rhw",
+"id": "y330",
+"img": "3df718fcc5826a3f.jpg"
 },
 {
 "type": "YouTube",
@@ -6304,7 +6869,7 @@
 "published": "05/10/2026",
 "date": "12/10/2026",
 "yt": "gvs4f3G4Q7g",
-"id": "y305",
+"id": "y331",
 "img": "6d617c568347b297.jpg"
 },
 {
@@ -6326,7 +6891,7 @@
 "published": "09/10/2026",
 "date": "12/10/2026",
 "yt": "AWgPciz5JdQ",
-"id": "y306",
+"id": "y332",
 "img": "6879e23e2a282b87.jpg"
 },
 {
@@ -6348,7 +6913,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "EBBTUGwA_8k",
-"id": "y307",
+"id": "y333",
 "img": "e7cec7d5703f1eca.jpg"
 },
 {
@@ -6370,7 +6935,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "ZY_9Rp1WDr0",
-"id": "y308",
+"id": "y334",
 "img": "6184c93352f8c28a.jpg"
 },
 {
@@ -6389,7 +6954,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "VJEy4Ye_r7Y",
-"id": "y309",
+"id": "y335",
 "img": "83ae2924cbb3a2b9.jpg"
 },
 {
@@ -6411,7 +6976,7 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MG-snTgotL8",
-"id": "y310",
+"id": "y336",
 "img": "9bf2af4f8b18898a.jpg"
 },
 {
@@ -6433,7 +6998,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "uRTHhbgCJzc",
-"id": "y311",
+"id": "y337",
 "img": "51640a23e458bec2.jpg"
 },
 {
@@ -6451,7 +7016,7 @@
 "published": "13/10/2026",
 "date": "26/10/2026",
 "yt": "kVjBMgswvPw",
-"id": "y312",
+"id": "y338",
 "img": "457f77f7abb3a952.jpg"
 },
 {
@@ -6473,8 +7038,30 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "mGa5ZkqWn8Q",
-"id": "y313",
+"id": "y339",
 "img": "bd5a53028d7f03a7.jpg"
+},
+{
+"type": "YouTube",
+"title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
+"url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Lisi Shops",
+"query": "unboxing gadgets",
+"views": 1691338.0,
+"likes": 61105.0,
+"comments": 418.0,
+"published": "27/10/2026",
+"date": "09/11/2026",
+"yt": "3Mc0okAqdFU",
+"id": "y340",
+"img": "526b22831f468245.jpg"
 },
 {
 "type": "YouTube",
@@ -6495,30 +7082,8 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "HuRyapINGlo",
-"id": "y314",
+"id": "y341",
 "img": "447bf7b92bdcb5ed.jpg"
-},
-{
-"type": "YouTube",
-"title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
-"url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Lisi Shops",
-"query": "unboxing gadgets",
-"views": 1651843.0,
-"likes": 60421.0,
-"comments": 423.0,
-"published": "27/10/2026",
-"date": "02/11/2026",
-"yt": "3Mc0okAqdFU",
-"id": "y315",
-"img": "526b22831f468245.jpg"
 },
 {
 "type": "YouTube",
@@ -6539,7 +7104,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "-xyN9K7zl4I",
-"id": "y316",
+"id": "y342",
 "img": "86c6a481b479c48f.jpg"
 },
 {
@@ -6561,8 +7126,30 @@
 "published": "21/10/2026",
 "date": "02/11/2026",
 "yt": "piIRXeJ35aw",
-"id": "y317",
+"id": "y343",
 "img": "6e56b7812bca5c76.jpg"
+},
+{
+"type": "YouTube",
+"title": "عاصفة مطر فجأة نحنا وعم نشتري مشتريات الشتاء 😱 هيلين وهيفي صارت اواعيهم كلها مي شو عملنا🥲",
+"url": "https://www.youtube.com/watch?v=uFTDpZ7RS9A",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "layal semra ليال سمرة",
+"query": "مشتريات",
+"views": 1582904.0,
+"likes": 17905.0,
+"comments": 1980.0,
+"published": "04/11/2026",
+"date": "09/11/2026",
+"yt": "uFTDpZ7RS9A",
+"id": "y344",
+"img": "cd0c09a4c874b103.jpg"
 },
 {
 "type": "YouTube",
@@ -6579,7 +7166,7 @@
 "published": "20/09/2026",
 "date": "03/10/2026",
 "yt": "QI1JU0PRYWY",
-"id": "y318",
+"id": "y345",
 "img": "7fd51312646cccde.jpg"
 },
 {
@@ -6601,13 +7188,13 @@
 "published": "10/10/2026",
 "date": "19/10/2026",
 "yt": "PUmEjn1-L5s",
-"id": "y319",
+"id": "y346",
 "img": "9c43e5db0b82cf7e.jpg"
 },
 {
 "type": "YouTube",
-"title": "TIK TOK M'A FAIT ACHETER ÇA ! (C'est une révolution ?!) #12",
-"url": "https://www.youtube.com/watch?v=v9wYSebfh4o",
+"title": "iPhone 17 Pro Max Full Accessories Setup 🔥 | 8K Glass + Camera Lens + Anti-Yellow Case",
+"url": "https://www.youtube.com/watch?v=27Ix4STzv3M",
 "countries": [
 "UAE",
 "Saudi Arabia",
@@ -6615,16 +7202,16 @@
 "Oman",
 "Kuwait"
 ],
-"source": "JOYCA",
-"query": "tiktok made me buy it",
-"views": 1548522.0,
-"likes": 64514.0,
-"comments": 1183.0,
+"source": "Poonam mobile",
+"query": "unboxing gadgets",
+"views": 1537151.0,
+"likes": 54076.0,
+"comments": 209.0,
 "published": "01/11/2026",
-"date": "02/11/2026",
-"yt": "v9wYSebfh4o",
-"id": "y320",
-"img": "2546a8be07bfbafc.jpg"
+"date": "09/11/2026",
+"yt": "27Ix4STzv3M",
+"id": "y347",
+"img": "135a69a7880303ea.jpg"
 },
 {
 "type": "YouTube",
@@ -6645,7 +7232,7 @@
 "published": "17/10/2026",
 "date": "26/10/2026",
 "yt": "5vmUnoFwYC8",
-"id": "y321",
+"id": "y348",
 "img": "f03875d3843dc1ba.jpg"
 },
 {
@@ -6663,7 +7250,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "o3mTL46qA_k",
-"id": "y322",
+"id": "y349",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -6685,7 +7272,7 @@
 "published": "25/09/2026",
 "date": "05/10/2026",
 "yt": "GTB5bPkUsrc",
-"id": "y323",
+"id": "y350",
 "img": "54e71749ac6247a3.jpg"
 },
 {
@@ -6705,8 +7292,46 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "qIo0L_6jHK0",
-"id": "y324",
+"id": "y351",
 "img": "a9c8e414c32146ad.jpg"
+},
+{
+"type": "YouTube",
+"title": "Her Savings Turned Into Receipts. Enter the Walmart ATM.",
+"url": "https://www.youtube.com/watch?v=wE5PC74VKoA",
+"countries": [
+"Saudi Arabia",
+"Oman"
+],
+"source": "RumiRumiR",
+"query": "amazon finds",
+"views": 1415133.0,
+"likes": 15688.0,
+"comments": 13.0,
+"published": "01/11/2026",
+"date": "09/11/2026",
+"yt": "wE5PC74VKoA",
+"id": "y352",
+"img": "7782d50c2e74e132.jpg"
+},
+{
+"type": "YouTube",
+"title": "Ich hoffe sie bekommt alles 👉🏻👈🏻 #sparen #amazonfinds #rabatte #geldsparen",
+"url": "https://www.youtube.com/watch?v=0b4dIwnpVls",
+"countries": [
+"Qatar",
+"Kuwait"
+],
+"source": "Shopaholic 🤭🥶",
+"query": "amazon finds",
+"views": 1397131.0,
+"likes": 30989.0,
+"comments": 142.0,
+"published": "30/10/2026",
+"date": "09/11/2026",
+"yt": "0b4dIwnpVls",
+"id": "y353",
+"img": "e3ef1364fd8ad5e8.jpg"
 },
 {
 "type": "YouTube",
@@ -6727,7 +7352,7 @@
 "published": "22/09/2026",
 "date": "03/10/2026",
 "yt": "9rDJKw2waeM",
-"id": "y325",
+"id": "y354",
 "img": "f715269de54a59a0.jpg"
 },
 {
@@ -6749,7 +7374,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "Xnkt3bnQ0ic",
-"id": "y326",
+"id": "y355",
 "img": "ea64d42d962fff25.jpg"
 },
 {
@@ -6771,7 +7396,7 @@
 "published": "24/09/2026",
 "date": "03/10/2026",
 "yt": "RMZInc7jUOQ",
-"id": "y327",
+"id": "y356",
 "img": "20d0123a2aa08541.jpg"
 },
 {
@@ -6793,7 +7418,7 @@
 "published": "03/10/2026",
 "date": "05/10/2026",
 "yt": "K6h8xEg9bEU",
-"id": "y328",
+"id": "y357",
 "img": "35fb4f26c9fa5648.jpg"
 },
 {
@@ -6815,7 +7440,7 @@
 "published": "25/10/2026",
 "date": "02/11/2026",
 "yt": "gW2UHEIHfhA",
-"id": "y329",
+"id": "y358",
 "img": "8930e4a2f81c9429.jpg"
 },
 {
@@ -6837,7 +7462,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "nZn4M0KSAkc",
-"id": "y330",
+"id": "y359",
 "img": "18038a28effcba68.jpg"
 },
 {
@@ -6859,7 +7484,7 @@
 "published": "01/10/2026",
 "date": "05/10/2026",
 "yt": "sNJlyaPn_j0",
-"id": "y331",
+"id": "y360",
 "img": "763f0afecd4c2803.jpg"
 },
 {
@@ -6881,7 +7506,7 @@
 "published": "08/10/2026",
 "date": "19/10/2026",
 "yt": "w62zC4hGVT8",
-"id": "y332",
+"id": "y361",
 "img": "0e3ca29e25f0d3d3.jpg"
 },
 {
@@ -6903,7 +7528,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "R87y-emjZSA",
-"id": "y333",
+"id": "y362",
 "img": "fd0130b7e8ba1269.jpg"
 },
 {
@@ -6925,7 +7550,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "2Apsmz1DDq8",
-"id": "y334",
+"id": "y363",
 "img": "07dc11950eb0e216.jpg"
 },
 {
@@ -6947,7 +7572,7 @@
 "published": "15/10/2026",
 "date": "26/10/2026",
 "yt": "8E7wnk-hH-s",
-"id": "y335",
+"id": "y364",
 "img": "b3c2faa2cd189ed8.jpg"
 },
 {
@@ -6969,7 +7594,7 @@
 "published": "21/09/2026",
 "date": "05/10/2026",
 "yt": "qwwgRyRNAFg",
-"id": "y336",
+"id": "y365",
 "img": "cee3c04cf305de9e.jpg"
 },
 {
@@ -6988,7 +7613,7 @@
 "published": "28/09/2026",
 "date": "05/10/2026",
 "yt": "snBanaxxbiw",
-"id": "y337",
+"id": "y366",
 "img": "284f409abb255b8f.jpg"
 },
 {
@@ -7009,7 +7634,7 @@
 "published": "16/10/2026",
 "date": "19/10/2026",
 "yt": "K4BP1cpNMIU",
-"id": "y338",
+"id": "y367",
 "img": "bbbb03b70800c5f6.jpg"
 },
 {
@@ -7031,7 +7656,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "fEqDT3NNIiM",
-"id": "y339",
+"id": "y368",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -7053,7 +7678,7 @@
 "published": "25/10/2026",
 "date": "02/11/2026",
 "yt": "d6ktS1sUT1M",
-"id": "y340",
+"id": "y369",
 "img": "0d2195c29b71639b.jpg"
 },
 {
@@ -7075,7 +7700,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "F7UoeRWOrws",
-"id": "y341",
+"id": "y370",
 "img": "923a282b3cf5c3b6.jpg"
 },
 {
@@ -7097,30 +7722,8 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "uwSa-kGFyHY",
-"id": "y342",
+"id": "y371",
 "img": "22c51d8f0aefa4c7.jpg"
-},
-{
-"type": "YouTube",
-"title": "دلّو اخدت كل مشتريات مريومة !",
-"url": "https://www.youtube.com/watch?v=Q35QinmzT-s",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Mariam TV",
-"query": "مشتريات",
-"views": 872887.0,
-"likes": 5879.0,
-"comments": 6.0,
-"published": "29/10/2026",
-"date": "02/11/2026",
-"yt": "Q35QinmzT-s",
-"id": "y343",
-"img": "9e5d16195a1fc8ec.jpg"
 },
 {
 "type": "YouTube",
@@ -7141,7 +7744,7 @@
 "published": "30/09/2026",
 "date": "12/10/2026",
 "yt": "MFv995Vb6U8",
-"id": "y344",
+"id": "y372",
 "img": "a45929fe57b03f10.jpg"
 },
 {
@@ -7163,7 +7766,7 @@
 "published": "26/09/2026",
 "date": "03/10/2026",
 "yt": "huxSLkPj9TM",
-"id": "y345",
+"id": "y373",
 "img": "c6939a92723ec087.jpg"
 },
 {
@@ -7181,7 +7784,7 @@
 "published": "27/09/2026",
 "date": "05/10/2026",
 "yt": "B1BwSyeBRw8",
-"id": "y346",
+"id": "y374",
 "img": "70a9b75ba4a8236f.jpg"
 },
 {
@@ -7203,8 +7806,50 @@
 "published": "19/10/2026",
 "date": "02/11/2026",
 "yt": "NBHYuNIXNvI",
-"id": "y347",
+"id": "y375",
 "img": "f58267358797602c.jpg"
+},
+{
+"type": "YouTube",
+"title": "احسن مشتريات مكتبه بارت ٢",
+"url": "https://www.youtube.com/watch?v=9Tyx05Jwr1I",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "لولي وعمر ",
+"query": "مشتريات",
+"views": 699475.0,
+"likes": 6888.0,
+"comments": 58.0,
+"published": "02/11/2026",
+"date": "09/11/2026",
+"yt": "9Tyx05Jwr1I",
+"id": "y376",
+"img": "dd34604b57357114.jpg"
+},
+{
+"type": "YouTube",
+"title": "اغرب منتجات الai❌",
+"url": "https://www.youtube.com/watch?v=NCKWlJNL_Q8",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Kuwait"
+],
+"source": "عبدالله بكر ",
+"query": "منتجات مفيدة",
+"views": 648161.0,
+"likes": 8765.0,
+"comments": 85.0,
+"published": "31/10/2026",
+"date": "09/11/2026",
+"yt": "NCKWlJNL_Q8",
+"id": "y377",
+"img": "e537a616cdd299fa.jpg"
 },
 {
 "type": "YouTube",
@@ -7224,7 +7869,7 @@
 "published": "19/09/2026",
 "date": "03/10/2026",
 "yt": "deevIJH9Akc",
-"id": "y348",
+"id": "y378",
 "img": "7f8f8980e69dfeed.jpg"
 },
 {
@@ -7246,7 +7891,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "IgUyP7bQ3RA",
-"id": "y349",
+"id": "y379",
 "img": "0117f2c9a050e108.jpg"
 },
 {
@@ -7268,7 +7913,7 @@
 "published": "11/10/2026",
 "date": "19/10/2026",
 "yt": "cYiEZx8tk3A",
-"id": "y350",
+"id": "y380",
 "img": "90f6cb05ca900909.jpg"
 },
 {
@@ -7290,7 +7935,7 @@
 "published": "23/10/2026",
 "date": "02/11/2026",
 "yt": "rSPuIj3gtpU",
-"id": "y351",
+"id": "y381",
 "img": "15db9ca2e32fecc4.jpg"
 },
 {
@@ -7312,7 +7957,7 @@
 "published": "09/10/2026",
 "date": "19/10/2026",
 "yt": "FMxQozCbH3s",
-"id": "y352",
+"id": "y382",
 "img": "050f696db35cba29.jpg"
 },
 {
@@ -7334,7 +7979,7 @@
 "published": "23/09/2026",
 "date": "05/10/2026",
 "yt": "08rYmpy-Z7k",
-"id": "y353",
+"id": "y383",
 "img": "584b7629371fd993.jpg"
 },
 {
@@ -7356,7 +8001,7 @@
 "published": "16/10/2026",
 "date": "26/10/2026",
 "yt": "qyrCxQ2mPTk",
-"id": "y354",
+"id": "y384",
 "img": "9723e40c67edead5.jpg"
 },
 {
@@ -7378,7 +8023,7 @@
 "published": "18/10/2026",
 "date": "26/10/2026",
 "yt": "ujbxYTdB1YI",
-"id": "y355",
+"id": "y385",
 "img": "4dde6f31c4428f8d.jpg"
 },
 {
@@ -7398,30 +8043,8 @@
 "published": "14/10/2026",
 "date": "26/10/2026",
 "yt": "57S_cfkCTT0",
-"id": "y356",
+"id": "y386",
 "img": "3393f2e4d3351e59.jpg"
-},
-{
-"type": "YouTube",
-"title": "احسن مشتريات مكتبه بمصروف المدرسه😵😵",
-"url": "https://www.youtube.com/watch?v=n4YxQ_8EVq8",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "لولي وعمر ",
-"query": "مشتريات",
-"views": 476367.0,
-"likes": 5262.0,
-"comments": 25.0,
-"published": "01/11/2026",
-"date": "02/11/2026",
-"yt": "n4YxQ_8EVq8",
-"id": "y357",
-"img": "8f270ebf8eacd7ec.jpg"
 },
 {
 "type": "YouTube",
@@ -7442,8 +8065,30 @@
 "published": "03/10/2026",
 "date": "12/10/2026",
 "yt": "6KFXoeqqr3A",
-"id": "y358",
+"id": "y387",
 "img": "677ead2c25b597d8.jpg"
+},
+{
+"type": "YouTube",
+"title": "Ranking Shein Squishy Haul #squishy",
+"url": "https://www.youtube.com/watch?v=3lK_bMPyqMQ",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "TierPop",
+"query": "مشتريات",
+"views": 454674.0,
+"likes": 8607.0,
+"comments": 611.0,
+"published": "31/10/2026",
+"date": "09/11/2026",
+"yt": "3lK_bMPyqMQ",
+"id": "y388",
+"img": "dc018cf8bdc6493d.jpg"
 },
 {
 "type": "YouTube",
@@ -7464,7 +8109,7 @@
 "published": "12/10/2026",
 "date": "26/10/2026",
 "yt": "GNeJZULTJlk",
-"id": "y359",
+"id": "y389",
 "img": "0fcb809122cf3649.jpg"
 },
 {
@@ -7486,8 +8131,30 @@
 "published": "24/09/2026",
 "date": "05/10/2026",
 "yt": "AV3KoS40618",
-"id": "y360",
+"id": "y390",
 "img": "19d05511f12962c2.jpg"
+},
+{
+"type": "YouTube",
+"title": "Squishy Shopping Haul from Fidget Toys Plus 🛍️",
+"url": "https://www.youtube.com/watch?v=PDszgDL30wA",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Mrs. Bench",
+"query": "مشتريات",
+"views": 385588.0,
+"likes": 10316.0,
+"comments": 194.0,
+"published": "31/10/2026",
+"date": "09/11/2026",
+"yt": "PDszgDL30wA",
+"id": "y391",
+"img": "bd0d2df9c99dbe26.jpg"
 },
 {
 "type": "YouTube",
@@ -7508,7 +8175,7 @@
 "published": "22/09/2026",
 "date": "05/10/2026",
 "yt": "G8i2ZQ7aU90",
-"id": "y361",
+"id": "y392",
 "img": "93540dfc6455c478.jpg"
 },
 {
@@ -7530,7 +8197,7 @@
 "published": "04/10/2026",
 "date": "12/10/2026",
 "yt": "lx_RjECZJCg",
-"id": "y362",
+"id": "y393",
 "img": "e27fd8597e630d5b.jpg"
 },
 {
@@ -7552,7 +8219,7 @@
 "published": "26/09/2026",
 "date": "05/10/2026",
 "yt": "bDHw2wnCrTo",
-"id": "y363",
+"id": "y394",
 "img": "dda2e5822844748d.jpg"
 },
 {
@@ -7574,7 +8241,7 @@
 "published": "07/10/2026",
 "date": "19/10/2026",
 "yt": "zUc-lvkPzy0",
-"id": "y364",
+"id": "y395",
 "img": "acecc6ea926b3991.jpg"
 },
 {
@@ -7596,436 +8263,8 @@
 "published": "29/09/2026",
 "date": "12/10/2026",
 "yt": "MWDygeC6NW0",
-"id": "y365",
+"id": "y396",
 "img": "5a80374179084a8f.jpg"
-},
-{
-"type": "YouTube",
-"title": "5 MORE Cycling Products We Would NEVER Buy Again",
-"url": "https://www.youtube.com/watch?v=115UI0obSZU",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "GCN Tech",
-"query": "منتجات مفيدة",
-"views": 350525.0,
-"likes": 4101.0,
-"comments": 483.0,
-"published": "27/09/2026",
-"date": "05/10/2026",
-"yt": "115UI0obSZU",
-"id": "y366",
-"img": "a63c56e8cc77dc4e.jpg"
-},
-{
-"type": "YouTube",
-"title": "دانيال ضد حمودي.. أسرع تسوق في دقيقة واحدة! 😂",
-"url": "https://www.youtube.com/watch?v=F340A5r7erk",
-"countries": [
-"UAE"
-],
-"source": "يمان و حمودي",
-"query": "مشتريات",
-"views": 350113.0,
-"likes": 10656.0,
-"comments": 148.0,
-"published": "19/09/2026",
-"date": "03/10/2026",
-"yt": "F340A5r7erk",
-"id": "y367",
-"img": "47ccbcc30a30cff4.jpg"
-},
-{
-"type": "YouTube",
-"title": "We went to target!!! #short #shopping #haul",
-"url": "https://www.youtube.com/watch?v=o9jvi9Bp1hQ",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Mackenzie Ellsworth",
-"query": "#shorts مشتريات",
-"views": 345213.0,
-"likes": 13547.0,
-"comments": 75.0,
-"published": "28/09/2026",
-"date": "12/10/2026",
-"yt": "o9jvi9Bp1hQ",
-"id": "y368",
-"img": "958fc95f1d937cf2.jpg"
-},
-{
-"type": "YouTube",
-"title": "Costco wedding haul #shorts #costcohaul #girls",
-"url": "https://www.youtube.com/watch?v=DYv31K2crUM",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "spencer barbosa",
-"query": "#shorts مشتريات",
-"views": 339606.0,
-"likes": 24322.0,
-"comments": 147.0,
-"published": "23/09/2026",
-"date": "05/10/2026",
-"yt": "DYv31K2crUM",
-"id": "y369",
-"img": "b16977fbd45a2913.jpg"
-},
-{
-"type": "YouTube",
-"title": "Ranking Shein Squishy Haul #squishy",
-"url": "https://www.youtube.com/watch?v=J_dAkMRnSqY",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "TierPop",
-"query": "مشتريات",
-"views": 339550.0,
-"likes": 7697.0,
-"comments": 739.0,
-"published": "27/09/2026",
-"date": "05/10/2026",
-"yt": "J_dAkMRnSqY",
-"id": "y370",
-"img": "571108719050c43b.jpg"
-},
-{
-"type": "YouTube",
-"title": "تزيين مشتريات المدرسة مع جوان وليليان 📚 مين الأجمل؟ 🎀",
-"url": "https://www.youtube.com/watch?v=ADLj15ph-L0",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "جوان و ليليان | Jwan & Lilian",
-"query": "مشتريات",
-"views": 330682.0,
-"likes": 3159.0,
-"comments": 486.0,
-"published": "08/10/2026",
-"date": "19/10/2026",
-"yt": "ADLj15ph-L0",
-"id": "y371",
-"img": "fa57d6c66864f711.jpg"
-},
-{
-"type": "YouTube",
-"title": "واخيراًً .. اول تسوق لبيتنا في أسواق البرازيل ❤️ الاسعار صادمة والمنتجات غريبة",
-"url": "https://www.youtube.com/watch?v=9-K7hCUeogE",
-"countries": [
-"UAE"
-],
-"source": "ابو الجود Abu AL Jood",
-"query": "مشتريات",
-"views": 323369.0,
-"likes": 10093.0,
-"comments": 683.0,
-"published": "24/09/2026",
-"date": "03/10/2026",
-"yt": "9-K7hCUeogE",
-"id": "y372",
-"img": "d2f3b2b0ca679166.jpg"
-},
-{
-"type": "YouTube",
-"title": "Kitchen Finds #meeshofinds #youtubeshorts #budgetfinds #meeshohaul #ytshorts #meesho #home #kitchen",
-"url": "https://www.youtube.com/watch?v=dN2r6c4JfTw",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Smriti Mohan",
-"query": "منتجات مفيدة",
-"views": 308470.0,
-"likes": 5774.0,
-"comments": 44.0,
-"published": "20/10/2026",
-"date": "02/11/2026",
-"yt": "dN2r6c4JfTw",
-"id": "y373",
-"img": "03f405f82af766a1.jpg"
-},
-{
-"type": "YouTube",
-"title": "Japan Oda Smartest Finds 😳 | Idhellam Travel ku Vera Level!",
-"url": "https://www.youtube.com/watch?v=ogD0USkrJgA",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "KathaiCore",
-"query": "منتجات مفيدة",
-"views": 303686.0,
-"likes": 5917.0,
-"comments": 51.0,
-"published": "28/09/2026",
-"date": "12/10/2026",
-"yt": "ogD0USkrJgA",
-"id": "y374",
-"img": "61c3ce7429371435.jpg"
-},
-{
-"type": "YouTube",
-"title": "$100 NEEDOH BOO BASKET HAUL 👻",
-"url": "https://www.youtube.com/watch?v=ruzLGmTGTJ8",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Theskimaskbarbie",
-"query": "مشتريات",
-"views": 294849.0,
-"likes": 9134.0,
-"comments": 87.0,
-"published": "20/10/2026",
-"date": "26/10/2026",
-"yt": "ruzLGmTGTJ8",
-"id": "y375",
-"img": "ef957e141f6652dd.jpg"
-},
-{
-"type": "YouTube",
-"title": "What I’m Actually Spending Money On for Collagen Loss | Dr. Idriss",
-"url": "https://www.youtube.com/watch?v=9jNdcS4Fe18",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Dr. Shereene Idriss",
-"query": "منتجات مفيدة",
-"views": 277929.0,
-"likes": 4985.0,
-"comments": 556.0,
-"published": "17/10/2026",
-"date": "26/10/2026",
-"yt": "9jNdcS4Fe18",
-"id": "y376",
-"img": "f9121831bd6b198c.jpg"
-},
-{
-"type": "YouTube",
-"title": "أغرب منتجات ممكن تشوفها",
-"url": "https://www.youtube.com/watch?v=o8Y3OiYGDPs",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "بدر الحناكي",
-"query": "منتجات مفيدة",
-"views": 260988.0,
-"likes": 5881.0,
-"comments": 357.0,
-"published": "19/09/2026",
-"date": "03/10/2026",
-"yt": "o8Y3OiYGDPs",
-"id": "y377",
-"img": "1891ccbe2a8e9a3c.jpg"
-},
-{
-"type": "YouTube",
-"title": "BEACH ITEMS TRYON HAUL ",
-"url": "https://www.youtube.com/watch?v=nZxdNveK-Ts",
-"countries": [
-"UAE"
-],
-"source": "Marii Marii",
-"query": "مشتريات",
-"views": 241878.0,
-"likes": 1806.0,
-"comments": 55.0,
-"published": "06/10/2026",
-"date": "19/10/2026",
-"yt": "nZxdNveK-Ts",
-"id": "y378",
-"img": "e3837863da4d6da9.jpg"
-},
-{
-"type": "YouTube",
-"title": "Squishy Store Haul Ep 4 #shorts #squishy #dumplings #needoh",
-"url": "https://www.youtube.com/watch?v=XPWBvqExC8w",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "TYE Arcade",
-"query": "#shorts مشتريات",
-"views": 237184.0,
-"likes": 1540.0,
-"comments": 33.0,
-"published": "21/10/2026",
-"date": "02/11/2026",
-"yt": "XPWBvqExC8w",
-"id": "y379",
-"img": "3102d5fd128924c5.jpg"
-},
-{
-"type": "YouTube",
-"title": "The New Tesla Demo Captures Why Big Tech is Broken",
-"url": "https://www.youtube.com/watch?v=ldvrxMTk7wU",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Cal Newport",
-"query": "منتجات مفيدة",
-"views": 236997.0,
-"likes": 5514.0,
-"comments": 1264.0,
-"published": "22/10/2026",
-"date": "02/11/2026",
-"yt": "ldvrxMTk7wU",
-"id": "y380",
-"img": "7ecf1c10d03721e4.jpg"
-},
-{
-"type": "YouTube",
-"title": "مشتريات اليوم الوطني السعودي 💚💚",
-"url": "https://www.youtube.com/watch?v=eU5gUC_tgUk",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Lamar&Taleen",
-"query": "مشتريات",
-"views": 236838.0,
-"likes": 920.0,
-"comments": 63.0,
-"published": "21/09/2026",
-"date": "05/10/2026",
-"yt": "eU5gUC_tgUk",
-"id": "y381",
-"img": "cdc63f5d610f2c10.jpg"
-},
-{
-"type": "YouTube",
-"title": "Meesho suitset Haul #ytshorts #shorts #shortsfeed #meeshohaul # #kurtasethaul  #meesho #kurtaset",
-"url": "https://www.youtube.com/watch?v=LgrcK2yJUYo",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Fashion Tales by Komal",
-"query": "#shorts مشتريات",
-"views": 220444.0,
-"likes": 29.0,
-"comments": 0.0,
-"published": "19/10/2026",
-"date": "02/11/2026",
-"yt": "LgrcK2yJUYo",
-"id": "y382",
-"img": "c42968a128f60539.jpg"
-},
-{
-"type": "YouTube",
-"title": "Squishy Store Haul Ep 3 #shorts #clawmachine #squishy #dumplings #needoh",
-"url": "https://www.youtube.com/watch?v=IteXtsrjOcQ",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "TYE Arcade",
-"query": "#shorts مشتريات",
-"views": 217673.0,
-"likes": 1663.0,
-"comments": 117.0,
-"published": "12/10/2026",
-"date": "26/10/2026",
-"yt": "IteXtsrjOcQ",
-"id": "y383",
-"img": "da9bb5c977e11ece.jpg"
-},
-{
-"type": "YouTube",
-"title": "This is crazyyyyy… #haul #unpacking #shopping",
-"url": "https://www.youtube.com/watch?v=C6znmha3em8",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Lean Ortiz",
-"query": "#shorts مشتريات",
-"views": 209142.0,
-"likes": 12629.0,
-"comments": 201.0,
-"published": "21/09/2026",
-"date": "05/10/2026",
-"yt": "C6znmha3em8",
-"id": "y384",
-"img": "47838045130ac486.jpg"
-},
-{
-"type": "YouTube",
-"title": "Meesho kurta sets haul #ytshorts #shorts #shortsfeed #meeshohaul # #kurtasethaul  #meesho #kurtaset",
-"url": "https://www.youtube.com/watch?v=V-u8vCGHGU4",
-"countries": [
-"UAE",
-"Saudi Arabia",
-"Qatar",
-"Oman",
-"Kuwait"
-],
-"source": "Fashion Tales by Komal",
-"query": "#shorts مشتريات",
-"views": 204297.0,
-"likes": 28.0,
-"comments": 0.0,
-"published": "19/10/2026",
-"date": "02/11/2026",
-"yt": "V-u8vCGHGU4",
-"id": "y385",
-"img": "61894ce81ad62c07.jpg"
 },
 {
 "type": "Video product",
@@ -8043,7 +8282,7 @@
 "video": "https://www.youtube.com/watch?v=BJkl2SyvQ4A",
 "yt_fallback": "BJkl2SyvQ4A",
 "date": "30/10/2026",
-"id": "v386",
+"id": "v397",
 "img": "aa5886ea49927f45.jpg"
 },
 {
@@ -8062,7 +8301,7 @@
 "video": "https://www.youtube.com/watch?v=ZY_9Rp1WDr0",
 "yt_fallback": "ZY_9Rp1WDr0",
 "date": "30/10/2026",
-"id": "v387",
+"id": "v398",
 "img": "6184c93352f8c28a.jpg"
 },
 {
@@ -8077,7 +8316,7 @@
 "video": "https://www.youtube.com/watch?v=o3mTL46qA_k",
 "yt_fallback": "o3mTL46qA_k",
 "date": "30/10/2026",
-"id": "v388",
+"id": "v399",
 "img": "1ed09503eb23c38b.jpg"
 },
 {
@@ -8096,7 +8335,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v389",
+"id": "v400",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -8115,7 +8354,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v390",
+"id": "v401",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -8134,7 +8373,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v391",
+"id": "v402",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -8153,7 +8392,7 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v392",
+"id": "v403",
 "img": "5f36c317d2a699c1.jpg"
 },
 {
@@ -8172,8 +8411,141 @@
 "video": "https://www.youtube.com/watch?v=fEqDT3NNIiM",
 "yt_fallback": "fEqDT3NNIiM",
 "date": "30/10/2026",
-"id": "v393",
+"id": "v404",
 "img": "5f36c317d2a699c1.jpg"
+},
+{
+"type": "Video product",
+"title": "Unique digital power bank",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v405",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "Multi-port USB hub",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v406",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "Modular phone case",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v407",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "Pomodoro timer cube",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v408",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "Dual alarm clock",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v409",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "Electric air duster",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v410",
+"img": "ed1e70a6ca15e02d.jpg"
+},
+{
+"type": "Video product",
+"title": "UV toilet sanitizer",
+"url": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"countries": [
+"UAE",
+"Saudi Arabia",
+"Qatar",
+"Oman",
+"Kuwait"
+],
+"source": "Nuttyfinds video: Useful Amazon Tech Gadgets That Are Actually FIRE! Part-112 #shorts #t",
+"views": 20328.0,
+"video": "https://www.youtube.com/watch?v=ab08tiqPSQk",
+"yt_fallback": "ab08tiqPSQk",
+"date": "09/11/2026",
+"id": "v411",
+"img": "ed1e70a6ca15e02d.jpg"
 },
 {
 "type": "TikTok ad",
@@ -8192,9 +8564,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t394",
+"id": "t412",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8213,9 +8585,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t395",
+"id": "t413",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8234,9 +8606,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t396",
+"id": "t414",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eab9ee0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8255,9 +8627,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t397",
+"id": "t415",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea87fb0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8276,9 +8648,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t398",
+"id": "t416",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb00810>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8297,9 +8669,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t399",
+"id": "t417",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8318,9 +8690,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t400",
+"id": "t418",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cd10>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8339,9 +8711,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t401",
+"id": "t419",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8360,9 +8732,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t402",
+"id": "t420",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea86930>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8381,9 +8753,9 @@
 "note": "TikTok Top Ads · Household products · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t403",
+"id": "t421",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8402,9 +8774,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective video_view",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t404",
+"id": "t422",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8423,9 +8795,9 @@
 "note": "TikTok Top Ads · Baby, kids & maternity · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t405",
+"id": "t423",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8444,9 +8816,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t406",
+"id": "t424",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8465,9 +8837,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t407",
+"id": "t425",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8486,9 +8858,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t408",
+"id": "t426",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8507,9 +8879,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t409",
+"id": "t427",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7cc70>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8528,9 +8900,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t410",
+"id": "t428",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8549,9 +8921,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t411",
+"id": "t429",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8570,9 +8942,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t412",
+"id": "t430",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8591,9 +8963,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective reach",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t413",
+"id": "t431",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7ccc0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8612,9 +8984,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective lead_generation",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t414",
+"id": "t432",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8633,9 +9005,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective video_view",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t415",
+"id": "t433",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7ccc0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8654,9 +9026,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t416",
+"id": "t434",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8675,9 +9047,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t417",
+"id": "t435",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8696,9 +9068,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t418",
+"id": "t436",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8717,9 +9089,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t419",
+"id": "t437",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8738,9 +9110,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t420",
+"id": "t438",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8759,9 +9131,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t421",
+"id": "t439",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8780,9 +9152,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t422",
+"id": "t440",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8801,9 +9173,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective reach",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t423",
+"id": "t441",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8822,9 +9194,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t424",
+"id": "t442",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8843,9 +9215,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t425",
+"id": "t443",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8864,9 +9236,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective reach",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t426",
+"id": "t444",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8885,9 +9257,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t427",
+"id": "t445",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8906,9 +9278,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t428",
+"id": "t446",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9cb330>"
 },
 {
 "type": "TikTok ad",
@@ -8927,9 +9299,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t429",
+"id": "t447",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8948,9 +9320,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t430",
+"id": "t448",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -8969,9 +9341,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t431",
+"id": "t449",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -8990,9 +9362,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t432",
+"id": "t450",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9c96c0>"
 },
 {
 "type": "TikTok ad",
@@ -9011,9 +9383,9 @@
 "note": "TikTok Top Ads · Baby, kids & maternity · objective video_view",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t433",
+"id": "t451",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8ea7c3b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e4db0>"
 },
 {
 "type": "TikTok ad",
@@ -9032,9 +9404,9 @@
 "note": "TikTok Top Ads · Household products · objective video_view",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t434",
+"id": "t452",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -9053,9 +9425,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective reach",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t435",
+"id": "t453",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975850>"
 },
 {
 "type": "TikTok ad",
@@ -9074,9 +9446,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective product_sales",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t436",
+"id": "t454",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eabb0b0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9c8a90>"
 },
 {
 "type": "TikTok ad",
@@ -9095,9 +9467,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t437",
+"id": "t455",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x7fad8eb000e0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -9116,8 +9488,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t438",
-"img": "2b22a6bde4638f46.jpg"
+"id": "t456",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9136,8 +9509,9 @@
 "note": "TikTok Top Ads · Household products · objective reach",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t439",
-"img": "fe74daaf79b8ce93.jpg"
+"id": "t457",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f975490>"
 },
 {
 "type": "TikTok ad",
@@ -9156,8 +9530,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective traffic",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t440",
-"img": "f9143c1fbc91d9c5.jpg"
+"id": "t458",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9176,8 +9551,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t441",
-"img": "520aad6820932253.jpg"
+"id": "t459",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9196,8 +9572,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t442",
-"img": "bb12a1dbdb762223.jpg"
+"id": "t460",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9216,8 +9593,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t443",
-"img": "49a6afe9e0a5ed87.jpg"
+"id": "t461",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9236,8 +9614,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t444",
-"img": "71bb4f1b7abeb5b8.jpg"
+"id": "t462",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9256,8 +9635,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t445",
-"img": "45fa6079d12cbe48.jpg"
+"id": "t463",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9276,8 +9656,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t446",
-"img": "5073e7eb0e3c77c1.jpg"
+"id": "t464",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9296,8 +9677,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t447",
-"img": "9a0faeb36044c7fe.jpg"
+"id": "t465",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9316,8 +9698,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t448",
-"img": "80dbeac8bf72d57b.jpg"
+"id": "t466",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9336,8 +9719,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t449",
-"img": "85126000e3031eca.jpg"
+"id": "t467",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9356,8 +9740,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t450",
-"img": "88d2de4f80c2283a.jpg"
+"id": "t468",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9376,8 +9761,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t451",
-"img": "cafd6cce6adf07cb.jpg"
+"id": "t469",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9396,8 +9782,9 @@
 "note": "TikTok Top Ads · Household products · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t452",
-"img": "73a85299ade4b878.jpg"
+"id": "t470",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9416,8 +9803,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t453",
-"img": "2f9e9793454f6ad4.jpg"
+"id": "t471",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9436,8 +9824,9 @@
 "note": "TikTok Top Ads · Apparel & accessories · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t454",
-"img": "6a1ff5955ace143a.jpg"
+"id": "t472",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 },
 {
 "type": "TikTok ad",
@@ -9456,8 +9845,9 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective product_sales",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t455",
-"img": "d3e3639c84698473.jpg"
+"id": "t473",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e6f70>"
 },
 {
 "type": "TikTok ad",
@@ -9476,7 +9866,8 @@
 "note": "TikTok Top Ads · Beauty & personal care · objective conversion",
 "date": "2026-11-02",
 "first_date": "2026-11-02",
-"id": "t456",
-"img": "f1528d7598b362d2.jpg"
+"id": "t474",
+"img": null,
+"img_error": "cannot identify image file <_io.BytesIO object at 0x785c0f9e5030>"
 }
 ]
