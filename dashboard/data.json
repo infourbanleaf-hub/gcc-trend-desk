@@ -1775,8 +1775,7 @@
 "note": "Light; below AED 69 alone",
 "date": "03/10/2026",
 "id": "a75",
-"img": null,
-"img_error": "Amazon captcha"
+"img": "666593525cbd3e9a.jpg"
 },
 {
 "type": "Amazon",
@@ -2080,10 +2079,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a91",
-"img": "1c69b0b4c1a73729.jpg",
-"img_error": "Amazon captcha",
-"ref": true,
-"ref_url": "https://www.amazon.ae/dp/B0DQ1TZ45D"
+"img": "a3330f3b32b18275.jpg"
 },
 {
 "type": "Amazon",
@@ -2102,10 +2098,7 @@
 "note": "",
 "date": "03/10/2026",
 "id": "a92",
-"img": "72bd72e76de15dc5.jpg",
-"img_error": "Amazon captcha",
-"ref": true,
-"ref_url": "https://www.amazon.ae/dp/B0H8YVHFG2"
+"img": "ea60f8c0350e5a72.jpg"
 },
 {
 "type": "Amazon",
@@ -2809,10 +2802,7 @@
 "note": "",
 "date": "30/10/2026",
 "id": "a128",
-"img": "06c460c05a3bf3d8.jpg",
-"img_error": "Amazon captcha",
-"ref": false,
-"ref_url": "https://www.amazon.ae/dp/B07WG1DPHH"
+"img": "666593525cbd3e9a.jpg"
 },
 {
 "type": "Amazon",
@@ -8549,7 +8539,7 @@
 "yt_fallback": "BJkl2SyvQ4A",
 "date": "30/10/2026",
 "id": "v408",
-"img": "aa5886ea49927f45.jpg"
+"img": "7903093846921c34.jpg"
 },
 {
 "type": "Video product",
@@ -9750,7 +9740,7 @@
 "first_date": "2026-11-02",
 "id": "t473",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -9771,7 +9761,7 @@
 "first_date": "2026-11-02",
 "id": "t474",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1e40>"
 },
 {
 "type": "TikTok ad",
@@ -9792,7 +9782,7 @@
 "first_date": "2026-11-02",
 "id": "t475",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -9813,7 +9803,7 @@
 "first_date": "2026-11-02",
 "id": "t476",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -9834,7 +9824,7 @@
 "first_date": "2026-11-02",
 "id": "t477",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -9855,7 +9845,7 @@
 "first_date": "2026-11-02",
 "id": "t478",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d1670>"
 },
 {
 "type": "TikTok ad",
@@ -9876,7 +9866,7 @@
 "first_date": "2026-11-02",
 "id": "t479",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -9897,7 +9887,7 @@
 "first_date": "2026-11-02",
 "id": "t480",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -9918,7 +9908,7 @@
 "first_date": "2026-11-02",
 "id": "t481",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -9939,7 +9929,7 @@
 "first_date": "2026-11-02",
 "id": "t482",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -9960,7 +9950,7 @@
 "first_date": "2026-11-02",
 "id": "t483",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -9981,7 +9971,7 @@
 "first_date": "2026-11-02",
 "id": "t484",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -10002,7 +9992,7 @@
 "first_date": "2026-11-02",
 "id": "t485",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10023,7 +10013,7 @@
 "first_date": "2026-11-02",
 "id": "t486",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -10044,7 +10034,7 @@
 "first_date": "2026-11-02",
 "id": "t487",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10065,7 +10055,7 @@
 "first_date": "2026-11-02",
 "id": "t488",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -10086,7 +10076,7 @@
 "first_date": "2026-11-02",
 "id": "t489",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10107,7 +10097,7 @@
 "first_date": "2026-11-02",
 "id": "t490",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -10128,7 +10118,7 @@
 "first_date": "2026-11-02",
 "id": "t491",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10149,7 +10139,7 @@
 "first_date": "2026-11-02",
 "id": "t492",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c2980>"
 },
 {
 "type": "TikTok ad",
@@ -10170,7 +10160,7 @@
 "first_date": "2026-11-02",
 "id": "t493",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10191,7 +10181,7 @@
 "first_date": "2026-11-02",
 "id": "t494",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d09f0>"
 },
 {
 "type": "TikTok ad",
@@ -10212,7 +10202,7 @@
 "first_date": "2026-11-02",
 "id": "t495",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10233,7 +10223,7 @@
 "first_date": "2026-11-02",
 "id": "t496",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c03b0>"
 },
 {
 "type": "TikTok ad",
@@ -10254,7 +10244,7 @@
 "first_date": "2026-11-02",
 "id": "t497",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10275,7 +10265,7 @@
 "first_date": "2026-11-02",
 "id": "t498",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c03b0>"
 },
 {
 "type": "TikTok ad",
@@ -10296,7 +10286,7 @@
 "first_date": "2026-11-02",
 "id": "t499",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10317,7 +10307,7 @@
 "first_date": "2026-11-02",
 "id": "t500",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c03b0>"
 },
 {
 "type": "TikTok ad",
@@ -10338,7 +10328,7 @@
 "first_date": "2026-11-02",
 "id": "t501",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10359,7 +10349,7 @@
 "first_date": "2026-11-02",
 "id": "t502",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c03b0>"
 },
 {
 "type": "TikTok ad",
@@ -10380,7 +10370,7 @@
 "first_date": "2026-11-02",
 "id": "t503",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10401,7 +10391,7 @@
 "first_date": "2026-11-02",
 "id": "t504",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c03b0>"
 },
 {
 "type": "TikTok ad",
@@ -10422,7 +10412,7 @@
 "first_date": "2026-11-02",
 "id": "t505",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10443,7 +10433,7 @@
 "first_date": "2026-11-02",
 "id": "t506",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10464,7 +10454,7 @@
 "first_date": "2026-11-02",
 "id": "t507",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10485,7 +10475,7 @@
 "first_date": "2026-11-02",
 "id": "t508",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10506,7 +10496,7 @@
 "first_date": "2026-11-02",
 "id": "t509",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10527,7 +10517,7 @@
 "first_date": "2026-11-02",
 "id": "t510",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10548,7 +10538,7 @@
 "first_date": "2026-11-02",
 "id": "t511",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10569,7 +10559,7 @@
 "first_date": "2026-11-02",
 "id": "t512",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10590,7 +10580,7 @@
 "first_date": "2026-11-02",
 "id": "t513",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10611,7 +10601,7 @@
 "first_date": "2026-11-02",
 "id": "t514",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10632,7 +10622,7 @@
 "first_date": "2026-11-02",
 "id": "t515",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10653,7 +10643,7 @@
 "first_date": "2026-11-02",
 "id": "t516",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10674,7 +10664,7 @@
 "first_date": "2026-11-02",
 "id": "t517",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d3ab0>"
 },
 {
 "type": "TikTok ad",
@@ -10695,7 +10685,7 @@
 "first_date": "2026-11-02",
 "id": "t518",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10716,7 +10706,7 @@
 "first_date": "2026-11-02",
 "id": "t519",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10737,7 +10727,7 @@
 "first_date": "2026-11-02",
 "id": "t520",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d3ab0>"
 },
 {
 "type": "TikTok ad",
@@ -10758,7 +10748,7 @@
 "first_date": "2026-11-02",
 "id": "t521",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10779,7 +10769,7 @@
 "first_date": "2026-11-02",
 "id": "t522",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10800,7 +10790,7 @@
 "first_date": "2026-11-02",
 "id": "t523",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10821,7 +10811,7 @@
 "first_date": "2026-11-02",
 "id": "t524",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d3ab0>"
 },
 {
 "type": "TikTok ad",
@@ -10842,7 +10832,7 @@
 "first_date": "2026-11-02",
 "id": "t525",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c1350>"
 },
 {
 "type": "TikTok ad",
@@ -10863,7 +10853,7 @@
 "first_date": "2026-11-02",
 "id": "t526",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10884,7 +10874,7 @@
 "first_date": "2026-11-02",
 "id": "t527",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d3ab0>"
 },
 {
 "type": "TikTok ad",
@@ -10905,7 +10895,7 @@
 "first_date": "2026-11-02",
 "id": "t528",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10926,7 +10916,7 @@
 "first_date": "2026-11-02",
 "id": "t529",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -10947,7 +10937,7 @@
 "first_date": "2026-11-02",
 "id": "t530",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06c22a0>"
 },
 {
 "type": "TikTok ad",
@@ -10968,7 +10958,7 @@
 "first_date": "2026-11-02",
 "id": "t531",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -10989,7 +10979,7 @@
 "first_date": "2026-11-02",
 "id": "t532",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11010,7 +11000,7 @@
 "first_date": "2026-11-02",
 "id": "t533",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11031,7 +11021,7 @@
 "first_date": "2026-11-02",
 "id": "t534",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11052,7 +11042,7 @@
 "first_date": "2026-11-02",
 "id": "t535",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11073,7 +11063,7 @@
 "first_date": "2026-11-02",
 "id": "t536",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11094,7 +11084,7 @@
 "first_date": "2026-11-09",
 "id": "t537",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11115,7 +11105,7 @@
 "first_date": "2026-11-09",
 "id": "t538",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11136,7 +11126,7 @@
 "first_date": "2026-11-09",
 "id": "t539",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11157,7 +11147,7 @@
 "first_date": "2026-11-09",
 "id": "t540",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11178,7 +11168,7 @@
 "first_date": "2026-11-09",
 "id": "t541",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11199,7 +11189,7 @@
 "first_date": "2026-11-09",
 "id": "t542",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11220,7 +11210,7 @@
 "first_date": "2026-11-09",
 "id": "t543",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11241,7 +11231,7 @@
 "first_date": "2026-11-09",
 "id": "t544",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11262,7 +11252,7 @@
 "first_date": "2026-11-09",
 "id": "t545",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11283,7 +11273,7 @@
 "first_date": "2026-11-09",
 "id": "t546",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11304,7 +11294,7 @@
 "first_date": "2026-11-09",
 "id": "t547",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11325,7 +11315,7 @@
 "first_date": "2026-11-09",
 "id": "t548",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11346,7 +11336,7 @@
 "first_date": "2026-11-09",
 "id": "t549",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11367,7 +11357,7 @@
 "first_date": "2026-11-09",
 "id": "t550",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11388,7 +11378,7 @@
 "first_date": "2026-11-09",
 "id": "t551",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d0220>"
 },
 {
 "type": "TikTok ad",
@@ -11409,7 +11399,7 @@
 "first_date": "2026-11-09",
 "id": "t552",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11430,7 +11420,7 @@
 "first_date": "2026-11-09",
 "id": "t553",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11451,7 +11441,7 @@
 "first_date": "2026-11-09",
 "id": "t554",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11472,7 +11462,7 @@
 "first_date": "2026-11-09",
 "id": "t555",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11493,7 +11483,7 @@
 "first_date": "2026-11-09",
 "id": "t556",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11514,7 +11504,7 @@
 "first_date": "2026-11-09",
 "id": "t557",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11535,7 +11525,7 @@
 "first_date": "2026-11-09",
 "id": "t558",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11556,7 +11546,7 @@
 "first_date": "2026-11-09",
 "id": "t559",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11577,7 +11567,7 @@
 "first_date": "2026-11-09",
 "id": "t560",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2ed0>"
 },
 {
 "type": "TikTok ad",
@@ -11598,7 +11588,7 @@
 "first_date": "2026-11-09",
 "id": "t561",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11619,7 +11609,7 @@
 "first_date": "2026-11-09",
 "id": "t562",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11640,7 +11630,7 @@
 "first_date": "2026-11-09",
 "id": "t563",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064c270>"
 },
 {
 "type": "TikTok ad",
@@ -11661,7 +11651,7 @@
 "first_date": "2026-11-09",
 "id": "t564",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11682,7 +11672,7 @@
 "first_date": "2026-11-09",
 "id": "t565",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11703,7 +11693,7 @@
 "first_date": "2026-11-16",
 "id": "t566",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064c270>"
 },
 {
 "type": "TikTok ad",
@@ -11716,15 +11706,14 @@
 "industry": "Apparel & accessories",
 "likes": 186.0,
 "ctr": 0.8,
-"cover": "https://p19-common-sign.tiktokcdn.com/tos-no1a-p-4864-no/o8cnVLgRODMxAvJLQftgDn0eEIX6DviQwxKe8c~tplv-noop.image?dr=18692&refresh_token=9c120e86&x-expires=1794869857&x-signature=S2mdfyZBBJj78daifRVAr5B8FHg%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24300gl0001dbfjjhfog65q7r9foogg",
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-4864-no/o8cnVLgRODMxAvJLQftgDn0eEIX6DviQwxKe8c~tplv-noop.image?dr=18692&refresh_token=059d2eeb&x-expires=1795482664&x-signature=bJNvwEf1wPYAGa1tCpLpJM0qlkA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24300gl0001dbfjjhfog65q7r9foogg",
 "price": null,
 "price_label": "",
-"note": "TikTok Top Ads · Apparel & accessories · objective traffic",
-"date": "2026-11-16",
+"note": "TikTok Top Ads · Apparel & accessories · objective reach",
+"date": "2026-11-23",
 "first_date": "2026-11-16",
 "id": "t567",
-"img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img": "23cfecc56999612f.jpg"
 },
 {
 "type": "TikTok ad",
@@ -11745,7 +11734,7 @@
 "first_date": "2026-11-16",
 "id": "t568",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11766,7 +11755,7 @@
 "first_date": "2026-11-16",
 "id": "t569",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064c270>"
 },
 {
 "type": "TikTok ad",
@@ -11787,7 +11776,7 @@
 "first_date": "2026-11-16",
 "id": "t570",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11808,7 +11797,7 @@
 "first_date": "2026-11-16",
 "id": "t571",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11829,7 +11818,7 @@
 "first_date": "2026-11-16",
 "id": "t572",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c06d2610>"
 },
 {
 "type": "TikTok ad",
@@ -11850,7 +11839,7 @@
 "first_date": "2026-11-16",
 "id": "t573",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11871,7 +11860,7 @@
 "first_date": "2026-11-16",
 "id": "t574",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11883,16 +11872,15 @@
 "source": "TikTok advertiser",
 "industry": "Apparel & accessories",
 "likes": 4803.0,
-"ctr": 0.84,
-"cover": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/octZDUfELVjNBQoIuDFVAgrDASINeLIKfvsILj~tplv-noop.image?dr=18692&refresh_token=34a2566b&x-expires=1794870005&x-signature=xi7y3vxbL2WXAc15MkH8v1IGVes%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24044gl0000dbcnvgvog65hl2kqbmkg",
+"ctr": 0.85,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/octZDUfELVjNBQoIuDFVAgrDASINeLIKfvsILj~tplv-noop.image?dr=18692&refresh_token=5c1cfa4e&x-expires=1795482814&x-signature=az1815TROOHlArdKRtoaQXg4Qp4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24044gl0000dbcnvgvog65hl2kqbmkg",
 "price": null,
 "price_label": "",
-"note": "TikTok Top Ads · Apparel & accessories · objective lead_generation",
-"date": "2026-11-16",
+"note": "TikTok Top Ads · Apparel & accessories · objective video_view",
+"date": "2026-11-23",
 "first_date": "2026-11-16",
 "id": "t575",
-"img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img": "f7acd973616e652f.jpg"
 },
 {
 "type": "TikTok ad",
@@ -11913,7 +11901,7 @@
 "first_date": "2026-11-16",
 "id": "t576",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11934,7 +11922,7 @@
 "first_date": "2026-11-16",
 "id": "t577",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11955,7 +11943,7 @@
 "first_date": "2026-11-16",
 "id": "t578",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -11976,7 +11964,7 @@
 "first_date": "2026-11-16",
 "id": "t579",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -11997,7 +11985,7 @@
 "first_date": "2026-11-16",
 "id": "t580",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064cf40>"
 },
 {
 "type": "TikTok ad",
@@ -12018,7 +12006,7 @@
 "first_date": "2026-11-16",
 "id": "t581",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -12039,7 +12027,7 @@
 "first_date": "2026-11-16",
 "id": "t582",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064cf40>"
 },
 {
 "type": "TikTok ad",
@@ -12060,7 +12048,7 @@
 "first_date": "2026-11-16",
 "id": "t583",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -12081,7 +12069,7 @@
 "first_date": "2026-11-16",
 "id": "t584",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -12102,7 +12090,7 @@
 "first_date": "2026-11-16",
 "id": "t585",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064cf40>"
 },
 {
 "type": "TikTok ad",
@@ -12123,7 +12111,7 @@
 "first_date": "2026-11-16",
 "id": "t586",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c0e0f6f0>"
 },
 {
 "type": "TikTok ad",
@@ -12144,7 +12132,7 @@
 "first_date": "2026-11-16",
 "id": "t587",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea14cd60>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
 },
 {
 "type": "TikTok ad",
@@ -12165,7 +12153,7 @@
 "first_date": "2026-11-16",
 "id": "t588",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c064cf40>"
 },
 {
 "type": "TikTok ad",
@@ -12186,6 +12174,846 @@
 "first_date": "2026-11-16",
 "id": "t589",
 "img": null,
-"img_error": "cannot identify image file <_io.BytesIO object at 0x76fcea88f6a0>"
+"img_error": "cannot identify image file <_io.BytesIO object at 0x7ad9c1c3a200>"
+},
+{
+"type": "TikTok ad",
+"title": "Canlanan Görüntüler - Yaşanmış Gibi",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7550263229836836871/pc/en?countryCode=OM&from=001110&period=7",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 621.0,
+"ctr": 0.84,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQGNWliIEBgqsTffo0iU6Tzp01mgFDARBBWNB3~tplv-noop.image?dr=18692&refresh_token=5930708f&x-expires=1795482786&x-signature=x%2FXByQkFR9PkshYlLEy7%2F%2FghERs%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbtd6mfog65n8q42imq0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective reach",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t590",
+"img": "bef2363394b8d8e5.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#كريمات_تفتيح_البشرة_والجسم #اكسبلورexplore #فلورز",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7707227234385936391/pc/en?countryCode=OM&from=001110&period=7",
+"countries": [
+"Oman"
+],
+"source": "فلورز (flowers)",
+"industry": "Beauty & personal care",
+"likes": 43.0,
+"ctr": 0.71,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oY9EwOWIX5aiKABN6p7BsV6U3YdBzvpiDAIv2~tplv-noop.image?dr=18692&refresh_token=c4da2625&x-expires=1795482782&x-signature=SPT59IAc8SWpNK%2FhEA8fHTpiC9Q%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c044g50000dbpndqnog65q75aiomkg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t591",
+"img": "9e52ec84edad73a7.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "BACCAT ROUGE 540: An Elegant Scent You'll Adore",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7707078885913624596/pc/en?countryCode=AE&from=001110&period=7",
+"countries": [
+"UAE"
+],
+"source": "zimuz",
+"industry": "Beauty & personal care",
+"likes": 141.0,
+"ctr": 0.59,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oQ5VC52YEfDFqbzAiAKE8joobhlQDDBeGf9Ia4~tplv-noop.image?dr=18692&refresh_token=dc334876&x-expires=1795482719&x-signature=odL7ZFyz%2Fupt13FJyg05L1unagE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c033g50000dbssofvog65uk9a2kqhg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t592",
+"img": "3a6b6a8177260ee3.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Just 2 tablets a day — say goodbye to dark spots, freckles, and aging wrinkles without using body lotion! Skin care trend this year: VitaGlow Brightening Chewab",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7708968970111696904/pc/en?countryCode=AE&from=001110&period=7",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 67.0,
+"ctr": 0.49,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIEl7VNEqC8NaArellIAnFEDBwDvReBBCfOwI4~tplv-noop.image?dr=18692&refresh_token=95a3077a&x-expires=1795482730&x-signature=oTcIAJDgT0Q4IakFfFjS0YIiL20%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c025g50000dbts0s7og65ignkkqh70",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t593",
+"img": "d3d23d44ca64f0b6.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "نظافة دقيقة لمقتنياتك الصغيرة بسهولة مع جهاز التنظيف بالموجات فوق الصوتية.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7164062698644258817/pc/en?countryCode=QA&from=001110&period=7",
+"countries": [
+"Qatar"
+],
+"source": "Lil Jacuzzi",
+"industry": "Household products",
+"likes": 0.0,
+"ctr": 0.93,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/owAy4ItGrGcFb0jFAGFq3i94LAfIQQe2fMAexQ~tplv-noop.image?dr=18692&refresh_token=57d209eb&x-expires=1795482751&x-signature=SzTeEfD1hCpzTCRjYK%2B5Cvzlu3w%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbsbfsfog65hfg0doq40",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t594",
+"img": "0dddaff4ba3adb1f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Elevate Your Deck: Lower Costs for Stunning Slides",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7702489363813564436/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 4.0,
+"ctr": 0.83,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/owqpUbk59BnELAFN0BfIs31Ax5DSgZfDE9vDEr~tplv-noop.image?dr=18692&refresh_token=f12e6730&x-expires=1795482788&x-signature=dJVA2lte%2Fspay7vMznj%2Fr5ImI1E%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbibuvfog65qedh5v7lg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t595",
+"img": "e44535e5b9a6afcb.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "New styles just landed. Discover the latest arrivals at The Editor’s Market.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7701724799802982406/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "tem",
+"industry": "Apparel & accessories",
+"likes": 2.0,
+"ctr": 0.74,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oEgBeWAfnixqFBAxQZk4NBhDgE0DcDDKzX49QP~tplv-noop.image?dr=18692&refresh_token=46aae1cb&x-expires=1795482695&x-signature=QUjslLwYBzj%2Bfz3%2B44EDzU6AXc8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c033g50000dbh0cg7og65osp9emgu0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t596",
+"img": "db3135828f649629.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Newlens Lenses 70% Off: Shop Now for Blinked-Bright Vision!",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7705107573083357192/pc/en?countryCode=AE&from=001110&period=30",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 25.0,
+"ctr": 0.59,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/ogE71NBq17uCtiES4k3B3gADUiBfAeZrDIoVig~tplv-noop.image?dr=18692&refresh_token=00fcd9bf&x-expires=1795482675&x-signature=uHQTm8IpQRuL8y3JocKYpLpfAJk%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbn0mvfog65ocl8c92i0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t597",
+"img": "6abcfd0941ae8576.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#فساتين #فستان_سهره #fyp #foryoupage #foryou",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7586740228967530497/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 3201.0,
+"ctr": 0.25,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogAOBEcpUEvCIR8IDlJfBFcS1DUpOXIl2PgeBg~tplv-noop.image?dr=18692&refresh_token=bf0d0e46&x-expires=1795482679&x-signature=DA%2FLcWZDqKmZCk9PWhGVF3rg6bI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d54n1rvog65ijg7q1mig",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t598",
+"img": "b96943f799db9b3d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#viral #foryou #فساتين #فساتين_ناعمه #فستان_العيد",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7600455333412651009/pc/en?countryCode=AE&from=001110&period=180",
+"countries": [
+"UAE"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 39347.0,
+"ctr": 0.1,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocPIw8GzXL84ACortS8dj7A17IQHeDfGQwf45c~tplv-noop.image?dr=18692&refresh_token=6a4a4ee7&x-expires=1795482683&x-signature=E6zPpYFw7F%2BspW%2FXwRqxxfmr8K4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d5s7urnog65v2v1dufu0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t599",
+"img": "75c6b0ddb10f0227.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تنفيذنا وتصويرنا الشخصي اسم المنتج في المتجر فستان قمر #فساتين #فساتين_سهره #فساتين_فخمه #اخت_العروسة #M",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7708526924219072533/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 55.0,
+"ctr": 0.62,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocV7bpOBI7AiCW6IIt12DDA2EjF7ZofcbAfDeE~tplv-noop.image?dr=18692&refresh_token=a24a2263&x-expires=1795482690&x-signature=9PNCZpROTdIDBkrHDTuG7NSx9SI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dbr0fbfog65kujjtceh0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t600",
+"img": "5a951b7ee20b3fa7.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#TikTokFashionWeek #اكسبلورexplore #ASMR #footballfeast #HealthyRecipes #كولكشن_رمضان #كولكشن_رمضان2022 #فستان_شالكي #فستان_شالكي_للاطفال",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7078705415354138625/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Baby, kids & maternity",
+"likes": 182.0,
+"ctr": 0.81,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068/dfc50239d0574f14b2052ed7be2bd51f~tplv-noop.image?dr=18692&refresh_token=a4b41f6f&x-expires=1795482689&x-signature=edmYmuM59j1cy4lpMzhurdI9OuM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v09044g40000c8u9ndjc77uc8sdg54c0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Baby, kids & maternity · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t601",
+"img": "9f222a2a2accf74d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Legrand Mallia Senses - Your Colors, Your Style, Your Space 😀 🛒 https://zurl.co/J6PP",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7326437180783476738/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 16.0,
+"ctr": 0.96,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-85c255/de68ca14e3004a418fc00141576aad1f_1705770307~tplv-noop.image?dr=18692&refresh_token=d4df56bb&x-expires=1795482730&x-signature=6Tfws1IEPKjk%2FXWxjWVheyXM768%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v09300g40001cmlvqfnog65suurgliog",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective reach",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t602",
+"img": "aafb83fec83fbe89.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "بروش مطلي بذهب او الفضة حسب الطلب #بروشات #استقبال_مواليد #بروش_اطفال #بروش",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7707429988957650965/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 64.0,
+"ctr": 0.62,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8cQgl9QPrYkBeqEbFkrE1EdsD3PftAIREBgvU~tplv-noop.image?dr=18692&refresh_token=8dfa7b76&x-expires=1795482684&x-signature=ua4dpNrngBWAQviw8ReY8sQ1r%2BA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dbr4gavog65rjrems410",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t603",
+"img": "1c44af3bcd1d2f75.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "مجلس في السطح و هذي المنضر الاخير اللي خلى المكان فخامه بناء مجلس ساندوتش بانل #مقاول #بناء_مجالس #ساندوتش_بنل #ديكور #بيتك",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7657132135674101778/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 0.0,
+"ctr": 0.98,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAQCQFBfRqRQAdDqUFNSf0IQgjpEOEGgUcq3B7~tplv-noop.image?dr=18692&refresh_token=c5177b28&x-expires=1795482692&x-signature=O5cK%2BMPbG2TiyvpavAxGr%2BZ4hj4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d91ahjnog65kl212sq80",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t604",
+"img": "0f900b2a8ee01f8d.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "خلك كسبان و استمتع بعروض اكويا!اطلبها الآن وين ما كنت نصلك لباب البيت.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7575148678898941960/pc/en?countryCode=SA&from=001110&period=7",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 0.0,
+"ctr": 0.91,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oww7QSobTGANifDyDYAFnejpIf2dVwECcAo74A~tplv-noop.image?dr=18692&refresh_token=f748983e&x-expires=1795482698&x-signature=AC5Or8NqiLxyXytFhGCglUjXbds%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbsdkc7og65tojhrijkg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective traffic",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t605",
+"img": "7d8d2264d1835676.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "شرء اثاث مستعمل بالرياض",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7704703086444494868/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 5.0,
+"ctr": 0.07,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/oUbCCeenGD3VLhKGhgIePWIX4CoQnSdAFCbmLA~tplv-noop.image?dr=18692&refresh_token=330cbf40&x-expires=1795482705&x-signature=26Z0C1IiKlOVSFQwsvHFe6f3rbI%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbo7is7og65hcueaev4g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t606",
+"img": "464284097ae8f798.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "فستان تركي أنيق باللون الكحلي الداكن مع نقوش برتقالية وذهبية مستوحاة من الزخارف الشرقية 🧡✨ تصميم واسع ومريح بأكمام طويلة وقصة انسيابية تمنحك إطلالة راقية ومحتشم",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7699468389862227975/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 7.0,
+"ctr": 0.64,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osfkT0VciBBFjboQDQoGk9A5bUwgUqoTDERLEe~tplv-noop.image?dr=18692&refresh_token=de52f48f&x-expires=1795482697&x-signature=nk8nCpyBvGNE9p5EvJShtDQeJ2Q%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c044g50000da5ko5fog65i52e78dq0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t607",
+"img": "c56e3775a84f0757.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "BUY NOW | 50% DISCOUNT",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7451269702573441025/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "outshocompany",
+"industry": "Apparel & accessories",
+"likes": 568.0,
+"ctr": 0.34,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/ogDMGe9wIgAJTuXqtRTh8eF6AAIsoFGfrQT2fL~tplv-noop.image?dr=18692&refresh_token=12cb9c58&x-expires=1795482710&x-signature=8xPKazZJQeh44Vc7rwKWHayBS14%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c033g50000dbu4ofnog65r52kjmko0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t608",
+"img": "81a06a6afaddd2fc.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تفصيل خزائن ملابس حسب الطلب في الرياض تفصيل غرف نوم ديكورات #تصميم_داخلي #ديكور #خزائن_ملابس #تفصيل_خزائن #اثاث",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7698702680176951303/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 14.0,
+"ctr": 0.54,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oA3FIcrq1DAhQetdF0FhBRqAvEUgNBg1IcfaXE~tplv-noop.image?dr=18692&refresh_token=771aaf18&x-expires=1795482712&x-signature=xJJESv8ZfZrycEE0bxXflJFKx%2BA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c044g50000dbbk2tfog65gqnjh8dlg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t609",
+"img": "5b8540c043d5980f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "عروض الليزر",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7700648717070319624/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 188.0,
+"ctr": 0.37,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o4PimlLnEh6DU7fBN9VBfBUNs6AiCHsgyqSqIm~tplv-noop.image?dr=18692&refresh_token=24eeef7a&x-expires=1795482702&x-signature=4Sqp%2B8dLwBUMrxjLOeaqnRHSr3s%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbupctfog65qgpkomda0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t610",
+"img": "bad6182d73c35b08.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "اللحقو كود الخصم F25 #3d #فلمنت #printer #طباعه #Filament #resin #3dprint",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7706150188608045077/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 0.0,
+"ctr": 0.85,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYK2vq23fABGBpBpCGQx4JIgpiVTNe8ALciEBF~tplv-noop.image?dr=18692&refresh_token=17aef324&x-expires=1795482717&x-signature=%2FX9U3dyqnT0pFw9RhdCJzAwKa%2BE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c025g50000dborokvog65m4qd4ma2g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t611",
+"img": "217a83334ce9ee73.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "تم تنفيذ اكثر من 70 الف طلب اشترك الان نتفليكس شاهد برايم فديو اوسن كرانشي رول واكثر تسليم فوري",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7702214193038852114/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 42.0,
+"ctr": 0.42,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/owGeDfy5GERoQbQsEAVAFCL6IWbkAvvKzDlfxQ~tplv-noop.image?dr=18692&refresh_token=7be4d045&x-expires=1795482711&x-signature=NG%2FSLzLaq52kMao1yr7KghE7414%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbt43efog65p11f3fm2g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t612",
+"img": "21cd83087305a487.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "من شعر مطاط… لشعر متماسك ولامع مع PRO-NET",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7488679790485585937/pc/en?countryCode=SA&from=001110&period=30",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 0.0,
+"ctr": 0.92,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/og3NDEgiI5qAMsD1QBKgFUFNs58fUBfS0qAwmu~tplv-noop.image?dr=18692&refresh_token=cb160bb9&x-expires=1795482704&x-signature=T94JkA8jwXo5uG%2FD6rL4pvy0Rh8%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbiijbnog65qedi4c2v0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t613",
+"img": "2615b1ecf2111a98.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "supportive, smooth, and comfortable wear al day 💖 #oeak #fullcoveragebra",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7608129334138011655/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "valtrix",
+"industry": "Apparel & accessories",
+"likes": 112302.0,
+"ctr": 0.09,
+"cover": "https://p19-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oIi4Iy0fRxaEgXBKLI50xAiGqEHBQzwCAw13KA~tplv-noop.image?dr=18692&refresh_token=dba1e7ec&x-expires=1795482794&x-signature=ltwTtThpLsVJrJsEU%2BlyI1TDFMk%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v24025gl0000d75265vog65lok430ql0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t614",
+"img": "71d29b59d259d517.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Cấy sợi sinh học - Nâng cơ - Trẻ Hoá - Xoá Nhăn Ưu Đãi 80% chỉ còn 2999k Nhanh tay để lại số điện thoại để nhận ưu đãi.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7522052465467424785/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 52307.0,
+"ctr": 0.31,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQA2SVgQEHDAtp6FiDBgepIKi3OBVCCrI7pDfl~tplv-noop.image?dr=18692&refresh_token=cc40d52a&x-expires=1795482730&x-signature=%2FHEvn4pWWYyQ6qnTqT8FhD8EEKE%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000d6r251vog65h3k1b51kg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t615",
+"img": "d9a330618350e4e4.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Waking up with neck stiffness? Your pillow might be the reason. The Cloud Align Pillow helps support your neck, shoulders, and head for better sleep alignment a",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7556391280496394258/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "Velure™ - Cloud Comfort Pillow",
+"industry": "Household products",
+"likes": 4847.0,
+"ctr": 0.11,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMQvIxAunUBIlYaoakINyiE6FAVhciEaARkzp~tplv-noop.image?dr=18692&refresh_token=971ac71a&x-expires=1795482781&x-signature=jVJyEilam7hsst4dZqI6hlEyZVY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v29025g50000d8a72dnog65qnckif82g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t616",
+"img": "fc46be9b9e782873.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Shower enclosure accessories#showerhardware#accessories#factory#hingepartner#glassdoorhinge",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7597752878212284417/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 313.0,
+"ctr": 0.74,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-37c799-sg/o8iR9cE11P3sawStE4LKoagIDfAyFDDueBjpKI~tplv-noop.image?dr=18692&refresh_token=9724a694&x-expires=1795482732&x-signature=Wm4k7hiCZbqPavfFdYL6eyjpxoM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v12044gd0000d5oa5inog65utv3bteh0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t617",
+"img": "c73589f80dc5f6da.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "عباية رفة كتف دبل كلوش بساطة راقية بلمسة ملكية👗 قصة دبل كلوش تعطي وسع وانسيابية راقية 🖤 قماش كريب ملكي كوري أصلي ثابت، ناعم، وسواده فاحم 🎁 معها طرحة كاملة للطقم",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7580473263249571856/pc/en?countryCode=SA&from=001110&period=180",
+"countries": [
+"Saudi Arabia"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 469.0,
+"ctr": 0.45,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAAnpEqsSDCUsanrADC2BfnVFGfQoQfjGI2hWc~tplv-noop.image?dr=18692&refresh_token=4a21091b&x-expires=1795482732&x-signature=8YBwwbzDzB7xGxuyqSq4SiLcOYU%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d4llfpvog65loeqp9d70",
+"price": 279.01,
+"price_label": "SAR 285",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t618",
+"img": "6f91cae16a1c7fa8.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "الفوليوم واللمعة اللي تحبينها مع منتجات كلارا😍",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7704298148785127431/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "clara",
+"industry": "Beauty & personal care",
+"likes": 8748.0,
+"ctr": 0.19,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4PrIYdw1IqJCZAzBAdiKvMiIUBDuTAVpwfnpC~tplv-noop.image?dr=18692&refresh_token=e5895c47&x-expires=1795482729&x-signature=JdBv73%2Bma7E9mj8IvMyjBVJQL6g%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dblgckvog65jn0ihafeg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t619",
+"img": "d9f1c026b1b38669.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Wait… he turned off the lights and the board started glowing",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7700920460360024085/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 16.0,
+"ctr": 0.76,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0051c001-sg/o89efLeVA9CtoGCeQ2fM16U5nhIZBXogABKBIj~tplv-noop.image?dr=18692&refresh_token=bb175390&x-expires=1795482820&x-signature=GV6Mn8OO%2B%2Fc9%2BabBOZ0Ny6xNxxQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000dbgfvmnog65gna7p1fdg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective traffic",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t620",
+"img": "c3fe87a85cde4a7c.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Small bag, big adventure! Just the essentials for a weekend getaway. ☀️💦🍉",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7248520699236057089/pc/en?countryCode=KW&from=001110&period=30",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 1.0,
+"ctr": 0.93,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/634f84b3fa9442d08ee6f9cfa27a5761_1687436186~tplv-noop.image?dr=18692&refresh_token=b6dcbe51&x-expires=1795482758&x-signature=zs8xeot95Uc6VR1Sto6Kl3yTwKQ%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v10044g50000cia3mr3c77uantfh98m0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective video_view",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t621",
+"img": "e65e0d45aa681f8f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "اسعار وعروض وخصومات عند الضبيبي للسجاد والاثاث والانارة 😍.. @شركة الضبيبي التجارية للتواصل فرع الحمدانية // 0555086532 0555944598 #اثاث #تأثيث #اناره #سجاد #جده",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7681760616989818896/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 369.0,
+"ctr": 0.94,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooiTdEVvhAUibBYBmFguAG2ruadItspqIh0nk~tplv-noop.image?dr=18692&refresh_token=10401f2a&x-expires=1795482959&x-signature=p19npfjv7p6GklHcFtixhltACuw%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dadh9bnog65k9ncil6g0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective reach",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t622",
+"img": "1802e974d9c163bb.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "If you want to decorate you dream house,you must come to China!#renovation #ddp #interiordesign #onestopservice #decoration",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7552099038276911121/pc/en?countryCode=KW&from=001110&period=180",
+"countries": [
+"Kuwait"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 37888.0,
+"ctr": 0.19,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQzBvQDLFXtYzbO6fRHGABjEhjQIQUDfgomL8E~tplv-noop.image?dr=18692&refresh_token=adcc9430&x-expires=1795482757&x-signature=dn%2B70GhSjsne%2BJHq0Yp5Mo9sBtc%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d376nm7og65ho9d13mhg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t623",
+"img": "2295a128840cb426.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "الرد على @aboodalmadily يعد الاهتمام بصحة الشعر والحفاظ على حيويته من الركائز الأساسية للعناية الشخصية اليومية. توفر المكونات الطبيعية النقية خيارات مثالية لمن ",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7701117753495273493/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 7.0,
+"ctr": 0.89,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8fMg3DDsQq1F2NqjUfBR9Ews1zR29EYAEBumQ~tplv-noop.image?dr=18692&refresh_token=4fbec1b9&x-expires=1795482788&x-signature=SR7CTYNqM0Zu0SWShYNTTYDcW%2FM%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000dbftl17og65qv9hgdprg",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective lead_generation",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t624",
+"img": "d39ce8b66e61ce78.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "A golden moment, made simple. Discover Turkish Honey at Men’s Wellness Store. Tap Shop Now to order in Qatar. #TurkishHoney #Honey #MensWellness #Qatar #QatarSh",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7705487137504362504/pc/en?countryCode=QA&from=001110&period=30",
+"countries": [
+"Qatar"
+],
+"source": "britenz",
+"industry": "Beauty & personal care",
+"likes": 98.0,
+"ctr": 0.65,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oofutrfeQGmeAWHXsAwE5AG9Z3guFBMDJIc8WI~tplv-noop.image?dr=18692&refresh_token=6251c77c&x-expires=1795482759&x-signature=y67eBdD6n52V63YsJ7VNHDuNIlA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v1c025g50000dbnfbevog65gfrvuo80g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t625",
+"img": "88788012e56eada5.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "عباية راقية ومميزة عباية مصمّمة بعناية، تُجسّد ذوقك الرفيع وتفرد حضورك. مصنوعة من أفخر الأقمشة، ومزينة بتطريزات حصرية",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7560735763139870721/pc/en?countryCode=QA&from=001110&period=180",
+"countries": [
+"Qatar"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 13851.0,
+"ctr": 0.09,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQ0tr0yjYVPEEOMi0OI9DVYCBAIaAivI2BFAE~tplv-noop.image?dr=18692&refresh_token=586eddb9&x-expires=1795482780&x-signature=euugYYgR77I%2FxEz%2B3UqfpJrlxAY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d3mgg47og65i1jlu6lug",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t626",
+"img": "422e99c14350390f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Fragrances, candles or bath & body range: exclusive creations for you or your loved ones.",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7500926341563924488/pc/en?countryCode=QA&from=001110&period=180",
+"countries": [
+"Qatar"
+],
+"source": "Diorbeauty",
+"industry": "Beauty & personal care",
+"likes": 14640.0,
+"ctr": 0.3,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-useast2a-p-0051c799-euttp/o8TV8ASUOUBVTEQqavFfBBg0D72f1EIWN6DmDV~tplv-noop.image?dr=18692&refresh_token=4848e068&x-expires=1795482768&x-signature=vwchEOhYR5KJXY2gOQvrn7bZHBc%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14033g50000daueqlfog65j5id6i1h0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective product_sales",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t627",
+"img": "06ad79b518e148d2.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "Mr Bean Racing #mrbean #foryoupage #soapboxrace #foryou #racing",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7018562221953499137/pc/en?countryCode=OM&from=001110&period=30",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Apparel & accessories",
+"likes": 134.0,
+"ctr": 0.94,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068/43e97ea43cd24ee5845b602810138af1_1633871893~tplv-noop.image?dr=18692&refresh_token=d09ecb8c&x-expires=1795482807&x-signature=MnkfDSjBuUvEpFF1oXTrJ2rzaiY%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v09025g40000c5hdnfbc77uds3li0it0",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Apparel & accessories · objective video_view",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t628",
+"img": "38d2da82dcb02c1f.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "#tiktokshopcybermonday #TikTokShopBlackFriday #tiktokshop #camera #detiko",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7582529088921976833/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Household products",
+"likes": 5234.0,
+"ctr": 0.41,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-37c799-sg/oIDufSMHQB7LFQE0RfRZE7nD5SFimghGDJAwFp~tplv-noop.image?dr=18692&refresh_token=34684e01&x-expires=1795482850&x-signature=1%2BDPxM3eotsRNTn5JYMhP%2BWrcxo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v12044gd0000d4n691vog65ji8obrgog",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Household products · objective product_sales",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t629",
+"img": "bc28f6fc49f6092e.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "النتيجة تبين بعد ٢٤ ساعة 😌#تاتو_المؤقت #الشعب_الصيني_ماله_حل😂😂 #ستيكرات",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7529831713805533200/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 249.0,
+"ctr": 0.49,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAlUgQQeDYApO9LseHueGGgOJRHAAFf7gO4r2g~tplv-noop.image?dr=18692&refresh_token=af2a4c12&x-expires=1795482812&x-signature=WjOBcAcvTTV2HEdyIbPtyg5j0YA%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d0thqg7og65rrrqe3g20",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t630",
+"img": "5a35d49fd7e7a27b.jpg"
+},
+{
+"type": "TikTok ad",
+"title": "وصل كريم رسيل بمكوناته الطبيعية والفعالة 🫡♥️",
+"url": "https://ads.tiktok.com/business/creativecenter/topads/7515861954150481927/pc/en?countryCode=OM&from=001110&period=180",
+"countries": [
+"Oman"
+],
+"source": "TikTok advertiser",
+"industry": "Beauty & personal care",
+"likes": 16502.0,
+"ctr": 0.2,
+"cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oooT9682IkNNBifEIbcMqBA1BRFHdUfJngsDgE~tplv-noop.image?dr=18692&refresh_token=af748585&x-expires=1795482798&x-signature=WtuhHx0uU2a0ataVyzsRq5U9iEo%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=317596d8&idc=my&VideoID=v14044g50000d16dg6vog65tfidi5s6g",
+"price": null,
+"price_label": "",
+"note": "TikTok Top Ads · Beauty & personal care · objective conversion",
+"date": "2026-11-23",
+"first_date": "2026-11-23",
+"id": "t631",
+"img": "e2c929600c3a7c53.jpg"
 }
 ]
